@@ -1,0 +1,21 @@
+{
+  "name": "card-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches cards and their relevant info from the Griftlands wiki",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+},
+  "keywords": [],
+  "author": "Sei Bellissima",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "follow-redirects": "^1.13.0",
+    "phantom": "^6.3.0"
+  }
+}
+
+
