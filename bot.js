@@ -46,6 +46,15 @@ function FinalEmbedMessage(MsgToEdit, EmbedTitle, EmbedDescription, EmbedImage, 
     MsgToEdit.edit(FinalEmbed);
 }
 
+function ImageOnlyMessage(MsgToEdit, EmbedTitle, EmbedImage) {
+    var ImageEmbed = new Discord.MessageEmbed()
+        .setTitle(EmbedTitle)
+        .setColor(0x08e0db)
+        .setImage(EmbedImage)
+        .setFooter("Page wasn't found; fetched image instead");
+    MsgToEdit.edit(ImageEmbed);
+}
+
 function NotCardEmbedMessage(MsgToEdit, AttemptedFetch) {
     var NotCardEmbed = new Discord.MessageEmbed()
         .setTitle("Unable to Fetch")
@@ -82,15 +91,13 @@ client.on('message', async msg => {
     } else command = body;
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
-    } else if (CardRequest == "War Story" || CardRequest == "War story" || CardRequest == "war Story" || CardRequest == "war story") {
-        const SentMessage = await msg.channel.send(WarStoryEmbed);
-        return;
     } else if (command == "fetch") {
         const SentMessage = await msg.channel.send(TempEmbed);
         //replacing apostraphies and spaces to make it url friendly
         var CardToFetch = CardRequest.replace(/ /g,"_");
         CardToFetch = CardToFetch.replace(/'/g, '%27');
         var PageToOpen = 'https://griftlands.gamepedia.com/' + CardToFetch
+        var ImageToOpen = 'https://griftlands.gamepedia.com/File:' + CardToFetch + ".png"
         console.log("FETCHING " + PageToOpen)
         
         var DOMcheck, LoadContent, PageStatus
@@ -107,6 +114,19 @@ client.on('message', async msg => {
                     reject(e);
                 });
             })
+        }
+        
+        function pImageStatus(url) {
+            return new Promise(function(resolve, reject) {
+                https.get(url, function(response) {
+                    DOMcheck = response.statusCode
+                    PageToOpen = response.responseUrl
+                    resolve(DOMcheck)
+                }).on('error', function(e) {
+                    ErrorMessage(e, SentMessage);
+                    reject(e);
+                });
+            });
         }
         
         function pContent(StatusResult) {
@@ -138,7 +158,9 @@ client.on('message', async msg => {
         
         var Categories = []
         var MustInclude = "All cards"
-        var AllCardsThere = false
+        var AllCardsThere = false;
+        var ImageMustInclude = "Card images"
+        var CardImagesThere = false;
         
         var TableElements = []
         var SetNode = "N/A"
@@ -152,19 +174,27 @@ client.on('message', async msg => {
                 if (FeStatus === 404) {
                     NotFound(SentMessage, CardRequest);
                     resolve(SentMessage.content);
-                } else if (FeStatus != 404) {
+                } else {
                     //fetching data with cheerio
                     const $ = cheerio.load(FeContent)
-                    $('#mw-normal-catlinks ul').each(function() {
+                    $('#mw-normal-catlinks ul li').each(function() {
                         Categories.push($(this).text());
                     });
                     Categories.forEach(function(item) {
-                        if (item = MustInclude) {
+                        if (item == MustInclude) {
                             AllCardsThere = true
+                        } else if (item == ImageMustInclude) {
+                            CardImagesThere = true
                         }
                     });
-                    //will stop everything if it's NOT a card
-                    if (AllCardsThere == true) {
+                                       
+                    if (CardImagesThere == true) {//proceeds to next function if it's not a card image
+                        Title = $('#firstHeading').text().replace("File:", '');
+                        Title = Title.replace(".png", '');
+                        CardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
+                        ImageOnlyMessage(SentMessage, Title, CardImage);
+                        resolve(SentMessage.content);
+                    } else if (AllCardsThere == true) {//will stop everything if it's NOT a card
                         var fullHTML = ''
                         //Title. Easy.
                         Title = $('#firstHeading').text();
@@ -202,7 +232,11 @@ client.on('message', async msg => {
                             fullHTML = fullHTML.replace(/<\/i>/g, '*');
                             fullHTML = fullHTML.replace(/<b>/g, '**');
                             fullHTML = fullHTML.replace(/<\/b>/g, '**');
-                            Description = $(fullHTML).text();
+                            if (fullHTML.indexOf("<") > -1 && fullHTML.indexOf(">") > -1) {
+                                Description = $(fullHTML).text();
+                            } else {
+                                Description = fullHTML
+                            };
                             HasDescription = true;
                         }
                         
@@ -269,12 +303,37 @@ client.on('message', async msg => {
             });
         }
         
+        function CarryOver(ResultToCarry) {
+            return new Promise(function(resolve, reject) {
+                resolve(ResultToCarry);
+            });
+        }
+        
+        var FetchingImage = false;
         //Dangerous territory, chaining functions, I HAVE NEVER DONE THIS BEFORE AND I DON'T LIKE IT :(
         pStatus(PageToOpen).then(function(result) {
             console.log("FIRST RESULT: " + result);
-            return pContent(result);
+            if (result === 404) {
+                console.log("PAGE NOT FOUND, LOOKING FOR IMAGE INSTEAD")
+                FetchingImage = true;
+                return pImageStatus(ImageToOpen);
+            } else {
+                console.log("PAGE FOUND: " + PageToOpen);
+                return pContent(result);
+            }
         }).then(function(result) {
             console.log("SECOND RESULT RECEIVED");
+            if (result === 404) {
+                console.log("IMAGE NOT FOUND, CARRYING OVER")
+                return CarryOver(result)
+            } else { 
+                if (FetchingImage == true) {
+                    console.log("IMAGE FOUND, FETCHING");
+                };
+                return pContent(result);
+            }
+        }).then(function(result) {
+            console.log("THIRD RESULT RECEIVED");
             return FinalEdit(DOMcheck, result);
         }).then(function(result) {
             console.log("FINAL MESSAGE SENT");
