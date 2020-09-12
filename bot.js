@@ -14,7 +14,7 @@ const TempEmbed = new Discord.MessageEmbed()
     .setColor(0x00b71a)
 
 const HelpEmbed = new Discord.MessageEmbed()
-    .setDescription("Hi there! I'm your friendly neighborhood card fetcher. At your command I fetch whatever card you want and all its available info from the Griftlands wiki! Please be aware that **the wiki is a heavy work-in-progress;** a database is being developed but until it is finished, **I pull data from the card's page, which can be incomplete or in a format that I'm not programmed to parse.**\n\nTo use me, type " + '"!fetch [card name]"' + " without the quotes and brackets. **The card name is case sensitive** (in most cases) **and must be spelled correctly.**\n\nBecause the wiki is actively changing unexpected bugs might pop up from time to time, so be sure to ping my creator @Sei Bellissima to let her know about any you find! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
+    .setDescription("Hi there! I'm your friendly neighborhood card fetcher. At your command I fetch whatever card you want and all its available info from the Griftlands wiki! Please be aware that **the wiki is a heavy work-in-progress;** a database is being developed but until it is finished, **I pull data from the card's page, which can be incomplete or in a format that I'm not programmed to parse.**\n\nTo use me, type " + '"!fetch [card name]"' + " without the quotes and brackets. **The card name must be spelled correctly.**\n\nBecause the wiki is actively changing unexpected bugs might pop up from time to time, so be sure to ping my creator @Sei Bellissima to let her know about any you find! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
     .setThumbnail("https://i.ibb.co/k8j3mWj/Auto-Dog-Boticon.png")
     .setColor(0x08e0db)
 
@@ -63,14 +63,6 @@ function NotCardEmbedMessage(MsgToEdit, AttemptedFetch) {
     MsgToEdit.edit(NotCardEmbed);
 }
 
-const WarStoryEmbed = new Discord.MessageEmbed()
-        .setTitle("War Story")
-        .setDescription("War Story. Cost 1. Negotiation Card. Unique Manipulate. Gamble. Heads: Gain 5 Influence. Snails: Gain 4 Dominance. Expend.")
-        .setColor(0x08e0db)
-        .setImage("https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/4/4c/War_Story.png/revision/latest/scale-to-width-down/159?cb=20200902123936")
-        .setURL("https://griftlands.gamepedia.com/War_Story")
-        .setFooter("https://griftlands.gamepedia.com/War_Story");
-
 //LOG ON, then WAIT FOR MESSAGES
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -83,16 +75,29 @@ client.on('message', async msg => {
     if (msg.content == "!fetch") return;
     const body = msg.content.slice(prefix.length);
     //splitting message by first space
-    let CardRequest = null;
-    let command = null;
+    var CardRequest, OriginalRequest, command, splitStr
     if (body.indexOf(' ') >= 0){
         command = body.substr(0,body.indexOf(' '));
+        OriginalRequest = body.substr(body.indexOf(' ')+1);
         CardRequest = body.substr(body.indexOf(' ')+1);
     } else command = body;
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetch") {
         const SentMessage = await msg.channel.send(TempEmbed);
+        //function titleCase(Ca) {
+        splitStr = CardRequest.toLowerCase();
+        if (CardRequest.indexOf(" ") > -1) {
+            splitStr = splitStr.split(' ');
+            for (var i = 0; i < splitStr.length; i++) {
+                if (splitStr[i] != "battle" && splitStr[i] != "negotiation" && splitStr[i] != "of") {
+                    splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+                }
+            }
+        CardRequest = splitStr.join(' ');
+        } else {
+            CardRequest = splitStr.charAt(0).toUpperCase() + splitStr.substring(1);
+        }
         //replacing apostraphies and spaces to make it url friendly
         var CardToFetch = CardRequest.replace(/ /g,"_");
         CardToFetch = CardToFetch.replace(/'/g, '%27');
@@ -172,7 +177,7 @@ client.on('message', async msg => {
         function FinalEdit(FeStatus, FeContent) {
             return new Promise(function(resolve, reject) {
                 if (FeStatus === 404) {
-                    NotFound(SentMessage, CardRequest);
+                    NotFound(SentMessage, OriginalRequest);
                     resolve(SentMessage.content);
                 } else {
                     //fetching data with cheerio
