@@ -21,9 +21,9 @@ const HelpEmbed = new Discord.MessageEmbed()
 function ErrorMessage(ErrorMsg, MsgToEdit) {
     console.log(ErrorMsg);
     var ErrorEmbed = new Discord.MessageEmbed()
-            .setTitle('Whoops!')
-            .setDescription("Looks like I've run into an error:\n\n" + "`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
-            .setColor(0xa90000)
+        .setTitle('Whoops!')
+        .setDescription("Looks like I've run into an error:\n\n" + "`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
+        .setColor(0xa90000)
     MsgToEdit.edit(ErrorEmbed);
 }
 
@@ -42,7 +42,7 @@ function FinalEmbedMessage(MsgToEdit, EmbedTitle, EmbedDescription, EmbedImage, 
         .setColor(0x08e0db)
         .setImage(EmbedImage)
         .setURL(Page)
-        .setFooter(Page);
+        .setFooter(Page, "https://i.ibb.co/Zh8VshB/Favicon.png");
     MsgToEdit.edit(FinalEmbed);
 }
 
@@ -85,7 +85,6 @@ client.on('message', async msg => {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetch") {
         const SentMessage = await msg.channel.send(TempEmbed);
-        //function titleCase(Ca) {
         splitStr = CardRequest.toLowerCase();
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = splitStr.split(' ');
@@ -168,11 +167,7 @@ client.on('message', async msg => {
         var CardImagesThere = false;
         
         var TableElements = []
-        var SetNode = "N/A"
-        var DeckTypeNode = "N/A"
-        var CardTypeNode = "N/A"
-        var ExpNeededNode = "N/A"
-        var UpgradeableNode = "N/A"
+        var SetNode, RarityNode, DeckTypeNode, CardTypeNode, ExpNeededNode, UpgradeableNode;
         
         function FinalEdit(FeStatus, FeContent) {
             return new Promise(function(resolve, reject) {
@@ -258,6 +253,8 @@ client.on('message', async msg => {
                         //GRABBING INDEXES. THIS IS A MASSIVE PAIN IN THE BUTT!!!
                         var Set = TableElements.indexOf('Set');
                         SetNode = ++Set;
+                        var Rarity = TableElements.indexOf('Rarity');
+                        RarityNode = ++Rarity;
                         var DeckType = TableElements.indexOf('Deck Type');
                         DeckTypeNode = ++DeckType;
                         var CardType = TableElements.indexOf('Card Type');
@@ -268,7 +265,10 @@ client.on('message', async msg => {
                         UpgradeableNode = ++Upgradeable;
                         
                         if (Set > 0) {
-                            Description += "**Set**: " + TableElements[SetNode] + "\n";
+                            Description += "**Rarity**: " + TableElements[SetNode] + "\n";
+                        };
+                        if (Rarity > 0) {
+                            Description += "**Rarity**: " + TableElements[RarityNode] + "\n";
                         };
                         if (DeckType > 0) {
                             Description += "**Deck Type**: " + TableElements[DeckTypeNode] + "\n"
