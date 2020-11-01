@@ -1,0 +1,3017 @@
+{
+    "accelerant": {
+        "icon": "https://images2.imgbox.com/66/60/XmxR4Ju7_o.png"
+    },
+    "active_defense": {
+        "icon": "https://images2.imgbox.com/8d/d3/Uyvilxnj_o.png"
+    },
+    "adapt": {
+        "icon": "https://images2.imgbox.com/5d/e7/G2PCIkAS_o.png"
+    },
+    "admiralty_requisition": {
+        "icon": "https://images2.imgbox.com/b1/72/y9k83chC_o.png"
+    },
+    "adrenaline_shot": {
+        "icon": "https://images2.imgbox.com/f9/ff/OnuwY1ys_o.png"
+    },
+    "aerostat_coilgun": {
+        "icon": "https://images2.imgbox.com/3d/20/wSOq2tCS_o.png"
+    },
+    "affliction": {
+        "icon": "https://images2.imgbox.com/b5/ac/3gZR89Rl_o.png"
+    },
+    "ally_retarget": {
+        "icon": "https://images2.imgbox.com/f7/dc/dNiUbF8g_o.png"
+    },
+    "ammo_belt": {
+        "icon": "https://images2.imgbox.com/db/f7/08GXfaTQ_o.png"
+    },
+    "ammo_pouch": {
+        "icon": "https://images2.imgbox.com/65/d7/82XqyBWn_o.png"
+    },
+    "amplifier": {
+        "icon": "https://images2.imgbox.com/04/b4/v9vddXeM_o.png"
+    },
+    "anchor": {
+        "icon": "https://images2.imgbox.com/4c/25/zNX0x4xP_o.png"
+    },
+    "anticipate": {
+        "icon": "https://images2.imgbox.com/a1/d2/8WheRSD9_o.png"
+    },
+    "arc_deflection": {
+        "icon": "https://images2.imgbox.com/0c/8b/5QROt29E_o.png"
+    },
+    "assassins_mark": {
+        "icon": "https://images2.imgbox.com/25/b9/ZXqF8x53_o.png"
+    },
+    "assault": {
+        "icon": "https://images2.imgbox.com/38/ef/kU8vUdmN_o.png"
+    },
+    "auto_loader": {
+        "icon": "https://images2.imgbox.com/7b/bd/JryILbXr_o.png"
+    },
+    "auto_plating": {
+        "icon": "https://images2.imgbox.com/55/4a/BHfCBGcd_o.png"
+    },
+    "autodog_blaster": {
+        "icon": "https://images2.imgbox.com/4f/9d/ZKQCYVn6_o.png"
+    },
+    "automech_access_code": {
+        "icon": "https://images2.imgbox.com/0a/5f/DHLKlVit_o.png"
+    },
+    "automech_blaster": {
+        "icon": "https://images2.imgbox.com/30/02/d0aKA1AV_o.png"
+    },
+    "auxiliary": {
+        "icon": "https://images2.imgbox.com/9d/86/nZ3ZB2iV_o.png"
+    },
+    "back_stretch": {
+        "icon": "https://images2.imgbox.com/ea/da/FkKdJ0oY_o.png"
+    },
+    "backfire": {
+        "icon": "https://images2.imgbox.com/b6/6f/mD4SWTyx_o.png"
+    },
+    "backhand": {
+        "icon": "https://images2.imgbox.com/b0/0b/g0NV5TUy_o.png"
+    },
+    "backstab": {
+        "icon": "https://images2.imgbox.com/3c/8d/PxStYgbT_o.png"
+    },
+    "bandage": {
+        "icon": "https://images2.imgbox.com/42/c9/ypJjUbPA_o.png"
+    },
+    "barbed_defense": {
+        "icon": "https://images2.imgbox.com/39/11/NEGtFOog_o.png"
+    },
+    "barbed_doll": {
+        "icon": "https://images2.imgbox.com/bc/a0/mzRTIoSL_o.png"
+    },
+    "barnacle": {
+        "icon": "https://images2.imgbox.com/f7/fa/95dyjejb_o.png"
+    },
+    "baron_forces": {
+        "icon": "https://images2.imgbox.com/54/e5/Uo4M9lsA_o.png"
+    },
+    "barrage_battle": {
+        "icon": "https://images2.imgbox.com/bf/71/596T23aU_o.png"
+    },
+    "bash": {
+        "icon": "https://images2.imgbox.com/53/ae/dxiZuSyb_o.png"
+    },
+    "batter_up": {
+        "icon": "https://images2.imgbox.com/33/ca/zTcr21qb_o.png"
+    },
+    "battery": {
+        "icon": "https://images2.imgbox.com/a2/fa/jRH5azij_o.png"
+    },
+    "battle_plan": {
+        "icon": "https://images2.imgbox.com/ad/93/fLnd0tbe_o.png"
+    },
+    "battle_scars": {
+        "icon": "https://images2.imgbox.com/a1/e9/UFWOr89n_o.png"
+    },
+    "beast_of_the_bog": {
+        "icon": "https://images2.imgbox.com/f4/6c/yzYNAHWP_o.png"
+    },
+    "bedlam": {
+        "icon": "https://images2.imgbox.com/ca/e0/1oClnKAp_o.png"
+    },
+    "big_score": {
+        "icon": "https://images2.imgbox.com/71/b3/kgpWwCL6_o.png"
+    },
+    "bile_grenade": {
+        "icon": "https://images2.imgbox.com/9d/43/YDLrp4KL_o.png"
+    },
+    "bio_strike": {
+        "icon": "https://images2.imgbox.com/89/6a/6uxXKzSp_o.png"
+    },
+    "bladder_gland": {
+        "icon": "https://images2.imgbox.com/db/c8/xj7M0TWu_o.png"
+    },
+    "blade_flash": {
+        "icon": "https://images2.imgbox.com/02/34/Q9LWUoNE_o.png"
+    },
+    "blade_fury": {
+        "icon": "https://images2.imgbox.com/79/52/KoPBrpwO_o.png"
+    },
+    "blademouth_beating": {
+        "icon": "https://images2.imgbox.com/16/dd/qBO7LGTy_o.png"
+    },
+    "blast": {
+        "icon": "https://images2.imgbox.com/3a/b2/QVtZq05Z_o.png"
+    },
+    "blasted_eye": {
+        "icon": "https://images2.imgbox.com/a5/82/zEDST1yb_o.png"
+    },
+    "blinders": {
+        "icon": "https://images2.imgbox.com/7a/18/zimuIxMN_o.png"
+    },
+    "bloated": {
+        "icon": "https://images2.imgbox.com/54/f1/1VQyN6ir_o.png"
+    },
+    "blood_guard": {
+        "icon": "https://images2.imgbox.com/c4/56/NbKq7ex2_o.png"
+    },
+    "bloodbath": {
+        "icon": "https://images2.imgbox.com/87/5b/Zs7aGTRC_o.png"
+    },
+    "bloodflow": {
+        "icon": "https://images2.imgbox.com/70/e6/zCxwRV8O_o.png"
+    },
+    "blowout": {
+        "icon": "https://images2.imgbox.com/b9/70/PrnaACKZ_o.png"
+    },
+    "boat_anchor": {
+        "icon": "https://images2.imgbox.com/04/48/oruc7Ova_o.png"
+    },
+    "body_blow": {
+        "icon": "https://images2.imgbox.com/1e/24/28zRV7AX_o.png"
+    },
+    "bodyguard_contract": {
+        "icon": "https://images2.imgbox.com/c9/a2/L9f3JpSr_o.png"
+    },
+    "bog_attunement": {
+        "icon": "https://images2.imgbox.com/db/71/kRNDMmeg_o.png"
+    },
+    "bog_blaster": {
+        "icon": "https://images2.imgbox.com/16/6e/95zJ9wmh_o.png"
+    },
+    "bog_brain": {
+        "icon": "https://images2.imgbox.com/9b/df/Vds4KeBq_o.png"
+    },
+    "bog_brew": {
+        "icon": "https://images2.imgbox.com/3e/84/eOLH5o0L_o.png"
+    },
+    "bog_scimitar": {
+        "icon": "https://images2.imgbox.com/df/d0/RCa8b171_o.png"
+    },
+    "bog_symbiosis": {
+        "icon": "https://images2.imgbox.com/d3/ce/SrP7rQW2_o.png"
+    },
+    "bolo_strike": {
+        "icon": "https://images2.imgbox.com/db/bf/tkwUwzCg_o.png"
+    },
+    "bolster_shot": {
+        "icon": "https://images2.imgbox.com/84/bd/Nbn6fxfy_o.png"
+    },
+    "bolstered_plating": {
+        "icon": "https://images2.imgbox.com/1a/29/w2NmfXv0_o.png"
+    },
+    "bombard_bonded_elixir": {
+        "icon": "https://images2.imgbox.com/5d/f5/9O3oM2B8_o.png"
+    },
+    "bombard_muddler": {
+        "icon": "https://images2.imgbox.com/bc/63/sE5LdgTy_o.png"
+    },
+    "bombard_noxious_vial": {
+        "icon": "https://images2.imgbox.com/a7/58/ZSaAtelf_o.png"
+    },
+    "bombard_stimulating_brew": {
+        "icon": "https://images2.imgbox.com/7e/ad/DFt2dkQ3_o.png"
+    },
+    "bonkers": {
+        "icon": "https://images2.imgbox.com/e8/0d/Rq0AXHJb_o.png"
+    },
+    "boots_blaster": {
+        "icon": "https://images2.imgbox.com/d9/85/3Y2v16lP_o.png"
+    },
+    "bottle_hurl": {
+        "icon": "https://images2.imgbox.com/e2/99/lfBbVxOr_o.png"
+    },
+    "bottle_smash": {
+        "icon": "https://images2.imgbox.com/d0/81/PaPi2CQf_o.png"
+    },
+    "bottomless_vial": {
+        "icon": "https://images2.imgbox.com/e7/33/lTk5sc3n_o.png"
+    },
+    "bough": {
+        "icon": "https://images2.imgbox.com/23/ea/SQhstJMt_o.png"
+    },
+    "boulder_rush": {
+        "icon": "https://images2.imgbox.com/44/d9/BkDrN2wq_o.png"
+    },
+    "boulder_stance": {
+        "icon": "https://images2.imgbox.com/a1/d0/5rC1BYNK_o.png"
+    },
+    "bouldering_charge": {
+        "icon": "https://images2.imgbox.com/c4/4d/vGBCpd9l_o.png"
+    },
+    "brain_burn": {
+        "icon": "https://images2.imgbox.com/24/a4/LOfBij4W_o.png"
+    },
+    "brain_tick": {
+        "icon": "https://images2.imgbox.com/d0/48/uAFOm0l4_o.png"
+    },
+    "branch": {
+        "icon": "https://images2.imgbox.com/15/4e/cgGpRIwg_o.png"
+    },
+    "brazen_attack": {
+        "icon": "https://images2.imgbox.com/a2/3d/9dlDV2BY_o.png"
+    },
+    "breather": {
+        "icon": "https://images2.imgbox.com/6a/96/sku6wnHu_o.png"
+    },
+    "bring_it_on": {
+        "icon": "https://images2.imgbox.com/e2/b9/5Y1hrvcn_o.png"
+    },
+    "bruts_bat": {
+        "icon": "https://images2.imgbox.com/3c/6f/fGYhLs6x_o.png"
+    },
+    "burner": {
+        "icon": "https://images2.imgbox.com/4f/b3/dxEBeSwT_o.png"
+    },
+    "burst": {
+        "icon": "https://images2.imgbox.com/c5/d7/shXRF5Xh_o.png"
+    },
+    "butcher_of_the_bog": {
+        "icon": "https://images2.imgbox.com/f1/60/swQzHysC_o.png"
+    },
+    "call_in_baron_automech": {
+        "icon": "https://images2.imgbox.com/92/a6/ieNWFKoF_o.png"
+    },
+    "call_in_baron_goon": {
+        "icon": "https://images2.imgbox.com/c9/29/JZLWvFXj_o.png"
+    },
+    "call_in_baron_professional": {
+        "icon": "https://images2.imgbox.com/40/17/HcSE0lGZ_o.png"
+    },
+    "call_in_baron_taskmaster": {
+        "icon": "https://images2.imgbox.com/64/f2/dF16hmWx_o.png"
+    },
+    "call_in_fellemo": {
+        "icon": "https://images2.imgbox.com/5b/cd/T9OFVLUJ_o.png"
+    },
+    "call_in_kalandra": {
+        "icon": "https://images2.imgbox.com/7a/4a/mnrQw24E_o.png"
+    },
+    "call_in_rise_automech": {
+        "icon": "https://images2.imgbox.com/8e/6d/M1AyAxkA_o.png"
+    },
+    "call_in_rise_pamphleteer": {
+        "icon": "https://images2.imgbox.com/64/9e/pudeqIRU_o.png"
+    },
+    "call_in_rise_radical": {
+        "icon": "https://images2.imgbox.com/a0/3c/zYh7J86q_o.png"
+    },
+    "call_in_rise_rebel": {
+        "icon": "https://images2.imgbox.com/f7/04/e11uHlsy_o.png"
+    },
+    "callus": {
+        "icon": "https://images2.imgbox.com/8e/6e/l9qqVKzS_o.png"
+    },
+    "cancel": {
+        "icon": "https://images2.imgbox.com/91/50/S85b7Vjc_o.png"
+    },
+    "carapace": {
+        "icon": "https://images2.imgbox.com/dc/af/kSiqxr4o_o.png"
+    },
+    "carapace_fragment": {
+        "icon": "https://images2.imgbox.com/46/bc/pb0dSgV5_o.png"
+    },
+    "cards_wild": {
+        "icon": "https://images2.imgbox.com/f9/84/edUwbOMs_o.png"
+    },
+    "carve": {
+        "icon": "https://images2.imgbox.com/2b/0c/hGnLIgdq_o.png"
+    },
+    "casings": {
+        "icon": "https://images2.imgbox.com/cb/ad/H3W6TfDd_o.png"
+    },
+    "cataclysm": {
+        "icon": "https://images2.imgbox.com/5d/ad/xZyZoGVB_o.png"
+    },
+    "cauterize": {
+        "icon": "https://images2.imgbox.com/e7/c4/4cF0bdc7_o.png"
+    },
+    "cavalcade": {
+        "icon": "https://images2.imgbox.com/ff/66/TcPjAjXP_o.png"
+    },
+    "challenger": {
+        "icon": "https://images2.imgbox.com/fa/1f/M1fItcOr_o.png"
+    },
+    "chamber": {
+        "icon": "https://images2.imgbox.com/44/6d/qNC50JOD_o.png"
+    },
+    "char": {
+        "icon": "https://images2.imgbox.com/53/8e/yGVuDDjk_o.png"
+    },
+    "charged_barrage": {
+        "icon": "https://images2.imgbox.com/33/d9/CwJ3gk6G_o.png"
+    },
+    "charged_disc": {
+        "icon": "https://images2.imgbox.com/e7/10/QHh8eYGl_o.png"
+    },
+    "cheap_shot": {
+        "icon": "https://images2.imgbox.com/16/f1/2msF2OFQ_o.png"
+    },
+    "cheers": {
+        "icon": "https://images2.imgbox.com/91/fe/msbWYIUA_o.png"
+    },
+    "chest_pound": {
+        "icon": "https://images2.imgbox.com/9d/c8/KhvWmAsR_o.png"
+    },
+    "chimney": {
+        "icon": "https://images2.imgbox.com/71/69/gj9dDuo5_o.png"
+    },
+    "churn": {
+        "icon": "https://images2.imgbox.com/ca/f5/37SrPVwB_o.png"
+    },
+    "clean_house": {
+        "icon": "https://images2.imgbox.com/9e/47/Qtd3rraG_o.png"
+    },
+    "clean_open": {
+        "icon": "https://images2.imgbox.com/37/c4/M9ORlgty_o.png"
+    },
+    "clear_shot": {
+        "icon": "https://images2.imgbox.com/4c/6c/FGp3qnVx_o.png"
+    },
+    "coil_grenade": {
+        "icon": "https://images2.imgbox.com/8b/84/EMwvy9Zm_o.png"
+    },
+    "combat_drone": {
+        "icon": "https://images2.imgbox.com/0b/32/vsWhQefp_o.png"
+    },
+    "combat_gauze": {
+        "icon": "https://images2.imgbox.com/bb/1e/k8tYlDqB_o.png"
+    },
+    "combination": {
+        "icon": "https://images2.imgbox.com/84/ba/eQGh6nSf_o.png"
+    },
+    "concentrate": {
+        "icon": "https://images2.imgbox.com/84/70/cI0i6BK9_o.png"
+    },
+    "concussion": {
+        "icon": "https://images2.imgbox.com/f5/6a/HMzEcsS0_o.png"
+    },
+    "conquer": {
+        "icon": "https://images2.imgbox.com/ba/22/xqmRb6Sk_o.png"
+    },
+    "courage_crunch": {
+        "icon": "https://images2.imgbox.com/db/21/2X8PTD01_o.png"
+    },
+    "crackle": {
+        "icon": "https://images2.imgbox.com/ec/01/pZMq3Uwa_o.png"
+    },
+    "crackler": {
+        "icon": "https://images2.imgbox.com/72/25/5mZvWmJ4_o.png"
+    },
+    "crank": {
+        "icon": "https://images2.imgbox.com/fe/68/Ji8Q6x4s_o.png"
+    },
+    "crayote_claw": {
+        "icon": "https://images2.imgbox.com/a9/c3/xCyHBARS_o.png"
+    },
+    "crop": {
+        "icon": "https://images2.imgbox.com/77/02/izH4Qzvv_o.png"
+    },
+    "cross": {
+        "icon": "https://images2.imgbox.com/3b/3a/u6F90x4Z_o.png"
+    },
+    "crusher": {
+        "icon": "https://images2.imgbox.com/2d/c9/qq7Q2oAZ_o.png"
+    },
+    "crushing_blow": {
+        "icon": "https://images2.imgbox.com/c9/ca/7cGoG3zT_o.png"
+    },
+    "current": {
+        "icon": "https://images2.imgbox.com/1b/11/CLyREJz3_o.png"
+    },
+    "cyclone": {
+        "icon": "https://images2.imgbox.com/a0/0b/IRex1UIJ_o.png"
+    },
+    "cynotrainer": {
+        "icon": "https://images2.imgbox.com/72/5b/HFSMZOlP_o.png"
+    },
+    "dagger_throw": {
+        "icon": "https://images2.imgbox.com/2f/f4/B6835yZk_o.png"
+    },
+    "daggerstorm": {
+        "icon": "https://images2.imgbox.com/9f/bc/YgCxn7fk_o.png"
+    },
+    "damnation": {
+        "icon": "https://images2.imgbox.com/00/85/8ueb9RyH_o.png"
+    },
+    "dark_eliminator": {
+        "icon": "https://images2.imgbox.com/7b/b7/4r070iCH_o.png"
+    },
+    "deadly_strike": {
+        "icon": "https://images2.imgbox.com/59/a4/YtmQEJQq_o.png"
+    },
+    "debug_empty_cells": {
+        "icon": "https://images2.imgbox.com/df/0b/dzGKmgSY_o.png"
+    },
+    "deception": {
+        "icon": "https://images2.imgbox.com/ad/20/hzYLcauX_o.png"
+    },
+    "deep_bog_battle": {
+        "icon": "https://images2.imgbox.com/58/5e/XXRkzoLI_o.png"
+    },
+    "bog_down": {
+        "icon": "https://images2.imgbox.com/59/b8/TcbpKhqH_o.png"
+    },
+    "bog_doom": {
+        "icon": "https://images2.imgbox.com/3e/f4/gSExuuUW_o.png"
+    },
+    "deep_breath": {
+        "icon": "https://images2.imgbox.com/e2/62/RTDOZ9dv_o.png"
+    },
+    "deep_spice_oshnuts": {
+        "icon": "https://images2.imgbox.com/f1/43/5Ohhxy8O_o.png"
+    },
+    "deepstance": {
+        "icon": "https://images2.imgbox.com/2b/c1/xnqoNSQK_o.png"
+    },
+    "defective_grenade": {
+        "icon": "https://images2.imgbox.com/ce/3b/oqkkpBnH_o.png"
+    },
+    "delirium": {
+        "icon": "https://images2.imgbox.com/ee/77/duvPx67n_o.png"
+    },
+    "desperation": {
+        "icon": "https://images2.imgbox.com/0b/79/SctHT9hT_o.png"
+    },
+    "direct_hit": {
+        "icon": "https://images2.imgbox.com/f4/e3/pv1thNd1_o.png"
+    },
+    "discharge": {
+        "icon": "https://images2.imgbox.com/44/33/YumGG0Zx_o.png"
+    },
+    "dislodger": {
+        "icon": "https://images2.imgbox.com/1a/54/Xxanbdva_o.png"
+    },
+    "dismantle": {
+        "icon": "https://images2.imgbox.com/1a/1d/NKhbt6Qk_o.png"
+    },
+    "distraction": {
+        "icon": "https://images2.imgbox.com/33/bb/1B4oqdVA_o.png"
+    },
+    "doom": {
+        "icon": "https://images2.imgbox.com/82/49/ogCRP6Fj_o.png"
+    },
+    "double_time": {
+        "icon": "https://images2.imgbox.com/15/d8/HaAqx79F_o.png"
+    },
+    "down_the_hatch": {
+        "icon": "https://images2.imgbox.com/01/c0/b2fAdUcQ_o.png"
+    },
+    "drainer": {
+        "icon": "https://images2.imgbox.com/8a/35/6PkVNY8C_o.png"
+    },
+    "dropkick": {
+        "icon": "https://images2.imgbox.com/62/ea/mRv0DL8P_o.png"
+    },
+    "tipsy": {
+        "icon": "https://images2.imgbox.com/ff/80/oEyScMKS_o.png"
+    },
+    "drunken_master": {
+        "icon": "https://images2.imgbox.com/93/53/SQMlhmg0_o.png"
+    },
+    "drunken_rage": {
+        "icon": "https://images2.imgbox.com/6d/0d/TcAaXJNS_o.png"
+    },
+    "ignite": {
+        "icon": "https://images2.imgbox.com/9d/e3/pfuMjCVv_o.png"
+    },
+    "volatile_spark": {
+        "icon": "https://images2.imgbox.com/5f/9e/xarAmNkl_o.png"
+    },
+    "drusk_core": {
+        "icon": "https://images2.imgbox.com/43/e1/PxDZgnrD_o.png"
+    },
+    "dugout": {
+        "icon": "https://images2.imgbox.com/35/5a/rj4xOxqi_o.png"
+    },
+    "dumpster_dive": {
+        "icon": "https://images2.imgbox.com/e0/5f/DM2Rp1oT_o.png"
+    },
+    "duster": {
+        "icon": "https://images2.imgbox.com/1b/49/Pdzq8MkB_o.png"
+    },
+    "dynamo_round": {
+        "icon": "https://images2.imgbox.com/cd/79/TFGadCh6_o.png"
+    },
+    "echo_strike": {
+        "icon": "https://images2.imgbox.com/2d/f1/4ICrBgWl_o.png"
+    },
+    "efficient_disposal": {
+        "icon": "https://images2.imgbox.com/a5/25/Z6ispm2t_o.png"
+    },
+    "ego_rip": {
+        "icon": "https://images2.imgbox.com/b9/48/NGT4fiAk_o.png"
+    },
+    "eh1076_discharge_pistol": {
+        "icon": "https://images2.imgbox.com/51/0d/sdYxlOxS_o.png"
+    },
+    "elbow_strike": {
+        "icon": "https://images2.imgbox.com/52/59/wnd7Pcsc_o.png"
+    },
+    "emergency_shield_generator": {
+        "icon": "https://images2.imgbox.com/8c/b5/oVTdpIxV_o.png"
+    },
+    "empty_bottle": {
+        "icon": "https://images2.imgbox.com/ec/52/6cPDtbBv_o.png"
+    },
+    "endless_supply": {
+        "icon": "https://images2.imgbox.com/93/0a/tst7vgEK_o.png"
+    },
+    "endless_vial": {
+        "icon": "https://images2.imgbox.com/f7/bc/Hx3V9DSx_o.png"
+    },
+    "energy_loop": {
+        "icon": "https://images2.imgbox.com/5c/dd/pz3mOdPw_o.png"
+    },
+    "energy_siphon": {
+        "icon": "https://images2.imgbox.com/70/82/HR6uI5Pk_o.png"
+    },
+    "enfeebling_ray": {
+        "icon": "https://images2.imgbox.com/f2/cc/RhYkTAtL_o.png"
+    },
+    "entire_supply": {
+        "icon": "https://images2.imgbox.com/ed/cc/Yys6v027_o.png"
+    },
+    "erupt": {
+        "icon": "https://images2.imgbox.com/96/85/kwKZJrvD_o.png"
+    },
+    "evasive_maneuver": {
+        "icon": "https://images2.imgbox.com/4d/8e/8Z1Uwni8_o.png"
+    },
+    "execute": {
+        "icon": "https://images2.imgbox.com/cb/4e/TBaliSeJ_o.png"
+    },
+    "exertion": {
+        "icon": "https://images2.imgbox.com/d0/8a/vu5b5fX2_o.png"
+    },
+    "exhaustion": {
+        "icon": "https://images2.imgbox.com/92/0e/wxB3QWVy_o.png"
+    },
+    "eye_shot": {
+        "icon": "https://images2.imgbox.com/fe/c6/yfePQgL7_o.png"
+    },
+    "faction_admiralty": {
+        "icon": "https://images2.imgbox.com/57/c3/qn2eJEup_o.png"
+    },
+    "fan_the_hammer": {
+        "icon": "https://images2.imgbox.com/91/76/JCdhYCze_o.png"
+    },
+    "feint": {
+        "icon": "https://images2.imgbox.com/84/8c/A0tXHXEn_o.png"
+    },
+    "fever": {
+        "icon": "https://images2.imgbox.com/41/ce/toLbP9Qp_o.png"
+    },
+    "fight_dirty": {
+        "icon": "https://images2.imgbox.com/80/22/QdSHpgo4_o.png"
+    },
+    "final_blow": {
+        "icon": "https://images2.imgbox.com/19/ea/D1JIG02f_o.png"
+    },
+    "fire_breather": {
+        "icon": "https://images2.imgbox.com/c2/b3/Vmz4PRa5_o.png"
+    },
+    "firestorm": {
+        "icon": "https://images2.imgbox.com/3f/7c/PaNiWT6s_o.png"
+    },
+    "fistful": {
+        "icon": "https://images2.imgbox.com/85/4e/jLpFd2Kl_o.png"
+    },
+    "fixed": {
+        "icon": "https://images2.imgbox.com/87/91/JONOhZXD_o.png"
+    },
+    "flead_egg": {
+        "icon": "https://images2.imgbox.com/c0/f5/jAsK7lu2_o.png"
+    },
+    "hatched_egg": {
+        "icon": "https://images2.imgbox.com/52/bf/AhGPNJZk_o.png"
+    },
+    "tiny_stinger": {
+        "icon": "https://images2.imgbox.com/5e/1c/WlHc67tN_o.png"
+    },
+    "fleadshell_brandy": {
+        "icon": "https://images2.imgbox.com/50/ba/hiYdPT8X_o.png"
+    },
+    "flechette_shot": {
+        "icon": "https://images2.imgbox.com/04/e5/yKxlqxNG_o.png"
+    },
+    "assorted_junk": {
+        "icon": "https://images2.imgbox.com/b2/78/wyHejbNX_o.png"
+    },
+    "focused_assault": {
+        "icon": "https://images2.imgbox.com/20/06/J0I6e8I0_o.png"
+    },
+    "focused_strike": {
+        "icon": "https://images2.imgbox.com/67/c5/7zmKiQHZ_o.png"
+    },
+    "follow_up": {
+        "icon": "https://images2.imgbox.com/ce/4e/SE1dbi9m_o.png"
+    },
+    "footwork": {
+        "icon": "https://images2.imgbox.com/e2/83/2jsNMaFT_o.png"
+    },
+    "force_spanner": {
+        "icon": "https://images2.imgbox.com/34/d9/zmLsqEun_o.png"
+    },
+    "forced_adrenaline": {
+        "icon": "https://images2.imgbox.com/ff/91/IzfNWQTV_o.png"
+    },
+    "fracture": {
+        "icon": "https://images2.imgbox.com/53/10/Wq97f4Lm_o.png"
+    },
+    "freebie": {
+        "icon": "https://images2.imgbox.com/29/fe/B8Kr7MQL_o.png"
+    },
+    "freighter": {
+        "icon": "https://images2.imgbox.com/f0/1e/jSaq49sr_o.png"
+    },
+    "frenzy": {
+        "icon": "https://images2.imgbox.com/38/fd/vgE1DFtM_o.png"
+    },
+    "fsshs_amulet": {
+        "icon": "https://images2.imgbox.com/b0/48/bB11wi5F_o.png"
+    },
+    "fsshs_trickwire": {
+        "icon": "https://images2.imgbox.com/e9/54/F3WmlfL7_o.png"
+    },
+    "fuel_canister": {
+        "icon": "https://images2.imgbox.com/9c/b5/C7xv9A9M_o.png"
+    },
+    "fully_loaded": {
+        "icon": "https://images2.imgbox.com/0c/8d/RVyr3eYN_o.png"
+    },
+    "funky_fungi": {
+        "icon": "https://images2.imgbox.com/06/c1/K1RQYGgw_o.png"
+    },
+    "gaff": {
+        "icon": "https://images2.imgbox.com/c9/c9/E0N3kLIJ_o.png"
+    },
+    "gallery": {
+        "icon": "https://images2.imgbox.com/fb/ec/VEWybnHJ_o.png"
+    },
+    "garbage_day": {
+        "icon": "https://images2.imgbox.com/56/55/sLlLnCgp_o.png"
+    },
+    "gash": {
+        "icon": "https://images2.imgbox.com/1a/4b/pnt5l3Bv_o.png"
+    },
+    "gemini": {
+        "icon": "https://images2.imgbox.com/78/a5/66nsoLsd_o.png"
+    },
+    "get_down": {
+        "icon": "https://images2.imgbox.com/39/ae/xUaztsO0_o.png"
+    },
+    "ghost_strike": {
+        "icon": "https://images2.imgbox.com/42/24/a6a0E5eY_o.png"
+    },
+    "giant_stinger": {
+        "icon": "https://images2.imgbox.com/4f/48/AAABvlEi_o.png"
+    },
+    "gluey_antennae": {
+        "icon": "https://images2.imgbox.com/06/93/4guPAZR2_o.png"
+    },
+    "gnarled_effigy": {
+        "icon": "https://images2.imgbox.com/1a/99/oxW5Kn4F_o.png"
+    },
+    "gouge": {
+        "icon": "https://images2.imgbox.com/c6/8b/qBchOQic_o.png"
+    },
+    "gravedigger": {
+        "icon": "https://images2.imgbox.com/1d/26/gObFK99a_o.png"
+    },
+    "guerrilla_tactic": {
+        "icon": "https://images2.imgbox.com/15/9d/0zsV4wJv_o.png"
+    },
+    "gulper": {
+        "icon": "https://images2.imgbox.com/8e/f4/w29p2wM3_o.png"
+    },
+    "gumption": {
+        "icon": "https://images2.imgbox.com/4d/8a/SveyAvb1_o.png"
+    },
+    "gunslinger": {
+        "icon": "https://images2.imgbox.com/02/46/9rwam0hk_o.png"
+    },
+    "gunsmith": {
+        "icon": "https://images2.imgbox.com/a8/54/MUnCFK2A_o.png"
+    },
+    "gunsmoke": {
+        "icon": "https://images2.imgbox.com/c9/5e/hIh7dRKC_o.png"
+    },
+    "gut_shot": {
+        "icon": "https://images2.imgbox.com/b8/1f/UkhImb11_o.png"
+    },
+    "hair_trigger": {
+        "icon": "https://images2.imgbox.com/99/d8/ULv7nUtv_o.png"
+    },
+    "half_sandwich": {
+        "icon": "https://images2.imgbox.com/6b/3b/dN5g38lj_o.png"
+    },
+    "hammer_grip": {
+        "icon": "https://images2.imgbox.com/98/4e/Y298wjg6_o.png"
+    },
+    "hammer_swing": {
+        "icon": "https://images2.imgbox.com/65/d5/7PfjnWIi_o.png"
+    },
+    "hammer_throw": {
+        "icon": "https://images2.imgbox.com/9a/41/DESlWcay_o.png"
+    },
+    "hanbis_power_supply": {
+        "icon": "https://images2.imgbox.com/a6/4f/PWmtu5Jl_o.png"
+    },
+    "haste": {
+        "icon": "https://images2.imgbox.com/10/f8/aywYPvTl_o.png"
+    },
+    "hawb_drumstick": {
+        "icon": "https://images2.imgbox.com/aa/9e/cYxcZsRA_o.png"
+    },
+    "haymaker": {
+        "icon": "https://images2.imgbox.com/2b/1c/oFKIQywq_o.png"
+    },
+    "headbutt": {
+        "icon": "https://images2.imgbox.com/b9/7a/OUgHZA06_o.png"
+    },
+    "healing_vapors": {
+        "icon": "https://images2.imgbox.com/93/b0/UyWSfXRr_o.png"
+    },
+    "heartburn": {
+        "icon": "https://images2.imgbox.com/7d/2d/akdYLPyE_o.png"
+    },
+    "hearty_noodles": {
+        "icon": "https://images2.imgbox.com/49/55/naN1INN9_o.png"
+    },
+    "heavy_cleaver": {
+        "icon": "https://images2.imgbox.com/19/66/isdugfaW_o.png"
+    },
+    "hemophage": {
+        "icon": "https://images2.imgbox.com/6e/46/owK8tvzj_o.png"
+    },
+    "hemorrhage": {
+        "icon": "https://images2.imgbox.com/4e/1a/DeWpYRKb_o.png"
+    },
+    "heshian_amulet": {
+        "icon": "https://images2.imgbox.com/93/f5/FZWZS46E_o.png"
+    },
+    "heshian_mask": {
+        "icon": "https://images2.imgbox.com/d7/30/TxTdErIT_o.png"
+    },
+    "hide": {
+        "icon": "https://images2.imgbox.com/14/0a/xGKTOPni_o.png"
+    },
+    "hoarder": {
+        "icon": "https://images2.imgbox.com/aa/62/q6lUvPTL_o.png"
+    },
+    "hole_up": {
+        "icon": "https://images2.imgbox.com/d6/79/CjsbItg5_o.png"
+    },
+    "hologram_projection_belt": {
+        "icon": "https://images2.imgbox.com/1e/9d/bAN2bB0J_o.png"
+    },
+    "hunker_down": {
+        "icon": "https://images2.imgbox.com/63/2e/1pn1fRK4_o.png"
+    },
+    "hurricane": {
+        "icon": "https://images2.imgbox.com/4c/b3/h0LwVM6y_o.png"
+    },
+    "improve_accuracy": {
+        "icon": "https://images2.imgbox.com/4f/58/2717AtH1_o.png"
+    },
+    "enrage": {
+        "icon": "https://images2.imgbox.com/63/8c/FMEwtftp_o.png"
+    },
+    "big_brain": {
+        "icon": "https://images2.imgbox.com/c3/30/U3Kz5CBf_o.png"
+    },
+    "chug": {
+        "icon": "https://images2.imgbox.com/cf/5c/vpHTPM3U_o.png"
+    },
+    "scrapper": {
+        "icon": "https://images2.imgbox.com/63/c2/F29P0Fr1_o.png"
+    },
+    "flow": {
+        "icon": "https://images2.imgbox.com/50/b7/Yqd6Rnh6_o.png"
+    },
+    "green_juice": {
+        "icon": "https://images2.imgbox.com/d9/05/Q8f0SXc9_o.png"
+    },
+    "hair_of_the_vroc": {
+        "icon": "https://images2.imgbox.com/7e/de/8AiTVwN3_o.png"
+    },
+    "kradeshi_collider": {
+        "icon": "https://images2.imgbox.com/36/4c/RLHqurDb_o.png"
+    },
+    "laser_sight": {
+        "icon": "https://images2.imgbox.com/3d/5b/G2GRfVkL_o.png"
+    },
+    "last_drop": {
+        "icon": "https://images2.imgbox.com/14/81/Bq6hroHd_o.png"
+    },
+    "murder_bay_blaster": {
+        "icon": "https://images2.imgbox.com/39/fd/nhoKbjlW_o.png"
+    },
+    "organize": {
+        "icon": "https://images2.imgbox.com/8e/db/ywpcyV0n_o.png"
+    },
+    "purge": {
+        "icon": "https://images2.imgbox.com/87/c4/48hEjAt1_o.png"
+    },
+    "rat_shot": {
+        "icon": "https://images2.imgbox.com/a1/82/unRocc3e_o.png"
+    },
+    "rumble": {
+        "icon": "https://images2.imgbox.com/d7/5e/6Bdbcvya_o.png"
+    },
+    "scour": {
+        "icon": "https://images2.imgbox.com/23/bf/iShanp5d_o.png"
+    },
+    "shrokian_pepper_shot": {
+        "icon": "https://images2.imgbox.com/4c/21/2aMeZYo2_o.png"
+    },
+    "spare_ammo": {
+        "icon": "https://images2.imgbox.com/58/59/4reVaoq0_o.png"
+    },
+    "stack": {
+        "icon": "https://images2.imgbox.com/af/3d/rwPAOTIw_o.png"
+    },
+    "tracer": {
+        "icon": "https://images2.imgbox.com/93/86/c429qTVP_o.png"
+    },
+    "yote_shot": {
+        "icon": "https://images2.imgbox.com/19/a9/CNBg1tSX_o.png"
+    },
+    "induction": {
+        "icon": "https://images2.imgbox.com/33/90/vMtTV7WW_o.png"
+    },
+    "influx": {
+        "icon": "https://images2.imgbox.com/8c/09/W4aoC3uH_o.png"
+    },
+    "inside_fighting": {
+        "icon": "https://images2.imgbox.com/3b/5b/xawLmWw6_o.png"
+    },
+    "inspirational_blow": {
+        "icon": "https://images2.imgbox.com/98/58/RY8uC8Bp_o.png"
+    },
+    "intensify": {
+        "icon": "https://images2.imgbox.com/54/69/aiD7CTKb_o.png"
+    },
+    "into_the_night": {
+        "icon": "https://images2.imgbox.com/0c/d8/IMsMPCO5_o.png"
+    },
+    "jab": {
+        "icon": "https://images2.imgbox.com/67/13/vLx3f61F_o.png"
+    },
+    "jammed_blaster": {
+        "icon": "https://images2.imgbox.com/65/d5/mVmpiG4v_o.png"
+    },
+    "jolt": {
+        "icon": "https://images2.imgbox.com/e0/80/yhwoZt1f_o.png"
+    },
+    "juicer": {
+        "icon": "https://images2.imgbox.com/b0/69/wkQdflKc_o.png"
+    },
+    "jump_cables": {
+        "icon": "https://images2.imgbox.com/8a/b2/cAlDXtsd_o.png"
+    },
+    "kick": {
+        "icon": "https://images2.imgbox.com/89/1c/UXvTzwyF_o.png"
+    },
+    "kidney_shot": {
+        "icon": "https://images2.imgbox.com/0f/2c/RFvI3lFT_o.png"
+    },
+    "kiss_the_fists": {
+        "icon": "https://images2.imgbox.com/55/c1/hYyfT75K_o.png"
+    },
+    "knuckle_down": {
+        "icon": "https://images2.imgbox.com/68/ee/iPVnDVmL_o.png"
+    },
+    "kradeshi_barbstorm": {
+        "icon": "https://images2.imgbox.com/75/c6/rmp1lb2h_o.png"
+    },
+    "kradeshi_cup": {
+        "icon": "https://images2.imgbox.com/db/02/XxCutWh1_o.png"
+    },
+    "kradeshi_strike": {
+        "icon": "https://images2.imgbox.com/80/e7/a7xu75IQ_o.png"
+    },
+    "krill_ichor": {
+        "icon": "https://images2.imgbox.com/1b/b2/sNFZYrh0_o.png"
+    },
+    "lacerate": {
+        "icon": "https://images2.imgbox.com/12/00/S5DEyEGF_o.png"
+    },
+    "lean_green": {
+        "icon": "https://images2.imgbox.com/54/21/RXlxB8HH_o.png"
+    },
+    "learning_drone": {
+        "icon": "https://images2.imgbox.com/10/11/hMhI9szF_o.png"
+    },
+    "learned_drone": {
+        "icon": "https://images2.imgbox.com/24/8b/Lp1WOs0R_o.png"
+    },
+    "leech": {
+        "icon": "https://images2.imgbox.com/50/66/AJjsI8KI_o.png"
+    },
+    "legacy_blade": {
+        "icon": "https://images2.imgbox.com/be/7b/0yxTFhCo_o.png"
+    },
+    "letter_opener": {
+        "icon": "https://images2.imgbox.com/cd/c4/9uC2iYWm_o.png"
+    },
+    "lever": {
+        "icon": "https://images2.imgbox.com/64/ef/6EodmbN4_o.png"
+    },
+    "lifeline": {
+        "icon": "https://images2.imgbox.com/0e/d2/LAN0b1pf_o.png"
+    },
+    "lifter_claw": {
+        "icon": "https://images2.imgbox.com/74/51/bp3ZvINV_o.png"
+    },
+    "little_score": {
+        "icon": "https://images2.imgbox.com/d3/9f/S4C6UCBd_o.png"
+    },
+    "loader": {
+        "icon": "https://images2.imgbox.com/6e/c2/NjLbr61i_o.png"
+    },
+    "lockbox": {
+        "icon": "https://images2.imgbox.com/0a/e9/7BwSC6xg_o.png"
+    },
+    "open_lockbox": {
+        "icon": "https://images2.imgbox.com/ab/95/BpZN1cnE_o.png"
+    },
+    "long_night": {
+        "icon": "https://images2.imgbox.com/8d/4f/ZycJsXzo_o.png"
+    },
+    "lucky_round": {
+        "icon": "https://images2.imgbox.com/23/8f/zMNmW4IC_o.png"
+    },
+    "lucky_shot": {
+        "icon": "https://images2.imgbox.com/4b/36/PrRXqo9d_o.png"
+    },
+    "lumicyte_dorsal_spines": {
+        "icon": "https://images2.imgbox.com/50/35/6ifX1ZPu_o.png"
+    },
+    "lumin_darts": {
+        "icon": "https://images2.imgbox.com/60/1d/N0dobd7l_o.png"
+    },
+    "lumin_generator": {
+        "icon": "https://images2.imgbox.com/ec/d4/3XxUYuZl_o.png"
+    },
+    "lumin_grenade": {
+        "icon": "https://images2.imgbox.com/80/d7/CovH4Co3_o.png"
+    },
+    "lumin_jolt": {
+        "icon": "https://images2.imgbox.com/0c/50/U7uaVWs3_o.png"
+    },
+    "lumin_kunai": {
+        "icon": "https://images2.imgbox.com/41/c4/qFWXTXub_o.png"
+    },
+    "lumin_wine": {
+        "icon": "https://images2.imgbox.com/71/33/mzldVvJJ_o.png"
+    },
+    "makeshift_dagger": {
+        "icon": "https://images2.imgbox.com/cf/02/FYyp4TtQ_o.png"
+    },
+    "mandible": {
+        "icon": "https://images2.imgbox.com/94/b4/jmap8xJE_o.png"
+    },
+    "mantle": {
+        "icon": "https://images2.imgbox.com/3c/d2/NbPZRkuc_o.png"
+    },
+    "masochist": {
+        "icon": "https://images2.imgbox.com/47/76/wI43Bdgu_o.png"
+    },
+    "maul": {
+        "icon": "https://images2.imgbox.com/32/75/ZYmNhsNm_o.png"
+    },
+    "meditation": {
+        "icon": "https://images2.imgbox.com/23/d4/rBurxhMB_o.png"
+    },
+    "melt": {
+        "icon": "https://images2.imgbox.com/48/54/CXl3qfwd_o.png"
+    },
+    "mettle": {
+        "icon": "https://images2.imgbox.com/28/56/akvBfFMx_o.png"
+    },
+    "misdirection": {
+        "icon": "https://images2.imgbox.com/a5/d7/6N83g1nj_o.png"
+    },
+    "mouthwash": {
+        "icon": "https://images2.imgbox.com/79/c4/3sbTGbjc_o.png"
+    },
+    "muddle": {
+        "icon": "https://images2.imgbox.com/dd/b6/5v9sF130_o.png"
+    },
+    "muscle_memory": {
+        "icon": "https://images2.imgbox.com/e4/bd/osz16Rvc_o.png"
+    },
+    "call_nadan": {
+        "icon": "https://images2.imgbox.com/f9/cd/ASuxii89_o.png"
+    },
+    "nadans_blade": {
+        "icon": "https://images2.imgbox.com/22/02/R1o87HDe_o.png"
+    },
+    "nano_lattice": {
+        "icon": "https://images2.imgbox.com/2d/9c/iADGZhFv_o.png"
+    },
+    "nap": {
+        "icon": "https://images2.imgbox.com/56/57/GZDInYK7_o.png"
+    },
+    "nerve_strike": {
+        "icon": "https://images2.imgbox.com/c7/b2/gJq1mFfM_o.png"
+    },
+    "neurotic_haze": {
+        "icon": "https://images2.imgbox.com/3e/ae/bGC7u9yb_o.png"
+    },
+    "numbness": {
+        "icon": "https://images2.imgbox.com/af/89/vFpKtTJf_o.png"
+    },
+    "obliterate": {
+        "icon": "https://images2.imgbox.com/d8/b1/2nbbrEhw_o.png"
+    },
+    "offset": {
+        "icon": "https://images2.imgbox.com/c3/d5/mKf179AO_o.png"
+    },
+    "one_one_one": {
+        "icon": "https://images2.imgbox.com/f9/e8/CjlntxFY_o.png"
+    },
+    "call_oolo": {
+        "icon": "https://images2.imgbox.com/2c/97/M3WJ73Yq_o.png"
+    },
+    "opener": {
+        "icon": "https://images2.imgbox.com/21/6d/BZrRaMVr_o.png"
+    },
+    "oshnu_bile": {
+        "icon": "https://images2.imgbox.com/67/9b/6uKMwafP_o.png"
+    },
+    "oshnu_glue": {
+        "icon": "https://images2.imgbox.com/12/9d/hge7MlCp_o.png"
+    },
+    "over_extension": {
+        "icon": "https://images2.imgbox.com/24/d1/JJN4uSBM_o.png"
+    },
+    "overdriver": {
+        "icon": "https://images2.imgbox.com/5e/74/7xxf0eFc_o.png"
+    },
+    "overheater": {
+        "icon": "https://images2.imgbox.com/e9/8a/420LE1vv_o.png"
+    },
+    "overloaded_core": {
+        "icon": "https://images2.imgbox.com/3a/b0/Z3dJh75C_o.png"
+    },
+    "overloaded_spark_hammer": {
+        "icon": "https://images2.imgbox.com/75/d9/0to2g8tt_o.png"
+    },
+    "violent_explosion": {
+        "icon": "https://images2.imgbox.com/64/12/QmKmMJpz_o.png"
+    },
+    "packrat": {
+        "icon": "https://images2.imgbox.com/7d/7f/8zW2kaJQ_o.png"
+    },
+    "painter": {
+        "icon": "https://images2.imgbox.com/10/49/jEx3rT2O_o.png"
+    },
+    "paralyzer": {
+        "icon": "https://images2.imgbox.com/d5/b4/e1T5S7PQ_o.png"
+    },
+    "pickled_floater": {
+        "icon": "https://images2.imgbox.com/76/83/Ny4Jq8Yx_o.png"
+    },
+    "pinned": {
+        "icon": "https://images2.imgbox.com/2a/ff/zpIblDrx_o.png"
+    },
+    "pistol_whip": {
+        "icon": "https://images2.imgbox.com/6c/34/DXhHduni_o.png"
+    },
+    "pivot": {
+        "icon": "https://images2.imgbox.com/e0/c3/2plWhKui_o.png"
+    },
+    "pocket": {
+        "icon": "https://images2.imgbox.com/e6/d9/TtBqllMq_o.png"
+    },
+    "portable_bunker": {
+        "icon": "https://images2.imgbox.com/7d/da/hytr4xFV_o.png"
+    },
+    "posture": {
+        "icon": "https://images2.imgbox.com/9c/03/KrouK7s4_o.png"
+    },
+    "power_through": {
+        "icon": "https://images2.imgbox.com/f7/5d/seHyvll8_o.png"
+    },
+    "power_trip": {
+        "icon": "https://images2.imgbox.com/bd/ac/PFUU6kt8_o.png"
+    },
+    "precision_strike": {
+        "icon": "https://images2.imgbox.com/f3/4b/anbzwu6m_o.png"
+    },
+    "prediction": {
+        "icon": "https://images2.imgbox.com/2c/55/ietWUtiL_o.png"
+    },
+    "predictive_blast": {
+        "icon": "https://images2.imgbox.com/e6/d8/f8yprB6W_o.png"
+    },
+    "preparation": {
+        "icon": "https://images2.imgbox.com/72/c3/SYO9gRZ5_o.png"
+    },
+    "projector": {
+        "icon": "https://images2.imgbox.com/50/34/bcq1CKJ7_o.png"
+    },
+    "prototype_drone": {
+        "icon": "https://images2.imgbox.com/7b/ba/ZfLeVjMr_o.png"
+    },
+    "psionic_feedback": {
+        "icon": "https://images2.imgbox.com/43/d4/SnJ92TPK_o.png"
+    },
+    "psionic_storm": {
+        "icon": "https://images2.imgbox.com/95/81/7HspDbWO_o.png"
+    },
+    "pulse": {
+        "icon": "https://images2.imgbox.com/e7/4a/nXhiUs1x_o.png"
+    },
+    "punisher": {
+        "icon": "https://images2.imgbox.com/75/df/fyCrwIss_o.png"
+    },
+    "quick_draw": {
+        "icon": "https://images2.imgbox.com/01/2a/XZILWeVt_o.png"
+    },
+    "quick_feint": {
+        "icon": "https://images2.imgbox.com/95/da/I0tXijXP_o.png"
+    },
+    "quick_fire": {
+        "icon": "https://images2.imgbox.com/04/11/vd0PG72a_o.png"
+    },
+    "quick_strike": {
+        "icon": "https://images2.imgbox.com/57/b9/Xt6PMUji_o.png"
+    },
+    "quickened": {
+        "icon": "https://images2.imgbox.com/70/60/Bu8L6Iwx_o.png"
+    },
+    "rabbit_punch": {
+        "icon": "https://images2.imgbox.com/18/df/TOygxjJ0_o.png"
+    },
+    "rain_of_blades": {
+        "icon": "https://images2.imgbox.com/16/d5/Vk7WePgj_o.png"
+    },
+    "rampart": {
+        "icon": "https://images2.imgbox.com/c7/a5/aoYxXC7T_o.png"
+    },
+    "ravenous": {
+        "icon": "https://images2.imgbox.com/bd/c8/8eYgtmQ5_o.png"
+    },
+    "raw_power": {
+        "icon": "https://images2.imgbox.com/4e/1e/6TqPudkR_o.png"
+    },
+    "razorspine": {
+        "icon": "https://images2.imgbox.com/0c/39/NJyxWXnt_o.png"
+    },
+    "readied": {
+        "icon": "https://images2.imgbox.com/b7/d5/qYbVwBTX_o.png"
+    },
+    "readiness": {
+        "icon": "https://images2.imgbox.com/90/db/jGYU5coS_o.png"
+    },
+    "rebound": {
+        "icon": "https://images2.imgbox.com/19/ad/k5f4fB7q_o.png"
+    },
+    "reckless_swing": {
+        "icon": "https://images2.imgbox.com/5b/ea/jfauKXK0_o.png"
+    },
+    "recycle": {
+        "icon": "https://images2.imgbox.com/56/97/e09F8tRa_o.png"
+    },
+    "red_scarf": {
+        "icon": "https://images2.imgbox.com/07/8c/6TPrk30N_o.png"
+    },
+    "reduce": {
+        "icon": "https://images2.imgbox.com/fe/86/mQ2soZII_o.png"
+    },
+    "reflector_shield": {
+        "icon": "https://images2.imgbox.com/13/ba/vMhVaDPo_o.png"
+    },
+    "release_valve": {
+        "icon": "https://images2.imgbox.com/b7/75/KP0VRv2f_o.png"
+    },
+    "relentless": {
+        "icon": "https://images2.imgbox.com/a2/30/1oy4UgEk_o.png"
+    },
+    "rentorian_force_glaive": {
+        "icon": "https://images2.imgbox.com/4d/51/rsnr73Xq_o.png"
+    },
+    "repeater": {
+        "icon": "https://images2.imgbox.com/22/86/VGJvlYfZ_o.png"
+    },
+    "replicator": {
+        "icon": "https://images2.imgbox.com/ae/8f/X4ckMr30_o.png"
+    },
+    "reserve_round": {
+        "icon": "https://images2.imgbox.com/88/3a/GQpzv0nr_o.png"
+    },
+    "resonance": {
+        "icon": "https://images2.imgbox.com/76/5e/LJrTQc1Y_o.png"
+    },
+    "resonator": {
+        "icon": "https://images2.imgbox.com/67/35/aFB6heXq_o.png"
+    },
+    "restock": {
+        "icon": "https://images2.imgbox.com/c8/35/Us6zbEya_o.png"
+    },
+    "reuse": {
+        "icon": "https://images2.imgbox.com/7b/e0/ZJLzcmRZ_o.png"
+    },
+    "reversal": {
+        "icon": "https://images2.imgbox.com/f5/ba/kDtPmkYS_o.png"
+    },
+    "rib_cracker": {
+        "icon": "https://images2.imgbox.com/92/f1/TKNTciTq_o.png"
+    },
+    "right_in_the_face": {
+        "icon": "https://images2.imgbox.com/4b/75/WnITyRfD_o.png"
+    },
+    "ripper": {
+        "icon": "https://images2.imgbox.com/f8/0f/hX1APHUq_o.png"
+    },
+    "riptide": {
+        "icon": "https://images2.imgbox.com/66/1a/cRWo8ep1_o.png"
+    },
+    "rise_forces": {
+        "icon": "https://images2.imgbox.com/7e/fa/xWHknHa8_o.png"
+    },
+    "robo_kick": {
+        "icon": "https://images2.imgbox.com/b4/41/8xgdvZn3_o.png"
+    },
+    "robodex": {
+        "icon": "https://images2.imgbox.com/d8/9f/dHeD33I3_o.png"
+    },
+    "robone": {
+        "icon": "https://images2.imgbox.com/0f/87/ujpMKRhS_o.png"
+    },
+    "roloach_karambit": {
+        "icon": "https://images2.imgbox.com/2a/eb/LJ3cUdyX_o.png"
+    },
+    "rooks_gear": {
+        "icon": "https://images2.imgbox.com/e0/d2/tYLUwB8T_o.png"
+    },
+    "rooks_spare_coin": {
+        "icon": "https://images2.imgbox.com/ef/e3/nuzCyaU6_o.png"
+    },
+    "rpg": {
+        "icon": "https://images2.imgbox.com/4d/e2/T5ITeJEs_o.png"
+    },
+    "rubble": {
+        "icon": "https://images2.imgbox.com/37/b6/yZj0QUfc_o.png"
+    },
+    "rugs_tidepool_pods": {
+        "icon": "https://images2.imgbox.com/e8/c8/mQxqp0r4_o.png"
+    },
+    "rummage": {
+        "icon": "https://images2.imgbox.com/b0/e0/Fv0DJnSj_o.png"
+    },
+    "rusty_power_core": {
+        "icon": "https://images2.imgbox.com/18/fd/CTs2nS7D_o.png"
+    },
+    "ruthless": {
+        "icon": "https://images2.imgbox.com/c9/af/3l6bdFr1_o.png"
+    },
+    "saber_grip": {
+        "icon": "https://images2.imgbox.com/18/45/wIA8NGSm_o.png"
+    },
+    "sacrifice": {
+        "icon": "https://images2.imgbox.com/57/4c/81aRDmCe_o.png"
+    },
+    "sadistic_strikes": {
+        "icon": "https://images2.imgbox.com/2a/b2/8w0xlMrE_o.png"
+    },
+    "sals_daggers": {
+        "icon": "https://images2.imgbox.com/3f/82/r2KxOfch_o.png"
+    },
+    "sals_bloody_daggers": {
+        "icon": "https://images2.imgbox.com/f7/2b/rtFvNVG5_o.png"
+    },
+    "sals_combo_daggers": {
+        "icon": "https://images2.imgbox.com/26/4f/C4FfyQUq_o.png"
+    },
+    "salve": {
+        "icon": "https://images2.imgbox.com/b6/65/kDA8cTDG_o.png"
+    },
+    "scanner": {
+        "icon": "https://images2.imgbox.com/b4/8a/yc7qJcAw_o.png"
+    },
+    "scatter": {
+        "icon": "https://images2.imgbox.com/fc/46/1lx0EmDE_o.png"
+    },
+    "scatterphase": {
+        "icon": "https://images2.imgbox.com/ea/22/KIpa4wvr_o.png"
+    },
+    "scorcher": {
+        "icon": "https://images2.imgbox.com/3e/f6/gQyzwsG2_o.png"
+    },
+    "scream": {
+        "icon": "https://images2.imgbox.com/d1/84/e2Ej1uXD_o.png"
+    },
+    "screamer": {
+        "icon": "https://images2.imgbox.com/e7/fb/aCVVF8TD_o.png"
+    },
+    "scrounge": {
+        "icon": "https://images2.imgbox.com/87/46/718fBimp_o.png"
+    },
+    "sear": {
+        "icon": "https://images2.imgbox.com/25/9a/fnrNlmaY_o.png"
+    },
+    "searing_bullet": {
+        "icon": "https://images2.imgbox.com/d5/31/3g1RVz0l_o.png"
+    },
+    "seedling": {
+        "icon": "https://images2.imgbox.com/4d/e9/x91UsJ53_o.png"
+    },
+    "seeker": {
+        "icon": "https://images2.imgbox.com/48/39/v9wDS6Zv_o.png"
+    },
+    "sentinel": {
+        "icon": "https://images2.imgbox.com/4d/04/Br6s27bZ_o.png"
+    },
+    "sequencer": {
+        "icon": "https://images2.imgbox.com/21/e2/p49hDxPp_o.png"
+    },
+    "serrated_dirk": {
+        "icon": "https://images2.imgbox.com/11/fd/qnsrswsm_o.png"
+    },
+    "shadow_mastery": {
+        "icon": "https://images2.imgbox.com/fb/07/heLnOXQS_o.png"
+    },
+    "shadow_strike": {
+        "icon": "https://images2.imgbox.com/fc/87/kjFI2O2O_o.png"
+    },
+    "sharpen": {
+        "icon": "https://images2.imgbox.com/24/38/tRepg2A1_o.png"
+    },
+    "shatter": {
+        "icon": "https://images2.imgbox.com/87/b6/SfiAy1KN_o.png"
+    },
+    "shear": {
+        "icon": "https://images2.imgbox.com/25/05/OirvP9D5_o.png"
+    },
+    "shelve": {
+        "icon": "https://images2.imgbox.com/57/64/bIuewkn5_o.png"
+    },
+    "shill_shot": {
+        "icon": "https://images2.imgbox.com/cc/51/QwgzTRV1_o.png"
+    },
+    "shock_box": {
+        "icon": "https://images2.imgbox.com/97/c3/AjF3U0tR_o.png"
+    },
+    "shock_core": {
+        "icon": "https://images2.imgbox.com/7e/63/jhmKwfMz_o.png"
+    },
+    "shock_grenade": {
+        "icon": "https://images2.imgbox.com/66/88/6PYcnRDe_o.png"
+    },
+    "shock_therapy": {
+        "icon": "https://images2.imgbox.com/6a/89/3bcjzdHI_o.png"
+    },
+    "shovel": {
+        "icon": "https://images2.imgbox.com/27/56/9pyfzQsT_o.png"
+    },
+    "shrapnel_grenade": {
+        "icon": "https://images2.imgbox.com/f7/52/ct1RDkCV_o.png"
+    },
+    "shredded": {
+        "icon": "https://images2.imgbox.com/3f/da/ljZZjRVC_o.png"
+    },
+    "shrewd": {
+        "icon": "https://images2.imgbox.com/99/3b/bWJkuDFx_o.png"
+    },
+    "battle_scars": {
+        "icon": "https://images2.imgbox.com/0f/14/AwfU6gqq_o.png"
+    },
+    "shrokian_failure_idol": {
+        "icon": "https://images2.imgbox.com/c8/88/c3uQT0cl_o.png"
+    },
+    "shroog_fang": {
+        "icon": "https://images2.imgbox.com/e2/d1/NniXkEiB_o.png"
+    },
+    "sidestep": {
+        "icon": "https://images2.imgbox.com/40/5d/sQ5DuDdy_o.png"
+    },
+    "silent_shiv": {
+        "icon": "https://images2.imgbox.com/09/b9/v15eqSpZ_o.png"
+    },
+    "single_out": {
+        "icon": "https://images2.imgbox.com/9b/77/eGYD59jZ_o.png"
+    },
+    "size_up": {
+        "icon": "https://images2.imgbox.com/a8/a6/BIGuMM4v_o.png"
+    },
+    "skimmer": {
+        "icon": "https://images2.imgbox.com/bd/3b/MGcVm2Nx_o.png"
+    },
+    "slam": {
+        "icon": "https://images2.imgbox.com/97/30/CM9n6cF3_o.png"
+    },
+    "slash": {
+        "icon": "https://images2.imgbox.com/5f/39/oK91gbRR_o.png"
+    },
+    "slaughter": {
+        "icon": "https://images2.imgbox.com/3b/dd/2oAbmFYv_o.png"
+    },
+    "sleight_of_hand": {
+        "icon": "https://images2.imgbox.com/7a/6d/KRRyuYHa_o.png"
+    },
+    "slice": {
+        "icon": "https://images2.imgbox.com/0f/8b/WJuIw0J0_o.png"
+    },
+    "slippery": {
+        "icon": "https://images2.imgbox.com/d2/92/uPXTqLWR_o.png"
+    },
+    "slug_smash": {
+        "icon": "https://images2.imgbox.com/b2/21/DCQSs8Wm_o.png"
+    },
+    "smash": {
+        "icon": "https://images2.imgbox.com/11/e9/GbctbYcG_o.png"
+    },
+    "smash_em_up": {
+        "icon": "https://images2.imgbox.com/03/d6/WWLU4LXH_o.png"
+    },
+    "encourage": {
+        "icon": "https://images2.imgbox.com/11/c5/LA48im1R_o.png"
+    },
+    "heckle": {
+        "icon": "https://images2.imgbox.com/a7/0a/JhS81d1z_o.png"
+    },
+    "smiths_arsenal": {
+        "icon": "https://images2.imgbox.com/c4/ed/pr8IWJ0R_o.png"
+    },
+    "smiths_bottle": {
+        "icon": "https://images2.imgbox.com/d2/c5/6yGlhyAq_o.png"
+    },
+    "smiths_flask": {
+        "icon": "https://images2.imgbox.com/c1/b1/nuqEONnw_o.png"
+    },
+    "smiths_hammer": {
+        "icon": "https://images2.imgbox.com/5a/7d/4fyNhOLD_o.png"
+    },
+    "snellecks_finest": {
+        "icon": "https://images2.imgbox.com/74/78/CPMsJufY_o.png"
+    },
+    "spare_blades": {
+        "icon": "https://images2.imgbox.com/ea/52/bmnEvUyo_o.png"
+    },
+    "spark_cannon": {
+        "icon": "https://images2.imgbox.com/75/dd/Byxt5sEo_o.png"
+    },
+    "spark_grenade": {
+        "icon": "https://images2.imgbox.com/85/32/t9I3WII6_o.png"
+    },
+    "spark_round": {
+        "icon": "https://images2.imgbox.com/2b/1e/ZjYjzP29_o.png"
+    },
+    "spark_shot": {
+        "icon": "https://images2.imgbox.com/9b/f0/wYqUhSaR_o.png"
+    },
+    "sparkys_oppressor_cell": {
+        "icon": "https://images2.imgbox.com/29/f8/ceo0wUoU_o.png"
+    },
+    "spear_head": {
+        "icon": "https://images2.imgbox.com/d2/ae/xzZLPU4E_o.png"
+    },
+    "specialty": {
+        "icon": "https://images2.imgbox.com/ae/bc/4fqsrsKa_o.png"
+    },
+    "speed_tonic": {
+        "icon": "https://images2.imgbox.com/74/e6/whcJAsdc_o.png"
+    },
+    "spicy_noodles": {
+        "icon": "https://images2.imgbox.com/a0/b0/cMKRISMi_o.png"
+    },
+    "spider_strike": {
+        "icon": "https://images2.imgbox.com/2c/9d/CHtGnSBo_o.png"
+    },
+    "spin": {
+        "icon": "https://images2.imgbox.com/b9/ad/VyH7zRdN_o.png"
+    },
+    "spines": {
+        "icon": "https://images2.imgbox.com/e6/7f/7Yt24zSS_o.png"
+    },
+    "spinning_bottle": {
+        "icon": "https://images2.imgbox.com/66/de/E1VnPD4X_o.png"
+    },
+    "splinter": {
+        "icon": "https://images2.imgbox.com/5f/ac/ByPk9idf_o.png"
+    },
+    "spurs": {
+        "icon": "https://images2.imgbox.com/42/fa/EfTVEqBJ_o.png"
+    },
+    "squeeze": {
+        "icon": "https://images2.imgbox.com/50/00/iKYDPCdw_o.png"
+    },
+    "stab": {
+        "icon": "https://images2.imgbox.com/13/33/5WF8TYMt_o.png"
+    },
+    "bleed": {
+        "icon": "https://images2.imgbox.com/43/6c/z7U4I3Pu_o.png"
+    },
+    "injury": {
+        "icon": "https://images2.imgbox.com/8a/3e/srfMIJcm_o.png"
+    },
+    "lumin_burn": {
+        "icon": "https://images2.imgbox.com/48/2d/B87jlAe9_o.png"
+    },
+    "winded": {
+        "icon": "https://images2.imgbox.com/11/3c/VUQ7QmPi_o.png"
+    },
+    "stoke": {
+        "icon": "https://images2.imgbox.com/f3/c9/eATbPrwa_o.png"
+    },
+    "stomp": {
+        "icon": "https://images2.imgbox.com/08/b0/KUIGCdx2_o.png"
+    },
+    "strange_chemical": {
+        "icon": "https://images2.imgbox.com/9c/79/g4WHfs5I_o.png"
+    },
+    "striker": {
+        "icon": "https://images2.imgbox.com/e3/43/LDILhQtf_o.png"
+    },
+    "stringer": {
+        "icon": "https://images2.imgbox.com/cd/e2/3tID9ZEk_o.png"
+    },
+    "stun_gun": {
+        "icon": "https://images2.imgbox.com/49/d8/ylV5m8Vu_o.png"
+    },
+    "sucker_punch": {
+        "icon": "https://images2.imgbox.com/f2/df/dQo6tAPh_o.png"
+    },
+    "sugar_glass": {
+        "icon": "https://images2.imgbox.com/8f/bc/rO3xxMwx_o.png"
+    },
+    "suitcase_grenades": {
+        "icon": "https://images2.imgbox.com/2f/3c/NqE6svPz_o.png"
+    },
+    "sunspot": {
+        "icon": "https://images2.imgbox.com/22/53/EIAJEVra_o.png"
+    },
+    "support_beacon": {
+        "icon": "https://images2.imgbox.com/00/ff/CgXT40xI_o.png"
+    },
+    "suppressing_fire": {
+        "icon": "https://images2.imgbox.com/4e/d5/5whr4B34_o.png"
+    },
+    "suppression": {
+        "icon": "https://images2.imgbox.com/b9/e0/yhtgdQwd_o.png"
+    },
+    "surge_coil": {
+        "icon": "https://images2.imgbox.com/96/f0/0TpavJSq_o.png"
+    },
+    "survival_reflexes": {
+        "icon": "https://images2.imgbox.com/96/bd/KrQVefqb_o.png"
+    },
+    "swamp_smasher": {
+        "icon": "https://images2.imgbox.com/50/e8/xPM8923w_o.png"
+    },
+    "swift_kick": {
+        "icon": "https://images2.imgbox.com/29/21/UglsfIkl_o.png"
+    },
+    "swig": {
+        "icon": "https://images2.imgbox.com/23/4e/tTGDXWYO_o.png"
+    },
+    "switch_blade": {
+        "icon": "https://images2.imgbox.com/51/b6/BQgR25wH_o.png"
+    },
+    "take_aim": {
+        "icon": "https://images2.imgbox.com/f6/38/Qysc22qq_o.png"
+    },
+    "take_cover": {
+        "icon": "https://images2.imgbox.com/1f/7e/G7FWu1jR_o.png"
+    },
+    "tank": {
+        "icon": "https://images2.imgbox.com/fd/62/2RiWCyd4_o.png"
+    },
+    "targeting_core": {
+        "icon": "https://images2.imgbox.com/b8/6b/DkJseJhL_o.png"
+    },
+    "target_practice": {
+        "icon": "https://images2.imgbox.com/34/7a/p74sf9OJ_o.png"
+    },
+    "telegraph": {
+        "icon": "https://images2.imgbox.com/11/3a/k01tw3sk_o.png"
+    },
+    "tempered": {
+        "icon": "https://images2.imgbox.com/da/4c/h6QNhBKX_o.png"
+    },
+    "tendrils": {
+        "icon": "https://images2.imgbox.com/3f/50/jMR0AgmA_o.png"
+    },
+    "terrorize": {
+        "icon": "https://images2.imgbox.com/c1/4f/YmlWNRyo_o.png"
+    },
+    "the_pain_train": {
+        "icon": "https://images2.imgbox.com/0b/a1/ULiTVn3u_o.png"
+    },
+    "the_pinto_pour": {
+        "icon": "https://images2.imgbox.com/eb/9e/78rGd0rF_o.png"
+    },
+    "the_rust_bucket": {
+        "icon": "https://images2.imgbox.com/de/49/iE81nt8m_o.png"
+    },
+    "the_sledge": {
+        "icon": "https://images2.imgbox.com/56/d1/tmzu54UZ_o.png"
+    },
+    "the_slip": {
+        "icon": "https://images2.imgbox.com/49/95/zzfjHuo8_o.png"
+    },
+    "thickness": {
+        "icon": "https://images2.imgbox.com/1b/3d/tWw50stu_o.png"
+    },
+    "thieves_instinct": {
+        "icon": "https://images2.imgbox.com/83/1a/dgLuwDxF_o.png"
+    },
+    "thirst": {
+        "icon": "https://images2.imgbox.com/53/60/JE1DbP64_o.png"
+    },
+    "throw_dust": {
+        "icon": "https://images2.imgbox.com/58/79/qM49nsZc_o.png"
+    },
+    "mud_tosser": {
+        "icon": "https://images2.imgbox.com/8d/f0/L8Z0ouf2_o.png"
+    },
+    "tight_spot": {
+        "icon": "https://images2.imgbox.com/aa/4e/T9KSjx6h_o.png"
+    },
+    "tincture": {
+        "icon": "https://images2.imgbox.com/c2/88/jSTQXs8S_o.png"
+    },
+    "tough_and_angry": {
+        "icon": "https://images2.imgbox.com/59/b5/jgeDWeOP_o.png"
+    },
+    "toughen_up": {
+        "icon": "https://images2.imgbox.com/d1/5a/dp5zfQmg_o.png"
+    },
+    "tracer": {
+        "icon": "https://images2.imgbox.com/af/a5/vZSiZyDJ_o.png"
+    },
+    "trained_strike": {
+        "icon": "https://images2.imgbox.com/5e/0a/yHVAby1P_o.png"
+    },
+    "traumatizer": {
+        "icon": "https://images2.imgbox.com/4e/a8/lpLFggRU_o.png"
+    },
+    "tremor": {
+        "icon": "https://images2.imgbox.com/d1/d3/90QmqM34_o.png"
+    },
+    "triage": {
+        "icon": "https://images2.imgbox.com/92/08/gZOass2d_o.png"
+    },
+    "trick": {
+        "icon": "https://images2.imgbox.com/d0/51/HE6b5P49_o.png"
+    },
+    "trick_shot": {
+        "icon": "https://images2.imgbox.com/ad/0a/aplyl7qf_o.png"
+    },
+    "trip": {
+        "icon": "https://images2.imgbox.com/36/d6/uOsbKbps_o.png"
+    },
+    "tripwire": {
+        "icon": "https://images2.imgbox.com/40/f4/i5WDRuEa_o.png"
+    },
+    "triage": {
+        "icon": "https://images2.imgbox.com/6e/84/HdWgpAOA_o.png"
+    },
+    "twig": {
+        "icon": "https://images2.imgbox.com/2a/a4/SW2QarwL_o.png"
+    },
+    "twist": {
+        "icon": "https://images2.imgbox.com/05/e4/m7bkng95_o.png"
+    },
+    "twisted_figurine": {
+        "icon": "https://images2.imgbox.com/99/66/FwiBZYk6_o.png"
+    },
+    "underdriver": {
+        "icon": "https://images2.imgbox.com/c3/bc/rVdtUACp_o.png"
+    },
+    "unknown_concoction": {
+        "icon": "https://images2.imgbox.com/a3/e9/uVCzZMBd_o.png"
+    },
+    "uppercut": {
+        "icon": "https://images2.imgbox.com/76/18/HIBqfjqx_o.png"
+    },
+    "utility_belt": {
+        "icon": "https://images2.imgbox.com/34/33/DbwCo9nj_o.png"
+    },
+    "vantage": {
+        "icon": "https://images2.imgbox.com/f1/56/Jhu61eOj_o.png"
+    },
+    "vapor_vial": {
+        "icon": "https://images2.imgbox.com/72/ab/04KeseFJ_o.png"
+    },
+    "vent": {
+        "icon": "https://images2.imgbox.com/4d/c1/NyfypVOm_o.png"
+    },
+    "vertical_slash": {
+        "icon": "https://images2.imgbox.com/3e/28/lAmoWyj9_o.png"
+    },
+    "vial_of_slurry": {
+        "icon": "https://images2.imgbox.com/18/f0/RLUlxUpx_o.png"
+    },
+    "viciousness": {
+        "icon": "https://images2.imgbox.com/12/83/V5hqK8Kx_o.png"
+    },
+    "vital_strikes": {
+        "icon": "https://images2.imgbox.com/fd/6c/kNMuOMan_o.png"
+    },
+    "vroc_plume": {
+        "icon": "https://images2.imgbox.com/ae/16/K9iZAQTl_o.png"
+    },
+    "vroc_whistle": {
+        "icon": "https://images2.imgbox.com/f7/fa/LFJuYleh_o.png"
+    },
+    "warp_vial": {
+        "icon": "https://images2.imgbox.com/a1/29/cFhwiRsq_o.png"
+    },
+    "wave": {
+        "icon": "https://images2.imgbox.com/d8/02/YMbMY0E8_o.png"
+    },
+    "waylay": {
+        "icon": "https://images2.imgbox.com/ea/f0/ylWS7VkH_o.png"
+    },
+    "weak_points": {
+        "icon": "https://images2.imgbox.com/8a/fd/bmouETiA_o.png"
+    },
+    "weakness_blind_spot": {
+        "icon": "https://images2.imgbox.com/06/93/hDrMNZYd_o.png"
+    },
+    "weakness_dependant": {
+        "icon": "https://images2.imgbox.com/28/f2/rEGME09J_o.png"
+    },
+    "weakness_inflammable": {
+        "icon": "https://images2.imgbox.com/6f/b3/1v8HeczK_o.png"
+    },
+    "weakness_old_injury": {
+        "icon": "https://images2.imgbox.com/51/12/lveJIdOG_o.png"
+    },
+    "weakness_quick_jab": {
+        "icon": "https://images2.imgbox.com/c4/c5/RTuW5eAC_o.png"
+    },
+    "weakness_slow": {
+        "icon": "https://images2.imgbox.com/52/d8/OdP09Vjm_o.png"
+    },
+    "weakness_telegraphed": {
+        "icon": "https://images2.imgbox.com/15/c4/8ToxVRGw_o.png"
+    },
+    "weary": {
+        "icon": "https://images2.imgbox.com/34/2c/QCBpaqKq_o.png"
+    },
+    "weezils_scope": {
+        "icon": "https://images2.imgbox.com/e6/ba/bYAGX1jZ_o.png"
+    },
+    "well_fed": {
+        "icon": "https://images2.imgbox.com/6b/35/Yf7QtGgV_o.png"
+    },
+    "whirl": {
+        "icon": "https://images2.imgbox.com/5b/40/ucffwsDS_o.png"
+    },
+    "wild_lunge": {
+        "icon": "https://images2.imgbox.com/76/8e/QwJVNBUq_o.png"
+    },
+    "wildfire": {
+        "icon": "https://images2.imgbox.com/27/41/HImkSnir_o.png"
+    },
+    "wind_up": {
+        "icon": "https://images2.imgbox.com/0d/f9/wNEN4jvD_o.png"
+    },
+    "workers_gloves": {
+        "icon": "https://images2.imgbox.com/51/e5/P3fqmTLp_o.png"
+    },
+    "wounding_shot": {
+        "icon": "https://images2.imgbox.com/73/df/YM3G2HK0_o.png"
+    },
+    "wrack": {
+        "icon": "https://images2.imgbox.com/08/cc/ZqVxzCct_o.png"
+    },
+    "wretched_strike": {
+        "icon": "https://images2.imgbox.com/c2/15/xLU3OVSb_o.png"
+    },
+    "yote_horn": {
+        "icon": "https://images2.imgbox.com/1b/48/IaRF8hEC_o.png"
+    },
+    "yotelope_horns": {
+        "icon": "https://images2.imgbox.com/02/87/izAbBPFC_o.png"
+    },
+    "zero": {
+        "icon": "https://images2.imgbox.com/38/89/4aamvkPt_o.png"
+    },
+    "zig_zag": {
+        "icon": "https://images2.imgbox.com/83/eb/sPwmFbFd_o.png"
+    },
+    "zyns_razor": {
+        "icon": "https://images2.imgbox.com/6c/27/xuSIykD6_o.png"
+    },
+    "a_hot_tip": {
+        "icon": "https://images2.imgbox.com/e6/59/qE6Jj5A0_o.png"
+    },
+    "abrupt_remark": {
+        "icon": "https://images2.imgbox.com/b5/b8/IeYaqJiM_o.png"
+    },
+    "ad_hominem": {
+        "icon": "https://images2.imgbox.com/93/6a/9JlunLIo_o.png"
+    },
+    "admiralty_intel": {
+        "icon": "https://images2.imgbox.com/b1/b9/bUAqvfJZ_o.png"
+    },
+    "admiralty_orders": {
+        "icon": "https://images2.imgbox.com/20/23/9PEXMgpM_o.png"
+    },
+    "admonish": {
+        "icon": "https://images2.imgbox.com/a3/a9/yqxdI3Bo_o.png"
+    },
+    "agency": {
+        "icon": "https://images2.imgbox.com/67/e2/BGSI52bu_o.png"
+    },
+    "aggressive": {
+        "icon": "https://images2.imgbox.com/df/ad/feqLfpkP_o.png"
+    },
+    "agitation": {
+        "icon": "https://images2.imgbox.com/bf/71/LtBgLoKz_o.png"
+    },
+    "airtight": {
+        "icon": "https://images2.imgbox.com/75/7f/oVrErkVH_o.png"
+    },
+    "all_out": {
+        "icon": "https://images2.imgbox.com/62/6e/KNwksZBc_o.png"
+    },
+    "alleviate": {
+        "icon": "https://images2.imgbox.com/4f/67/Be4f81LZ_o.png"
+    },
+    "amnesiator": {
+        "icon": "https://images2.imgbox.com/a3/8f/1VspRDgU_o.png"
+    },
+    "amnesty": {
+        "icon": "https://images2.imgbox.com/9e/53/6y56Rl0Z_o.png"
+    },
+    "amplify": {
+        "icon": "https://images2.imgbox.com/49/82/9SpM5RHA_o.png"
+    },
+    "ante": {
+        "icon": "https://images2.imgbox.com/a4/7c/Y2nXTHm0_o.png"
+    },
+    "aplomb": {
+        "icon": "https://images2.imgbox.com/ce/7b/LnmmOD2i_o.png"
+    },
+    "appeal_to_reason": {
+        "icon": "https://images2.imgbox.com/f4/11/2BlZi2N6_o.png"
+    },
+    "appraisal": {
+        "icon": "https://images2.imgbox.com/97/3d/HFnxnPHN_o.png"
+    },
+    "associates": {
+        "icon": "https://images2.imgbox.com/77/62/mkepghI9_o.png"
+    },
+    "awkward": {
+        "icon": "https://images2.imgbox.com/b2/ed/xBPQkmVp_o.png"
+    },
+    "back_pedal": {
+        "icon": "https://images2.imgbox.com/77/56/5Lkdl7p1_o.png"
+    },
+    "backfire": {
+        "icon": "https://images2.imgbox.com/6a/8b/G85GI8Us_o.png"
+    },
+    "bad_deal": {
+        "icon": "https://images2.imgbox.com/59/53/fhQVkDQE_o.png"
+    },
+    "baffled": {
+        "icon": "https://images2.imgbox.com/4d/04/mtcsGqG0_o.png"
+    },
+    "bait_and_switch": {
+        "icon": "https://images2.imgbox.com/59/0f/jfkBmYSU_o.png"
+    },
+    "barrage_negotiation": {
+        "icon": "https://images2.imgbox.com/94/ae/40Q5HeNw_o.png"
+    },
+    "beguile": {
+        "icon": "https://images2.imgbox.com/44/86/ejkP87Jx_o.png"
+    },
+    "bellow": {
+        "icon": "https://images2.imgbox.com/e7/52/VPjdA5bM_o.png"
+    },
+    "bewilder": {
+        "icon": "https://images2.imgbox.com/07/d6/TBZ5a633_o.png"
+    },
+    "bid": {
+        "icon": "https://images2.imgbox.com/c5/e5/1paXPkpv_o.png"
+    },
+    "blacklist": {
+        "icon": "https://images2.imgbox.com/10/32/mSFdJKGs_o.png"
+    },
+    "blank": {
+        "icon": "https://images2.imgbox.com/be/9e/s0nf0ZGy_o.png"
+    },
+    "blasphemer": {
+        "icon": "https://images2.imgbox.com/c6/f1/dn5xiuYd_o.png"
+    },
+    "blockade": {
+        "icon": "https://images2.imgbox.com/68/24/GDhkHAmM_o.png"
+    },
+    "bluff": {
+        "icon": "https://images2.imgbox.com/f1/d2/lW5rP6Id_o.png"
+    },
+    "bluster": {
+        "icon": "https://images2.imgbox.com/b5/e6/5fOGzIHA_o.png"
+    },
+    "bog_blast": {
+        "icon": "https://images2.imgbox.com/ce/7a/jf3fMfo2_o.png"
+    },
+    "bog_enlightenment": {
+        "icon": "https://images2.imgbox.com/02/93/zW9OlrTJ_o.png"
+    },
+    "boiler": {
+        "icon": "https://images2.imgbox.com/28/18/yrPzyksC_o.png"
+    },
+    "bolstered": {
+        "icon": "https://images2.imgbox.com/1f/b6/2T9ANHIT_o.png"
+    },
+    "bottom_snail": {
+        "icon": "https://images2.imgbox.com/6d/3a/vvHTTFFM_o.png"
+    },
+    "bounty_hunter": {
+        "icon": "https://images2.imgbox.com/e9/1a/vIDCHXWa_o.png"
+    },
+    "brag": {
+        "icon": "https://images2.imgbox.com/3d/e1/sErAC35C_o.png"
+    },
+    "braggart": {
+        "icon": "https://images2.imgbox.com/dc/d1/zCbvBemL_o.png"
+    },
+    "brain_gills": {
+        "icon": "https://images2.imgbox.com/cc/6b/92XNd9n0_o.png"
+    },
+    "brainstorm": {
+        "icon": "https://images2.imgbox.com/88/4f/wGKYvtcE_o.png"
+    },
+    "browbeat": {
+        "icon": "https://images2.imgbox.com/05/cc/I0BmDPB9_o.png"
+    },
+    "brute": {
+        "icon": "https://images2.imgbox.com/62/69/bKVdmRhc_o.png"
+    },
+    "buffer": {
+        "icon": "https://images2.imgbox.com/a9/08/5mnxPsIh_o.png"
+    },
+    "build_rapport": {
+        "icon": "https://images2.imgbox.com/f9/90/13crgFb0_o.png"
+    },
+    "bulldoze": {
+        "icon": "https://images2.imgbox.com/56/92/3NlPknVY_o.png"
+    },
+    "bully": {
+        "icon": "https://images2.imgbox.com/81/2b/XFTb1cb6_o.png"
+    },
+    "burn": {
+        "icon": "https://images2.imgbox.com/9b/09/Rqnfv2sE_o.png"
+    },
+    "buster": {
+        "icon": "https://images2.imgbox.com/45/62/T5RuZxzY_o.png"
+    },
+    "buying_time": {
+        "icon": "https://images2.imgbox.com/a5/c3/2Jzv6OTV_o.png"
+    },
+    "by_the_book": {
+        "icon": "https://images2.imgbox.com/ea/91/2RNr9NLG_o.png"
+    },
+    "cachet": {
+        "icon": "https://images2.imgbox.com/cf/fa/3Fu21JwT_o.png"
+    },
+    "call_it": {
+        "icon": "https://images2.imgbox.com/70/17/urENxHdM_o.png"
+    },
+    "calling_in_all_favors": {
+        "icon": "https://images2.imgbox.com/84/01/fxs6V272_o.png"
+    },
+    "callous": {
+        "icon": "https://images2.imgbox.com/2e/c0/Xj9zIr7Z_o.png"
+    },
+    "calm": {
+        "icon": "https://images2.imgbox.com/17/f3/1kLX3rsJ_o.png"
+    },
+    "cancellation": {
+        "icon": "https://images2.imgbox.com/6c/9f/odGcsh6K_o.png"
+    },
+    "caprice": {
+        "icon": "https://images2.imgbox.com/64/c5/fUttOjja_o.png"
+    },
+    "carbon_copy": {
+        "icon": "https://images2.imgbox.com/92/65/5OVPe7gL_o.png"
+    },
+    "cash_out": {
+        "icon": "https://images2.imgbox.com/b7/b5/WyhkiKpT_o.png"
+    },
+    "chase": {
+        "icon": "https://images2.imgbox.com/a0/12/zvTqy6bN_o.png"
+    },
+    "circle_back": {
+        "icon": "https://images2.imgbox.com/1a/c2/NNmLhwkv_o.png"
+    },
+    "classic_smith": {
+        "icon": "https://images2.imgbox.com/d5/db/OWBLkwgB_o.png"
+    },
+    "clean_slate": {
+        "icon": "https://images2.imgbox.com/52/ae/80kPpmmw_o.png"
+    },
+    "clear_head": {
+        "icon": "https://images2.imgbox.com/c0/0e/JzsQKi6L_o.png"
+    },
+    "clout": {
+        "icon": "https://images2.imgbox.com/3f/2a/MtxrjmFR_o.png"
+    },
+    "heads": {
+        "icon": "https://images2.imgbox.com/48/30/GfzO82Bd_o.png"
+    },
+    "snails": {
+        "icon": "https://images2.imgbox.com/c1/02/B6Y57VWx_o.png"
+    },
+    "collected": {
+        "icon": "https://images2.imgbox.com/c8/9a/47KCdTno_o.png"
+    },
+    "committed": {
+        "icon": "https://images2.imgbox.com/d3/c2/2JyJFgo9_o.png"
+    },
+    "compel": {
+        "icon": "https://images2.imgbox.com/c6/f3/Nv4cq3Y5_o.png"
+    },
+    "compete": {
+        "icon": "https://images2.imgbox.com/92/9e/fQfrUTVV_o.png"
+    },
+    "compromise": {
+        "icon": "https://images2.imgbox.com/82/ae/7bIjJb01_o.png"
+    },
+    "comradery": {
+        "icon": "https://images2.imgbox.com/3d/35/CdME6MNk_o.png"
+    },
+    "conductor": {
+        "icon": "https://images2.imgbox.com/d4/b7/txQa0b7p_o.png"
+    },
+    "confused": {
+        "icon": "https://images2.imgbox.com/43/e2/rguVkup8_o.png"
+    },
+    "confusion": {
+        "icon": "https://images2.imgbox.com/c9/29/7b11ShMv_o.png"
+    },
+    "connections": {
+        "icon": "https://images2.imgbox.com/b2/f2/jSJbsWUH_o.png"
+    },
+    "consideration": {
+        "icon": "https://images2.imgbox.com/59/0c/rjcZ9XYk_o.png"
+    },
+    "consolidate": {
+        "icon": "https://images2.imgbox.com/6b/fb/7l2lHphP_o.png"
+    },
+    "contacts": {
+        "icon": "https://images2.imgbox.com/33/07/SUTAnm33_o.png"
+    },
+    "courtly_nepotism": {
+        "icon": "https://images2.imgbox.com/e9/66/OhQMlHE1_o.png"
+    },
+    "coward": {
+        "icon": "https://images2.imgbox.com/4c/3f/2ZfND5D6_o.png"
+    },
+    "crack_knuckles": {
+        "icon": "https://images2.imgbox.com/bd/1d/zWt7VDyi_o.png"
+    },
+    "crass": {
+        "icon": "https://images2.imgbox.com/56/39/GJo15lKN_o.png"
+    },
+    "dangerous": {
+        "icon": "https://images2.imgbox.com/83/a9/ndj9mC8D_o.png"
+    },
+    "day_shift": {
+        "icon": "https://images2.imgbox.com/0e/78/zgUMtb7Y_o.png"
+    },
+    "dead_draw": {
+        "icon": "https://images2.imgbox.com/29/2b/Vo9Q5eLd_o.png"
+    },
+    "debate": {
+        "icon": "https://images2.imgbox.com/ae/bd/o0SqNvlL_o.png"
+    },
+    "debug_lucky_coin": {
+        "icon": "https://images2.imgbox.com/40/96/dxWKTiOL_o.png"
+    },
+    "deceive": {
+        "icon": "https://images2.imgbox.com/8f/49/4mSPYSaW_o.png"
+    },
+    "decency": {
+        "icon": "https://images2.imgbox.com/80/4b/EeLa7ZKJ_o.png"
+    },
+    "deflection": {
+        "icon": "https://images2.imgbox.com/5c/0e/oOu4hhLu_o.png"
+    },
+    "degrade": {
+        "icon": "https://images2.imgbox.com/3e/ab/VAFW8sEx_o.png"
+    },
+    "degrading_nepotism": {
+        "icon": "https://images2.imgbox.com/9f/ea/1K5eKkmK_o.png"
+    },
+    "delay": {
+        "icon": "https://images2.imgbox.com/70/43/8jBHA257_o.png"
+    },
+    "dig": {
+        "icon": "https://images2.imgbox.com/2d/59/iWHHBMqh_o.png"
+    },
+    "dilemma": {
+        "icon": "https://images2.imgbox.com/82/79/JCTdac2I_o.png"
+    },
+    "discord": {
+        "icon": "https://images2.imgbox.com/54/41/cmIlwSZg_o.png"
+    },
+    "disregard": {
+        "icon": "https://images2.imgbox.com/f4/b1/yQgl5g4c_o.png"
+    },
+    "dissect": {
+        "icon": "https://images2.imgbox.com/2b/6d/q8BpxzgJ_o.png"
+    },
+    "ditch": {
+        "icon": "https://images2.imgbox.com/a6/14/gV1ERVeM_o.png"
+    },
+    "diversion": {
+        "icon": "https://images2.imgbox.com/0f/6e/7VGzd4WH_o.png"
+    },
+    "do_over": {
+        "icon": "https://images2.imgbox.com/e7/40/o9hja3K7_o.png"
+    },
+    "dogged": {
+        "icon": "https://images2.imgbox.com/76/6c/0XaWCQqO_o.png"
+    },
+    "domain": {
+        "icon": "https://images2.imgbox.com/66/db/f1wO1UF3_o.png"
+    },
+    "domineer": {
+        "icon": "https://images2.imgbox.com/f4/0a/7sMhPSpw_o.png"
+    },
+    "dominion": {
+        "icon": "https://images2.imgbox.com/89/15/6JAYuxuL_o.png"
+    },
+    "double_down": {
+        "icon": "https://images2.imgbox.com/f3/0d/YLIVspT6_o.png"
+    },
+    "double_entendre": {
+        "icon": "https://images2.imgbox.com/73/bb/L5GvAK0o_o.png"
+    },
+    "drain_resolve": {
+        "icon": "https://images2.imgbox.com/28/53/INQbOvPj_o.png"
+    },
+    "drawback": {
+        "icon": "https://images2.imgbox.com/40/33/QWJo5mi9_o.png"
+    },
+    "drowsiness": {
+        "icon": "https://images2.imgbox.com/36/5b/JWDVnlLj_o.png"
+    },
+    "slurred_speech": {
+        "icon": "https://images2.imgbox.com/a3/25/kqfTD8KB_o.png"
+    },
+    "duplicity": {
+        "icon": "https://images2.imgbox.com/44/d5/21VmkbdG_o.png"
+    },
+    "earworm": {
+        "icon": "https://images2.imgbox.com/10/d3/ITTVHz8u_o.png"
+    },
+    "elucidate": {
+        "icon": "https://images2.imgbox.com/8e/75/tOrHEQXf_o.png"
+    },
+    "empathy": {
+        "icon": "https://images2.imgbox.com/96/aa/Fjqdj6jx_o.png"
+    },
+    "emphasis": {
+        "icon": "https://images2.imgbox.com/63/91/05LYbnaC_o.png"
+    },
+    "enforcement": {
+        "icon": "https://images2.imgbox.com/aa/1c/wNAfaD9l_o.png"
+    },
+    "entrapment": {
+        "icon": "https://images2.imgbox.com/60/bc/BMQIjySo_o.png"
+    },
+    "erchin_musk": {
+        "icon": "https://images2.imgbox.com/40/f4/xj0hnyNW_o.png"
+    },
+    "ergo": {
+        "icon": "https://images2.imgbox.com/49/47/d9nLO86s_o.png"
+    },
+    "erupt": {
+        "icon": "https://images2.imgbox.com/d0/79/27PQn3Xw_o.png"
+    },
+    "escalate": {
+        "icon": "https://images2.imgbox.com/e9/5d/zDguWXBP_o.png"
+    },
+    "eureka": {
+        "icon": "https://images2.imgbox.com/ce/00/ROjGaYjb_o.png"
+    },
+    "even_footing": {
+        "icon": "https://images2.imgbox.com/c5/88/Zipbr2ka_o.png"
+    },
+    "evil_eye": {
+        "icon": "https://images2.imgbox.com/8f/4e/9mobuVfo_o.png"
+    },
+    "executive": {
+        "icon": "https://images2.imgbox.com/5b/e0/4VEhstOU_o.png"
+    },
+    "exploit_weakness": {
+        "icon": "https://images2.imgbox.com/2e/65/Bu8JQBE1_o.png"
+    },
+    "extortion": {
+        "icon": "https://images2.imgbox.com/f8/85/I6fntiA7_o.png"
+    },
+    "fall_guy": {
+        "icon": "https://images2.imgbox.com/37/23/53oZh5Kf_o.png"
+    },
+    "fallout": {
+        "icon": "https://images2.imgbox.com/73/dc/QLIalZCk_o.png"
+    },
+    "fame": {
+        "icon": "https://images2.imgbox.com/8c/f2/dymjLELD_o.png"
+    },
+    "fast_talk": {
+        "icon": "https://images2.imgbox.com/b2/ba/KGcShK7O_o.png"
+    },
+    "fatigued": {
+        "icon": "https://images2.imgbox.com/b2/eb/2WKIIsOm_o.png"
+    },
+    "final_favor": {
+        "icon": "https://images2.imgbox.com/47/ff/Xezw0Vin_o.png"
+    },
+    "fixate": {
+        "icon": "https://images2.imgbox.com/a1/11/Y48fXzHj_o.png"
+    },
+    "flash_badge": {
+        "icon": "https://images2.imgbox.com/8c/3f/9J00SbRS_o.png"
+    },
+    "flatter": {
+        "icon": "https://images2.imgbox.com/42/d6/T7SN9Yp6_o.png"
+    },
+    "flounder": {
+        "icon": "https://images2.imgbox.com/9c/ef/jlDRTDdN_o.png"
+    },
+    "flower": {
+        "icon": "https://images2.imgbox.com/81/1f/xVrWnEHB_o.png"
+    },
+    "foresight": {
+        "icon": "https://images2.imgbox.com/ef/7b/yVajYecS_o.png"
+    },
+    "forgo": {
+        "icon": "https://images2.imgbox.com/f9/2d/m2Ve7Wqx_o.png"
+    },
+    "foul_mouth": {
+        "icon": "https://images2.imgbox.com/83/f0/WHO24j0p_o.png"
+    },
+    "friendly_support": {
+        "icon": "https://images2.imgbox.com/5d/70/iZP7NXEE_o.png"
+    },
+    "frisk": {
+        "icon": "https://images2.imgbox.com/e1/89/SNLOaMvF_o.png"
+    },
+    "gab": {
+        "icon": "https://images2.imgbox.com/83/33/PJyuotgZ_o.png"
+    },
+    "gaslighting": {
+        "icon": "https://images2.imgbox.com/9e/f0/ReHTMwR1_o.png"
+    },
+    "gassy": {
+        "icon": "https://images2.imgbox.com/a7/76/KFOuRlEc_o.png"
+    },
+    "go_between": {
+        "icon": "https://images2.imgbox.com/30/5c/g9ldR7Ei_o.png"
+    },
+    "good_impression": {
+        "icon": "https://images2.imgbox.com/15/5f/FkW1wkjN_o.png"
+    },
+    "goon": {
+        "icon": "https://images2.imgbox.com/47/2b/LaWYcOv4_o.png"
+    },
+    "gossip": {
+        "icon": "https://images2.imgbox.com/e4/50/1MdOIUT4_o.png"
+    },
+    "grade": {
+        "icon": "https://images2.imgbox.com/a7/db/PLKaf2Pm_o.png"
+    },
+    "grandiosity": {
+        "icon": "https://images2.imgbox.com/b7/bc/8TOKuiCp_o.png"
+    },
+    "grisly_trophy": {
+        "icon": "https://images2.imgbox.com/e3/77/NC5IbCn9_o.png"
+    },
+    "grumble": {
+        "icon": "https://images2.imgbox.com/e5/8b/DVmXpIwJ_o.png"
+    },
+    "grunt": {
+        "icon": "https://images2.imgbox.com/12/57/r6XYFgBX_o.png"
+    },
+    "hammer_price": {
+        "icon": "https://images2.imgbox.com/6a/c7/Xugu8YEz_o.png"
+    },
+    "hard_facts": {
+        "icon": "https://images2.imgbox.com/95/b4/yEy7Atox_o.png"
+    },
+    "head_shot": {
+        "icon": "https://images2.imgbox.com/1e/ec/ToZ9Xxhm_o.png"
+    },
+    "head_split": {
+        "icon": "https://images2.imgbox.com/21/3a/y8hetPR6_o.png"
+    },
+    "head_turner": {
+        "icon": "https://images2.imgbox.com/e8/93/lHDFGKA8_o.png"
+    },
+    "headbang": {
+        "icon": "https://images2.imgbox.com/a5/c1/ulgxjyQo_o.png"
+    },
+    "headstrong": {
+        "icon": "https://images2.imgbox.com/bd/91/1QJRKdIf_o.png"
+    },
+    "hearty": {
+        "icon": "https://images2.imgbox.com/a4/a4/yLB2Ewmc_o.png"
+    },
+    "heavy_handed": {
+        "icon": "https://images2.imgbox.com/69/81/IKo7K1EC_o.png"
+    },
+    "helmet": {
+        "icon": "https://images2.imgbox.com/08/95/ZuhSnnJn_o.png"
+    },
+    "high_places": {
+        "icon": "https://images2.imgbox.com/3e/38/p9LYCaur_o.png"
+    },
+    "hip_flask": {
+        "icon": "https://images2.imgbox.com/44/89/NwbvpOYx_o.png"
+    },
+    "horrible_rash": {
+        "icon": "https://images2.imgbox.com/db/47/F4oXvx5Q_o.png"
+    },
+    "hot_air": {
+        "icon": "https://images2.imgbox.com/09/be/oASqZn3W_o.png"
+    },
+    "hot_head": {
+        "icon": "https://images2.imgbox.com/59/bf/4jG2fEqo_o.png"
+    },
+    "hush_money": {
+        "icon": "https://images2.imgbox.com/7a/c9/AhCiHh1n_o.png"
+    },
+    "hyperactive": {
+        "icon": "https://images2.imgbox.com/d3/80/4kojqutP_o.png"
+    },
+    "immunity": {
+        "icon": "https://images2.imgbox.com/41/52/c71a83EK_o.png"
+    },
+    "imply_violence": {
+        "icon": "https://images2.imgbox.com/89/43/kBnRfgbL_o.png"
+    },
+    "aloof": {
+        "icon": "https://images2.imgbox.com/ec/8d/UQUmFgEa_o.png"
+    },
+    "bank": {
+        "icon": "https://images2.imgbox.com/78/31/jikA6TrF_o.png"
+    },
+    "carry_over": {
+        "icon": "https://images2.imgbox.com/fc/11/NIRrKTJ1_o.png"
+    },
+    "compliment": {
+        "icon": "https://images2.imgbox.com/1a/83/Wl6FnXHF_o.png"
+    },
+    "gruff": {
+        "icon": "https://images2.imgbox.com/0a/d8/UDTMZCdn_o.png"
+    },
+    "mean": {
+        "icon": "https://images2.imgbox.com/26/31/XobkZO3F_o.png"
+    },
+    "obtuse": {
+        "icon": "https://images2.imgbox.com/92/1f/EjcziZMM_o.png"
+    },
+    "options": {
+        "icon": "https://images2.imgbox.com/db/bd/fEgj4WOU_o.png"
+    },
+    "set": {
+        "icon": "https://images2.imgbox.com/ba/75/j24rTWRe_o.png"
+    },
+    "shifty": {
+        "icon": "https://images2.imgbox.com/79/17/3DMUUsjZ_o.png"
+    },
+    "sleight": {
+        "icon": "https://images2.imgbox.com/57/f7/wF4M2c73_o.png"
+    },
+    "snap": {
+        "icon": "https://images2.imgbox.com/48/6f/2TLZAoMU_o.png"
+    },
+    "toss": {
+        "icon": "https://images2.imgbox.com/a5/f7/2ASEvWDG_o.png"
+    },
+    "turn": {
+        "icon": "https://images2.imgbox.com/6f/f9/TO8lAEFz_o.png"
+    },
+    "withdrawn": {
+        "icon": "https://images2.imgbox.com/d3/11/3PHn2zfy_o.png"
+    },
+    "incredulous": {
+        "icon": "https://images2.imgbox.com/7b/0f/SQsHElXR_o.png"
+    },
+    "indecision": {
+        "icon": "https://images2.imgbox.com/cd/8b/epXjvZl6_o.png"
+    },
+    "influencer": {
+        "icon": "https://images2.imgbox.com/c7/68/pwAVK9ql_o.png"
+    },
+    "insider_information": {
+        "icon": "https://images2.imgbox.com/02/8f/GPewF1bv_o.png"
+    },
+    "insistence": {
+        "icon": "https://images2.imgbox.com/2b/1a/s8UiQJvj_o.png"
+    },
+    "instigate": {
+        "icon": "https://images2.imgbox.com/e8/66/0egxhrYt_o.png"
+    },
+    "inspiration": {
+        "icon": "https://images2.imgbox.com/40/40/zTidv78n_o.png"
+    },
+    "additude": {
+        "icon": "https://images2.imgbox.com/3a/12/OJwUYEyf_o.png"
+    },
+    "diplomatic_instincts": {
+        "icon": "https://images2.imgbox.com/40/40/zTidv78n_o.png"
+    },
+    "hostile_instincts": {
+        "icon": "https://images2.imgbox.com/3a/12/OJwUYEyf_o.png"
+    },
+    "insult": {
+        "icon": "https://images2.imgbox.com/60/28/YHzO6ooQ_o.png"
+    },
+    "interrupt": {
+        "icon": "https://images2.imgbox.com/a3/4b/YI8Xtsy2_o.png"
+    },
+    "intimidate": {
+        "icon": "https://images2.imgbox.com/41/06/KKPr3Ssh_o.png"
+    },
+    "intrigue": {
+        "icon": "https://images2.imgbox.com/d9/a8/yv48qYif_o.png"
+    },
+    "invective": {
+        "icon": "https://images2.imgbox.com/7f/18/g8TfhFBV_o.png"
+    },
+    "ipso_facto": {
+        "icon": "https://images2.imgbox.com/b8/be/AT4x3vvT_o.png"
+    },
+    "jabber": {
+        "icon": "https://images2.imgbox.com/68/43/uJ3M9Y34_o.png"
+    },
+    "jargon": {
+        "icon": "https://images2.imgbox.com/85/e3/nbn0czeI_o.png"
+    },
+    "just_a_little": {
+        "icon": "https://images2.imgbox.com/d5/8a/ahl1zGTa_o.png"
+    },
+    "just_the_facts": {
+        "icon": "https://images2.imgbox.com/0d/d2/fd4jEqnS_o.png"
+    },
+    "keep_cool": {
+        "icon": "https://images2.imgbox.com/ed/37/GunVVrNl_o.png"
+    },
+    "kickback": {
+        "icon": "https://images2.imgbox.com/cf/d9/6lkZeWTl_o.png"
+    },
+    "kicker": {
+        "icon": "https://images2.imgbox.com/21/dc/CActUAwb_o.png"
+    },
+    "killer": {
+        "icon": "https://images2.imgbox.com/f1/c8/oJJOOXkl_o.png"
+    },
+    "know_a_guy": {
+        "icon": "https://images2.imgbox.com/0d/73/C57WyVp9_o.png"
+    },
+    "know_it_all": {
+        "icon": "https://images2.imgbox.com/60/d0/7r0geUbJ_o.png"
+    },
+    "known_thug": {
+        "icon": "https://images2.imgbox.com/19/5a/tYhCpO7M_o.png"
+    },
+    "lean": {
+        "icon": "https://images2.imgbox.com/0a/e5/OCxlncg3_o.png"
+    },
+    "level_orange_clearance": {
+        "icon": "https://images2.imgbox.com/83/6d/ii7Du7xw_o.png"
+    },
+    "level_playing_field": {
+        "icon": "https://images2.imgbox.com/58/dd/Nw6f2Hcz_o.png"
+    },
+    "light_the_fuse": {
+        "icon": "https://images2.imgbox.com/8c/10/IHulaoOQ_o.png"
+    },
+    "liquid_courage": {
+        "icon": "https://images2.imgbox.com/95/df/rA099k5h_o.png"
+    },
+    "long_winded": {
+        "icon": "https://images2.imgbox.com/fb/73/f2FRWBGy_o.png"
+    },
+    "low_blow": {
+        "icon": "https://images2.imgbox.com/12/1e/kYffnGTf_o.png"
+    },
+    "luminitiate_coin": {
+        "icon": "https://images2.imgbox.com/bd/a6/jFw7a6XP_o.png"
+    },
+    "magnetic_charm": {
+        "icon": "https://images2.imgbox.com/bb/6a/9EWPR7ba_o.png"
+    },
+    "maneuver": {
+        "icon": "https://images2.imgbox.com/2c/98/XD0VLLja_o.png"
+    },
+    "matter_of_fact": {
+        "icon": "https://images2.imgbox.com/cb/b9/6ukv2fjd_o.png"
+    },
+    "memory_lapse": {
+        "icon": "https://images2.imgbox.com/8c/f5/SRHEK2qq_o.png"
+    },
+    "menacing_air": {
+        "icon": "https://images2.imgbox.com/03/32/IpV0VhJW_o.png"
+    },
+    "mental_block": {
+        "icon": "https://images2.imgbox.com/f1/67/OzzcvQNi_o.png"
+    },
+    "mollify": {
+        "icon": "https://images2.imgbox.com/d5/ba/vMPCT7Sg_o.png"
+    },
+    "muck": {
+        "icon": "https://images2.imgbox.com/e1/87/hXtueK4r_o.png"
+    },
+    "name_drop": {
+        "icon": "https://images2.imgbox.com/25/b8/aOkXwjzh_o.png"
+    },
+    "negotiation_wild": {
+        "icon": "https://images2.imgbox.com/76/54/r52X6Vga_o.png"
+    },
+    "nepotism": {
+        "icon": "https://images2.imgbox.com/79/da/54f5ChaS_o.png"
+    },
+    "nerve": {
+        "icon": "https://images2.imgbox.com/66/5b/sACnRb8v_o.png"
+    },
+    "networked": {
+        "icon": "https://images2.imgbox.com/15/dc/WHBJWjYS_o.png"
+    },
+    "networker": {
+        "icon": "https://images2.imgbox.com/b2/6c/04UhjcCF_o.png"
+    },
+    "neutralizer": {
+        "icon": "https://images2.imgbox.com/a4/db/YHjSVWe5_o.png"
+    },
+    "night_shift": {
+        "icon": "https://images2.imgbox.com/ba/e7/ce0qRFYU_o.png"
+    },
+    "nonsequitur": {
+        "icon": "https://images2.imgbox.com/9c/05/cM1GUbp3_o.png"
+    },
+    "notion": {
+        "icon": "https://images2.imgbox.com/b7/4a/1vmNAQwE_o.png"
+    },
+    "obligation": {
+        "icon": "https://images2.imgbox.com/29/3f/WuHbKJim_o.png"
+    },
+    "observation": {
+        "icon": "https://images2.imgbox.com/02/c6/za8S8imz_o.png"
+    },
+    "off_guard": {
+        "icon": "https://images2.imgbox.com/e1/7f/vasJDp5v_o.png"
+    },
+    "oncall": {
+        "icon": "https://images2.imgbox.com/08/8d/1Ee98Krv_o.png"
+    },
+    "oolos_requisition": {
+        "icon": "https://images2.imgbox.com/fa/54/YIWNKuEL_o.png"
+    },
+    "open_mind": {
+        "icon": "https://images2.imgbox.com/b5/33/CoQ8fk78_o.png"
+    },
+    "oppress": {
+        "icon": "https://images2.imgbox.com/7f/a6/8T0srJJ2_o.png"
+    },
+    "overbear": {
+        "icon": "https://images2.imgbox.com/c4/cc/QDleN2JC_o.png"
+    },
+    "overdrive": {
+        "icon": "https://images2.imgbox.com/25/64/dCHgpHPZ_o.png"
+    },
+    "overturn": {
+        "icon": "https://images2.imgbox.com/5f/a7/28ZUgho7_o.png"
+    },
+    "overwhelm": {
+        "icon": "https://images2.imgbox.com/27/92/TXMerxKi_o.png"
+    },
+    "palm_grease": {
+        "icon": "https://images2.imgbox.com/ca/2c/T3fgw1uf_o.png"
+    },
+    "pandemonium": {
+        "icon": "https://images2.imgbox.com/d0/c8/kyhdCIPu_o.png"
+    },
+    "parvenu": {
+        "icon": "https://images2.imgbox.com/35/26/caLZbmRV_o.png"
+    },
+    "permits": {
+        "icon": "https://images2.imgbox.com/4a/76/b7Btjlqo_o.png"
+    },
+    "pickpocket": {
+        "icon": "https://images2.imgbox.com/4b/29/ym6WZyYD_o.png"
+    },
+    "pinch": {
+        "icon": "https://images2.imgbox.com/ac/60/owqwzShi_o.png"
+    },
+    "placate": {
+        "icon": "https://images2.imgbox.com/77/bb/gPuOK9kh_o.png"
+    },
+    "planning": {
+        "icon": "https://images2.imgbox.com/ab/d8/j63XL40I_o.png"
+    },
+    "plastered": {
+        "icon": "https://images2.imgbox.com/6f/19/edsbg59y_o.png"
+    },
+    "plead": {
+        "icon": "https://images2.imgbox.com/a9/0e/KLfVAXbu_o.png"
+    },
+    "pleasantries": {
+        "icon": "https://images2.imgbox.com/a6/f3/1LolkVXL_o.png"
+    },
+    "praise": {
+        "icon": "https://images2.imgbox.com/77/84/ZbMqyBcr_o.png"
+    },
+    "prattle": {
+        "icon": "https://images2.imgbox.com/1a/b0/gfg638cn_o.png"
+    },
+    "pressure": {
+        "icon": "https://images2.imgbox.com/47/db/LNuxSSOn_o.png"
+    },
+    "prominence": {
+        "icon": "https://images2.imgbox.com/69/57/OV42GZ1o_o.png"
+    },
+    "propaganda": {
+        "icon": "https://images2.imgbox.com/d4/56/sGgPKBDS_o.png"
+    },
+    "proper_channels": {
+        "icon": "https://images2.imgbox.com/28/60/soyMH8cp_o.png"
+    },
+    "pure_style": {
+        "icon": "https://images2.imgbox.com/c0/b5/hjNOI7pG_o.png"
+    },
+    "pursue": {
+        "icon": "https://images2.imgbox.com/24/64/qjR2khSQ_o.png"
+    },
+    "quick_thinking": {
+        "icon": "https://images2.imgbox.com/c6/1a/CSi0o09P_o.png"
+    },
+    "quip": {
+        "icon": "https://images2.imgbox.com/7a/54/1iR4TTVK_o.png"
+    },
+    "radula": {
+        "icon": "https://images2.imgbox.com/c7/73/B9hDwmoJ_o.png"
+    },
+    "ransack": {
+        "icon": "https://images2.imgbox.com/40/f9/uBB5Pw8v_o.png"
+    },
+    "rant": {
+        "icon": "https://images2.imgbox.com/86/59/uBeatSKT_o.png"
+    },
+    "rapid_fire": {
+        "icon": "https://images2.imgbox.com/81/8a/z9f0OIww_o.png"
+    },
+    "rationale": {
+        "icon": "https://images2.imgbox.com/31/c7/CyayI0wm_o.png"
+    },
+    "raw": {
+        "icon": "https://images2.imgbox.com/b8/0b/sDUvAQKG_o.png"
+    },
+    "recall": {
+        "icon": "https://images2.imgbox.com/8e/1b/H70kbCYM_o.png"
+    },
+    "reckless_insults": {
+        "icon": "https://images2.imgbox.com/86/a5/F8ljcThU_o.png"
+    },
+    "reconsider": {
+        "icon": "https://images2.imgbox.com/58/48/finlMZIm_o.png"
+    },
+    "refusal": {
+        "icon": "https://images2.imgbox.com/c0/26/mSfjHeKh_o.png"
+    },
+    "rehearsal": {
+        "icon": "https://images2.imgbox.com/51/64/ZpGimGTd_o.png"
+    },
+    "renounce": {
+        "icon": "https://images2.imgbox.com/95/64/0AoWA1dI_o.png"
+    },
+    "reputation_preceding": {
+        "icon": "https://images2.imgbox.com/9f/31/M4kmXmsW_o.png"
+    },
+    "rescind": {
+        "icon": "https://images2.imgbox.com/30/8b/1hbqXtbN_o.png"
+    },
+    "resilience": {
+        "icon": "https://images2.imgbox.com/ae/47/siXYIwo5_o.png"
+    },
+    "reversal": {
+        "icon": "https://images2.imgbox.com/25/56/tYfKXugg_o.png"
+    },
+    "revision": {
+        "icon": "https://images2.imgbox.com/a5/22/LEqsuBMY_o.png"
+    },
+    "rise_manifesto": {
+        "icon": "https://images2.imgbox.com/49/02/MtDot8C6_o.png"
+    },
+    "roughneck": {
+        "icon": "https://images2.imgbox.com/c0/7a/CjFtDXuq_o.png"
+    },
+    "rumor": {
+        "icon": "https://images2.imgbox.com/14/1e/HnPeCDJM_o.png"
+    },
+    "rumour": {
+        "icon": "https://images2.imgbox.com/af/99/kyV4sftw_o.png"
+    },
+    "sals_instincts": {
+        "icon": "https://images2.imgbox.com/f8/5b/HVJDBhqF_o.png"
+    },
+    "save_face": {
+        "icon": "https://images2.imgbox.com/eb/5e/3OIimiD9_o.png"
+    },
+    "scapegoat": {
+        "icon": "https://images2.imgbox.com/5f/af/kOC3Iqkt_o.png"
+    },
+    "scorched_earth": {
+        "icon": "https://images2.imgbox.com/1a/c7/FKf0Tcz4_o.png"
+    },
+    "scrub": {
+        "icon": "https://images2.imgbox.com/cd/ba/UhiyLtjZ_o.png"
+    },
+    "sealed_admiralty_envelope": {
+        "icon": "https://images2.imgbox.com/fb/d9/n5hetqNK_o.png"
+    },
+    "opened_admiralty_envelope": {
+        "icon": "https://images2.imgbox.com/02/98/NYoPWLcj_o.png"
+    },
+    "second_wind": {
+        "icon": "https://images2.imgbox.com/06/78/LnohXjTN_o.png"
+    },
+    "seeds_of_doubt": {
+        "icon": "https://images2.imgbox.com/bf/8c/cM3YZ1XS_o.png"
+    },
+    "seethe": {
+        "icon": "https://images2.imgbox.com/6a/36/g4Q828Mh_o.png"
+    },
+    "segue": {
+        "icon": "https://images2.imgbox.com/d1/d4/Dq6F6nvE_o.png"
+    },
+    "self_promotion": {
+        "icon": "https://images2.imgbox.com/58/1f/78AooTS4_o.png"
+    },
+    "setup": {
+        "icon": "https://images2.imgbox.com/22/fe/3ox3BMEY_o.png"
+    },
+    "shortstack": {
+        "icon": "https://images2.imgbox.com/57/cf/kAAqqnFn_o.png"
+    },
+    "showdown": {
+        "icon": "https://images2.imgbox.com/db/f5/PFuUQCnv_o.png"
+    },
+    "sick": {
+        "icon": "https://images2.imgbox.com/53/6d/OVECohnT_o.png"
+    },
+    "silence": {
+        "icon": "https://images2.imgbox.com/4b/c1/UXFyqrhr_o.png"
+    },
+    "simmer": {
+        "icon": "https://images2.imgbox.com/05/66/nFzulN4N_o.png"
+    },
+    "sitting_duck": {
+        "icon": "https://images2.imgbox.com/bf/67/M7rEDKG8_o.png"
+    },
+    "size_up": {
+        "icon": "https://images2.imgbox.com/7b/b5/1a4C2F0k_o.png"
+    },
+    "slick": {
+        "icon": "https://images2.imgbox.com/77/af/y9dZa0SV_o.png"
+    },
+    "slugstorm": {
+        "icon": "https://images2.imgbox.com/39/69/rjWaAVtm_o.png"
+    },
+    "snag": {
+        "icon": "https://images2.imgbox.com/e8/4c/ASG9I6nw_o.png"
+    },
+    "snail_bite": {
+        "icon": "https://images2.imgbox.com/96/cc/pxNhFuZM_o.png"
+    },
+    "snail_case": {
+        "icon": "https://images2.imgbox.com/4b/36/xO6LyOo5_o.png"
+    },
+    "snail_hunt": {
+        "icon": "https://images2.imgbox.com/f0/c6/sGlqsnA1_o.png"
+    },
+    "snail_in_the_pocket": {
+        "icon": "https://images2.imgbox.com/88/16/9lht1ZeH_o.png"
+    },
+    "solid_point": {
+        "icon": "https://images2.imgbox.com/4d/e2/KGkEkAMQ_o.png"
+    },
+    "spark_baron_permit": {
+        "icon": "https://images2.imgbox.com/18/b4/ZizhjS2i_o.png"
+    },
+    "spin": {
+        "icon": "https://images2.imgbox.com/2b/4a/objlgXxZ_o.png"
+    },
+    "split_shift": {
+        "icon": "https://images2.imgbox.com/2d/91/Zm2ifBnU_o.png"
+    },
+    "spooked": {
+        "icon": "https://images2.imgbox.com/ff/39/oX7paR4T_o.png"
+    },
+    "spotty": {
+        "icon": "https://images2.imgbox.com/06/00/GuySZktn_o.png"
+    },
+    "square_up": {
+        "icon": "https://images2.imgbox.com/02/fe/8FHsOOxJ_o.png"
+    },
+    "stabilize": {
+        "icon": "https://images2.imgbox.com/f1/6a/h4X58k3a_o.png"
+    },
+    "stacked_deck": {
+        "icon": "https://images2.imgbox.com/1d/8d/4oOmp6mf_o.png"
+    },
+    "stammer": {
+        "icon": "https://images2.imgbox.com/46/23/8arNjJvh_o.png"
+    },
+    "standing": {
+        "icon": "https://images2.imgbox.com/4b/75/2yFJqPeb_o.png"
+    },
+    "start_battle": {
+        "icon": "https://images2.imgbox.com/f0/19/ARnxcQJY_o.png"
+    },
+    "steamroll": {
+        "icon": "https://images2.imgbox.com/0f/92/ja8w9vKP_o.png"
+    },
+    "stem": {
+        "icon": "https://images2.imgbox.com/c6/c0/a1dhopu2_o.png"
+    },
+    "stool_pigeon": {
+        "icon": "https://images2.imgbox.com/7f/49/dWGgqY3j_o.png"
+    },
+    "strategy": {
+        "icon": "https://images2.imgbox.com/8e/33/dQdzLCuy_o.png"
+    },
+    "stumble": {
+        "icon": "https://images2.imgbox.com/42/0b/P6Zcwoib_o.png"
+    },
+    "stutter": {
+        "icon": "https://images2.imgbox.com/00/48/umK5MyRI_o.png"
+    },
+    "subtlety": {
+        "icon": "https://images2.imgbox.com/f3/9a/dTIpKspu_o.png"
+    },
+    "summons_card": {
+        "icon": "https://images2.imgbox.com/f5/dc/EnFTmsGO_o.png"
+    },
+    "swamp_schematics": {
+        "icon": "https://images2.imgbox.com/3f/02/n0hmVy8A_o.png"
+    },
+    "combined_map": {
+        "icon": "https://images2.imgbox.com/54/d0/zo6Y6O4i_o.png"
+    },
+    "swift_rebuttal": {
+        "icon": "https://images2.imgbox.com/77/22/OxEJzceB_o.png"
+    },
+    "switch_blade": {
+        "icon": "https://images2.imgbox.com/90/2c/LIOBFhb9_o.png"
+    },
+    "tactical_mind": {
+        "icon": "https://images2.imgbox.com/a1/e8/Ox9hlsom_o.png"
+    },
+    "take_supporters": {
+        "icon": "https://images2.imgbox.com/c9/46/cin1x8ww_o.png"
+    },
+    "tantrum": {
+        "icon": "https://images2.imgbox.com/6f/73/0zCqfhMt_o.png"
+    },
+    "tempt": {
+        "icon": "https://images2.imgbox.com/d3/f0/obrOdCJV_o.png"
+    },
+    "this_ends_now": {
+        "icon": "https://images2.imgbox.com/20/67/1ZTDvW3f_o.png"
+    },
+    "thoughtless": {
+        "icon": "https://images2.imgbox.com/1c/9c/UPD9DcEe_o.png"
+    },
+    "threaten": {
+        "icon": "https://images2.imgbox.com/79/6a/nCP17z61_o.png"
+    },
+    "tinnitus": {
+        "icon": "https://images2.imgbox.com/ce/9b/LBUf0NW3_o.png"
+    },
+    "toast": {
+        "icon": "https://images2.imgbox.com/ae/22/FJZB3kK8_o.png"
+    },
+    "token_of_hesh": {
+        "icon": "https://images2.imgbox.com/bc/56/OrLkTwIH_o.png"
+    },
+    "topple": {
+        "icon": "https://images2.imgbox.com/f8/ef/zzwjTm98_o.png"
+    },
+    "trade": {
+        "icon": "https://images2.imgbox.com/a9/f1/Hr6skQBm_o.png"
+    },
+    "trickery": {
+        "icon": "https://images2.imgbox.com/8f/63/1mmJmuUp_o.png"
+    },
+    "turnabout": {
+        "icon": "https://images2.imgbox.com/ee/95/nj6bLuFK_o.png"
+    },
+    "two_faced": {
+        "icon": "https://images2.imgbox.com/c1/7c/GjsxDxCx_o.png"
+    },
+    "tyrannize": {
+        "icon": "https://images2.imgbox.com/a8/7a/iERt4Xq9_o.png"
+    },
+    "Ulcer": {
+        "icon": "https://images2.imgbox.com/84/ef/7u3WXXGo_o.png"
+    },
+    "unconvincing": {
+        "icon": "https://images2.imgbox.com/32/7d/nsoP3cpa_o.png"
+    },
+    "unrelenting": {
+        "icon": "https://images2.imgbox.com/90/72/bo3v2spH_o.png"
+    },
+    "unruly_vroc": {
+        "icon": "https://images2.imgbox.com/63/cd/H0SWu2uf_o.png"
+    },
+    "unruly_yote": {
+        "icon": "https://images2.imgbox.com/99/e3/bcsfsFi1_o.png"
+    },
+    "unstable": {
+        "icon": "https://images2.imgbox.com/98/bf/zGlaygqC_o.png"
+    },
+    "unyielding": {
+        "icon": "https://images2.imgbox.com/ec/38/RHBlwOKD_o.png"
+    },
+    "upright": {
+        "icon": "https://images2.imgbox.com/57/de/hl6XcXSR_o.png"
+    },
+    "veiled_anger": {
+        "icon": "https://images2.imgbox.com/e3/5a/skTj6Wal_o.png"
+    },
+    "venture": {
+        "icon": "https://images2.imgbox.com/b4/e0/UJ7DKuzf_o.png"
+    },
+    "very_convincing": {
+        "icon": "https://images2.imgbox.com/b8/94/2ZOjOtQ5_o.png"
+    },
+    "very_much_convinced": {
+        "icon": "https://images2.imgbox.com/ee/1e/k4E5K6ns_o.png"
+    },
+    "voices": {
+        "icon": "https://images2.imgbox.com/4a/4f/1Izg5DBn_o.png"
+    },
+    "vulgar": {
+        "icon": "https://images2.imgbox.com/7a/c6/6ErTTMm9_o.png"
+    },
+    "war_story": {
+        "icon": "https://images2.imgbox.com/2f/fb/frTxJniu_o.png"
+    },
+    "weight": {
+        "icon": "https://images2.imgbox.com/85/27/901Uzg4i_o.png"
+    },
+    "white_lie": {
+        "icon": "https://images2.imgbox.com/11/77/rqTRx40F_o.png"
+    },
+    "who": {
+        "icon": "https://images2.imgbox.com/13/5c/YNr2vJeL_o.png"
+    },
+    "wild_rant": {
+        "icon": "https://images2.imgbox.com/15/c0/LmWCvBpG_o.png"
+    },
+    "zesty_noodles": {
+        "icon": "https://images2.imgbox.com/40/ba/nfAcz1vD_o.png"
+    }
+}
