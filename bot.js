@@ -1,10 +1,12 @@
 // Getting libraries
 require('dotenv').config();
 const Discord = require('discord.js');
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed, MessageAttachment } = require('discord.js');
 const { http, https } = require('follow-redirects');
 const phantom = require('phantom')
 const cheerio = require('cheerio');
+var _ = require('lodash');
+let database = require('./database.json');
 const prefix = "!";
 const client = new Discord.Client();
 
@@ -14,7 +16,7 @@ const TempEmbed = new Discord.MessageEmbed()
     .setColor(0x00b71a)
 
 const HelpEmbed = new Discord.MessageEmbed()
-    .setDescription("Hi there! I'm your friendly neighborhood card fetcher. At your command I fetch whatever card you want and all its available info from the Griftlands wiki! Please be aware that **the wiki is a heavy work-in-progress;** a database is being developed but until it is finished, **I pull data from the card's page, which can be incomplete or in a format that I'm not programmed to parse.**\n\nTo use me, type " + '"!fetch [card name]"' + " without the quotes and brackets. **The card name must be spelled correctly.**\n\nBecause the wiki is actively changing unexpected bugs might pop up from time to time, so be sure to ping my creator @Sei Bellissima to let her know about any you find! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
+    .setDescription("Hi there! I'm your friendly neighborhood card fetcher. At your command I fetch whatever card you want and all its available info from the Griftlands wiki! Please be aware that **the wiki is a heavy work-in-progress;** a database is being developed but until it is finished, **I pull data from the card's page, which can be incomplete or in a format that I'm not programmed to parse.**\n\n" + '"**!fetch [card name]**"' + " -- This will fetch the card's stats, description, flavor text and card image if available. If the page for an existing card isn't found the card image alone will be posted.\n\n" + '"**!fetchicon [card name]**"' + " -- This will fetch the card art alone; you can use this for memes/reference.\n\nRemember to use the commands above without the quotes and brackets, and that **the card name must be spelled correctly.**\n\nBecause the wiki is actively changing unexpected bugs might pop up from time to time, so be sure to ping my creator @Sei Bellissima to let her know about any you find! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
     .setThumbnail("https://i.ibb.co/k8j3mWj/Auto-Dog-Boticon.png")
     .setColor(0x08e0db)
 
@@ -22,7 +24,7 @@ function ErrorMessage(ErrorMsg, MsgToEdit) {
     console.log(ErrorMsg);
     var ErrorEmbed = new Discord.MessageEmbed()
         .setTitle('Whoops!')
-        .setDescription("Looks like I've run into an error:\n\n" + "`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
+        .setDescription("Looks like I've run into an error:\n\n`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
         .setColor(0xa90000)
     MsgToEdit.edit(ErrorEmbed);
 }
@@ -63,6 +65,14 @@ function NotCardEmbedMessage(MsgToEdit, AttemptedFetch) {
     MsgToEdit.edit(NotCardEmbed);
 }
 
+function IconNotFoundEmbed(message, AttemptedFetch) {
+    var IconNotFound = new Discord.MessageEmbed()
+        .setTitle('Unable to Fetch')
+        .setDescription('Icon for "' + AttemptedFetch + '" not found!')
+        .setColor(0xa90000)
+    message.channel.send(IconNotFound);
+}
+
 //LOG ON, then WAIT FOR MESSAGES
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -83,6 +93,26 @@ client.on('message', async msg => {
     } else command = body;
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
+    } else if (command == "fetchicon") {
+        splitStr = CardRequest.toLowerCase();
+        if (CardRequest.indexOf(" ") > -1) {
+            splitStr = splitStr.split(' ');
+            for (var i = 0; i < splitStr.length; i++) {
+                if (splitStr[i] == " " || splitStr [i] == "") {
+                    let removed = splitStr.splice(i, 1);
+                    i--;
+                };
+            }
+            CardRequest = splitStr.join(' ');
+        };
+        IconToFetch = CardRequest.replace(/ /g,"_");
+        IconToFetch = IconToFetch.replace(/[,.':]/g, "");
+        var ImageLink = _.get(database, IconToFetch + '.icon');
+        if (typeof ImageLink !== 'undefined') {
+            const attachment = new MessageAttachment(ImageLink);
+            console.log("SENDING " + ImageLink + " AS ATTACHMENT");
+            msg.channel.send(attachment);
+        } else IconNotFoundEmbed(msg, OriginalRequest);
     } else if (command == "fetch") {
         const SentMessage = await msg.channel.send(TempEmbed);
         splitStr = CardRequest.toLowerCase();
@@ -90,16 +120,24 @@ client.on('message', async msg => {
             splitStr = splitStr.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
                 if (splitStr[i] != "battle" && splitStr[i] != "negotiation" && splitStr[i] != "of") {
-                    splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+                    if (splitStr[i] == " " || splitStr [i] == "") {
+                        let removed = splitStr.splice(i, 1);
+                        i--;
+                    } else {
+                        if (splitStr[i] == "autodog") {
+                            splitStr[i] = "AutoDog"
+                        } else splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+                    };
                 }
             }
-        CardRequest = splitStr.join(' ');
+            CardRequest = splitStr.join(' ');
         } else {
             CardRequest = splitStr.charAt(0).toUpperCase() + splitStr.substring(1);
         }
         //replacing apostraphies and spaces to make it url friendly
         var CardToFetch = CardRequest.replace(/ /g,"_");
         CardToFetch = CardToFetch.replace(/'/g, '%27');
+        CardToFetch = CardToFetch.replace(/:/g, '');
         var PageToOpen = 'https://griftlands.gamepedia.com/' + CardToFetch
         var ImageToOpen = 'https://griftlands.gamepedia.com/File:' + CardToFetch + ".png"
         console.log("FETCHING " + PageToOpen)
@@ -191,7 +229,11 @@ client.on('message', async msg => {
                     if (CardImagesThere == true) {//proceeds to next function if it's not a card image
                         Title = $('#firstHeading').text().replace("File:", '');
                         Title = Title.replace(".png", '');
+                        if (Title.search('Weakness') > -1) {
+                            Title = Title.replace('Weakness', 'Weakness:');
+                        }
                         CardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
+                        console.log("IMAGE FOUND: " + CardImage);
                         ImageOnlyMessage(SentMessage, Title, CardImage);
                         resolve(SentMessage.content);
                     } else if (AllCardsThere == true) {//will stop everything if it's NOT a card
@@ -331,10 +373,7 @@ client.on('message', async msg => {
             if (result === 404) {
                 console.log("IMAGE NOT FOUND, CARRYING OVER")
                 return CarryOver(result)
-            } else { 
-                if (FetchingImage == true) {
-                    console.log("IMAGE FOUND, FETCHING");
-                };
+            } else {
                 return pContent(result);
             }
         }).then(function(result) {
