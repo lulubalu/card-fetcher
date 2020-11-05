@@ -467,6 +467,9 @@
     "delirium": {
         "icon": "https://images2.imgbox.com/ee/77/duvPx67n_o.png"
     },
+    "denikus_blaster": {
+        "icon": "https://images2.imgbox.com/68/df/bxHcpk0W_o.png"
+    },
     "desperation": {
         "icon": "https://images2.imgbox.com/0b/79/SctHT9hT_o.png"
     },
@@ -569,7 +572,7 @@
     "entire_supply": {
         "icon": "https://images2.imgbox.com/ed/cc/Yys6v027_o.png"
     },
-    "erupt": {
+    "unknown_erupt": {
         "icon": "https://images2.imgbox.com/96/85/kwKZJrvD_o.png"
     },
     "evasive_maneuver": {
@@ -869,7 +872,7 @@
     "stack": {
         "icon": "https://images2.imgbox.com/af/3d/rwPAOTIw_o.png"
     },
-    "tracer": {
+    "tracer_round": {
         "icon": "https://images2.imgbox.com/93/86/c429qTVP_o.png"
     },
     "yote_shot": {
@@ -1415,9 +1418,6 @@
     "shrewd": {
         "icon": "https://images2.imgbox.com/99/3b/bWJkuDFx_o.png"
     },
-    "battle_scars": {
-        "icon": "https://images2.imgbox.com/0f/14/AwfU6gqq_o.png"
-    },
     "shrokian_failure_idol": {
         "icon": "https://images2.imgbox.com/c8/88/c3uQT0cl_o.png"
     },
@@ -1433,7 +1433,7 @@
     "single_out": {
         "icon": "https://images2.imgbox.com/9b/77/eGYD59jZ_o.png"
     },
-    "size_up": {
+    "unknown_size_up": {
         "icon": "https://images2.imgbox.com/a8/a6/BIGuMM4v_o.png"
     },
     "skimmer": {
@@ -1520,7 +1520,7 @@
     "spider_strike": {
         "icon": "https://images2.imgbox.com/2c/9d/CHtGnSBo_o.png"
     },
-    "spin": {
+    "unknown_spin": {
         "icon": "https://images2.imgbox.com/b9/ad/VyH7zRdN_o.png"
     },
     "spines": {
@@ -1705,9 +1705,6 @@
     },
     "tripwire": {
         "icon": "https://images2.imgbox.com/40/f4/i5WDRuEa_o.png"
-    },
-    "triage": {
-        "icon": "https://images2.imgbox.com/6e/84/HdWgpAOA_o.png"
     },
     "twig": {
         "icon": "https://images2.imgbox.com/2a/a4/SW2QarwL_o.png"
@@ -1904,7 +1901,7 @@
     "back_pedal": {
         "icon": "https://images2.imgbox.com/77/56/5Lkdl7p1_o.png"
     },
-    "backfire": {
+    "unknown_backfire": {
         "icon": "https://images2.imgbox.com/6a/8b/G85GI8Us_o.png"
     },
     "bad_deal": {
@@ -1975,6 +1972,9 @@
     },
     "brain_gills": {
         "icon": "https://images2.imgbox.com/cc/6b/92XNd9n0_o.png"
+    },
+    "brain_pearl": {
+        "icon": "https://images2.imgbox.com/98/7f/yr3BZwnG_o.png"
     },
     "brainstorm": {
         "icon": "https://images2.imgbox.com/88/4f/wGKYvtcE_o.png"
@@ -2248,6 +2248,9 @@
     },
     "extortion": {
         "icon": "https://images2.imgbox.com/f8/85/I6fntiA7_o.png"
+    },
+    "fabrication": {
+        "icon": "https://images2.imgbox.com/1f/41/9G0N128s_o.png"
     },
     "fall_guy": {
         "icon": "https://images2.imgbox.com/37/23/53oZh5Kf_o.png"
@@ -2735,7 +2738,7 @@
     "resilience": {
         "icon": "https://images2.imgbox.com/ae/47/siXYIwo5_o.png"
     },
-    "reversal": {
+    "flipside": {
         "icon": "https://images2.imgbox.com/25/56/tYfKXugg_o.png"
     },
     "revision": {
@@ -2903,7 +2906,7 @@
     "swift_rebuttal": {
         "icon": "https://images2.imgbox.com/77/22/OxEJzceB_o.png"
     },
-    "switch_blade": {
+    "unknown_switch_blade": {
         "icon": "https://images2.imgbox.com/90/2c/LIOBFhb9_o.png"
     },
     "tactical_mind": {
@@ -2977,6 +2980,9 @@
     },
     "upright": {
         "icon": "https://images2.imgbox.com/57/de/hl6XcXSR_o.png"
+    },
+    "veil": {
+        "icon": "https://images2.imgbox.com/34/98/0fkyDQRq_o.png"
     },
     "veiled_anger": {
         "icon": "https://images2.imgbox.com/e3/5a/skTj6Wal_o.png"
