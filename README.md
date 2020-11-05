@@ -6,4 +6,5 @@ Card Fetcher Bot for the Griftlands fan Discord
 * [cheerio](https://cheerio.js.org/)
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [follow-redirects](https://www.npmjs.com/package/follow-redirects)
+* [lodash](https://lodash.com/)
 * [phantom-bridge](https://www.npmjs.com/package/phantom-bridge)
