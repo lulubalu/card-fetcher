@@ -94,7 +94,8 @@ client.on('message', async msg => {
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetchicon") {
-        splitStr = CardRequest.toLowerCase();
+        CardRequest = CardRequest.toLowerCase();
+        console.log(splitStr);
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = splitStr.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
@@ -106,7 +107,9 @@ client.on('message', async msg => {
             CardRequest = splitStr.join(' ');
         };
         IconToFetch = CardRequest.replace(/ /g,"_");
+        console.log(IconToFetch);
         IconToFetch = IconToFetch.replace(/[,.':]/g, "");
+        console.log(IconToFetch);
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined') {
             const attachment = new MessageAttachment(ImageLink);
