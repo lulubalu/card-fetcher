@@ -96,7 +96,7 @@ client.on('message', async msg => {
     } else if (command == "fetchicon") {
         CardRequest = CardRequest.toLowerCase();
         if (CardRequest.indexOf(" ") > -1) {
-            splitStr = splitStr.split(' ');
+            splitStr = CardRequest.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
                 if (splitStr[i] == " " || splitStr [i] == "") {
                     let removed = splitStr.splice(i, 1);
