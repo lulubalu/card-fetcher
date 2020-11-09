@@ -105,7 +105,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         };
-        IconToFetch = CardRequest.replace(/ /g,"_");
+        IconToFetch = CardRequest.replace(/[- ]/g,"_");
         IconToFetch = IconToFetch.replace(/[,.':]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined') {
@@ -134,10 +134,13 @@ client.on('message', async msg => {
         } else {
             CardRequest = splitStr.charAt(0).toUpperCase() + splitStr.substring(1);
         }
+        if (CardRequest == "Shock-box") { CardRequest = "Shock-Box"; }
         //replacing apostraphies and spaces to make it url friendly
         var CardToFetch = CardRequest.replace(/ /g,"_");
         CardToFetch = CardToFetch.replace(/'/g, '%27');
         CardToFetch = CardToFetch.replace(/:/g, '');
+        if (CardToFetch == "Boosted_Robo-kick") { CardToFetch = "Boosted_Robo-Kick"; }
+        if (CardToFetch == "Enhanced_Robo-kick") { CardToFetch = "Enhanced_Robo-Kick"; }
         var PageToOpen = 'https://griftlands.gamepedia.com/' + CardToFetch
         var ImageToOpen = 'https://griftlands.gamepedia.com/File:' + CardToFetch + ".png"
         console.log("FETCHING " + PageToOpen)
