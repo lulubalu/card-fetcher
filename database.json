@@ -464,21 +464,6 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/54/e5/Uo4M9lsA_o.png"
     },
-    "barrage_battle": {
-        "name": "N/A",
-        "desc": "N/A",
-        "actions": "N/A",
-        "keywords": "N/A",
-        "rarity": "N/A",
-        "deck": "N/A",
-        "type": "N/A",
-        "xp": "N/A",
-        "character": "N/A",
-        "upgrades": "N/A",
-        "image": "N/A",
-        "wikilink": "N/A",
-        "icon": "https://images2.imgbox.com/bf/71/596T23aU_o.png"
-    },
     "bash": {
         "name": "N/A",
         "desc": "N/A",
@@ -779,7 +764,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/87/5b/Zs7aGTRC_o.png"
     },
-    "bloodflow": {
+    "blood_flow": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -989,7 +974,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/1a/29/w2NmfXv0_o.png"
     },
-    "bombard_bonded_elixir": {
+    "bonded_elixir": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1004,7 +989,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/5d/f5/9O3oM2B8_o.png"
     },
-    "bombard_muddler": {
+    "muddler": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1019,7 +1004,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/bc/63/sE5LdgTy_o.png"
     },
-    "bombard_noxious_vial": {
+    "noxious_vial": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1034,7 +1019,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a7/58/ZSaAtelf_o.png"
     },
-    "bombard_stimulating_brew": {
+    "stimulating_brew": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1139,7 +1124,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/23/ea/SQhstJMt_o.png"
     },
-    "boulder_rush": {
+    "tackle": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1169,7 +1154,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a1/d0/5rC1BYNK_o.png"
     },
-    "bouldering_charge": {
+    "defensive_surge": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1334,7 +1319,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/f1/60/swQzHysC_o.png"
     },
-    "call_in_baron_automech": {
+    "call_in_spark_baron_automech": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1349,7 +1334,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/92/a6/ieNWFKoF_o.png"
     },
-    "call_in_baron_goon": {
+    "call_in_spark_baron_goon": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1364,7 +1349,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c9/29/JZLWvFXj_o.png"
     },
-    "call_in_baron_professional": {
+    "call_in_spark_baron_professional": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -1379,7 +1364,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/40/17/HcSE0lGZ_o.png"
     },
-    "call_in_baron_taskmaster": {
+    "call_in_spark_baron_taskmaster": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -2009,7 +1994,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a9/c3/xCyHBARS_o.png"
     },
-    "crop": {
+    "sic_em": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -2129,7 +2114,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/2f/f4/B6835yZk_o.png"
     },
-    "daggerstorm": {
+    "dagger_storm": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -2219,7 +2204,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/ad/20/hzYLcauX_o.png"
     },
-    "deep_bog_battle": {
+    "deep_bog_secret": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -2564,7 +2549,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/6d/0d/TcAaXJNS_o.png"
     },
-    "ignite": {
+    "toxic_fumes": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3029,7 +3014,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/80/22/QdSHpgo4_o.png"
     },
-    "final_blow": {
+    "hammer_down": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3224,7 +3209,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/67/c5/7zmKiQHZ_o.png"
     },
-    "follow_up": {
+    "follow_through": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3269,7 +3254,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/34/d9/zmLsqEun_o.png"
     },
-    "forced_adrenaline": {
+    "push_it": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3674,7 +3659,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a8/54/MUnCFK2A_o.png"
     },
-    "gunsmoke": {
+    "gun_smoke": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3719,7 +3704,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/99/d8/ULv7nUtv_o.png"
     },
-    "half_sandwich": {
+    "partial_sandwich": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -3794,7 +3779,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a6/4f/PWmtu5Jl_o.png"
     },
-    "haste": {
+    "hasten": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -4334,7 +4319,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/4c/21/2aMeZYo2_o.png"
     },
-    "spare_ammo": {
+    "spare_battery": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -4484,7 +4469,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/0c/d8/IMsMPCO5_o.png"
     },
-    "jab": {
+    "hilt_bash": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -4694,7 +4679,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/12/00/S5DEyEGF_o.png"
     },
-    "lean_green": {
+    "lean_and_green": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -4964,7 +4949,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/60/1d/N0dobd7l_o.png"
     },
-    "lumin_generator": {
+    "lumin_bio_accelerator": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -5924,7 +5909,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/70/60/Bu8L6Iwx_o.png"
     },
-    "rabbit_punch": {
+    "sneak_attack": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -6239,7 +6224,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/76/5e/LJrTQc1Y_o.png"
     },
-    "resonator": {
+    "oscillator": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -6494,7 +6479,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/37/b6/yZj0QUfc_o.png"
     },
-    "rugs_tidepool_pods": {
+    "tidepool_pods": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -7139,7 +7124,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/40/5d/sQ5DuDdy_o.png"
     },
-    "silent_shiv": {
+    "silent_steel": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -8849,7 +8834,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/06/93/hDrMNZYd_o.png"
     },
-    "weakness_dependant": {
+    "weakness_dependent": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -8894,7 +8879,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/51/12/lveJIdOG_o.png"
     },
-    "weakness_quick_jab": {
+    "quick_jab": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -9569,7 +9554,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/59/0f/jfkBmYSU_o.png"
     },
-    "barrage_negotiation": {
+    "barrage": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -10754,7 +10739,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/82/79/JCTdac2I_o.png"
     },
-    "discord": {
+    "chaos_theory": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -10814,7 +10799,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a6/14/gV1ERVeM_o.png"
     },
-    "diversion": {
+    "red_herring": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -12959,7 +12944,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/ba/e7/ce0qRFYU_o.png"
     },
-    "nonsequitur": {
+    "non_sequitur": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -14084,7 +14069,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/7b/b5/1a4C2F0k_o.png"
     },
-    "slick": {
+    "subtle_setup": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -14354,7 +14339,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/4b/75/2yFJqPeb_o.png"
     },
-    "start_battle": {
+    "start_fight": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -14474,7 +14459,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/f3/9a/dTIpKspu_o.png"
     },
-    "summons_card": {
+    "deliver_summons": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -14564,7 +14549,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a1/e8/Ox9hlsom_o.png"
     },
-    "take_supporters": {
+    "receive_support": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
@@ -14789,7 +14774,7 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a8/7a/iERt4Xq9_o.png"
     },
-    "Ulcer": {
+    "ulcer": {
         "name": "N/A",
         "desc": "N/A",
         "actions": "N/A",
