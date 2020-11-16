@@ -73,6 +73,22 @@ function IconNotFoundEmbed(message, AttemptedFetch) {
     message.channel.send(IconNotFound);
 }
 
+function PleaseEnterAName(message) {
+    var EnterName = new Discord.MessageEmbed()
+        .setTitle('Unable to Fetch')
+        .setDescription('Please enter a card name after the command!')
+        .setColor(0xa90000)
+    message.channel.send(EnterName);
+}
+
+function FetchCommand(message) {
+    var CommandMessage = new Discord.MessageEmbed()
+        .setTitle('Not a recognized fetch command')
+        .setDescription('Type **!fetchhelp** to see the available commands')
+        .setColor(0xa90000)
+    message.channel.send(CommandMessage);
+}
+
 //LOG ON, then WAIT FOR MESSAGES
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -80,9 +96,13 @@ client.on('ready', () => {
 });
 
 client.on('message', async msg => {
+    var Returning = false;
     if (msg.author.bot) return;
     if (!msg.content.startsWith(prefix)) return;
-    if (msg.content == "!fetch") return;
+    if (msg.content == "!fetch" || msg.content == "!fetchicon") {
+        PleaseEnterAName(msg);
+        return;
+    }
     const body = msg.content.slice(prefix.length);
     //splitting message by first space
     var CardRequest, OriginalRequest, command, splitStr
@@ -387,6 +407,8 @@ client.on('message', async msg => {
         }).catch((error) => {
             ErrorMessage(error, SentMessage);
         });
+    } else if (command.startsWith("fetch")) {
+        FetchCommand(msg);
     } else return;
 });
 
