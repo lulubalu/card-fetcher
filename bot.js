@@ -3,11 +3,13 @@ require('dotenv').config();
 const Discord = require('discord.js');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 const { http, https } = require('follow-redirects');
-const phantom = require('phantom')
 const cheerio = require('cheerio');
 var _ = require('lodash');
 let database = require('./database.json');
 const prefix = "!";
+const express = require('express');
+const app = express();
+const port = 3000;
 const client = new Discord.Client();
 
 //Setting embeds
@@ -20,13 +22,17 @@ const HelpEmbed = new Discord.MessageEmbed()
     .setThumbnail("https://i.ibb.co/k8j3mWj/Auto-Dog-Boticon.png")
     .setColor(0x08e0db)
 
-function ErrorMessage(ErrorMsg, MsgToEdit) {
+function ErrorMessage(ErrorMsg, MsgToEdit, RequestMessage, WillEdit) {
     console.log(ErrorMsg);
     var ErrorEmbed = new Discord.MessageEmbed()
         .setTitle('Whoops!')
         .setDescription("Looks like I've run into an error:\n\n`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
         .setColor(0xa90000)
-    MsgToEdit.edit(ErrorEmbed);
+    if (WillEdit == true) {
+       MsgToEdit.edit(ErrorEmbed);
+    } else {
+        RequestMessage.channel.send(ErrorEmbed);
+    }
 }
 
 function NotFound(MsgToEdit, Request) {
@@ -89,6 +95,13 @@ function FetchCommand(message) {
     message.channel.send(CommandMessage);
 }
 
+var GlobalSentMessage, GlobalMessage;
+var FetchingCard = false;
+
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
+
 //LOG ON, then WAIT FOR MESSAGES
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -96,13 +109,13 @@ client.on('ready', () => {
 });
 
 client.on('message', async msg => {
-    var Returning = false;
     if (msg.author.bot) return;
     if (!msg.content.startsWith(prefix)) return;
     if (msg.content == "!fetch" || msg.content == "!fetchicon") {
         PleaseEnterAName(msg);
         return;
     }
+    GlobalMessage = msg;
     const body = msg.content.slice(prefix.length);
     //splitting message by first space
     var CardRequest, OriginalRequest, command, splitStr
@@ -130,11 +143,14 @@ client.on('message', async msg => {
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined') {
             const attachment = new MessageAttachment(ImageLink);
+            attachment.name = IconToFetch + ".png";
             console.log("SENDING " + ImageLink + " AS ATTACHMENT");
             msg.channel.send(attachment);
         } else IconNotFoundEmbed(msg, OriginalRequest);
     } else if (command == "fetch") {
+        FetchingCard = true;
         const SentMessage = await msg.channel.send(TempEmbed);
+        GlobalSentMessage = SentMessage;
         splitStr = CardRequest.toLowerCase();
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = splitStr.split(' ');
@@ -196,21 +212,21 @@ client.on('message', async msg => {
         
         function pContent(StatusResult) {
             return new Promise(function(resolve, reject) {
-                if (StatusResult === 404) { //phantom will not load if 404
+                if (StatusResult === 404) { //page will not load if 404
                         resolve(StatusResult);
                     } else {
-                        (async function() {
-                            const instance = await phantom.create();
-                            const page = await instance.createPage();
-                            
-                            const status = await page.open(PageToOpen);
-                            const content = await page.property('content');
-                
-                            await instance.exit();
-                            LoadContent = content;
-                            var PromiseContent = content;
-                            resolve(PromiseContent);
-                        })();
+                        https.get(PageToOpen, function(res) {
+                            var data = "";
+                            res.on('data', function (chunk) {
+                                data += chunk;
+                            });
+                            res.on("end", function() {
+                                resolve(data);
+                            });
+                        }).on('error', function(e) {
+                            ErrorMessage(e, SentMessage);
+                            reject(e);
+                        });
                     }
             });
         }
@@ -410,6 +426,11 @@ client.on('message', async msg => {
     } else if (command.startsWith("fetch")) {
         FetchCommand(msg);
     } else return;
+});
+
+process.on('unhandledRejection', function(reason, p){
+    console.log("Possibly Unhandled Rejection at: Promise ", p, " reason: ", reason);
+    ErrorMessage(reason, GlobalSentMessage, GlobalMessage, FetchingCard);
 });
 
 client.login(process.env.DISCORD_TOKEN);
