@@ -191,7 +191,7 @@ client.on('message', async msg => {
                     PageToOpen = response.responseUrl
                     resolve(DOMcheck)
                 }).on('error', function(e) {
-                    ErrorMessage(e, SentMessage);
+                    ErrorMessage(e, SentMessage, GlobalMessage, FetchingCard);
                     reject(e);
                 });
             })
@@ -204,7 +204,7 @@ client.on('message', async msg => {
                     PageToOpen = response.responseUrl
                     resolve(DOMcheck)
                 }).on('error', function(e) {
-                    ErrorMessage(e, SentMessage);
+                    ErrorMessage(e, SentMessage, GlobalMessage, FetchingCard);
                     reject(e);
                 });
             });
@@ -421,7 +421,7 @@ client.on('message', async msg => {
         }).then(function(result) {
             console.log("FINAL MESSAGE SENT");
         }).catch((error) => {
-            ErrorMessage(error, SentMessage);
+            ErrorMessage(error, SentMessage, GlobalMessage, FetchingCard);
         });
     } else if (command.startsWith("fetch")) {
         FetchCommand(msg);
