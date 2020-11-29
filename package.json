@@ -1,6 +1,6 @@
 {
   "name": "card-fetcher",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Fetches cards and their relevant info from the Griftlands wiki",
   "main": "bot.js",
   "scripts": {
