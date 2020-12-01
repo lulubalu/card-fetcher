@@ -19,7 +19,7 @@ const TempEmbed = new Discord.MessageEmbed()
 
 const HelpEmbed = new Discord.MessageEmbed()
     .setDescription("Hi there! I'm your friendly neighborhood card fetcher. At your command I fetch whatever card you want and all its available info from the Griftlands wiki! Please be aware that **the wiki is a heavy work-in-progress;** a database is being developed but until it is finished, **I pull data from the card's page, which can be incomplete or in a format that I'm not programmed to parse.**\n\n" + '"**!fetch [card name]**"' + " -- This will fetch the card's stats, description, flavor text and card image if available. If the page for an existing card isn't found the card image alone will be posted.\n\n" + '"**!fetchicon [card name]**"' + " -- This will fetch the card art alone; you can use this for memes/reference.\n\nRemember to use the commands above without the quotes and brackets, and that **the card name must be spelled correctly.**\n\nBecause the wiki is actively changing unexpected bugs might pop up from time to time, so be sure to ping my creator @Sei Bellissima to let her know about any you find! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
-    .setThumbnail("https://i.ibb.co/k8j3mWj/Auto-Dog-Boticon.png")
+    .setThumbnail("https://i.ibb.co/pw4FGTn/Auto-Dog-Boticon-Xmas.png")
     .setColor(0x08e0db)
 
 function ErrorMessage(ErrorMsg, MsgToEdit, RequestMessage, WillEdit) {
