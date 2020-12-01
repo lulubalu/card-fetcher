@@ -7304,6 +7304,21 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/4d/8a/SveyAvb1_o.png"
     },
+    "guns_blazing": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/00/41/u9uJuHYU_o.png"
+    },
     "gunslinger": {
         "name": "N/A",
         "desc": "N/A",
@@ -7783,6 +7798,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/19/66/isdugfaW_o.png"
+    },
+    "hemomancy": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/6b/99/N2n64moK_o.png"
     },
     "hemophage": {
         "name": "N/A",
@@ -12959,6 +12989,21 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/b6/65/kDA8cTDG_o.png"
     },
+    "salvo": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/63/c5/yPMymXB8_o.png"
+    },
     "scanner": {
         "name": "N/A",
         "desc": "N/A",
@@ -16318,6 +16363,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c2/88/jSTQXs8S_o.png"
+    },
+    "total_focus": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/32/95/aeBel8fX_o.png"
     },
     "tough_and_angry": {
         "name": "N/A",
