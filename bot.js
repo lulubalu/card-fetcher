@@ -124,6 +124,7 @@ client.on('message', async msg => {
         OriginalRequest = body.substr(body.indexOf(' ')+1);
         CardRequest = body.substr(body.indexOf(' ')+1);
     } else command = body;
+    command.toLowerCase();
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetchicon") {
@@ -139,7 +140,7 @@ client.on('message', async msg => {
             CardRequest = splitStr.join(' ');
         };
         IconToFetch = CardRequest.replace(/[- ]/g,"_");
-        IconToFetch = IconToFetch.replace(/[,.':]/g, "");
+        IconToFetch = IconToFetch.replace(/[,.':!]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined') {
             const attachment = new MessageAttachment(ImageLink);
