@@ -124,7 +124,7 @@ client.on('message', async msg => {
         OriginalRequest = body.substr(body.indexOf(' ')+1);
         CardRequest = body.substr(body.indexOf(' ')+1);
     } else command = body;
-    command.toLowerCase();
+    command = command.toLowerCase();
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetchicon") {
