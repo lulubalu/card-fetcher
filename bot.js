@@ -111,12 +111,12 @@ client.on('ready', () => {
 client.on('message', async msg => {
     if (msg.author.bot) return;
     if (!msg.content.startsWith(prefix)) return;
-    if (msg.content == "!fetch" || msg.content == "!fetchicon") {
+    var body = msg.content.slice(prefix.length).toLowerCase();
+    if (body == "fetch" || body == "fetchicon") {
         PleaseEnterAName(msg);
         return;
     }
     GlobalMessage = msg;
-    const body = msg.content.slice(prefix.length);
     //splitting message by first space
     var CardRequest, OriginalRequest, command, splitStr
     if (body.indexOf(' ') >= 0){
@@ -124,11 +124,9 @@ client.on('message', async msg => {
         OriginalRequest = body.substr(body.indexOf(' ')+1);
         CardRequest = body.substr(body.indexOf(' ')+1);
     } else command = body;
-    command = command.toLowerCase();
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetchicon") {
-        CardRequest = CardRequest.toLowerCase();
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = CardRequest.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
@@ -152,9 +150,8 @@ client.on('message', async msg => {
         FetchingCard = true;
         const SentMessage = await msg.channel.send(TempEmbed);
         GlobalSentMessage = SentMessage;
-        splitStr = CardRequest.toLowerCase();
         if (CardRequest.indexOf(" ") > -1) {
-            splitStr = splitStr.split(' ');
+            splitStr = CardRequest.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
                 if (splitStr[i] != "battle" && splitStr[i] != "negotiation" && splitStr[i] != "of") {
                     if (splitStr[i] == " " || splitStr [i] == "") {
@@ -169,7 +166,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         } else {
-            CardRequest = splitStr.charAt(0).toUpperCase() + splitStr.substring(1);
+            CardRequest = CardRequest.charAt(0).toUpperCase() + CardRequest.substring(1);
         }
         if (CardRequest == "Shock-box") { CardRequest = "Shock-Box"; }
         //replacing apostraphies and spaces to make it url friendly
