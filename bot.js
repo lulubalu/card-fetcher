@@ -26,7 +26,7 @@ function ErrorMessage(ErrorMsg, MsgToEdit, RequestMessage, WillEdit) {
     console.log(ErrorMsg);
     var ErrorEmbed = new Discord.MessageEmbed()
         .setTitle('Whoops!')
-        .setDescription("Looks like I've run into an error:\n\n`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. :rookgrin: Now go and fix me!||")
+        .setDescription("Looks like I've run into an error:\n\n`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. <:rookgrin:736050803021840474> Now go and fix me!||")
         .setColor(0xa90000)
     if (WillEdit == true) {
        MsgToEdit.edit(ErrorEmbed);
