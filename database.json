@@ -18194,6 +18194,36 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/62/6e/KNwksZBc_o.png"
     },
+    "alleviate": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/4f/67/Be4f81LZ_o.png"
+    },
+    "always_prepared": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/1c/23/62SGoWpi_o.png"
+    },
     "amnesiator": {
         "name": "N/A",
         "desc": "N/A",
@@ -18538,6 +18568,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/77/56/5Lkdl7p1_o.png"
+    },
+    "backup_collection": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/3e/82/4x7KndiY_o.png"
     },
     "bad_deal": {
         "name": "N/A",
@@ -20383,6 +20428,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c1/02/B6Y57VWx_o.png"
+    },
+    "coin_juggler": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/fe/94/eOOiNMgx_o.png"
     },
     "collected": {
         "name": "N/A",
@@ -22303,6 +22363,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/5b/e0/4VEhstOU_o.png"
+    },
+    "expert_tactician": {
+        "name": "N/A",
+        "desc": "N/A",
+        "actions": "N/A",
+        "keywords": "N/A",
+        "rarity": "N/A",
+        "deck": "N/A",
+        "type": "N/A",
+        "xp": "N/A",
+        "character": "N/A",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/97/74/4mPGpeKc_o.png"
     },
     "exploit_weakness": {
         "name": "N/A",
