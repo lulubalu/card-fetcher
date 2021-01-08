@@ -37,38 +37,10 @@ function ErrorMessage(ErrorMsg, MsgToEdit, RequestMessage, WillEdit) {
 
 function NotFound(MsgToEdit, Request) {
     var NotFoundEmbed = new Discord.MessageEmbed()
-        .setTitle('404')
-        .setDescription('Page "' + Request + '" not found!')
+        .setTitle('Unable to Fetch')
+        .setDescription('Card "' + Request + '" not found!')
         .setColor(0xa90000)
     MsgToEdit.edit(NotFoundEmbed);
-}
-
-function FinalEmbedMessage(MsgToEdit, EmbedTitle, EmbedDescription, EmbedImage, Page) {
-    var FinalEmbed = new Discord.MessageEmbed()
-        .setTitle(EmbedTitle)
-        .setDescription(EmbedDescription)
-        .setColor(0x08e0db)
-        .setImage(EmbedImage)
-        .setURL(Page)
-        .setFooter(Page, "https://i.ibb.co/Zh8VshB/Favicon.png");
-    MsgToEdit.edit(FinalEmbed);
-}
-
-function ImageOnlyMessage(MsgToEdit, EmbedTitle, EmbedImage) {
-    var ImageEmbed = new Discord.MessageEmbed()
-        .setTitle(EmbedTitle)
-        .setColor(0x08e0db)
-        .setImage(EmbedImage)
-        .setFooter("Page wasn't found; fetched image instead");
-    MsgToEdit.edit(ImageEmbed);
-}
-
-function NotCardEmbedMessage(MsgToEdit, AttemptedFetch) {
-    var NotCardEmbed = new Discord.MessageEmbed()
-        .setTitle("Unable to Fetch")
-        .setDescription('"' + AttemptedFetch + '" is not a card!')
-        .setColor(0xa90000)
-    MsgToEdit.edit(NotCardEmbed);
 }
 
 function IconNotFoundEmbed(message, AttemptedFetch) {
@@ -93,6 +65,37 @@ function FetchCommand(message) {
         .setDescription('Type **!fetchhelp** to see the available commands')
         .setColor(0xa90000)
     message.channel.send(CommandMessage);
+}
+
+function FinalEmbedMessage(message, wikiLink, wikiImage, pgStatus, description, cardEntry) {
+    var testEmbed = new Discord.MessageEmbed()
+        .setTitle(_.get(database, cardEntry + '.name'))
+        .setDescription(description)
+        .setImage(wikiImage)
+        .setColor(0x08e0db)
+        .addFields(
+            { name: 'Character', value: _.get(database, cardEntry + '.character'), inline: true },
+            { name: 'Deck', value: _.get(database, cardEntry + '.deck'), inline: true },
+        );
+    console.log(!_.get(database, cardEntry + '.keywords').includes("Unplayable"));
+    if (!_.get(database, cardEntry + '.keywords').includes("Unplayable")) {
+        testEmbed.addFields(
+            { name: 'Actions', value: _.get(database, cardEntry + '.actions'), inline: true },
+        );
+    }
+    if (_.get(database, cardEntry + '.upgrades') != "N/A") {
+        testEmbed.addFields(
+            { name: 'XP. Needed', value: _.get(database, cardEntry + '.xp'), inline: true },
+        );
+    }
+    if (pgStatus != 404) {
+        testEmbed
+            .setFooter(wikiLink, "https://i.ibb.co/Zh8VshB/Favicon.png")
+            .setURL(wikiLink);
+    } else {
+        testEmbed.setFooter("Wiki page not available")
+    }
+    message.edit(testEmbed);
 }
 
 var GlobalSentMessage, GlobalMessage;
@@ -139,7 +142,7 @@ client.on('message', async msg => {
         };
         IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.':!]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
-        if (typeof ImageLink !== 'undefined') {
+        if (typeof ImageLink !== 'undefined' && ImageLink != "N/A") {
             const attachment = new MessageAttachment(ImageLink);
             attachment.name = IconToFetch + ".png";
             console.log("SENDING " + ImageLink + " AS ATTACHMENT");
@@ -149,6 +152,7 @@ client.on('message', async msg => {
         FetchingCard = true;
         const SentMessage = await msg.channel.send(TempEmbed);
         GlobalSentMessage = SentMessage;
+        var wikirequest;
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = CardRequest.split(' ');
             for (var i = 0; i < splitStr.length; i++) {
@@ -163,20 +167,33 @@ client.on('message', async msg => {
                     };
                 }
             }
-            CardRequest = splitStr.join(' ');
+            wikirequest = splitStr.join(' ');
         } else {
-            CardRequest = CardRequest.charAt(0).toUpperCase() + CardRequest.substring(1);
+            wikirequest = CardRequest.charAt(0).toUpperCase() + CardRequest.substring(1);
         }
-        if (CardRequest == "Shock-box") { CardRequest = "Shock-Box"; }
+        if (wikirequest == "Shock-box") { wikirequest = "Shock-Box"; }
         //replacing apostraphies and spaces to make it url friendly
-        var CardToFetch = CardRequest.replace(/ /g, "_").replace(/'/g, '%27').replace(/:/g, '');
-        if (CardToFetch == "Boosted_Robo-kick") { CardToFetch = "Boosted_Robo-Kick"; }
-        if (CardToFetch == "Enhanced_Robo-kick") { CardToFetch = "Enhanced_Robo-Kick"; }
-        var PageToOpen = 'https://griftlands.gamepedia.com/' + CardToFetch
-        var ImageToOpen = 'https://griftlands.gamepedia.com/File:' + CardToFetch + ".png"
-        console.log("FETCHING " + PageToOpen)
+        wikirequest = wikirequest.replace(/ /g, "_").replace(/'/g, '%27').replace(/:/g, '');
+        if (wikirequest == "Boosted_Robo-kick") { wikirequest = "Boosted_Robo-Kick"; }
+        if (wikirequest == "Enhanced_Robo-kick") { wikirequest = "Enhanced_Robo-Kick"; }
+        var PageToOpen = 'https://griftlands.gamepedia.com/' + wikirequest
+        var ImageToOpen = 'https://griftlands.gamepedia.com/File:' + wikirequest + ".png"
+        //making request database-friendly
+        if (CardRequest.indexOf(" ") > -1) {
+            splitStr = CardRequest.split(' ');
+            for (var i = 0; i < splitStr.length; i++) {
+                if (splitStr[i] == " " || splitStr[i] == "") {
+                    let removed = splitStr.splice(i, 1);
+                    i--;
+                };
+            }
+            CardRequest = splitStr.join(' ');
+        };
+        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.':!]/g, "");
 
-        var DOMcheck;
+        console.log("SEARCHING FOR WIKI PAGE: " + PageToOpen);
+
+        var DOMcheck, fetchPageResult, fetchImageResult;
 
         function fetchPage(url) {
             return new Promise(function (resolve, reject) {
@@ -201,173 +218,56 @@ client.on('message', async msg => {
             })
         }
 
-        var Title = "N/A"
-        var Description = "No Description"
-        var HasDescription = false;
-        var CardImage = "https://i.ibb.co/LR1xVSM/Icon-Missing.png";
+        var Page;
+        var descriptionToAdd = "";
+        var CardImage = "https://i.ibb.co/wcNk6mW/Image-Missing.png";
 
-        var Categories = []
-        var MustInclude = "All cards"
-        var AllCardsThere = false;
-        var ImageMustInclude = "Card images"
-        var CardImagesThere = false;
-
-        var TableElements = []
-        var SetNode, RarityNode, DeckTypeNode, CardTypeNode, ExpNeededNode, UpgradeableNode;
-
-        function FinalEdit(FeStatus, FeContent) {
+        function FinalEdit(pageResult, imageResult) {
             return new Promise(function (resolve, reject) {
-                if (FeStatus === 404) {
+                if (!_.has(database, CardToFetch) || typeof _.get(database, CardToFetch + '.name') === 'undefined') {
                     NotFound(SentMessage, OriginalRequest);
-                    resolve(SentMessage.content);
                 } else {
-                    //fetching data with cheerio
-                    const $ = cheerio.load(FeContent)
-                    $('#mw-normal-catlinks ul li').each(function () {
-                        Categories.push($(this).text());
-                    });
-                    Categories.forEach(function (item) {
-                        if (item == MustInclude) {
-                            AllCardsThere = true
-                        } else if (item == ImageMustInclude) {
-                            CardImagesThere = true
-                        }
-                    });
-
-                    if (CardImagesThere == true) {//proceeds to next function if it's not a card image
-                        Title = $('#firstHeading').text().replace("File:", '');
-                        Title = Title.replace(".png", '');
-                        if (Title.search('Weakness') > -1) {
-                            Title = Title.replace('Weakness', 'Weakness:');
-                        }
-                        CardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
-                        console.log("IMAGE FOUND: " + CardImage);
-                        ImageOnlyMessage(SentMessage, Title, CardImage);
-                        resolve(SentMessage.content);
-                    } else if (AllCardsThere == true) {//will stop everything if it's NOT a card
-                        var fullHTML = ''
-                        //Title. Easy.
-                        Title = $('#firstHeading').text();
-                        //Description. Kinda difficult and weird.
-                        if ($("#mw-content-text .mw-parser-output p").length) { //there's a frickin ad
-                            if ($("#incontent_player").length || $("#mw-content-text .mw-parser-output h2").length === 0) {
-                                $("#mw-content-text .mw-parser-output p:first-of-type")
-                                    .nextUntil("div")
-                                    .addBack()
-                                    .each(function () {
-                                        if ($(this).attr("class") == "infoboxtable") { //html is out of order on some pages
-                                            return
-                                        }
-                                        var PreHTML = $(this).clone().html().replace(/\r?\n|\r/, '');
-                                        if (PreHTML.indexOf("<br>") === -1 && PreHTML != "&apos;<b></b>") {
-                                            fullHTML += PreHTML + "\n\n";
-                                        } else return;
-                                    });
-                            } else {
-                                $("#mw-content-text .mw-parser-output p:first-of-type")
-                                    .nextUntil("h2")
-                                    .addBack()
-                                    .each(function () {
-                                        if ($(this).attr("class") == "infoboxtable") { //html is out of order on some pages
-                                            return
-                                        }
-                                        var PreHTML = $(this).clone().html().replace(/\r?\n|\r/, '');
-                                        if (PreHTML.indexOf("<br>") === -1 && PreHTML != "&apos;<b></b>") {
-                                            fullHTML += PreHTML + "\n\n";
-                                        } else return;
-                                    });
-                            }
-                            fullHTML = fullHTML.replace(/<i>/g, '*').replace(/<\/i>/g, '*').replace(/<b>/g, '**').replace(/<\/b>/g, '**');
-                            if (fullHTML.indexOf("<") > -1 && fullHTML.indexOf(">") > -1) {
-                                Description = $(fullHTML).text();
-                            } else {
-                                Description = fullHTML
-                            };
-                            HasDescription = true;
-                        }
-
-                        if (HasDescription == false) {
-                            Description += "\n\n"
-                        }
-
-                        //Table items for upgrades, deck and card types.
-                        $(".infoboxtable td").each(function () {
-                            //I don't know why there are line breaks but they need to be removed
-                            var ToPush = $(this).text().replace(/\r?\n|\r/, '');
-                            TableElements.push(ToPush);
-                        })
-                        //GRABBING INDEXES. THIS IS A MASSIVE PAIN IN THE BUTT!!!
-                        var Set = TableElements.indexOf('Set');
-                        SetNode = ++Set;
-                        var Rarity = TableElements.indexOf('Rarity');
-                        RarityNode = ++Rarity;
-                        var DeckType = TableElements.indexOf('Deck Type');
-                        DeckTypeNode = ++DeckType;
-                        var CardType = TableElements.indexOf('Card Type');
-                        CardTypeNode = ++CardType;
-                        var ExpNeeded = TableElements.indexOf('XP required');
-                        ExpNeededNode = ++ExpNeeded;
-                        var Upgradeable = TableElements.indexOf('Upgradeable');
-                        UpgradeableNode = ++Upgradeable;
-
-                        if (Set > 0) {
-                            Description += "**Rarity**: " + TableElements[SetNode] + "\n";
-                        };
-                        if (Rarity > 0) {
-                            Description += "**Rarity**: " + TableElements[RarityNode] + "\n";
-                        };
-                        if (DeckType > 0) {
-                            Description += "**Deck Type**: " + TableElements[DeckTypeNode] + "\n"
-                        };
-                        if (CardType > 0) {
-                            Description += "**Card Type**: " + TableElements[CardTypeNode];
-                        };
-
-                        //Upgrades
-                        if (TableElements[UpgradeableNode] != "no" && TableElements[UpgradeableNode] != "No" &&
-                            $(".infoboxtable tr:contains('Upgrades')").next().length) {
-                            var UpgradeNumber = 1
-                            Description += "\n**Exp. Needed**: " + TableElements[ExpNeededNode]
-                            $(".infoboxtable td:contains('Upgrade')").each(function () {
-                                if ($(this).text() != "Upgradeable" && $(this).text() != "upgradeable") {
-                                    Description += "\n**Upgrade " + UpgradeNumber + "**: " + $(this).next().text().replace(/\r?\n|\r/, '');
-                                    UpgradeNumber++
-                                } else return;
-                            });
-                        };
-
-                        //Image! Not full-size since wiki has it set up in a weird way but the embed was getting big anyway
-                        if ($(".infoboxtable .image").length) {
-                            CardImage = $(".infoboxtable .image img").attr('src');
-                        } else if ($(".mw-parser-output .thumbimage").length) {
-                            CardImage = $(".mw-parser-output .thumbimage").attr('src');
-                        }
-
-                        FinalEmbedMessage(SentMessage, Title, Description, CardImage, PageToOpen)
-
-                        resolve(SentMessage.content);
-                    } else {
-                        NotCardEmbedMessage(SentMessage, CardRequest)
-                        resolve(SentMessage.content);
+                    if (pageResult !== 404) {
+                        Page = PageToOpen;
                     }
+                    if (imageResult !== 404) {
+                        //loading page content with cheerio
+                        const $ = cheerio.load(imageResult);
+                        CardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
+                    }
+                    var Desc = _.get(database, CardToFetch + '.desc');
+                    var Upgrades = _.get(database, CardToFetch + '.upgrades');
+                    var Rarity = _.get(database, CardToFetch + '.rarity');
+                    var Type = _.get(database, CardToFetch + '.type');
+                    if (Desc != "") {
+                        descriptionToAdd += Desc + "\n\n";
+                    }
+                    descriptionToAdd += Rarity + " " + Type + " Card";
+                    if (Upgrades != "N/A") {
+                        descriptionToAdd += "\n\n"
+                        var UpgradeNumber = 1;
+                        for (var i = 0; i < Upgrades.length; i++) {
+                            if (i === Upgrades.length - 1) { //Last upgrade
+                                descriptionToAdd += "**Upgrade " + UpgradeNumber + "**: " + Upgrades[i];
+                            } else { //first/middle upgrades
+                                descriptionToAdd += "**Upgrade " + UpgradeNumber + "**: " + Upgrades[i] + "\n";
+                            }
+                            UpgradeNumber++
+                        }
+                    }
+                    FinalEmbedMessage(SentMessage, Page, CardImage, pageResult, descriptionToAdd, CardToFetch);
                 }
             });
         }
 
-        var FetchingImage = false;
         //Dangerous territory, chaining functions, I HAVE NEVER DONE THIS BEFORE AND I DON'T LIKE IT :(
         fetchPage(PageToOpen).then(function (result) {
-            if (result === 404) {
-                console.log("PAGE NOT FOUND, LOOKING FOR IMAGE INSTEAD")
-                FetchingImage = true;
-                return fetchPage(ImageToOpen);
-            } else {
-                return FinalEdit(DOMcheck, result);
-            }
+            console.log("FIRST RESULT RECEIVED")
+            fetchPageResult = result;
+            return fetchPage(ImageToOpen);
         }).then(function (result) {
-            if (FetchingImage) {
-                return FinalEdit(DOMcheck, result);
-            }
+            fetchImageResult = result;
+            return FinalEdit(fetchPageResult, fetchImageResult);
         }).catch((error) => {
             ErrorMessage(error, SentMessage, GlobalMessage, FetchingCard);
         });
