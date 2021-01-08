@@ -1,6 +1,6 @@
 {
   "name": "card-fetcher",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Fetches cards and their relevant info from the Griftlands wiki",
   "main": "bot.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "discord.js": "^12.5.0",
+    "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "follow-redirects": "^1.13.0",
     "lodash": "^4.17.20"
