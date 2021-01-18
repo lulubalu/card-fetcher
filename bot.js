@@ -68,7 +68,8 @@ function FetchCommand(message) {
 }
 
 function FinalEmbedMessage(message, wikiLink, wikiImage, pgStatus, description, cardEntry) {
-    var testEmbed = new Discord.MessageEmbed()
+    var footer = ""
+    var finalEmbed = new Discord.MessageEmbed()
         .setTitle(_.get(database, cardEntry + '.name'))
         .setDescription(description)
         .setImage(wikiImage)
@@ -77,25 +78,31 @@ function FinalEmbedMessage(message, wikiLink, wikiImage, pgStatus, description, 
             { name: 'Character', value: _.get(database, cardEntry + '.character'), inline: true },
             { name: 'Deck', value: _.get(database, cardEntry + '.deck'), inline: true },
         );
-    console.log(!_.get(database, cardEntry + '.keywords').includes("Unplayable"));
     if (!_.get(database, cardEntry + '.keywords').includes("Unplayable")) {
-        testEmbed.addFields(
+        finalEmbed.addFields(
             { name: 'Actions', value: _.get(database, cardEntry + '.actions'), inline: true },
         );
     }
     if (_.get(database, cardEntry + '.upgrades') != "N/A") {
-        testEmbed.addFields(
+        finalEmbed.addFields(
             { name: 'XP. Needed', value: _.get(database, cardEntry + '.xp'), inline: true },
         );
     }
     if (pgStatus != 404) {
-        testEmbed
-            .setFooter(wikiLink, "https://i.ibb.co/Zh8VshB/Favicon.png")
-            .setURL(wikiLink);
+        finalEmbed.setURL(wikiLink);
+        footer += wikiLink;
     } else {
-        testEmbed.setFooter("Wiki page not available")
+        footer += "Wiki page not available";
     }
-    message.edit(testEmbed);
+    if (wikiImage != "https://i.ibb.co/wcNk6mW/Image-Missing.png") {
+        footer += " | Images from the wiki may not be up to date with the game"
+    }
+    if (pgStatus != 404) {
+        finalEmbed.setFooter(footer, "https://i.ibb.co/Zh8VshB/Favicon.png");
+    } else {
+        finalEmbed.setFooter(footer);
+    }
+    message.edit(finalEmbed);
 }
 
 var GlobalSentMessage, GlobalMessage;
