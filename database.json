@@ -61,7 +61,7 @@
     },
     "boosted_accelerant": {
         "name": "Boosted Accelerant",
-        "desc": "Apply 3 Scorched and 2 Burn  to an enemy.\n**Expend**",
+        "desc": "Apply 3 Scorched and 3 Burn  to an enemy.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Common",
@@ -76,7 +76,7 @@
     },
     "wide_accelerant": {
         "name": "Wide Accelerant",
-        "desc": "Apply 1 Scorched and 1 Burn  to all enemies.\n**Expend**",
+        "desc": "Apply 2 Scorched and 2 Burn to all enemies.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Common",
@@ -301,7 +301,7 @@
     },
     "amplifier": {
         "name": "Amplifier",
-        "desc": "**Ability**: Apply 1 Scorched whenever you apply Burn.\n**Expend**",
+        "desc": "**Ability**: Apply 2 Burn whenever you apply Scorched.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend", "Ability" ],
         "rarity": "Rare",
@@ -316,7 +316,7 @@
     },
     "initial_amplifier": {
         "name": "Initial Amplifier",
-        "desc": "**Ability**: Apply 1 Scorched whenever you apply Burn.\n**Expend**, **Ambush**",
+        "desc": "**Ability**: Apply 2 Burn whenever you apply Scorched.\n**Expend**, **Ambush**",
         "actions": "2",
         "keywords": [ "Expend", "Ambush", "Ability" ],
         "rarity": "Rare",
@@ -331,7 +331,7 @@
     },
     "pale_amplifier": {
         "name": "Pale Amplifier",
-        "desc": "**Ability**: Apply 1 Scorched whenever you apply Burn.\n**Expend**",
+        "desc": "**Ability**: Apply 2 Burn whenever you apply Scorched.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Ability" ],
         "rarity": "Rare",
@@ -374,9 +374,27 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/4c/25/zNX0x4xP_o.png"
     },
+    "anticipate": {
+	"icon": "https://images2.imgbox.com/a1/d2/8WheRSD9_o.png"
+    },
+    "arachni_blade": {
+	"name": "Arachni-blade",
+        "desc": "Apply 5 Lumin Burnt.\n**Expend**",
+        "actions": "1",
+        "keywords": [ "Expend" ],
+        "rarity": "Unique",
+        "deck": "Battle",
+        "type": "Item",
+        "xp": "N/A",
+        "character": "General",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/80/61/yG5L9WOz_o.png"
+    },
     "arc_deflection": {
         "name": "Arc Deflection",
-        "desc": "Spend up to 3 Overcharge: Gain 2 **Defense** and 1 Counter for each Overcharge spent.",
+        "desc": "Spend up to 3 Overcharge: Gain 2 **Defense** and 2 Counter for each Overcharge spent.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -391,7 +409,7 @@
     },
     "boosted_arc_deflection": {
         "name": "Boosted Arc Deflection",
-        "desc": "Spend up to 4 Overcharge: Gain 2 **Defense** and 1 Counter for each Overcharge spent.",
+        "desc": "Spend up to 3 Overcharge: Gain 3 **Defense** and 2 Counter for each Overcharge spent.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -406,7 +424,7 @@
     },
     "thorny_arc_deflection": {
         "name": "Thorny Arc Deflection",
-        "desc": "Spend up to 3 Overcharge: Gain 2 **Defense** and 2 Counter for each Overcharge spent.",
+        "desc": "Spend up to 3 Overcharge: Gain 2 **Defense** and 3 Counter for each Overcharge spent.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -631,24 +649,24 @@
     },
     "backstab": {
         "name": "Backstab",
-        "desc": "If this card was **Improvise**d, double its damage until the end of the turn.",
+        "desc": "If this card was **Improvised**, double its damage until the end of the turn.",
         "actions": "1",
-        "keywords": [ "Improvise" ],
+        "keywords": [ "Improvised" ],
         "rarity": "Common",
         "deck": "Battle",
         "type": "Attack",
         "xp": "9",
         "character": "Sal",
-        "upgrades": ["Boosted Backstab", "Enhanced Backstab" ],
+        "upgrades": [ "Boosted Backstab", "Enhanced Backstab" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/3c/8d/PxStYgbT_o.png"
     },
     "boosted_backstab": {
         "name": "Boosted Backstab",
-        "desc": "If this card was **Improvise**d, double its damage until the end of the turn.",
+        "desc": "If this card was **Improvised**, double its damage until the end of the turn.",
         "actions": "1",
-        "keywords": [ "Improvise" ],
+        "keywords": [ "Improvised" ],
         "rarity": "Common",
         "deck": "Battle",
         "type": "Attack",
@@ -661,9 +679,9 @@
     },
     "enhanced_backstab": {
         "name": "Enhanced Backstab",
-        "desc": "If this card was **Improvise**d, triple its damage until the end of the turn.\n**Expend**",
+        "desc": "If this card was **Improvised**, triple its damage until the end of the turn.\n**Expend**",
         "actions": "1",
-        "keywords": [ "Expend", "Improvise" ],
+        "keywords": [ "Expend", "Improvised" ],
         "rarity": "Common",
         "deck": "Battle",
         "type": "Attack",
@@ -1338,7 +1356,7 @@
         "name": "Blademouth Beating",
         "desc": "If this card was **Improvised** this turn, attack three times. Apply 2 **Bleed** per attack.",
         "actions": "1",
-        "keywords": [ "Improvise", "Bleed" ],
+        "keywords": [ "Improvised", "Bleed" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -1351,9 +1369,9 @@
     },
     "boosted_blademouth_beating": {
         "name": "Boosted Blademouth Beating",
-        "desc": "If this card was **Improvise**d this turn, attack three times. Apply 2 **Bleed** per attack.",
+        "desc": "If this card was **Improvised** this turn, attack three times. Apply 2 **Bleed** per attack.",
         "actions": "1",
-        "keywords": [ "Improvise", "Bleed" ],
+        "keywords": [ "Improvised", "Bleed" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -1366,9 +1384,9 @@
     },
     "savage_blademouth_beating": {
         "name": "Savage Blademouth Beating",
-        "desc": "If this card was **Improvise**d this turn, attack three times. Apply 3 **Bleed** per attack.",
+        "desc": "If this card was **Improvised** this turn, attack three times. Apply 3 **Bleed** per attack.",
         "actions": "1",
-        "keywords": [ "Improvise", "Bleed" ],
+        "keywords": [ "Improvised", "Bleed" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -1966,7 +1984,7 @@
     },
     "bolster_shot": {
         "name": "Bolster Shot",
-        "desc": "Deal bonus damage equal to the cost of the most expensive card in your hand.",
+        "desc": "Deal bonus damage equal to the cost of the two most expensive cards in your hand.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -1974,14 +1992,14 @@
         "type": "Attack",
         "xp": "9",
         "character": "Rook",
-        "upgrades": [ "Boosted Bolster Shot", "Enhanced Bolster Shot" ],
+        "upgrades": [ "Rooted Bolster Shot", "Tall Bolster Shot" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/84/bd/Nbn6fxfy_o.png"
     },
-    "boosted_bolster_shot": {
-        "name": "Boosted Bolster Shot",
-        "desc": "Deal bonus damage equal to the cost of the most expensive card in your hand.",
+    "rooted_bolster_shot": {
+        "name": "Rooted Bolster Shot",
+        "desc": "Deal bonus damage equal to the cost of the two most expensive cards in your hand.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -1994,9 +2012,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/84/bd/Nbn6fxfy_o.png"
     },
-    "enhanced_bolster_shot": {
-        "name": "Enhanced Bolster Shot",
-        "desc": "Deal bonus damage equal to the two most expensive cards in your hand.",
+    "tall_bolster_shot": {
+        "name": "Tall Bolster Shot",
+        "desc": "Deal bonus damage equal to the cost of the two most expensive cards in your hand.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -2626,7 +2644,7 @@
     },
     "burner": {
         "name": "Burner",
-        "desc": "Apply 3 Burn.",
+        "desc": "Apply 2 Burn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -2641,7 +2659,7 @@
     },
     "boosted_burner": {
         "name": "Boosted Burner",
-        "desc": "Apply 3 Burn.",
+        "desc": "Apply 2 Burn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -2656,7 +2674,7 @@
     },
     "enhanced_burner": {
         "name": "Enhanced Burner",
-        "desc": "Apply 5 Burn.",
+        "desc": "Apply 4 Burn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -2881,7 +2899,7 @@
     },
     "callus": {
         "name": "Callus",
-        "desc": "For the rest of your turn, gain Stored **Defense** equal to damage dealt to yourself.",
+        "desc": "For the rest of your turn, gain Stored **Defense** equal to the damage dealt to yourself.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -2896,7 +2914,7 @@
     },
     "pale_callus": {
         "name": "Pale Callus",
-        "desc": "For the rest of your turn, gain Stored **Defense** equal to damage dealt to yourself.",
+        "desc": "For the rest of your turn, gain Stored **Defense** equal to the damage dealt to yourself.",
         "actions": "0",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -2911,7 +2929,7 @@
     },
     "visionary_callus": {
         "name": "Visionary Callus",
-        "desc": "Draw 2 cards. For the rest of your turn, gain Stored **Defense** equal to damage dealt to yourself.",
+        "desc": "Draw 2 cards. For the rest of your turn, gain Stored **Defense** equal to the damage dealt to yourself.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Uncommon",
@@ -3061,7 +3079,7 @@
     },
     "cataclysm": {
         "name": "Cataclysm",
-        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed.",
+        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed. Hits all enemies.",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -3076,7 +3094,7 @@
     },
     "boosted_cataclysm": {
         "name": "Boosted Cataclysm",
-        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed.",
+        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed. Hits all enemies.",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -3091,7 +3109,7 @@
     },
     "pale_cataclysm": {
         "name": "Pale Cataclysm",
-        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed.",
+        "desc": "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed. Hits all enemies.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -3109,7 +3127,7 @@
         "desc": "Spend 1 Charge: Apply 2 Scorched.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
         "xp": "9",
@@ -3124,7 +3142,7 @@
         "desc": "Spend 1 Charge: Apply 2 Scorched.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
         "xp": "N/A",
@@ -3139,7 +3157,7 @@
         "desc": "Spend 1 Charge: Apply 3 Scorched.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
         "xp": "N/A",
@@ -3195,10 +3213,10 @@
         "icon": "https://images2.imgbox.com/ff/66/TcPjAjXP_o.png"
     },
     "certainty": {
-	"name": "Certainty",
+        "name": "Certainty",
         "desc": "**Ability**: Whenever you gain **Defense**, gain 2 Adrenaline.\n**Expend**",
         "actions": "3",
-        "keywords": [ "Ability", "Defense", "Expend" ],
+        "keywords": [ "Expend", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -3210,10 +3228,10 @@
         "icon": "https://images2.imgbox.com/63/2c/5SSajRmf_o.png"
     },
     "pale_certainty": {
-	"name": "Pale Certainty",
+        "name": "Pale Certainty",
         "desc": "**Ability**: Whenever you gain **Defense**, gain 2 Adrenaline.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Ability", "Defense", "Expend" ],
+        "keywords": [ "Expend", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -3225,10 +3243,10 @@
         "icon": "https://images2.imgbox.com/63/2c/5SSajRmf_o.png"
     },
     "initial_certainty": {
-	"name": "Initial Certainty",
+        "name": "Initial Certainty",
         "desc": "**Ability**: Whenever you gain **Defense**, gain 2 Adrenaline.\n**Expend**, **Ambush**",
         "actions": "3",
-        "keywords": [ "Ability", "Defense", "Expend" ],
+        "keywords": [ "Expend", "Ambush", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -3294,7 +3312,7 @@
         "type": "Maneuver",
         "xp": "9",
         "character": "Sal",
-        "upgrades": ["Stone Chamber", "Rival's Chamber" ],
+        "upgrades": [ "Stone Chamber", "Rival's Chamber" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/44/6d/qNC50JOD_o.png"
@@ -4126,9 +4144,9 @@
     },
     "sic_em": {
         "name": "Sic 'em!",
-        "desc": "Order your pet to take their action and **prepare** a new one.\n**Expend**",
+        "desc": "Order your pet to take their action and prepare a new one.\n**Expend**",
         "actions": "1",
-        "keywords": [ "Expend", "Prepare" ],
+        "keywords": [ "Expend" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Item",
@@ -4472,7 +4490,7 @@
     "damnation": {
         "name": "Damnation",
         "desc": "Apply 4 Damned and 4 Power to a friendly target.\n**Expend**",
-        "actions": "3",
+        "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
         "deck": "Battle",
@@ -4487,7 +4505,7 @@
     "long_damnation": {
         "name": "Long Damnation",
         "desc": "Apply 6 Damned and 6 Power to a friendly target.\n**Expend**",
-        "actions": "3",
+        "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
         "deck": "Battle",
@@ -4502,7 +4520,7 @@
     "enduring_damnation": {
         "name": "Enduring Damnation",
         "desc": "Apply 4 Damned and 4 Power to a friendly target.",
-        "actions": "3",
+        "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Unique",
         "deck": "Battle",
@@ -4513,6 +4531,60 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/00/85/8ueb9RyH_o.png"
+    },
+    "dark_eliminator": {
+	"icon": "https://images2.imgbox.com/7b/b7/4r070iCH_o.png"
+    },
+    "deadly_strike": {
+	"icon": "https://images2.imgbox.com/59/a4/YtmQEJQq_o.png"
+    },
+    "deal": {
+        "name": "Deal",
+        "desc": "Threshold 3: Gain 2 Adrenaline.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Common",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Tall Deal", "Enhanced Deal" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "tall_deal": {
+        "name": "Tall Deal",
+        "desc": "Threshold 3: Gain 2 Adrenaline.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Common",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "enhanced_deal": {
+        "name": "Enhanced Deal",
+        "desc": "Threshold 3: Gain 3 Adrenaline.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Common",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "debug_empty_cells": {
+	      "icon": "https://images2.imgbox.com/df/0b/dzGKmgSY_o.png"
     },
     "deception": {
         "name": "Deception",
@@ -4771,7 +4843,7 @@
     },
     "direct_hit": {
         "name": "Direct Hit",
-        "desc": "Next turn, draw 1 additional card.",
+        "desc": "Next turn, draw 2 additional cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -4786,7 +4858,7 @@
     },
     "boosted_direct_hit": {
         "name": "Boosted Direct Hit",
-        "desc": "Next turn, draw 1 additional card.",
+        "desc": "Next turn, draw 2 additional cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -4801,7 +4873,7 @@
     },
     "visionary_hit": {
         "name": "Visionary Hit",
-        "desc": "Next turn, draw 2 additional cards.",
+        "desc": "Next turn, draw 3 additional cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -4994,6 +5066,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/01/c0/b2fAdUcQ_o.png"
     },
+    "drainer": {
+	"icon": "https://images2.imgbox.com/8a/35/6PkVNY8C_o.png"
+    },
     "droad_tail_spike": {
         "name": "Droad Tail Spike",
         "desc": "Apply 2 Wound.\n**Expend**",
@@ -5007,7 +5082,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/ac/c3/zKITZV33_o.png"
     },
     "dropkick": {
         "name": "Dropkick",
@@ -5514,7 +5589,7 @@
         "type": "Attack",
         "xp": "8",
         "character": "Rook",
-        "upgrades": [ "Boosted Ego Rip",  "Enhanced Ego Rip" ],
+        "upgrades": [ "Boosted Ego Rip", "Enhanced Ego Rip" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/b9/48/NGT4fiAk_o.png"
@@ -5701,9 +5776,9 @@
     },
     "emergency_shield_generator": {
         "name": "Emergency Shield Generator",
-        "desc": "If you take lethal damage while this is in your deck, block all damage until the start of your turn and **destroy** this card.\n**Unplayable**",
+        "desc": "If you take lethal damage while this is in your deck, block all damage until the start of your turn and destroy this card.\n**Unplayable**",
         "actions": "0",
-        "keywords": [ "Unplayable", "Destroy" ],
+        "keywords": [ "Unplayable" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Item",
@@ -6391,7 +6466,7 @@
     },
     "fistful": {
         "name": "Fistful",
-        "desc": "Draw 2 cards, gain 1 Charge for each attack card drawn.",
+        "desc": "Draw 2 cards, gain 2 Charge for each attack card drawn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6406,7 +6481,7 @@
     },
     "visionary_fistful": {
         "name": "Visionary Fistful",
-        "desc": "Draw 3 cards, gain 1 Charge for each attack card drawn.",
+        "desc": "Draw 3 cards, gain 2 Charge for each attack card drawn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6421,7 +6496,7 @@
     },
     "boosted_fistful": {
         "name": "Boosted Fistful",
-        "desc": "Draw 2 cards, gain 1 Charge for each attack card drawn + 1.",
+        "desc": "Draw 2 cards, gain 2 Charge for each attack card drawn + 1.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6601,7 +6676,7 @@
     },
     "focused_strike": {
         "name": "Focused Strike",
-        "desc": "Empty: Gain 4 Concentration.",
+        "desc": "Empty: Gain 3 Concentration.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6616,7 +6691,7 @@
     },
     "tall_focused_strike": {
         "name": "Tall Focused Strike",
-        "desc": "Empty: Gain 4 Concentration.",
+        "desc": "Empty: Gain 3 Concentration.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6631,7 +6706,7 @@
     },
     "boosted_focused_strike": {
         "name": "Boosted Focused Strike",
-        "desc": "Empty: Gain 6 Concentration.",
+        "desc": "Empty: Gain 5 Concentration.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -6643,6 +6718,51 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/67/c5/7zmKiQHZ_o.png"
+    },
+    "fold_em": {
+        "name": "Fold 'em",
+        "desc": "Threshold 6: Apply 3 Wound",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Boosted Fold 'em", "Enhanced Fold 'em" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "boosted_fold_em": {
+        "name": "Boosted Fold 'em",
+        "desc": "Threshold 6: Apply 3 Wound",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "enhanced_fold_em": {
+        "name": "Enhanced Fold 'em",
+        "desc": "Threshold 6: Apply 3 Wound",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "follow_through": {
         "name": "Follow Through",
@@ -7471,7 +7591,7 @@
     },
     "guns_blazing": {
         "name": "Guns Blazing",
-        "desc": "Apply 10 Burn, split evenly between all enemies.\n**Flourish**",
+        "desc": "Apply 8 Burn, split evenly between all enemies.\n**Flourish**",
         "actions": "0",
         "keywords": [ "Flourish" ],
         "rarity": "Unique",
@@ -7486,7 +7606,7 @@
     },
     "guns_blazing_ii": {
         "name": "Guns Blazing II",
-        "desc": "Apply 16 Burn, split evenly between all enemies.\n**Flourish**",
+        "desc": "Apply 12 Burn, split evenly between all enemies.\n**Flourish**",
         "actions": "0",
         "keywords": [ "Flourish" ],
         "rarity": "Unique",
@@ -7547,7 +7667,6 @@
     "gunsmith": {
         "icon": "https://images2.imgbox.com/a8/54/MUnCFK2A_o.png"
     },
-
     "gun_smoke": {
         "name": "Gun Smoke",
         "desc": "Spend 1 Charge: Gain 2 actions.\n**Expend**",
@@ -7579,8 +7698,8 @@
         "icon": "https://images2.imgbox.com/c9/5e/hIh7dRKC_o.png"
     },
     "pale_smoke": {
-	      "name": "Pale Smoke",
-	      "desc": "Spend 1 Charge: Gain 2 actions.\n**Expend**",
+        "name": "Pale Smoke",
+        "desc": "Spend 1 Charge: Gain 2 actions.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -8163,6 +8282,51 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/14/0a/xGKTOPni_o.png"
     },
+    "high_stakes": {
+        "name": "High Stakes",
+        "desc": "**Ability**: Whenever you trigger a card's Threshold, gain 2 **Defense**.\n**Expend**",
+        "actions": "2",
+        "keywords": [ "Ability", "Defense", "Expend" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "5",
+        "character": "Smith",
+        "upgrades": [ "Pale High Stakes", "Stone Stakes" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "pale_high_stakes": {
+        "name": " Pale High Stakes",
+        "desc": "**Ability**: Whenever you trigger a card's Threshold, gain 2 **Defense**.\n**Expend**",
+        "actions": "1",
+        "keywords": [ "Ability", "Defense", "Expend" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "stone_high_stakes": {
+        "name": "Stone High Stakes",
+        "desc": "**Ability**: Whenever you trigger a card's Threshold, gain 3 **Defense**.\n**Expend**",
+        "actions": "2",
+        "keywords": [ "Ability", "Defense", "Expend" ],
+        "rarity": "",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
     "high_yield_lumin_bomb": {
         "name": "High Yield Lumin Bomb",
         "desc": "Apply 2 Impair.\nHits all enemies.\n**Expend**",
@@ -8177,6 +8341,54 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/83/6e/eM6deWDj_o.png"
+    },
+    "hoarder": {
+	"icon": "https://images2.imgbox.com/aa/62/q6lUvPTL_o.png"
+    },
+    "hold_em": {
+        "name": "Hold 'em",
+        "desc": "Threshold 4: Increase your Moxie by 4.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Tall Hold 'em", "Enhanced Hold 'em" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "tall_hold_em": {
+        "name": "Tall Hold 'em",
+        "desc": "Threshold 4: Increase your Moxie by 4.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "enhanced_hold_em": {
+        "name": "Enhanced Hold 'em",
+        "desc": "Threshold 4: Increase your Moxie by 6.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "hole_up": {
         "name": "Hole Up",
@@ -8494,7 +8706,7 @@
         "icon": "https://images2.imgbox.com/cf/5c/vpHTPM3U_o.png"
     },
     "boosted_chug": {
-        "name": "Boosted Chug",
+        "name": "Wide Chug",
         "desc": "Play Smith's Boosted Flask again.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -9258,6 +9470,51 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/67/13/vLx3f61F_o.png"
     },
+    "jackpot": {
+        "name": "Jackpot",
+        "desc": "Threshold 10: Apply 1 Stun.",
+        "actions": "2",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "7",
+        "character": "Smith",
+        "upgrades": [ "Boosted Jackpot", "Pale Jackpot" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "boosted_jackpot": {
+        "name": "Boosted Jackpot",
+        "desc": "Threshold 10: Apply 1 Stun.",
+        "actions": "2",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "pale_jackpot": {
+        "name": "Pale Jackpot",
+        "desc": "Threshold 10: Apply 1 Stun.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
     "jammed_blaster": {
         "name": "Jammed Blaster",
         "desc": "**Hatch** 5",
@@ -9397,7 +9654,7 @@
         "name": "Pale Juicer",
         "desc": "Alleviate health equal to your Adrenaline.\n**Expend**",
         "actions": "0",
-        "keywords": [ "Expend", "Heal" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -9738,6 +9995,21 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/db/02/XxCutWh1_o.png"
     },
+    "kradeshi_cup_iv": {
+        "name": "Kra'deshi Cup IV",
+        "desc": "Drink 4.\nDraw 2 cards.\nChain",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Unique",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/db/02/XxCutWh1_o.png"
+    },
     "krill_ichor": {
         "name": "Krill Ichor",
         "desc": "Gain 6 Power and Krilled Up.\n**Replenish**\n**Destroy** after 1 use.",
@@ -9830,7 +10102,7 @@
     },
     "learning_drone": {
         "name": "Learning Drone",
-        "desc": "Apply Scanned to target enemy.\n **Hatch** 5",
+        "desc": "Apply 2 Scanned to target enemy.\n **Hatch** 5",
         "actions": "1",
         "keywords": [ "Hatch" ],
         "rarity": "Unique",
@@ -10056,7 +10328,7 @@
     "loader": {
         "name": "Loader",
         "desc": "Spend all Charge, gain 2 **Temporary Power** for each Charge spent.",
-        "actions": "2",
+        "actions": "1",
         "keywords": [ "Temporary Power" ],
         "rarity": "Rare",
         "deck": "Battle",
@@ -10068,9 +10340,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/6e/c2/NjLbr61i_o.png"
     },
-    "pale_loader": {
-        "name": "Pale Loader",
-        "desc": "Spend all Charge, gain 2 **Temporary Power** for each Charge spent.",
+    "visionary_loader": {
+        "name": "Visionary Loader",
+        "desc": "Draw a card. Spend all Charge, gain 2 **Temporary Power** for each Charge spent.",
         "actions": "1",
         "keywords": [ "Temporary Power" ],
         "rarity": "Rare",
@@ -10086,7 +10358,7 @@
     "boosted_loader": {
         "name": "Boosted Loader",
         "desc": "Spend all Charge, gain 2 **Temporary Power** for each Charge spent + 2.",
-        "actions": "2",
+        "actions": "1",
         "keywords": [ "Temporary Power" ],
         "rarity": "Rare",
         "deck": "Battle",
@@ -10370,7 +10642,7 @@
     },
     "mantle": {
         "name": "Mantle",
-        "desc": "Apply 3 Scorched to all enemies.",
+        "desc": "Apply 2 Scorched to all enemies.",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -10385,7 +10657,7 @@
     },
     "boosted_mantle": {
         "name": "Boosted Mantle",
-        "desc": "Apply 5 Scorched to all enemies.",
+        "desc": "Apply 4 Scorched to all enemies.",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -10400,7 +10672,7 @@
     },
     "enhanced_mantle": {
         "name": "Enhanced Mantle",
-        "desc": "Apply 3 Scorched and 3 Burn to all enemies.",
+        "desc": "Apply 2 Scorched and 3 Burn to all enemies.",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -10503,11 +10775,56 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/32/75/ZYmNhsNm_o.png"
     },
+    "mean_streak": {
+        "name": "Mean Streak",
+        "desc": "5 Threshold: Reduce all Thresholds by 1 for the rest of this turn.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Tall Mean Streak", "Boosted Mean Streak" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "tall_mean_streak": {
+        "name": "Tall Mean Streak",
+        "desc": "5 Threshold: Reduce all Thresholds by 1 for the rest of this turn.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "boosted_mean_streak": {
+        "name": "Boosted Mean Streak",
+        "desc": "5 Threshold: Reduce all Thresholds by 1 for the rest of this turn.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Rare",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
     "meditation": {
         "name": "Meditation",
-        "desc": "Increase your Moxie by 1 this turn.\nGain 2 **Defense**.\nChain",
+        "desc": "Increase your Moxie by 1 this turn.\nAlleviate 2 health.\nChain",
         "actions": "2",
-        "keywords": [ "Defense" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -10520,9 +10837,9 @@
     },
     "meditation_ii": {
         "name": "Meditation II",
-        "desc": "Increase your Moxie by 2 this turn.\nGain 3 **Defense**.\nChain",
+        "desc": "Increase your Moxie by 2 this turn.\nAlleviate 3 health.\nChain",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "N/A" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Maneuver",
@@ -10535,9 +10852,9 @@
     },
     "meditation_iii": {
         "name": "Meditation III",
-        "desc": "Increase your Moxie by 3 this turn.\nGain 4 **Defense**.\nChain",
+        "desc": "Increase your Moxie by 3 this turn.\nAlleviate 4 health.\nChain",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "N/A" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Maneuver",
@@ -10550,9 +10867,9 @@
     },
     "meditation_iv": {
         "name": "Meditation IV",
-        "desc": "Trigger your Moxie.\nGain 4 **Defense**.\nChain",
+        "desc": "Increase your Moxie by 3 this turn.\nTrigger your Moxie.\nChain",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "N/A" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Maneuver",
@@ -10579,8 +10896,8 @@
         "icon": "https://images2.imgbox.com/48/54/CXl3qfwd_o.png"
     },
     "fortitude": {
-	"name": "Fortitude",
-	"desc": "Convert up to 2 Adrenaline into Power.",
+        "name": "Fortitude",
+        "desc": "Convert up to 2 Adrenaline into Power.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -10594,8 +10911,8 @@
         "icon": "https://images2.imgbox.com/28/56/akvBfFMx_o.png"
     },
     "boosted_fortitude": {
-	"name": "Boosted Fortitude",
-	"desc": "Convert up to 3 Adrenaline into Power.",
+        "name": "Boosted Fortitude",
+        "desc": "Convert up to 3 Adrenaline into Power.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -10609,8 +10926,8 @@
         "icon": "https://images2.imgbox.com/28/56/akvBfFMx_o.png"
     },
     "stone_fortitude": {
-	"name": "Stone Fortitude",
-	"desc": "Convert up to 2 Adrenaline into Power and twice that much **Defense**.",
+        "name": "Stone Fortitude",
+        "desc": "Convert up to 2 Adrenaline into Power and twice that much **Defense**.",
         "actions": "1",
         "keywords": [ "Defense" ],
         "rarity": "Rare",
@@ -11351,7 +11668,7 @@
     },
     "phantom_finisher": {
         "name": "Phantom Finisher",
-        "desc": "Spend 1 Combo: Gain 3 **Defense**\n**Expend**, **Finisher**, **Dud**",
+        "desc": "Spend 1 Combo: Gain 3 **Defense**.\n**Expend**, **Finisher**, **Dud**",
         "actions": "0",
         "keywords": [ "Expend", "Finisher", "Dud", "Defense" ],
         "rarity": "Unique",
@@ -11666,9 +11983,9 @@
     },
     "prediction": {
         "name": "Prediction",
-        "desc": "Apply 3 **Defense**. Increase by 2 for the rest of this battle whenever this card is **Improvise**d.",
+        "desc": "Apply 3 **Defense**. Increase by 2 for the rest of this battle whenever this card is **Improvised**.",
         "actions": "1",
-        "keywords": [ "Improvise", "Defense" ],
+        "keywords": [ "Improvised", "Defense" ],
         "rarity": "Common",
         "deck": "Battle",
         "type": "Maneuver",
@@ -11679,10 +11996,34 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/2c/55/ietWUtiL_o.png"
     },
-    "selfish_prediction": {
+    "patient_prediction": {
+        "name": "Patient Prediction",
+        "desc": "Apply 3 **Defense**. Increase by 3 for the rest of this battle whenever this card is **Improvised**.",
+        "actions": "1",
+        "keywords": [ "Improvised", "Defense" ],
+        "rarity": "Common",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Sal",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/2c/55/ietWUtiL_o.png"
     },
-    "guarding_prediction": {
+    "stone_prediction": {
+        "name": "Stone Prediction",
+        "desc": "Apply 5 **Defense**. Increase by 2 for the rest of this battle whenever this card is **Improvised**.",
+        "actions": "1",
+        "keywords": [ "Improvised", "Defense" ],
+        "rarity": "Common",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Sal",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/2c/55/ietWUtiL_o.png"
     },
     "predictive_blast": {
@@ -11749,7 +12090,7 @@
         "name": "Protective Procedure",
         "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**",
         "actions": "3",
-        "keywords": [ "Ability", "Defense", "Expend" ],
+        "keywords": [ "Expend", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -11764,7 +12105,7 @@
         "name": "Pale Protective Procedure",
         "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Ability", "Defense", "Expend" ],
+        "keywords": [ "Expend", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -11779,7 +12120,7 @@
         "name": "Initial Protective Procedure",
         "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**, **Ambush**",
         "actions": "3",
-        "keywords": [ "Ability", "Defense", "Expend", "Ambush" ],
+        "keywords": [ "Expend", "Ambush", "Defense", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -11897,7 +12238,7 @@
     },
     "pulse": {
         "name": "Pulse",
-        "desc": "Apply 2 Ricochet to target enemy.",
+        "desc": "Apply 2 Ricochet.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -11912,7 +12253,7 @@
     },
     "boosted_pulse": {
         "name": "Boosted Pulse",
-        "desc": "Apply 2 Ricochet to target enemy.",
+        "desc": "Apply 2 Ricochet.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -11927,7 +12268,7 @@
     },
     "enhanced_pulse": {
         "name": "Enhanced Pulse",
-        "desc": "Apply 3 Ricochet to target enemy.",
+        "desc": "Apply 3 Ricochet.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -12044,6 +12385,51 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/16/d5/Vk7WePgj_o.png"
+    },
+    "raise": {
+        "name": "Raise",
+        "desc": "Threshold 5: Reduce the cost of a random card in your hand by 1 until played.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Boosted Raise", "Wide Raise" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "boosted_raise": {
+        "name": "Boosted Raise",
+        "desc": "Threshold 5: Reduce the cost of a random card in your hand by 1 until played.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "wide_raise": {
+        "name": "Wide Raise",
+        "desc": "Threshold 5: Reduce the cost of two random cards in your hand by 1 until played.",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "rampart": {
         "name": "Rampart",
@@ -12557,9 +12943,9 @@
     },
     "rentorian_force_glaive": {
         "name": "Rentorian Force Glaive",
-        "desc": "Apply 8 **Bleed**.\n**Expend**",
+        "desc": "Apply 8 **Bleed**.\n**Destroy**",
         "actions": "1",
-        "keywords": [ "Expend", "Bleed" ],
+        "keywords": [ "Destroy", "Bleed" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Item",
@@ -13360,7 +13746,7 @@
         "type": "Maneuver",
         "xp": "9",
         "character": "Sal",
-        "upgrades": ["Sal's Bloody Daggers", "Sal's Combo Daggers" ],
+        "upgrades": [ "Sal's Bloody Daggers", "Sal's Combo Daggers" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/3f/82/r2KxOfch_o.png"
@@ -13427,22 +13813,22 @@
     },
     "scanner": {
         "name": "Scanner",
-        "desc": "Apply Scanned to a random enemy.\n**Expend**",
+        "desc": "Apply 2 Scanned to a random enemy.",
         "actions": "1",
-        "keywords": [ "Expend" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
-        "xp": [ "Enduring Scanner", "Precise Scanner" ],
+        "xp": "7",
         "character": "Rook",
-        "upgrades": "N/A",
+        "upgrades": [ "Boosted Scanner", "Precise Scanner" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/b4/8a/yc7qJcAw_o.png"
     },
-    "enduring_scanner": {
-        "name": "Enduring Scanner",
-        "desc": "Apply Scanned to a random enemy.",
+    "boosted_scanner": {
+        "name": "Boosted Scanner",
+        "desc": "Apply 3 Scanned to a random enemy.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -13457,9 +13843,9 @@
     },
     "precise_scanner": {
         "name": "Precise Scanner",
-        "desc": "Apply Scanned to an enemy.\n**Expend**",
+        "desc": "Apply 2 Scanned to an enemy.",
         "actions": "1",
-        "keywords": [ "Expend" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -13829,6 +14215,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/48/39/v9wDS6Zv_o.png"
+    },
+    "seemlis_dagger": {
+        "name": "Seemli's Dagger",
+        "desc": "Apply 2 Wound.\nGain 1 Evasion.\n**Expend**",
+        "actions": "1",
+        "keywords": [ "N/A" ],
+        "rarity": "Unique",
+        "deck": "Battle",
+        "type": "Item",
+        "xp": "N/A",
+        "character": "General",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "sentinel": {
         "name": "Sentinel",
@@ -14312,9 +14713,9 @@
     },
     "shredded": {
         "name": "Shredded",
-        "desc": "While this is in your hand, **bleed** cards deal 2 bonus damage.\n**Expend**, **Sticky**",
+        "desc": "While this is in your hand, bleed cards deal 2 bonus damage.\n**Expend**, **Sticky**",
         "actions": "2",
-        "keywords": [ "Expend", "Sticky", "Bleed" ],
+        "keywords": [ "Expend", "Sticky" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Status",
@@ -14329,7 +14730,7 @@
         "name": "Shrewd",
         "desc": "Gain **Defense** equal to your Recoverable Health.",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "Defense", "Heal" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -14344,7 +14745,7 @@
         "name": "Boosted Shrewd",
         "desc": "Gain **Defense** equal to your Recoverable Health + 3.",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "Defense", "Heal" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -14359,7 +14760,7 @@
         "name": "Soothing Shrewd",
         "desc": "Gain **Defense** equal to your Recoverable Health.\nAlleviate 3.",
         "actions": "1",
-        "keywords": [ "Defense" ],
+        "keywords": [ "Defense", "Heal" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -14852,7 +15253,7 @@
     },
     "smiths_canteen": {
         "name": "Smith's Canteen",
-        "desc": "Gain 2 Power, **Heal** 5 health and add 1 Tipsy card to your discard pile.\n**Expend**",
+        "desc": "Gain 2 Power, **Heal** 5 Health and add 1 Tipsy card to your discard pile.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Heal" ],
         "rarity": "Unique",
@@ -14970,8 +15371,8 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/74/78/CPMsJufY_o.png"
     },
-    "snug_shell": {
-        "name": "Snug Shell",
+    "shredmaw_shell": {
+        "name": "Shredmaw Shell",
         "desc": "Gain 5 Counter.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -14983,11 +15384,11 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/ec/02/w4OTc2D1_o.png"
     },
     "soothing_concoctions": {
         "name": "Soothing Concoctions",
-        "desc": "**Ability**: Whenever you Drink, 1 Alleviate.\n**Expend**",
+        "desc": "**Ability**: Whenever you Drink, Alleviate 1.\n**Expend**",
         "actions": "3",
         "keywords": [ "Expend", "Ability" ],
         "rarity": "Rare",
@@ -15002,7 +15403,7 @@
     },
     "pale_soothing_concoctions": {
         "name": "Pale Soothing Concoctions",
-        "desc": "**Ability**: Whenever you Drink, 1 Alleviate.\n**Expend**",
+        "desc": "**Ability**: Whenever you Drink, Alleviate 1.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend", "Ability" ],
         "rarity": "Rare",
@@ -15017,9 +15418,9 @@
     },
     "initial_soothing_concoctions": {
         "name": "Initial Soothing Concoctions",
-        "desc": "**Ability**: Whenever you Drink, 1 Alleviate.\n**Expend**, **Ambush**",
+        "desc": "**Ability**: Whenever you Drink, Alleviate 1.\n**Expend**, **Ambush**",
         "actions": "3",
-        "keywords": [ "Expend", "Ability", "Ambush" ],
+        "keywords": [ "Expend", "Ambush", "Ability" ],
         "rarity": "Rare",
         "deck": "Battle",
         "type": "Maneuver",
@@ -15857,7 +16258,7 @@
     },
     "sucker_punch": {
         "name": "Sucker Punch",
-        "desc": "Empty: Apply 1 Impair.",
+        "desc": "Empty: Deal 2 bonus damage and apply 1 Impair.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -15872,7 +16273,7 @@
     },
     "boosted_sucker_punch": {
         "name": "Boosted Sucker Punch",
-        "desc": "Empty: Apply 1 Impair.",
+        "desc": "Empty: Deal 2 bonus damage and apply 1 Impair.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -15887,7 +16288,7 @@
     },
     "stifling_sucker_punch": {
         "name": "Stifling Sucker Punch",
-        "desc": "Empty: Apply 2 Impair.",
+        "desc": "Empty: Deal 2 bonus damage and apply 2 Impair.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -15920,9 +16321,9 @@
     },
     "support_beacon": {
         "name": "Support Beacon",
-        "desc": "Summon a Combat Drone to fight for you.\n**Expend**",
+        "desc": "Summon a Combat Drone to fight for you.\n**Destroy**",
         "actions": "0",
-        "keywords": [ "Expend" ],
+        "keywords": [ "Destroy" ],
         "rarity": "Unique",
         "deck": "Battle",
         "type": "Item",
@@ -16100,7 +16501,7 @@
     },
     "visionary_swig": {
         "name": "Visionary Swig",
-        "desc": "Drink 2, draw 2 cards.",
+        "desc": "Drink 2. Draw 2 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -16115,7 +16516,7 @@
     },
     "boosted_swig": {
         "name": "Boosted Swig",
-        "desc": "Drink 3, draw 1 card.",
+        "desc": "Drink 3. Draw 1 card.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -16373,7 +16774,7 @@
         "desc": "Apply 2 **Defense** per Concentration.",
         "actions": "1",
         "keywords": [ "Defense" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
         "xp": "8",
@@ -16388,7 +16789,7 @@
         "desc": "Apply 2 **Defense** and gain 1 Counter per Concentration.",
         "actions": "1",
         "keywords": [ "Defense" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
         "xp": "N/A",
@@ -16403,7 +16804,7 @@
         "desc": "Gain 3 **Defense**.\nApply 2 **Defense** per Concentration.",
         "actions": "1",
         "keywords": [ "Defense" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
         "xp": "N/A",
@@ -16487,6 +16888,51 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c1/4f/YmlWNRyo_o.png"
+    },
+    "the_gamble": {
+        "name": "The Gamble",
+        "desc": "Threshold 3: Gain 2 actions.\n**Restrained**",
+        "actions": "1",
+        "keywords": [ "Restrained" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "9",
+        "character": "Smith",
+        "upgrades": [ "Tall Gamble", "Visionary Gamble" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "tall_gamble": {
+        "name": "Tall Gamble",
+        "desc": "Threshold 3: Gain 2 actions.\n**Restrained**",
+        "actions": "1",
+        "keywords": [ "Restrained" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
+    },
+    "visionary_gamble": {
+        "name": "Visionary Gamble",
+        "desc": "Threshold 3: Gain 2 actions and draw a card.\n**Restrained**",
+        "actions": "1",
+        "keywords": [ "Restrained" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Attack",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "the_pain_train": {
         "name": "The Pain Train",
@@ -16670,9 +17116,9 @@
     },
     "the_slip": {
         "name": "The Slip",
-        "desc": "Apply 4 **Defense**. If this card was **Improvise**d this turn, also gain 1 Evasion.",
+        "desc": "Apply 4 **Defense**. If this card was **Improvised** this turn, also gain 1 Evasion.",
         "actions": "1",
-        "keywords": [ "Improvise", "Defense" ],
+        "keywords": [ "Improvised", "Defense" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -16685,9 +17131,9 @@
     },
     "the_stone_slip": {
         "name": "The Stone Slip",
-        "desc": "Apply 8 **Defense**. If this card was **Improvise**d this turn, also gain 1 Evasion.",
+        "desc": "Apply 8 **Defense**. If this card was **Improvised** this turn, also gain 1 Evasion.",
         "actions": "1",
-        "keywords": [ "Improvise", "Defense" ],
+        "keywords": [ "Improvised", "Defense" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -16700,9 +17146,9 @@
     },
     "the_evasive_slip": {
         "name": "The Evasive Slip",
-        "desc": "Apply 4 **Defense**. If this card was **Improvise**d this turn, also gain 2 Evasion.",
+        "desc": "Apply 4 **Defense**. If this card was **Improvised** this turn, also gain 2 Evasion.",
         "actions": "1",
-        "keywords": [ "Improvise", "Defense" ],
+        "keywords": [ "Improvised", "Defense" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Maneuver",
@@ -17182,7 +17628,7 @@
         "name": "Trained Strike",
         "desc": "Whenever this card is **Improvised** it gains 2 damage until the end of combat.",
         "actions": "1",
-        "keywords": [ "Improvise" ],
+        "keywords": [ "Improvised" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -17195,9 +17641,9 @@
     },
     "boosted_trained_strike": {
         "name": "Boosted Trained Strike",
-        "desc": "Whenever this card is **Improvise**d it gains 3 damage until the end of combat.",
+        "desc": "Whenever this card is **Improvised** it gains 3 damage until the end of combat.",
         "actions": "1",
-        "keywords": [ "Improvise" ],
+        "keywords": [ "Improvised" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -17210,9 +17656,9 @@
     },
     "nailing_trained_strike": {
         "name": "Nailing Trained Strike",
-        "desc": "Whenever this card is **Improvise**d it gains 2 damage until the end of combat.\n**Piercing**",
+        "desc": "Whenever this card is **Improvised** it gains 2 damage until the end of combat.\n**Piercing**",
         "actions": "1",
-        "keywords": [ "Piercing", "Improvise" ],
+        "keywords": [ "Piercing", "Improvised" ],
         "rarity": "Uncommon",
         "deck": "Battle",
         "type": "Attack",
@@ -18005,7 +18451,7 @@
     },
     "whirl": {
         "name": "Whirl",
-        "desc": "When drawn, apply 1 Scanned to a random enemy.\n**Unplayable**, **Replenish**",
+        "desc": "When drawn, apply 2 Scanned to a random enemy.\n**Unplayable**, **Replenish**",
         "actions": "0",
         "keywords": [ "Unplayable", "Replenish" ],
         "rarity": "Unique",
@@ -18244,8 +18690,8 @@
         "icon": "https://images2.imgbox.com/c2/15/xLU3OVSb_o.png"
     },
     "boosted_wretched_strike": {
-	"name": "Boosted Wretched Strike",
-	"desc": "Deals 1 bonus damage for every card drawn this turn.",
+        "name": "Boosted Wretched Strike",
+        "desc": "Deals 1 bonus damage for every card drawn this turn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
@@ -18253,7 +18699,7 @@
         "type": "Attack",
         "xp": "N/A",
         "character": "Sal",
-        "upgrades": "N/A", 
+        "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c2/15/xLU3OVSb_o.png"
@@ -18334,9 +18780,9 @@
         "icon": "https://images2.imgbox.com/83/eb/sPwmFbFd_o.png"
     },
     "boosted_zig_zag": {
-	"name": "Boosted Zig Zag",
-	"desc": "**Improvise** a card from your draw pile.\nGain 5 **Defense** if it’s a maneuver, apply 2 Wound to a random enemy if it’s an attack.",
-	"actions": "1",
+        "name": "Boosted Zig Zag",
+        "desc": "**Improvise** a card from your draw pile.\nGain 5 **Defense** if it’s a maneuver, apply 2 Wound to a random enemy if it’s an attack.",
+        "actions": "1",
         "keywords": [ "Improvise", "Defense" ],
         "rarity": "Uncommon",
         "deck": "Battle",
@@ -18788,7 +19234,7 @@
     },
     "amnesty": {
         "name": "Amnesty",
-        "desc": "Shield all of your arguments until the start of your next turn.\n**Expend**",
+        "desc": "Shield all friendly arguments until the start of your next turn.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
@@ -18803,7 +19249,7 @@
     },
     "pale_amnesty": {
         "name": "Pale Amnesty",
-        "desc": "Shield all of your arguments until the start of your next turn.\n**Expend**",
+        "desc": "Shield all friendly arguments until the start of your next turn.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
@@ -18818,7 +19264,7 @@
     },
     "fixed_amnesty": {
         "name": "Fixed Amnesty",
-        "desc": "Shield all of your arguments until the start of your next turn.\n**Expend**, **Sticky**",
+        "desc": "Shield all friendly arguments until the start of your next turn.\n**Expend**, **Sticky**",
         "actions": "2",
         "keywords": [ "Expend", "Sticky" ],
         "rarity": "Rare",
@@ -18848,7 +19294,7 @@
     },
     "boosted_amplify": {
         "name": "Boosted Amplify",
-        "desc": "Choose a card in your hand and increase its damage by 3 until played.",
+        "desc": "Choose a card in your hand and increase its damage by 3 this negotiation.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -18863,7 +19309,7 @@
     },
     "wide_amplify": {
         "name": "Wide Amplify",
-        "desc": "Choose up to 2 cards in your hand and increase their damage by 2 until played.",
+        "desc": "Choose up to 2 cards in your hand and increase their damage by 2 this negotiation.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -18891,10 +19337,10 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a4/7c/Y2nXTHm0_o.png"
     },
-    "crown_ante": {
-        "name": "Crown Ante",
-        "desc": "Discard 2 cards, Set the coin.\n**Heads**: Draw a card.",
-        "actions": "1",
+    "pale_ante": {
+        "name": "Pale Ante",
+        "desc": "Discard 2 cards, Set the coin.",
+        "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
@@ -18906,11 +19352,11 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/a4/7c/Y2nXTHm0_o.png"
     },
-    "foot_ante": {
-        "name": "Foot Ante",
-        "desc": "Discard 2 cards, Set the coin.\n**Snails**: Deal 2 damage to a random argument.",
+    "sticky_ante": {
+        "name": "Sticky Ante",
+        "desc": "Discard 2 cards, Set the coin.\n**Sticky**",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Sticky" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -19116,6 +19562,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/77/56/5Lkdl7p1_o.png"
     },
+    "backfire_unknown": {
+	"icon": "https://images2.imgbox.com/6a/8b/G85GI8Us_o.png"
+    },
     "backup_collection": {
         "name": "Backup Collection",
         "desc": "Change your Coin until the end of this negotiation.\n**Gamble**.\n**Flourish**",
@@ -19190,6 +19639,21 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/59/0f/jfkBmYSU_o.png"
+    },
+    "banquod_pendant": {
+        "name": "Banquod Pendant",
+        "desc": "While this is in your hand, all your cards deal 2 bonus damage.\n**Unplayable**",
+        "actions": "0",
+        "keywords": [ "Unplayable" ],
+        "rarity": "Unique",
+        "deck": "Negotiation",
+        "type": "Item",
+        "xp": "N/A",
+        "character": "General",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "barrage": {
         "name": "Barrage",
@@ -19463,7 +19927,7 @@
     },
     "blank": {
         "name": "Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 2 bonus damage.",
+        "desc": "**Gamble**.\n**Heads**: Gain 3 bonus damage.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -19478,7 +19942,7 @@
     },
     "enhanced_blank": {
         "name": "Enhanced Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 4 bonus damage.",
+        "desc": "**Gamble**.\n**Heads**: Gain 5 bonus damage.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -19493,7 +19957,7 @@
     },
     "boosted_blank": {
         "name": "Boosted Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 2 bonus damage.",
+        "desc": "**Gamble**.\n**Heads**: Gain 3 bonus damage.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -19523,7 +19987,7 @@
     },
     "blockade": {
         "name": "Blockade",
-        "desc": "**Gamble**.\n**Heads**: Apply 2 **Composure** to all your arguments.",
+        "desc": "**Gamble**.\n**Heads**: Apply 3 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Uncommon",
@@ -19531,14 +19995,14 @@
         "type": "Diplomacy",
         "xp": "N/A",
         "character": "Rook",
-        "upgrades": "N/A",
+        "upgrades": [ "Boosted Blockade", "Twisted Blockade" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/68/24/GDhkHAmM_o.png"
     },
     "boosted_blockade": {
         "name": "Boosted Blockade",
-        "desc": "**Gamble**.\n**Heads**: Apply 4 **Composure** to all your arguments.",
+        "desc": "**Gamble**.\n**Heads**: Apply 4 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Uncommon",
@@ -19551,9 +20015,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/68/24/GDhkHAmM_o.png"
     },
-    "wide_blockade": {
-        "name": "Wide Blockade",
-        "desc": "**Gamble**.\n**Heads**: Apply 2 **Composure** to all your arguments.\n**Snails**: Apply 1 **Composure** to all your arguments.",
+    "twisted_blockade": {
+        "name": "Twisted Blockade",
+        "desc": "**Gamble**.\n**Snails**: Apply 4 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Uncommon",
@@ -19568,7 +20032,7 @@
     },
     "bluff": {
         "name": "Bluff",
-        "desc": "**Heads**: This card costs 0.\nDraw a card.",
+        "desc": "**Heads**: This card costs 0.\nDraw 2 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -19583,9 +20047,9 @@
     },
     "twisted_bluff": {
         "name": "Twisted Bluff",
-        "desc": "**Snails**: This card costs 0.\nDraw 2 cards.",
+        "desc": "**Snails**: This card costs 0.\nDraw 2 cards.\n**Replenish**",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Replenish" ],
         "rarity": "Common",
         "deck": "Negotiation",
         "type": "Diplomacy",
@@ -19598,9 +20062,9 @@
     },
     "visionary_bluff": {
         "name": "Visionary Bluff",
-        "desc": "**Heads**: This card costs 0.\nDraw 2 cards.",
+        "desc": "**Heads**: This card costs 0.\nDraw 2 cards.\n**Replenish**",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Replenish" ],
         "rarity": "Common",
         "deck": "Negotiation",
         "type": "Diplomacy",
@@ -19630,7 +20094,7 @@
         "name": "Twisted Bluster",
         "desc": "**Incept** 2 Vulnerability.",
         "actions": "2",
-        "keywords": [ "Ability", "Incept" ],
+        "keywords": [ "Incept" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -19688,7 +20152,7 @@
     },
     "powder_keg": {
         "name": "Powder Keg",
-        "desc": "Create: When destroyed, deal 8 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -19703,7 +20167,7 @@
     },
     "boosted_powder_keg": {
         "name": "Boosted Powder Keg",
-        "desc": "Create: When destroyed, deal 12 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 12 damage to a random opponent argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -19718,7 +20182,7 @@
     },
     "pale_powder_keg": {
         "name": "Pale Powder Keg",
-        "desc": "Create: When destroyed, deal 8 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -20108,7 +20572,7 @@
     },
     "brute": {
         "name": "Brute",
-        "desc": "Hits all enemy arguments. Lose all Dominance.",
+        "desc": "Hits all opponent arguments. Lose all Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -20123,7 +20587,7 @@
     },
     "boosted_brute": {
         "name": "Boosted Brute",
-        "desc": "Hits all enemy arguments. Lose all Dominance.",
+        "desc": "Hits all opponent arguments. Lose all Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -20138,7 +20602,7 @@
     },
     "maintained_brute": {
         "name": "Maintained Brute",
-        "desc": "Hits all enemy arguments. Lose all Dominance.\nGain 1 Dominance.",
+        "desc": "Hits all opponent arguments. Lose all Dominance.\nGain 1 Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -20213,9 +20677,9 @@
     },
     "bulldoze": {
         "name": "Bulldoze",
-        "desc": "Gain: Whenever you **destroy** an argument, gain an action.\n**Expend**",
+        "desc": "Gain: Whenever you destroy an argument, gain an action.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Expend", "Destroy" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20228,9 +20692,9 @@
     },
     "dominant_bulldoze": {
         "name": "Dominant Bulldoze",
-        "desc": "Gain 1 Dominance.\nGain: Whenever you **destroy** an argument, gain an action.\n**Expend**",
+        "desc": "Gain 1 Dominance.\nGain: Whenever you destroy an argument, gain an action.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Expend", "Destroy" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20243,9 +20707,9 @@
     },
     "stone_bulldoze": {
         "name": "Stone Bulldoze",
-        "desc": "Gain 4 **Composure**.\nGain: Whenever you **destroy** an argument, gain an action.\n**Expend**",
+        "desc": "Gain 4 **Composure**.\nGain: Whenever you destroy an argument, gain an action.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Expend", "Destroy", "Composure" ],
+        "keywords": [ "Expend", "Composure" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20363,7 +20827,7 @@
     },
     "burn": {
         "name": "Burn",
-        "desc": "**Snails**: Hits all enemy arguments.",
+        "desc": "**Snails**: Hits all opponent arguments.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -20378,7 +20842,7 @@
     },
     "tall_burn": {
         "name": "Tall Burn",
-        "desc": "**Snails**: Hits all enemy arguments.",
+        "desc": "**Snails**: Hits all opponent arguments.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -20393,7 +20857,7 @@
     },
     "boosted_burn": {
         "name": "Boosted Burn",
-        "desc": "**Snails**: Hits all enemy arguments.",
+        "desc": "**Snails**: Hits all opponent arguments.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -20545,7 +21009,7 @@
         "name": "Restored Call it",
         "desc": "**Gamble**.\n**Replenish**, **Sticky**",
         "actions": "0",
-        "keywords": [ "Replenish", "Sticky", "Gamble" ],
+        "keywords": [ "Sticky", "Replenish", "Gamble" ],
         "rarity": "Basic",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -20603,7 +21067,7 @@
     },
     "calm": {
         "name": "Calm",
-        "desc": "Apply 2 **Composure** to all your arguments.",
+        "desc": "Apply 2 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -20618,7 +21082,7 @@
     },
     "boosted_calm": {
         "name": "Boosted Calm",
-        "desc": "Apply 3 **Composure** to all your arguments.",
+        "desc": "Apply 3 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -20633,7 +21097,7 @@
     },
     "pale_calm": {
         "name": "Pale Calm",
-        "desc": "Apply 2 **Composure** to all your arguments.",
+        "desc": "Apply 2 **Composure** to all friendly arguments.",
         "actions": "0",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -20783,9 +21247,9 @@
     },
     "chase": {
         "name": "Chase",
-        "desc": "If this **destroy**s an argument, play this card a second time.",
+        "desc": "If this destroys an argument, play this card a second time.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20798,9 +21262,9 @@
     },
     "rooted_chase": {
         "name": "Rooted Chase",
-        "desc": "If this **destroy**s an argument, play this card a second time.",
+        "desc": "If this destroys an argument, play this card a second time.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20813,9 +21277,9 @@
     },
     "tall_chase": {
         "name": "Tall Chase",
-        "desc": "If this **destroy**s an argument, play this card a second time.",
+        "desc": "If this destroys an argument, play this card a second time.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -20858,9 +21322,9 @@
     },
     "circle_back": {
         "name": "Circle Back",
-        "desc": "Duplicate a friendly argument, then **destroy** the original.",
+        "desc": "Duplicate a friendly argument, then destroy the original.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -20873,9 +21337,9 @@
     },
     "pale_circle_back": {
         "name": "Pale Circle Back",
-        "desc": "Duplicate a friendly argument, then **destroy** the original.",
+        "desc": "Duplicate a friendly argument, then destroy the original.",
         "actions": "0",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -20888,9 +21352,9 @@
     },
     "boosted_circle_back": {
         "name": "Boosted Circle Back",
-        "desc": "Duplicate a friendly argument twice, then **destroy** the original.",
+        "desc": "Duplicate a friendly argument twice, then destroy the original.",
         "actions": "2",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -21008,7 +21472,7 @@
     },
     "clear_head": {
         "name": "Clear Head",
-        "desc": "Rig 2  **Heads**, then **Prepare** a card.",
+        "desc": "Rig 2 **Heads**, then **Prepare** a card.",
         "actions": "1",
         "keywords": [ "Prepare" ],
         "rarity": "Uncommon",
@@ -21203,7 +21667,7 @@
     },
     "compel": {
         "name": "Compel",
-        "desc": "3 Renowned: This card deals double damage and hits all opponent arguments.\n**Expend**",
+        "desc": "Renowned 3: This card deals double damage and hits all opponent arguments.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
@@ -21773,7 +22237,7 @@
     },
     "wide_deflection": {
         "name": "Wide Deflection",
-        "desc": "Apply 4 **Composure** to all your arguments.\n**Expend**",
+        "desc": "Apply 4 **Composure** to all friendly arguments.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Composure" ],
         "rarity": "Basic",
@@ -22313,10 +22777,10 @@
     },
     "domineer": {
         "name": "Domineer",
-        "desc": "Spend 2 Dominance: Gain 2 actions.",
+        "desc": "Spend 3 Dominance: Gain 2 actions.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "9",
@@ -22328,10 +22792,10 @@
     },
     "pale_domineer": {
         "name": "Pale Domineer",
-        "desc": "Spend 1 Dominance: Gain 2 actions.",
+        "desc": "Spend 2 Dominance: Gain 2 actions.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "N/A",
@@ -22343,10 +22807,10 @@
     },
     "visionary_domineer": {
         "name": "Visionary Domineer",
-        "desc": "Spend 2 Dominance: Gain 2 actions and draw 2 cards.",
+        "desc": "Spend 3 Dominance: Gain 2 actions and draw 2 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "N/A",
@@ -22541,7 +23005,7 @@
         "desc": "Draw 2 cards. All Hostility cards drawn cost 1 less until played.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "10",
@@ -22556,7 +23020,7 @@
         "desc": "Draw 3 cards. All Hostility cards drawn cost 1 less until played.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "N/A",
@@ -22571,7 +23035,7 @@
         "desc": "Draw 2 cards. All Hostility cards drawn cost 2 less until played.",
         "actions": "1",
         "keywords": [ "N/A" ],
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
         "xp": "N/A",
@@ -22651,7 +23115,7 @@
         "type": "Manipulate",
         "xp": "9",
         "character": "Sal",
-        "upgrades": [ "Enduring Duplicity",  "Pale Duplicity" ],
+        "upgrades": [ "Enduring Duplicity", "Pale Duplicity" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/44/d5/21VmkbdG_o.png"
@@ -22703,7 +23167,7 @@
     },
     "elucidate": {
         "name": "Elucidate",
-        "desc": "Duplicate one of your arguments at random.\n**Expend**",
+        "desc": "Duplicate a random friendly argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -22718,7 +23182,7 @@
     },
     "focused_elucidate": {
         "name": "Focused Elucidate",
-        "desc": "Duplicate a chosen argument.\n**Expend**",
+        "desc": "Duplicate a chosen friendly argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -22733,7 +23197,7 @@
     },
     "enduring_elucidate": {
         "name": "Enduring Elucidate",
-        "desc": "Duplicate one of your arguments at random.",
+        "desc": "Duplicate a random friendly argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -22793,7 +23257,7 @@
     },
     "enforcement": {
         "name": "Enforcement",
-        "desc": "Gain: At the end of your turn, deal 1 damage to a random enemy argument for every stack of Influence.\n**Expend**",
+        "desc": "Gain: At the end of your turn, deal 1 damage to a random opponent argument for every stack of Influence.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
@@ -22853,7 +23317,7 @@
     },
     "erchin_musk": {
         "name": "Erchin Musk",
-        "desc": "Remove **Composure** from enemy argument. Gain Dominance equal to **Composure** removed.\n**Destroy** after 1 use.",
+        "desc": "Remove **Composure** from opponent argument. Gain Dominance equal to **Composure** removed.\n**Destroy** after 1 use.",
         "actions": "1",
         "keywords": [ "Destroy", "Composure" ],
         "rarity": "Unique",
@@ -22913,7 +23377,7 @@
     },
     "erupt": {
         "name": "Erupt",
-        "desc": "Attack a random enemy argument.\n**Evoke**: Play 4 Hostility cards in a single turn.\n\n**Unplayable**",
+        "desc": "Attack a random opponent argument.\n**Evoke**: Play 4 Hostility cards in a single turn.\n\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Evoke" ],
         "rarity": "Common",
@@ -22928,7 +23392,7 @@
     },
     "boosted_erupt": {
         "name": "Boosted Erupt",
-        "desc": "Attack a random enemy argument.\n**Evoke**: Play 4 Hostility cards in a single turn.\n\n**Unplayable**",
+        "desc": "Attack a random opponent argument.\n**Evoke**: Play 4 Hostility cards in a single turn.\n\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Evoke" ],
         "rarity": "Common",
@@ -22943,7 +23407,7 @@
     },
     "pale_erupt": {
         "name": "Pale Erupt",
-        "desc": "Attack a random enemy argument.\n**Evoke**: Play 3 Hostility cards in a single turn.\n\n**Unplayable**",
+        "desc": "Attack a random opponent argument.\n**Evoke**: Play 3 Hostility cards in a single turn.\n\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Evoke" ],
         "rarity": "Common",
@@ -23168,9 +23632,9 @@
     },
     "exploit_weakness": {
         "name": "Exploit Weakness",
-        "desc": "Duplicate target bounty or **incept**ion.\n**Expend**",
+        "desc": "Duplicate target bounty or inception.\n**Expend**",
         "actions": "1",
-        "keywords": [ "Expend", "Incept" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -23183,9 +23647,9 @@
     },
     "pale_weakness": {
         "name": "Pale Weakness",
-        "desc": "Duplicate target bounty or **incept**ion.\n**Expend**",
+        "desc": "Duplicate target bounty or inception.\n**Expend**",
         "actions": "0",
-        "keywords": [ "Expend", "Incept" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -23198,9 +23662,9 @@
     },
     "enduring_weakness": {
         "name": "Enduring Weakness",
-        "desc": "Duplicate target bounty or **incept**ion.",
+        "desc": "Duplicate target bounty or inception.",
         "actions": "1",
-        "keywords": [ "Incept" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -23288,7 +23752,7 @@
     },
     "fallout": {
         "name": "Fallout",
-        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random enemy opponent.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend", "Gamble" ],
         "rarity": "Uncommon",
@@ -23303,7 +23767,7 @@
     },
     "pale_fallout": {
         "name": "Pale Fallout",
-        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random enemy opponent.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Gamble" ],
         "rarity": "Uncommon",
@@ -23318,7 +23782,7 @@
     },
     "initial_fallout": {
         "name": "Initial Fallout",
-        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random enemy argument.\n**Expend**, **Ambush**",
+        "desc": "Create: Whenever you **Gamble**, deal 2 damage to a random opponent argument.\n**Expend**, **Ambush**",
         "actions": "2",
         "keywords": [ "Expend", "Ambush", "Gamble" ],
         "rarity": "Uncommon",
@@ -23386,7 +23850,7 @@
         "type": "Diplomacy",
         "xp": "6",
         "character": "Sal",
-        "upgrades": [ "Clarity Fast Talk", "Pale Fast Talk",  "Visionary Fast Talk", "Inspirational Talk", "Stone Fast Talk" ],
+        "upgrades": [ "Clarity Fast Talk", "Pale Fast Talk", "Visionary Fast Talk", "Inspirational Talk", "Stone Fast Talk" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/b2/ba/KGcShK7O_o.png"
@@ -23468,7 +23932,7 @@
     },
     "final_favor": {
         "name": "Final Favor",
-        "desc": "Spend all Influence: Apply 1 **Composure** per Influence spent to all your arguments.",
+        "desc": "Spend all Influence: Apply 2 **Composure** per Influence spent to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Rare",
@@ -23483,7 +23947,7 @@
     },
     "pale_final_favor": {
         "name": "Pale Final Favor",
-        "desc": "Spend all Influence: Apply 1 **Composure** per Influence spent to all your arguments.",
+        "desc": "Spend all Influence: Apply 2 **Composure** per Influence spent to all friendly arguments.",
         "actions": "0",
         "keywords": [ "Composure" ],
         "rarity": "Rare",
@@ -23498,7 +23962,7 @@
     },
     "boosted_final_favor": {
         "name": "Boosted Final Favor",
-        "desc": "Spend all Influence: Apply 1 **Composure** per Influence spent +2 to all your arguments.",
+        "desc": "Spend all Influence: Apply 1 **Composure** per Influence spent +2 to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Rare",
@@ -23513,7 +23977,7 @@
     },
     "fixate": {
         "name": "Fixate",
-        "desc": "Remove all **Composure** from your arguments, apply that much **Composure** to your target.",
+        "desc": "Remove all **Composure** from all friendly arguments, apply that much **Composure** to your target.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -23528,7 +23992,7 @@
     },
     "boosted_fixate": {
         "name": "Boosted Fixate",
-        "desc": "Remove all **Composure** from your arguments, apply that much **Composure** to your target + 3.",
+        "desc": "Remove all **Composure** from all friendly arguments, apply that much **Composure** to your target + 3.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -23543,7 +24007,7 @@
     },
     "pale_fixate": {
         "name": "Pale Fixate",
-        "desc": "Remove all **Composure** from your arguments, apply that much **Composure** to your target.",
+        "desc": "Remove all **Composure** from all friendly arguments, apply that much **Composure** to your target.",
         "actions": "0",
         "keywords": [ "Composure" ],
         "rarity": "Uncommon",
@@ -23573,7 +24037,7 @@
     },
     "flatten": {
         "name": "Flatten",
-        "desc": "Deal 6 damage to all enemy arguments.\n**Flourish**",
+        "desc": "Deal 6 damage to all opponent arguments.\n**Flourish**",
         "actions": "0",
         "keywords": [ "Flourish" ],
         "rarity": "Unique",
@@ -23588,7 +24052,7 @@
     },
     "flatten_ii": {
         "name": "Flatten II",
-        "desc": "Apply 3 **Composure** to all friendly arguments, then deal 6 damage to all enemy arguments.\n**Flourish**",
+        "desc": "Apply 3 **Composure** to all friendly arguments, then deal 6 damage to all opponent arguments.\n**Flourish**",
         "actions": "0",
         "keywords": [ "Flourish", "Composure" ],
         "rarity": "Unique",
@@ -24008,9 +24472,9 @@
     },
     "grade": {
         "name": "Grade",
-        "desc": "Steal all **composure** from a target.\n**Destroy**",
+        "desc": "Steal all composure from a target.\n**Destroy**",
         "actions": "0",
-        "keywords": [ "Destroy", "Composure" ],
+        "keywords": [ "Destroy" ],
         "rarity": "Unique",
         "deck": "Negotiation",
         "type": "Item",
@@ -24308,7 +24772,7 @@
     },
     "head_shot": {
         "name": "Head Shot",
-        "desc": "Targets a random enemy argument.\n**Evoke**: **Gamble** **Heads** twice.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads** twice.",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
         "rarity": "Uncommon",
@@ -24323,7 +24787,7 @@
     },
     "boosted_head_shot": {
         "name": "Boosted Head Shot",
-        "desc": "Targets a random enemy argument.\n**Evoke**: **Gamble** **Heads** twice.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads** twice.",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
         "rarity": "Uncommon",
@@ -24338,7 +24802,7 @@
     },
     "pale_head_shot": {
         "name": "Pale Head Shot",
-        "desc": "Targets a random enemy argument.\n**Evoke**: **Gamble** **Heads**.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads**.",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
         "rarity": "Uncommon",
@@ -24353,7 +24817,7 @@
     },
     "head_split": {
         "name": "Head Split",
-        "desc": "**Gamble**.\n**Heads**: Deal 3 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Heads**: Deal 3 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -24368,7 +24832,7 @@
     },
     "twisted_head_split": {
         "name": "Twisted Head Split",
-        "desc": "**Gamble**.\n**Snails**: Deal 5 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Snails**: Deal 5 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -24383,7 +24847,7 @@
     },
     "boosted_head_split": {
         "name": "Boosted Head Split",
-        "desc": "**Gamble**.\n**Heads**: Deal 5 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Heads**: Deal 5 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -24503,7 +24967,7 @@
     },
     "heavy_handed": {
         "name": "Heavy Handed",
-        "desc": "Spend 1 Dominance: **Destroy** an enemy argument.",
+        "desc": "Spend 1 Dominance: **Destroy** an opponent argument.",
         "actions": "1",
         "keywords": [ "Destroy" ],
         "rarity": "Uncommon",
@@ -24518,7 +24982,7 @@
     },
     "enhanced_heavy_handed": {
         "name": "Enhanced Heavy Handed",
-        "desc": "Spend 3 Dominance: **Destroy** ALL enemy arguments.",
+        "desc": "Spend 3 Dominance: **Destroy** ALL opponent arguments.",
         "actions": "1",
         "keywords": [ "Destroy" ],
         "rarity": "Uncommon",
@@ -24533,7 +24997,7 @@
     },
     "pale_heavy_handed": {
         "name": "Pale Heavy Handed",
-        "desc": "Spend 1 Dominance: **Destroy** an enemy argument.",
+        "desc": "Spend 1 Dominance: **Destroy** an opponent argument.",
         "actions": "0",
         "keywords": [ "Destroy" ],
         "rarity": "Uncommon",
@@ -24548,7 +25012,7 @@
     },
     "helmet": {
         "name": "Helmet",
-        "desc": "While this is in your hand, apply 2 **Composure** to a random argument whenever you **Prepare** a card.\n**Unplayable**",
+        "desc": "While this is in your hand, apply 3 **Composure** to a random argument whenever you **Prepare** a card.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Prepare", "Composure" ],
         "rarity": "Uncommon",
@@ -24563,7 +25027,7 @@
     },
     "boosted_helmet": {
         "name": "Boosted Helmet",
-        "desc": "While this is in your hand, apply 3 **Composure** to a random argument whenever you **Prepare** a card.\n**Unplayable**",
+        "desc": "While this is in your hand, apply 4 **Composure** to a random argument whenever you **Prepare** a card.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Prepare", "Composure" ],
         "rarity": "Uncommon",
@@ -24578,7 +25042,7 @@
     },
     "enhanced_helmet": {
         "name": "Enhanced Helmet",
-        "desc": "While this is in your hand, apply 1 **Composure** to all your arguments whenever you **Prepare** a card.\n**Unplayable**",
+        "desc": "While this is in your hand, apply 2 **Composure** to all friendly arguments whenever you **Prepare** a card.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Prepare", "Composure" ],
         "rarity": "Uncommon",
@@ -24714,7 +25178,7 @@
     "hush_money": {
         "name": "Hush Money",
         "desc": "Dismiss a random enemy intent.\n**Expend**",
-        "actions": "1",
+        "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
         "deck": "Negotiation",
@@ -24743,7 +25207,7 @@
     },
     "immunity": {
         "name": "Immunity",
-        "desc": "Spend up to 4 Renown: Apply 1 **Composure** per Renown spent to all your arguments.\n**Expend**",
+        "desc": "Spend up to 4 Renown: Apply 1 **Composure** per Renown spent to all friendly arguments.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Composure" ],
         "rarity": "Rare",
@@ -24758,7 +25222,7 @@
     },
     "stone_immunity": {
         "name": "Stone Immunity",
-        "desc": "Spend up to 4 Renown: Apply 2 **Composure** per Renown spent to all your arguments.\n**Expend**",
+        "desc": "Spend up to 4 Renown: Apply 2 **Composure** per Renown spent to all friendly arguments.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Composure" ],
         "rarity": "Rare",
@@ -24773,7 +25237,7 @@
     },
     "enduring_immunity": {
         "name": "Enduring Immunity",
-        "desc": "Spend up to 4 Renown: Apply 1 **Composure** per Renown spent to all your arguments.",
+        "desc": "Spend up to 4 Renown: Apply 1 **Composure** per Renown spent to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Rare",
@@ -25193,7 +25657,7 @@
     },
     "influencer": {
         "name": "Influencer",
-        "desc": "Renowned 4: this deals 3 bonus damage.",
+        "desc": "Renowned 3: this deals 3 bonus damage.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -25208,7 +25672,7 @@
     },
     "pale_influencer": {
         "name": "Pale Influencer",
-        "desc": "Renowned 3: this deals 3 bonus damage.",
+        "desc": "Renowned 2: this deals 3 bonus damage.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -25223,7 +25687,7 @@
     },
     "boosted_influencer": {
         "name": "Boosted Influencer",
-        "desc": "Renowned 4: this deals 5 bonus damage.",
+        "desc": "Renowned 3: this deals 5 bonus damage.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -25492,7 +25956,7 @@
         "icon": "https://images2.imgbox.com/d9/a8/yv48qYif_o.png"
     },
     "sparing_intrigue": {
-	"name": "Sparing Intrigue",
+        "name": "Sparing Intrigue",
         "desc": "If you have any Influence: Deal an additional 4 damage.",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -25506,7 +25970,6 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/d9/a8/yv48qYif_o.png"
     },
-
     "invective": {
         "name": "Invective",
         "desc": "Gain 1 Heated\n**Evoke**: Play 3 Hostility cards in a single turn. \n**Unplayable**, **Expend**",
@@ -25614,7 +26077,7 @@
     },
     "tall_jabber": {
         "name": "Tall Jabber",
-        "desc": ": Gain 2 Influence.",
+        "desc": "**Heads**: Gain 2 Influence.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -25674,7 +26137,7 @@
     },
     "wide_jargon": {
         "name": "Wide Jargon",
-        "desc": "**Prepared**: apply 1 **Composure** to all your arguments every time you play a card.\n**Unplayable**",
+        "desc": "**Prepared**: apply 1 **Composure** to all friendly arguments every time you play a card.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable", "Prepared", "Composure" ],
         "rarity": "Uncommon",
@@ -25944,7 +26407,7 @@
     },
     "known_thug": {
         "name": "Known Thug",
-        "desc": "Deal 1 resolve damage to a random enemy argument whenever you draw a card.\n**Unplayable**",
+        "desc": "Deal 1 resolve damage to a random opponent argument whenever you draw a card.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable" ],
         "rarity": "Basic",
@@ -25989,7 +26452,7 @@
     },
     "level_playing_field": {
         "name": "Level Playing Field",
-        "desc": "Gain 2 Vulnerability.\nAll cards deal +2 damage this turn.",
+        "desc": "Gain 2 Vulnerability.\nAll cards deal +3 damage this turn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -26004,7 +26467,7 @@
     },
     "purified_playing_field": {
         "name": "Purified Playing Field",
-        "desc": "Gain 1 Vulnerability.\nAll cards deal +2 damage this turn.",
+        "desc": "Gain 1 Vulnerability.\nAll cards deal +3 damage this turn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -26019,7 +26482,7 @@
     },
     "boosted_playing_field": {
         "name": "Boosted Playing Field",
-        "desc": "Gain 2 Vulnerability.\nAll cards deal +3 damage this turn.",
+        "desc": "Gain 2 Vulnerability.\nAll cards deal +4 damage this turn.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -26499,7 +26962,7 @@
     },
     "networker": {
         "name": "Networker",
-        "desc": "Renowned 3: Draw 1 card.",
+        "desc": "Renowned 3: Draw 2 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -26514,7 +26977,7 @@
     },
     "visionary_networker": {
         "name": "Visionary Networker",
-        "desc": "Renowned 3: Draw 2 cards.",
+        "desc": "Renowned 3: Draw 3 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -26529,7 +26992,7 @@
     },
     "pale_networker": {
         "name": "Pale Networker",
-        "desc": "Renowned 1: Draw 1 card.",
+        "desc": "Renowned 1: Draw 2 cards.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -26756,7 +27219,7 @@
         "name": "Oppress",
         "desc": "If this card destroys an argument, gain 1 Dominance.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Common",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -26771,7 +27234,7 @@
         "name": "Twisted Oppress",
         "desc": "If this card destroys an argument, gain 2 Dominance.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Common",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -26786,7 +27249,7 @@
         "name": "Tall Oppress",
         "desc": "If this card destroys an argument, gain 1 Dominance.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Common",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -26799,7 +27262,7 @@
     },
     "overbear": {
         "name": "Overbear",
-        "desc": "Attack a random enemy argument once for each enemy argument.",
+        "desc": "Attack a random opponent argument once for each opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -26814,7 +27277,7 @@
     },
     "tall_overbear": {
         "name": "Tall Overbear",
-        "desc": "Attack a random enemy argument once for each enemy argument.",
+        "desc": "Attack a random opponent argument once for each opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -26829,7 +27292,7 @@
     },
     "enhanced_overbear": {
         "name": "Enhanced Overbear",
-        "desc": "Attack a random enemy argument once and draw a card for each enemy argument.",
+        "desc": "Attack a random opponent argument once and draw a card for each opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -27333,7 +27796,7 @@
     },
     "rigged_pleasantries": {
         "name": "Rigged Pleasantries",
-        "desc": "Rig 1 .\n**Heads**: Deal max damage.",
+        "desc": "Rig 1 **Heads**.\n**Heads**: Deal max damage.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Basic",
@@ -27633,7 +28096,7 @@
     },
     "pursue": {
         "name": "Pursue",
-        "desc": "**Improvise** a card from your discard pile and increase its damage by 2 until played.",
+        "desc": "**Improvise** a card from your discard pile and increase its damage by 2 this negotiation.",
         "actions": "1",
         "keywords": [ "Improvise" ],
         "rarity": "Common",
@@ -27648,7 +28111,7 @@
     },
     "boosted_pursue": {
         "name": "Boosted Pursue",
-        "desc": "**Improvise** a card from your discard pile and increase its damage by 3 until played.",
+        "desc": "**Improvise** a card from your discard pile and increase its damage by 3 this negotiation.",
         "actions": "1",
         "keywords": [ "Improvise" ],
         "rarity": "Common",
@@ -27663,7 +28126,7 @@
     },
     "seeking_pursue": {
         "name": "Seeking Pursue",
-        "desc": "**Improvise+** a card from your discard pile and increase its damage by 2 until played.",
+        "desc": "**Improvise+** a card from your discard pile and increase its damage by 2 this negotiation.",
         "actions": "1",
         "keywords": [ "Improvise+" ],
         "rarity": "Common",
@@ -27731,7 +28194,7 @@
         "type": "Hostility",
         "xp": "9",
         "character": "Smith",
-        "upgrades": [ "Enduring Quip", "Pale Quip"],
+        "upgrades": [ "Enduring Quip", "Pale Quip" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/7a/54/1iR4TTVK_o.png"
@@ -27768,7 +28231,7 @@
     },
     "radula": {
         "name": "Radula",
-        "desc": "Rig 3 . Draw a card.",
+        "desc": "Rig 3 **Snails**. Draw a card.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -27844,7 +28307,7 @@
     "ransack": {
         "name": "Ransack",
         "desc": "Draw 3 cards, discard 2 random cards from your hand.",
-        "actions": "1",
+        "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
         "deck": "Negotiation",
@@ -27874,7 +28337,7 @@
     "visionary_ransack": {
         "name": "Visionary Ransack",
         "desc": "Draw 4 cards, discard 2 random cards from your hand.",
-        "actions": "1",
+        "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
         "deck": "Negotiation",
@@ -27888,7 +28351,7 @@
     },
     "rant": {
         "name": "Rant",
-        "desc": "Discard a card, gain Dominance equal to its cost.",
+        "desc": "Discard a card. Gain 1 Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -27896,14 +28359,14 @@
         "type": "Hostility",
         "xp": "9",
         "character": "Rook",
-        "upgrades": [ "Boosted Rant", "Strained Rant" ],
+        "upgrades": [ "Boosted Rant", "Visionary Rant" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/86/59/uBeatSKT_o.png"
     },
     "boosted_rant": {
         "name": "Boosted Rant",
-        "desc": "Discard a card, gain Dominance equal to its cost +1.",
+        "desc": "Discard a card. Gain 2 Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -27916,9 +28379,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/86/59/uBeatSKT_o.png"
     },
-    "strained_rant": {
-        "name": "Strained Rant",
-        "desc": "Discard two cards, gain Dominance equal to their combined cost.",
+    "visionary_rant": {
+        "name": "Visionary Rant",
+        "desc": "Draw a card, then discard a card. Gain 1 Dominance.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -28068,7 +28531,7 @@
     },
     "foot_rationale": {
         "name": "Foot Rationale",
-        "desc": "**Gamble**.\n**Snails**: Apply 2 **Composure** to all your arguments.",
+        "desc": "**Gamble**.\n**Snails**: Apply 2 **Composure** to all friendly arguments.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Basic",
@@ -28203,7 +28666,7 @@
     },
     "reckless_insults": {
         "name": "Reckless Insults",
-        "desc": "Spend all Dominance. **Gamble** and deal 2 damage to a random enemy argument for every Dominance spent.",
+        "desc": "Spend all Dominance. **Gamble** and deal 2 damage to a random opponent argument for every Dominance spent.",
         "actions": "2",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -28218,7 +28681,7 @@
     },
     "pale_reckless_insults": {
         "name": "Pale Reckless Insults",
-        "desc": "Spend all Dominance. **Gamble** and deal 2 damage to a random enemy argument for every Dominance spent.",
+        "desc": "Spend all Dominance. **Gamble** and deal 2 damage to a random opponent argument for every Dominance spent.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -28233,7 +28696,7 @@
     },
     "boosted_reckless_insults": {
         "name": "Boosted Reckless Insults",
-        "desc": "Spend all Dominance. **Gamble** and deal 3 damage to a random enemy argument for every Dominance spent.",
+        "desc": "Spend all Dominance. **Gamble** and deal 3 damage to a random enemy opponent for every Dominance spent.",
         "actions": "2",
         "keywords": [ "Gamble" ],
         "rarity": "Uncommon",
@@ -28248,9 +28711,9 @@
     },
     "reconsider": {
         "name": "Reconsider",
-        "desc": "Remove one of your arguments, **incept**ions, or bounties.\nGain 2 actions.\n**Expend**",
+        "desc": "Remove one of your arguments, inceptions, or bounties.\nGain 2 actions.\n**Expend**",
         "actions": "1",
-        "keywords": [ "Expend", "Incept" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -28263,9 +28726,9 @@
     },
     "pale_reconsider": {
         "name": "Pale Reconsider",
-        "desc": "Remove one of your arguments, **incept**ions, or bounties.\nGain 2 actions.\n**Expend**",
+        "desc": "Remove one of your arguments, inceptions, or bounties.\nGain 2 actions.\n**Expend**",
         "actions": "0",
-        "keywords": [ "Expend", "Incept" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -28278,9 +28741,9 @@
     },
     "visionary_reconsider": {
         "name": "Visionary Reconsider",
-        "desc": "Remove one of your arguments, **incept**ions, or bounties.\nGain 2 actions.\nDraw a Card.\n**Expend**",
+        "desc": "Remove one of your arguments, inceptions, or bounties.\nGain 2 actions.\nDraw a Card.\n**Expend**",
         "actions": "1",
-        "keywords": [ "Expend", "Incept" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -28293,9 +28756,9 @@
     },
     "refusal": {
         "name": "Stonewall",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.\n**Expend**",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -28308,7 +28771,7 @@
     },
     "enduring_refusal": {
         "name": "Enduring Refusal",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random enemy argument.",
+        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -28323,7 +28786,7 @@
     },
     "pale_refusal": {
         "name": "Pale Refusal",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -28443,7 +28906,7 @@
     },
     "rescind": {
         "name": "Rescind",
-        "desc": "Remove all Renown and deal 2 damage per stack of Renown to a random enemy argument.",
+        "desc": "Spend all Renown and deal 2 damage per stack of Renown to a random opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -28458,7 +28921,7 @@
     },
     "boosted_rescind": {
         "name": "Boosted Rescind",
-        "desc": "Remove all Renown and deal 3 damage per stack of Renown to a random enemy argument.",
+        "desc": "Spend all Renown and deal 3 damage per stack of Renown to a random opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -28473,7 +28936,7 @@
     },
     "focused_rescind": {
         "name": "Focused Rescind",
-        "desc": "Remove all Renown and deal 2 damage per stack of Renown to targeted enemy argument.",
+        "desc": "Spend all Renown and deal 2 damage per stack of Renown to targeted opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -28563,9 +29026,9 @@
     },
     "visionary_revision": {
         "name": "Visionary Revision",
-        "desc": "Destroy all friendly arguments and create new copies of them.\nDraw a card for every argument destroyed.\n**Expend**",
+        "desc": "**Destroy** all friendly arguments and create new copies of them.\nDraw a card for every argument destroyed.\n**Expend**",
         "actions": "2",
-        "keywords": [ "Expend" ],
+        "keywords": [ "Expend", "Destroy" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -28608,7 +29071,7 @@
     },
     "twisted_roughneck": {
         "name": "Twisted Roughneck",
-        "desc": "**Gamble**.\n**Heads*: Steal **Composure**.\n**Snails**: Remove **Composure**.",
+        "desc": "**Gamble**.\n**Heads**: Steal **Composure**.\n**Snails**: Remove **Composure**.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Uncommon",
@@ -28623,7 +29086,7 @@
     },
     "boosted_roughneck": {
         "name": "Boosted Roughneck",
-        "desc": "**Gamble**.\n**Heads*: Remove **Composure**.\n**Snails**: Steal **Composure**.",
+        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Heads**: Steal **Composure**.",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
         "rarity": "Uncommon",
@@ -28653,7 +29116,7 @@
     },
     "save_face": {
         "name": "Save Face",
-        "desc": "Spend 2 Renown: Apply 5 **Composure** to your Renown.",
+        "desc": "Spend 2 Renown: Apply 5 **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -28668,7 +29131,7 @@
     },
     "stone_save_face": {
         "name": "Stone Save Face",
-        "desc": "Spend 2 Renown: Apply 7 **Composure** to your Renown.",
+        "desc": "Spend 2 Renown: Apply 7 **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -28683,7 +29146,7 @@
     },
     "pale_save_face": {
         "name": "Pale Save Face",
-        "desc": "Spend 1 Renown: Apply 5 **Composure** to your Renown.",
+        "desc": "Spend 1 Renown: Apply 5 **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -28698,7 +29161,7 @@
     },
     "scapegoat": {
         "name": "Scapegoat",
-        "desc": "Force all enemy intents and arguments to target one of your arguments.",
+        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -28713,7 +29176,7 @@
     },
     "pale_scapegoat": {
         "name": "Pale Scapegoat",
-        "desc": "Force all enemy intents and arguments to target one of your arguments.",
+        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
         "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -28728,7 +29191,7 @@
     },
     "biting_scapegoat": {
         "name": "Biting Scapegoat",
-        "desc": "Force all enemy intents and arguments to target one of your arguments.",
+        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -28743,7 +29206,7 @@
     },
     "scorched_earth": {
         "name": "Scorched Earth",
-        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 2 damage to a random enemy argument for every card expended.",
+        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 2 damage to a random opponent argument for every card expended.",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
@@ -28758,7 +29221,7 @@
     },
     "pale_scorched_earth": {
         "name": "Pale Scorched Earth",
-        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 2 damage to a random enemy argument for every card expended.",
+        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 2 damage to a random opponent argument for every card expended.",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
@@ -28773,7 +29236,7 @@
     },
     "boosted_scorched_earth": {
         "name": "Boosted Scorched Earth",
-        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 3 damage to a random enemy argument for every card expended.",
+        "desc": "**Expend** all non-Hostility cards in your discard pile.\nDeal 3 damage to a random opponent argument for every card expended.",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
@@ -28788,7 +29251,7 @@
     },
     "scrub": {
         "name": "Scrub",
-        "desc": "**Destroy** all Status cards in your deck, lose 1 resolve per card destroyed.\n**Expend**, **Parasite**\n **Hatch** 5",
+        "desc": "**Destroy** all Status cards in your deck, lose 1 resolve per card **Destroyed**.\n**Expend**, **Parasite**\n **Hatch** 5",
         "actions": "0",
         "keywords": [ "Expend", "Destroy", "Parasite", "Hatch" ],
         "rarity": "Uncommon",
@@ -29163,7 +29626,7 @@
     },
     "subtle_setup": {
         "name": "Subtle Setup",
-        "desc": "Create: Whenever this argument takes damage, deal twice as much damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -29178,7 +29641,7 @@
     },
     "enduring_subtle_setup": {
         "name": "Enduring Subtle Setup",
-        "desc": "Create: Whenever this argument takes damage, deal twice as much damage to a random enemy argument.",
+        "desc": "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -29193,7 +29656,7 @@
     },
     "pale_subtle_setup": {
         "name": "Pale Subtle Setup",
-        "desc": "Create: Whenever this argument takes damage, deal twice as much damage to a random enemy argument.\n**Expend**",
+        "desc": "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.\n**Expend**",
         "actions": "0",
         "keywords": [ "Expend" ],
         "rarity": "Uncommon",
@@ -29208,7 +29671,7 @@
     },
     "slugstorm": {
         "name": "Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -29223,7 +29686,7 @@
     },
     "boosted_slugstorm": {
         "name": "Boosted Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 4 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Snails**: Deal 4 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -29238,7 +29701,7 @@
     },
     "wide_slugstorm": {
         "name": "Wide Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all enemy arguments.\n**Heads**: Deal 1 damage to all enemy arguments.",
+        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all opponent arguments.\n: Deal 1 damage to all opponent arguments.",
         "actions": "1",
         "keywords": [ "Gamble" ],
         "rarity": "Common",
@@ -29351,7 +29814,7 @@
         "type": "Hostility",
         "xp": "9",
         "character": "Rook",
-      "upgrades": [ "Rigged Snail Hunt", "Enhanced Snail Hunt " ],
+        "upgrades": [ "Rigged Snail Hunt", "Enhanced Snail Hunt " ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/f0/c6/sGlqsnA1_o.png"
@@ -29433,7 +29896,7 @@
     },
     "solid_point": {
         "name": "Solid Point",
-        "desc": "When this card is drawn, deal 1 damage to a random enemy argument and gain 1 Influence.\n**Unplayable**",
+        "desc": "When this card is drawn, deal 1 damage to a random opponent argument and gain 1 Influence.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable" ],
         "rarity": "Common",
@@ -29448,7 +29911,7 @@
     },
     "strong_point": {
         "name": "Strong Point",
-        "desc": "When this card is drawn, deal 3 damage to a random enemy argument and gain 1 Influence.\n**Unplayable**",
+        "desc": "When this card is drawn, deal 3 damage to a random opponent argument and gain 1 Influence.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable" ],
         "rarity": "Common",
@@ -29463,7 +29926,7 @@
     },
     "visionary_point": {
         "name": "Visionary Point",
-        "desc": "When this card is drawn, deal 1 damage to a random enemy argument and gain 2 Influence.\n**Unplayable**",
+        "desc": "When this card is drawn, deal 1 damage to a random opponent argument and gain 2 Influence.\n**Unplayable**",
         "actions": "0",
         "keywords": [ "Unplayable" ],
         "rarity": "Common",
@@ -29718,7 +30181,7 @@
     },
     "standing": {
         "name": "Standing",
-        "desc": "Apply 2 **Composure**.\nRenowned 5: apply 3 bonus **Composure**.",
+        "desc": "Apply 3 **Composure**.\nRenowned 4: apply 3 bonus **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -29733,7 +30196,7 @@
     },
     "stone_standing": {
         "name": "Stone Standing",
-        "desc": "Apply 3 **Composure**.\nRenowned 5: apply 4 bonus **Composure**.",
+        "desc": "Apply 3 **Composure**.\nRenowned 4: apply 5 bonus **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -29748,7 +30211,7 @@
     },
     "pale_standing": {
         "name": "Pale Standing",
-        "desc": "Apply 2 **Composure**.\nRenowned 3: apply 3 bonus **Composure**.",
+        "desc": "Apply 3 **Composure**.\nRenowned 2: apply 3 bonus **Composure**.",
         "actions": "1",
         "keywords": [ "Composure" ],
         "rarity": "Common",
@@ -29838,7 +30301,7 @@
     },
     "strategy": {
         "name": "Strategy",
-        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random opponent argument.\n**Expend**",
         "actions": "2",
         "keywords": [ "Expend", "Prepare" ],
         "rarity": "Rare",
@@ -29853,7 +30316,7 @@
     },
     "pale_strategy": {
         "name": "Pale Strategy",
-        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random enemy argument.\n**Expend**",
+        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random opponent argument.\n**Expend**",
         "actions": "1",
         "keywords": [ "Expend", "Prepare" ],
         "rarity": "Rare",
@@ -29868,7 +30331,7 @@
     },
     "initial_strategy": {
         "name": "Initial Strategy",
-        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random enemy argument.\n**Expend**, **Ambush**",
+        "desc": "Gain: Whenever you **Prepare** a card, deal 2 damage to a random opponent argument.\n**Expend**, **Ambush**",
         "actions": "2",
         "keywords": [ "Expend", "Ambush", "Prepare" ],
         "rarity": "Rare",
@@ -30170,7 +30633,7 @@
         "name": "Boosted Tempt",
         "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 until played.",
         "actions": "6",
-        "keywords": [ "N/A"],
+        "keywords": [ "N/A" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -30708,9 +31171,9 @@
     },
     "unyielding": {
         "name": "Unyielding",
-        "desc": "If this card **destroy**s an argument, gain 1 action and return it to your hand.",
+        "desc": "If this card destroys an argument, gain 1 action and return it to your hand.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -30723,9 +31186,9 @@
     },
     "rooted_unyielding": {
         "name": "Rooted Unyielding",
-        "desc": "If this card **destroy**s an argument, gain 1 action and return it to your hand.",
+        "desc": "If this card destroys an argument, gain 1 action and return it to your hand.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -30738,9 +31201,9 @@
     },
     "tall_unyielding": {
         "name": "Tall Unyielding",
-        "desc": "If this card **destroy**s an argument, gain 1 action and return it to your hand.",
+        "desc": "If this card destroys an argument, gain 1 action and return it to your hand.",
         "actions": "1",
-        "keywords": [ "Destroy" ],
+        "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -30858,7 +31321,7 @@
     },
     "venture": {
         "name": "Venture",
-        "desc": "Spend up to 2 Influence: Rig 2 **Heads** for each Influence spent.",
+        "desc": "Spend up to 2 Influence: Rig 3 **Heads** for each Influence spent.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -30873,7 +31336,7 @@
     },
     "boosted_venture": {
         "name": "Boosted Venture",
-        "desc": "Spend up to 2 Influence: Rig 2 **Heads** for each Influence spent + 1.",
+        "desc": "Spend up to 2 Influence: Rig 3 **Heads** for each Influence spent + 1.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -30888,7 +31351,7 @@
     },
     "enhanced_venture": {
         "name": "Enhanced Venture",
-        "desc": "Spend up to 3 Influence: Rig 2 **Heads** for each Influence spent.",
+        "desc": "Spend up to 3 Influence: Rig 3 **Heads** for each Influence spent.",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
