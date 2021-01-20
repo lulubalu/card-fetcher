@@ -242,14 +242,17 @@ client.on('message', async msg => {
                         const $ = cheerio.load(imageResult);
                         CardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
                     }
-                    var Desc = _.get(database, CardToFetch + '.desc');
+                    var Desc = "";
+                    if (_.get(database, CardToFetch + '.flavour') != "**") {
+                        Desc += _.get(database, CardToFetch + '.flavour') + "\n\n";
+                    }
+                    if (_.get(database, CardToFetch + '.desc') != "") {
+                        Desc += _.get(database, CardToFetch + '.desc') + "\n\n";
+                    }
                     var Upgrades = _.get(database, CardToFetch + '.upgrades');
                     var Rarity = _.get(database, CardToFetch + '.rarity');
                     var Type = _.get(database, CardToFetch + '.type');
-                    if (Desc != "") {
-                        descriptionToAdd += Desc + "\n\n";
-                    }
-                    descriptionToAdd += Rarity + " " + Type + " Card";
+                    descriptionToAdd += Desc + Rarity + " " + Type + " Card";
                     if (Upgrades != "N/A") {
                         descriptionToAdd += "\n\n"
                         var UpgradeNumber = 1;
