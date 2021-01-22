@@ -4789,7 +4789,7 @@
     "damnation": {
         "name": "Damnation",
         "desc": "Apply 4 Damned and 4 Power to a friendly target.\n**Expend**",
-        "flavour": "*'I'm not worried about <i>eternity*! I've got problems <i>right now*!*",
+        "flavour": "*'I'm not worried about eternity! I've got problems right now!'*",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
@@ -4805,7 +4805,7 @@
     "long_damnation": {
         "name": "Long Damnation",
         "desc": "Apply 6 Damned and 6 Power to a friendly target.\n**Expend**",
-        "flavour": "*'I'm not worried about <i>eternity*! I've got problems <i>right now*!*",
+        "flavour": "*'I'm not worried about eternity*! I've got problems right now!'*",
         "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Unique",
@@ -4821,7 +4821,7 @@
     "enduring_damnation": {
         "name": "Enduring Damnation",
         "desc": "Apply 4 Damned and 4 Power to a friendly target.",
-        "flavour": "*'I'm not worried about <i>eternity*! I've got problems <i>right now*!*",
+        "flavour": "*'I'm not worried about eternity! I've got problems right now!'*",
         "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Unique",
@@ -4854,7 +4854,7 @@
         "upgrades": [ "Tall Deal", "Enhanced Deal" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/15/7c/F7z1sQeZ_o.png"
     },
     "tall_deal": {
         "name": "Tall Deal",
@@ -4870,7 +4870,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/15/7c/F7z1sQeZ_o.png"
     },
     "enhanced_deal": {
         "name": "Enhanced Deal",
@@ -4886,7 +4886,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/15/7c/F7z1sQeZ_o.png"
     },
     "debug_empty_cells": {
         "icon": "https://images2.imgbox.com/df/0b/dzGKmgSY_o.png"
@@ -7329,7 +7329,7 @@
     "push_it": {
         "name": "Push It",
         "desc": "Take 5 damage. Draw 2 cards.",
-        "flavour": "*'Now wait a minute Y'all.*",
+        "flavour": "*'Now wait a minute y'all.'*",
         "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -7345,7 +7345,7 @@
     "visionary_push_it": {
         "name": "Visionary Push It",
         "desc": "Take 5 damage. Draw 3 cards.",
-        "flavour": "*'Now wait a minute Y'all.*",
+        "flavour": "*'Now wait a minute y'all.'*",
         "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -7361,7 +7361,7 @@
     "split_push_it": {
         "name": "Split Push It",
         "desc": "Take 3 damage twice. Draw 2 cards.",
-        "flavour": "*'Now wait a minute Y'all.*",
+        "flavour": "*'Now wait a minute y'all.'*",
         "actions": "0",
         "keywords": [ "N/A" ],
         "rarity": "Common",
@@ -8847,7 +8847,7 @@
         "upgrades": [ "Pale High Stakes", "Stone Stakes" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/b6/52/cd4cE3MK_o.png"
     },
     "pale_high_stakes": {
         "name": " Pale High Stakes",
@@ -8863,7 +8863,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/b6/52/cd4cE3MK_o.png"
     },
     "stone_stakes": {
         "name": "Stone Stakes",
@@ -8879,7 +8879,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/b6/52/cd4cE3MK_o.png"
     },
     "high_yield_lumin_bomb": {
         "name": "High Yield Lumin Bomb",
@@ -8914,7 +8914,7 @@
         "upgrades": [ "Tall Hold 'em", "Enhanced Hold 'em" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/6d/ce/h4OvPx29_o.png"
     },
     "tall_hold_em": {
         "name": "Tall Hold 'em",
@@ -8930,7 +8930,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/6d/ce/h4OvPx29_o.png"
     },
     "enhanced_hold_em": {
         "name": "Enhanced Hold 'em",
@@ -8946,7 +8946,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/6d/ce/h4OvPx29_o.png"
     },
     "hole_up": {
         "name": "Hole Up",
@@ -11219,6 +11219,22 @@
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/50/35/6ifX1ZPu_o.png"
+    },
+    "lumin_canister": {
+        "name": "Lumin Canister",
+        "desc": "Hits all enemies.\n**Expend**",
+        "flavour": "*'Hit the deck!'*",
+        "actions": "1",
+        "keywords": [ "Expend" ],
+        "rarity": "Unique",
+        "deck": "Battle",
+        "type": "Item",
+        "xp": "N/A",
+        "character": "General",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "N/A"
     },
     "lumin_darts": {
         "name": "Lumin Darts",
@@ -15192,7 +15208,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/ae/d9/sepn2T0Q_o.png"
     },
     "sentinel": {
         "name": "Sentinel",
@@ -31006,7 +31022,7 @@
     },
     "roughneck": {
         "name": "Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Snails**: Steal **Composure**.",
+        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Snails**: Steal **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31022,7 +31038,7 @@
     },
     "twisted_roughneck": {
         "name": "Twisted Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Steal **Composure**.\n**Snails**: Remove **Composure**.",
+        "desc": "**Gamble**.\n**Heads**: Steal **Composure**.\n**Snails**: Remove **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31038,7 +31054,7 @@
     },
     "boosted_roughneck": {
         "name": "Boosted Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Heads**: Steal **Composure**.",
+        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Heads**: Steal **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
