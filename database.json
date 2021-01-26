@@ -7180,7 +7180,7 @@
         "upgrades": [ "Boosted Fold 'em", "Enhanced Fold 'em" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/76/29/xeYoWCFo_o.png"
     },
     "boosted_fold_em": {
         "name": "Boosted Fold 'em",
@@ -7196,7 +7196,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/76/29/xeYoWCFo_o.png"
     },
     "enhanced_fold_em": {
         "name": "Enhanced Fold 'em",
@@ -7212,7 +7212,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/76/29/xeYoWCFo_o.png"
     },
     "follow_through": {
         "name": "Follow Through",
@@ -10130,7 +10130,7 @@
         "upgrades": [ "Boosted Jackpot", "Pale Jackpot" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/d2/b5/HvWhoTeq_o.png"
     },
     "boosted_jackpot": {
         "name": "Boosted Jackpot",
@@ -10146,7 +10146,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/d2/b5/HvWhoTeq_o.png"
     },
     "pale_jackpot": {
         "name": "Pale Jackpot",
@@ -10162,7 +10162,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/d2/b5/HvWhoTeq_o.png"
     },
     "jammed_blaster": {
         "name": "Jammed Blaster",
@@ -11234,7 +11234,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/30/ed/N4DOxgvn_o.png"
     },
     "lumin_darts": {
         "name": "Lumin Darts",
@@ -11538,7 +11538,7 @@
         "upgrades": [ "Tall Mean Streak", "Boosted Mean Streak" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/a8/cd/8r6CxLZg_o.png"
     },
     "tall_mean_streak": {
         "name": "Tall Mean Streak",
@@ -11554,7 +11554,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/a8/cd/8r6CxLZg_o.png"
     },
     "boosted_mean_streak": {
         "name": "Boosted Mean Streak",
@@ -11570,7 +11570,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/a8/cd/8r6CxLZg_o.png"
     },
     "meditation": {
         "name": "Meditation",
@@ -12924,7 +12924,7 @@
     },
     "protective_procedure": {
         "name": "Protective Procedure",
-        "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**",
+        "desc": "**Ability**: At the end of your turn, gain 3 **Defense**.\n**Expend**",
         "flavour": "*'Wow I look better than ever! I can’t even see the scars!'*",
         "actions": "3",
         "keywords": [ "Expend", "Defense", "Ability" ],
@@ -12940,7 +12940,7 @@
     },
     "pale_protective_procedure": {
         "name": "Pale Protective Procedure",
-        "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**",
+        "desc": "**Ability**: At the end of your turn, gain 3 **Defense**.\n**Expend**",
         "flavour": "*'Wow I look better than ever! I can’t even see the scars!'*",
         "actions": "2",
         "keywords": [ "Expend", "Defense", "Ability" ],
@@ -12956,7 +12956,7 @@
     },
     "initial_protective_procedure": {
         "name": "Initial Protective Procedure",
-        "desc": "**Ability**: At the start of each turn, gain 3 **Defense**.\n**Expend**, **Ambush**",
+        "desc": "**Ability**: At the end of your turn, gain 3 **Defense**.\n**Expend**, **Ambush**",
         "flavour": "*'Wow I look better than ever! I can’t even see the scars!'*",
         "actions": "3",
         "keywords": [ "Expend", "Ambush", "Defense", "Ability" ],
@@ -13256,7 +13256,7 @@
         "upgrades": [ "Boosted Raise", "Wide Raise" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/e9/f3/0KU6ktsf_o.png"
     },
     "boosted_raise": {
         "name": "Boosted Raise",
@@ -13272,7 +13272,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/e9/f3/0KU6ktsf_o.png"
     },
     "wide_raise": {
         "name": "Wide Raise",
@@ -13288,7 +13288,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/e9/f3/0KU6ktsf_o.png"
     },
     "rampart": {
         "name": "Rampart",
@@ -18059,7 +18059,7 @@
         "upgrades": [ "Tall Gamble", "Visionary Gamble" ],
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/3d/00/hQx8Gmze_o.png"
     },
     "tall_gamble": {
         "name": "Tall Gamble",
@@ -18075,7 +18075,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/3d/00/hQx8Gmze_o.png"
     },
     "visionary_gamble": {
         "name": "Visionary Gamble",
@@ -18091,7 +18091,7 @@
         "upgrades": "N/A",
         "image": "N/A",
         "wikilink": "N/A",
-        "icon": "N/A"
+        "icon": "https://images2.imgbox.com/3d/00/hQx8Gmze_o.png"
     },
     "the_pain_train": {
         "name": "The Pain Train",
@@ -21797,10 +21797,10 @@
     },
     "braggart": {
         "name": "Braggart",
-        "desc": "Fill your hand with Brag. They cost 0 until played.",
+        "desc": "Fill your hand with Brag. They cost 0 until played.\n**Expend**",
         "flavour": "*'Oh yeah, I've heard of you before.'*",
         "actions": "3",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Diplomacy",
@@ -21813,10 +21813,10 @@
     },
     "pale_braggart": {
         "name": "Pale Braggart",
-        "desc": "Fill your hand with Brag. They cost 0 until played.",
+        "desc": "Fill your hand with Brag. They cost 0 until played.\n**Expend**",
         "flavour": "*'Oh yeah, I've heard of you before.'*",
         "actions": "2",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Diplomacy",
@@ -21829,10 +21829,10 @@
     },
     "boosted_braggart": {
         "name": "Boosted Braggart",
-        "desc": "Fill your hand with an upgraded Brag. They cost 0 until played.",
+        "desc": "Fill your hand with an upgraded Brag. They cost 0 until played.\n**Expend**",
         "flavour": "*'Oh yeah, I've heard of you before.'*",
         "actions": "3",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Diplomacy",
