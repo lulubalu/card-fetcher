@@ -8836,7 +8836,7 @@
     "high_stakes": {
         "name": "High Stakes",
         "desc": "**Ability**: Whenever you trigger a card's **Threshold**, gain 2 **Defense**.\n**Expend**",
-        "flavour": "*'Looks like you’re at the wrong table friend.'*",
+        "flavour": "*'Looks like you’re at the wrong table, friend.'*",
         "actions": "2",
         "keywords": [ "Ability", "Defense", "Expend", "Threshold" ],
         "rarity": "Uncommon",
@@ -8852,7 +8852,7 @@
     "pale_high_stakes": {
         "name": " Pale High Stakes",
         "desc": "**Ability**: Whenever you trigger a card's **Threshold**, gain 2 **Defense**.\n**Expend**",
-        "flavour": "*'Looks like you’re at the wrong table friend.'*",
+        "flavour": "*'Looks like you’re at the wrong table, friend.'*",
         "actions": "1",
         "keywords": [ "Ability", "Defense", "Expend", "Threshold" ],
         "rarity": "Uncommon",
@@ -8868,7 +8868,7 @@
     "stone_stakes": {
         "name": "Stone Stakes",
         "desc": "**Ability**: Whenever you trigger a card's Threshold, gain 3 **Defense**.\n**Expend**",
-        "flavour": "*'Looks like you’re at the wrong table friend.'*",
+        "flavour": "*'Looks like you’re at the wrong table, friend.'*",
         "actions": "2",
         "keywords": [ "Ability", "Defense", "Expend", "Threshold" ],
         "rarity": "Uncommon",
@@ -15708,7 +15708,7 @@
     },
     "shrapnel_grenade": {
         "name": "Shrapnel Grenade",
-        "desc": "Hits all enemies.\nApply 2 Wound.\nApply 2 Exposed.\n**Destroy** after 1 use.",
+        "desc": "Hits all enemies.\nApply 2 Exposed.\nApply 2 Wound.\n**Destroy** after 1 use.",
         "flavour": "*'Pull the pin and throw, easy enough. You barely have to aim with a blast radius like that.'*",
         "actions": "1",
         "keywords": [ "Destroy" ],
@@ -20175,7 +20175,7 @@
     },
     "ad_hominem": {
         "name": "Ad Hominem",
-        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 3 **Composure** to your core argument.\n**Expend**",
+        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 2 **Composure** to all your arguments.\n**Expend**",
         "flavour": "*'Rook? That Fink!?'*",
         "actions": "1",
         "keywords": [ "Expend", "Composure" ],
@@ -20189,12 +20189,12 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/93/6a/9JlunLIo_o.png"
     },
-    "enduring_ad_hominem": {
-        "name": "Enduring Ad Hominem",
-        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 3 **Composure** to your core argument.",
+    "boosted_ad_hominem": {
+        "name": "Boosted Ad Hominem",
+        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 3 **Composure** to all your arguments.\n**Expend**",
         "flavour": "*'Rook? That Fink!?'*",
         "actions": "1",
-        "keywords": [ "Composure" ],
+        "keywords": [ "Expend", "Composure" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -20207,7 +20207,7 @@
     },
     "pale_ad_hominem": {
         "name": "Pale Ad Hominem",
-        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 3 **Composure** to your core argument.\n**Expend**",
+        "desc": "Gain: At the end of your turn, spend 1 Renown and apply 2 **Composure** to all your arguments.\n**Expend**",
         "flavour": "*'Rook? That Fink!?'*",
         "actions": "0",
         "keywords": [ "Expend", "Composure" ],
@@ -21525,7 +21525,7 @@
     },
     "powder_keg": {
         "name": "Powder Keg",
-        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument and create a new Powder Keg.\n**Expend**",
         "flavour": "*'I thought I told you guys to never come back here.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -21557,7 +21557,7 @@
     },
     "pale_powder_keg": {
         "name": "Pale Powder Keg",
-        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 8 damage to a random opponent argument and create a new Powder Keg.\n**Expend**",
         "flavour": "*'I thought I told you guys to never come back here.'*",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -21685,7 +21685,7 @@
     },
     "brag": {
         "name": "Brag",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21701,7 +21701,7 @@
     },
     "rooted_brag": {
         "name": "Rooted Brag",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21717,7 +21717,7 @@
     },
     "tall_brag": {
         "name": "Tall Brag",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21733,7 +21733,7 @@
     },
     "lucid_brag": {
         "name": "Lucid Brag",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.\n**Expend**",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.\n**Expend**",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -21749,7 +21749,7 @@
     },
     "visionary_brag": {
         "name": "Visionary Brag",
-        "desc": "Draw a card.\nRenowned 2: increase the maximum damage of this card by 2.",
+        "desc": "Draw a card.\nRenowned 1: increase the maximum damage of this card by 2.",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21765,7 +21765,7 @@
     },
     "famous_brag": {
         "name": "Famous Brag",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.\nGain 1 Renown.",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.\nGain 1 Renown.",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21781,7 +21781,7 @@
     },
     "brag_of_clarity": {
         "name": "Brag of Clarity",
-        "desc": "Renowned 2: increase the maximum damage of this card by 2.\n**Destroy**",
+        "desc": "Renowned 1: increase the maximum damage of this card by 2.\n**Destroy**",
         "flavour": "*'I don’t mean to come off too cocky but…'*",
         "actions": "1",
         "keywords": [ "Destroy" ],
@@ -22773,10 +22773,10 @@
     },
     "circle_back": {
         "name": "Circle Back",
-        "desc": "Duplicate a friendly argument, then destroy the original.",
+        "desc": "Duplicate a friendly argument, then destroy the original.\n**Expend**",
         "flavour": "*'Now wait a second!'*",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -22789,10 +22789,10 @@
     },
     "pale_circle_back": {
         "name": "Pale Circle Back",
-        "desc": "Duplicate a friendly argument, then destroy the original.",
+        "desc": "Duplicate a friendly argument, then destroy the original.\n**Expend**",
         "flavour": "*'Now wait a second!'*",
         "actions": "0",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -22805,10 +22805,10 @@
     },
     "boosted_circle_back": {
         "name": "Boosted Circle Back",
-        "desc": "Duplicate a friendly argument twice, then destroy the original.",
+        "desc": "Duplicate a friendly argument twice, then destroy the original.\n**Expend**",
         "flavour": "*'Now wait a second!'*",
         "actions": "2",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -23797,7 +23797,7 @@
     },
     "degrade": {
         "name": "Degrade",
-        "desc": "Targets all opponent and friendly arguments.",
+        "desc": "Hits twice. Can target opponent or friendly arguments.",
         "flavour": "*'What an absolute joke.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -23813,7 +23813,7 @@
     },
     "boosted_degrade": {
         "name": "Boosted Degrade",
-        "desc": "Targets all opponent and friendly arguments.",
+        "desc": "Hits twice. Can target opponent or friendly arguments.",
         "flavour": "*'What an absolute joke.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -23829,7 +23829,7 @@
     },
     "mirrored_degrade": {
         "name": "Mirrored Degrade",
-        "desc": "Targets all opponent and friendly arguments twice.",
+        "desc": "Hits three times. Can target opponent or friendly arguments.",
         "flavour": "*'What an absolute joke.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -24277,7 +24277,7 @@
     },
     "domain": {
         "name": "Domain",
-        "desc": "Apply 1 **Composure** to all friendly arguments. Increase by 1 for each Hostile card played this turn.",
+        "desc": "Apply 2 **Composure** to all friendly arguments. Increase by 1 for each Hostile card played this turn.",
         "flavour": "*'This is my house!'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -24293,7 +24293,7 @@
     },
     "boosted_domain": {
         "name": "Boosted Domain",
-        "desc": "Apply 3 **Composure** to all friendly arguments. Increase by 1 for each Hostile card played this turn.",
+        "desc": "Apply 4 **Composure** to all friendly arguments. Increase by 1 for each Hostile card played this turn.",
         "flavour": "*'This is my house!'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -24309,7 +24309,7 @@
     },
     "stone_domain": {
         "name": "Stone Domain",
-        "desc": "Apply 1 **Composure** to all friendly arguments. Increase by 2 for each Hostile card played this turn.",
+        "desc": "Apply 2 **Composure** to all friendly arguments. Increase by 2 for each Hostile card played this turn.",
         "flavour": "*'This is my house!'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -24373,7 +24373,7 @@
     },
     "dominion": {
         "name": "Dominion",
-        "desc": "Spend up to 6 Renown: Gain 1 Dominance per 2 Renown spent.",
+        "desc": "Spend up to 4 Renown: Gain Dominance equal to the Renown spent.",
         "flavour": "*'You thought this was just a game?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -24389,7 +24389,7 @@
     },
     "pale_dominion": {
         "name": "Pale Dominion",
-        "desc": "Spend up to 6 Renown: Gain 1 Dominance per 2 Renown spent.",
+        "desc": "Spend up to 4 Renown: Gain Dominance equal to the Renown spent.",
         "flavour": "*'You thought this was just a game?'*",
         "actions": "0",
         "keywords": [ "N/A" ],
@@ -24405,7 +24405,7 @@
     },
     "boosted_dominion": {
         "name": "Boosted Dominion",
-        "desc": "Spend up to 4 Renown: Gain 1 Dominance per 1 Renown spent.",
+        "desc": "Spend up to 6 Renown: Gain Dominance equal to the Renown spent.",
         "flavour": "*'You thought this was just a game?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -24469,7 +24469,7 @@
     },
     "double_entendre": {
         "name": "Double Entendre",
-        "desc": "Apply **Composure** to all friendly arguments equal to half the damage dealt by this card.",
+        "desc": "Apply **Composure** to all friendly arguments equal to the damage dealt by this card.",
         "flavour": "*'You know what I mean, right?'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -24485,7 +24485,7 @@
     },
     "rooted_entendre": {
         "name": "Rooted Entendre",
-        "desc": "Apply **Composure** to all friendly arguments equal to half the damage dealt by this card.",
+        "desc": "Apply **Composure** to all friendly arguments equal to the damage dealt by this card.",
         "flavour": "*'You know what I mean, right?'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -24499,8 +24499,8 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/73/bb/L5GvAK0o_o.png"
     },
-    "stone_entendre": {
-        "name": "Stone Entendre",
+    "tall_entendre": {
+        "name": "Tall Entendre",
         "desc": "Apply **Composure** to all friendly arguments equal to the damage dealt by this card.",
         "flavour": "*'You know what I mean, right?'*",
         "actions": "1",
@@ -25781,7 +25781,7 @@
     },
     "forgo": {
         "name": "Forgo",
-        "desc": "**Expend** a card in your hand, all other cards in your hand gain 2 damage until played.\n**Expend**",
+        "desc": "**Expend** a card in your hand, all other cards in your hand gain 2 damage until played.",
         "flavour": "*'Dispense with the formalities.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -25797,7 +25797,7 @@
     },
     "pale_forgo": {
         "name": "Pale Forgo",
-        "desc": "**Expend** a card in your hand, all other cards in your hand gain 2 damage until played.\n**Expend**",
+        "desc": "**Expend** a card in your hand, all other cards in your hand gain 2 damage until played.",
         "flavour": "*'Dispense with the formalities.'*",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -25811,9 +25811,9 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/f9/2d/m2Ve7Wqx_o.png"
     },
-    "enduring_forgo": {
-        "name": "Enduring Forgo",
-        "desc": "**Expend** a card in your hand, all other cards in your hand gain 2 damage until played.",
+    "boosted_forgo": {
+        "name": "Boosted Forgo",
+        "desc": "**Expend** a card in your hand, all other cards in your hand gain 3 damage until played.",
         "flavour": "*'Dispense with the formalities.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -27397,7 +27397,7 @@
     },
     "influencer": {
         "name": "Influencer",
-        "desc": "Renowned 3: this deals 3 bonus damage.",
+        "desc": "Renowned 2: this deals 3 bonus damage.",
         "flavour": "*'You’re tuned into Radio Smith! All Smith, all day!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27413,7 +27413,7 @@
     },
     "pale_influencer": {
         "name": "Pale Influencer",
-        "desc": "Renowned 2: this deals 3 bonus damage.",
+        "desc": "Renowned 1: this deals 3 bonus damage.",
         "flavour": "*'You’re tuned into Radio Smith! All Smith, all day!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27429,7 +27429,7 @@
     },
     "boosted_influencer": {
         "name": "Boosted Influencer",
-        "desc": "Renowned 3: this deals 5 bonus damage.",
+        "desc": "Renowned 2: this deals 5 bonus damage.",
         "flavour": "*'You’re tuned into Radio Smith! All Smith, all day!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27541,7 +27541,7 @@
     },
     "instigate": {
         "name": "Instigate",
-        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 10 damage to a random enemy target.\n**Expend**",
+        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 14 damage to a random enemy target.\n**Expend**",
         "flavour": "*'What the Hesh?'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -27557,7 +27557,7 @@
     },
     "enduring_instigate": {
         "name": "Enduring Instigate",
-        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 10 damage to a random enemy target.",
+        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 14 damage to a random enemy target.",
         "flavour": "*'What the Hesh?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27573,7 +27573,7 @@
     },
     "pale_instigate": {
         "name": "Pale Instigate",
-        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 10 damage to a random enemy target.\n**Expend**",
+        "desc": "Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 14 damage to a random enemy target.\n**Expend**",
         "flavour": "*'What the Hesh?'*",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -28101,7 +28101,7 @@
     },
     "know_a_guy": {
         "name": "Know a Guy",
-        "desc": "Gain 2 Renown. At the end of your turn remove all your Renown and apply that much **Composure** to your core argument.",
+        "desc": "Gain 2 Renown. At the end of your turn remove all your Renown and apply that much **Composure** to all your arguments.",
         "flavour": "*'Yeah they'll fix you right up. No problem, just mention my name.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -28117,7 +28117,7 @@
     },
     "boosted_know_a_guy": {
         "name": "Boosted Know a Guy",
-        "desc": "Gain 4 Renown. At the end of your turn remove all your Renown and apply that much **Composure** to your core argument.",
+        "desc": "Gain 4 Renown. At the end of your turn remove all your Renown and apply that much **Composure** to all your arguments.",
         "flavour": "*'Yeah they'll fix you right up. No problem, just mention my name.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -28339,12 +28339,12 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/fb/73/f2FRWBGy_o.png"
     },
-    "enduring_long_winded": {
-        "name": "Enduring Long Winded",
-        "desc": "Draw 2 cards and play them for free.",
+    "pale_long_winded": {
+        "name": "Pale Long Winded",
+        "desc": "Draw 2 cards and play them for free.\n**Expend**",
         "flavour": "*'Great, you got him started. We are going to be here a while.'*",
-        "actions": "1",
-        "keywords": [ "N/A" ],
+        "actions": "0",
+        "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -28789,7 +28789,7 @@
     },
     "networker": {
         "name": "Networker",
-        "desc": "Renowned 3: Draw 2 cards.",
+        "desc": "Renowned 2: Draw 2 cards.",
         "flavour": "*'Yeah it’s going to be big, no plus ones though.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -28805,7 +28805,7 @@
     },
     "visionary_networker": {
         "name": "Visionary Networker",
-        "desc": "Renowned 3: Draw 3 cards.",
+        "desc": "Renowned 2: Draw 3 cards.",
         "flavour": "*'Yeah it’s going to be big, no plus ones though.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -29159,7 +29159,7 @@
         "name": "Overdrive",
         "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
-        "actions": "3",
+        "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -29175,7 +29175,7 @@
         "name": "Pale Overdrive",
         "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
-        "actions": "2",
+        "actions": "1",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -29191,7 +29191,7 @@
         "name": "Enduring Overdrive",
         "desc": "On your next turn, all your cards are played twice but also **Expend**.",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
-        "actions": "3",
+        "actions": "2",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -29277,7 +29277,7 @@
         "name": "Parvenu",
         "desc": "Whenever you gain Renown, reduce the cost of this card by 1.",
         "flavour": "*'I don't know where that one came from. He's waiting for you in the back.'*",
-        "actions": "10",
+        "actions": "9",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -29309,7 +29309,7 @@
         "name": "Boosted Parvenu",
         "desc": "Whenever you gain Renown, reduce the cost of this card by 1.",
         "flavour": "*'I don't know where that one came from. He's waiting for you in the back.'*",
-        "actions": "10",
+        "actions": "9",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -30701,8 +30701,8 @@
         "icon": "https://images2.imgbox.com/58/48/finlMZIm_o.png"
     },
     "refusal": {
-        "name": "Stonewall",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.\n**Expend**",
+        "name": "Refusal",
+        "desc": "Create: Whenever you spend Renown with a card, deal 3 damage to a random opponent argument.\n**Expend**",
         "flavour": "*'Look pal, you have to give me SOMETHING here.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -30716,12 +30716,12 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/c0/26/mSfjHeKh_o.png"
     },
-    "enduring_refusal": {
-        "name": "Enduring Refusal",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.",
+    "boosted_refusal": {
+        "name": "Boosted Refusal",
+        "desc": "Create: Whenever you spend Renown with a card, deal 4 damage to a random opponent argument.\n**Expend**",
         "flavour": "*'Look pal, you have to give me SOMETHING here.'*",
         "actions": "1",
-        "keywords": [ "N/A" ],
+        "keywords": [ "Expend" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
         "type": "Hostility",
@@ -30734,7 +30734,7 @@
     },
     "pale_refusal": {
         "name": "Pale Refusal",
-        "desc": "Create: Whenever you spend Renown with a card, deal 2 damage to a random opponent argument.\n**Expend**",
+        "desc": "Create: Whenever you spend Renown with a card, deal 3 damage to a random opponent argument.\n**Expend**",
         "flavour": "*'Look pal, you have to give me SOMETHING here.'*",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -30862,9 +30862,9 @@
     },
     "rescind": {
         "name": "Rescind",
-        "desc": "Spend all Renown and deal 2 damage per stack of Renown to a random opponent argument.",
+        "desc": "Attack a random argument.\nSpend all Renown: Attack per Renown spent.",
         "flavour": "*'The deal has changed.'*",
-        "actions": "1",
+        "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
@@ -30878,9 +30878,9 @@
     },
     "boosted_rescind": {
         "name": "Boosted Rescind",
-        "desc": "Spend all Renown and deal 3 damage per stack of Renown to a random opponent argument.",
+        "desc": "Attack a random argument.\nSpend all Renown: Attack per Renown spent.",
         "flavour": "*'The deal has changed.'*",
-        "actions": "1",
+        "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
@@ -30894,9 +30894,9 @@
     },
     "focused_rescind": {
         "name": "Focused Rescind",
-        "desc": "Spend all Renown and deal 2 damage per stack of Renown to targeted opponent argument.",
+        "desc": "Attack a random argument.\nSpend all Renown: Attack per Renown spent.",
         "flavour": "*'The deal has changed.'*",
-        "actions": "1",
+        "actions": "2",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
         "deck": "Negotiation",
@@ -31134,7 +31134,7 @@
     },
     "scapegoat": {
         "name": "Scapegoat",
-        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
+        "desc": "Force all friendly arguments to target a specific opponent argument.",
         "flavour": "*'What have you been telling everyone about me?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -31150,7 +31150,7 @@
     },
     "pale_scapegoat": {
         "name": "Pale Scapegoat",
-        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
+        "desc": "Force all friendly arguments to target a specific opponent argument.",
         "flavour": "*'What have you been telling everyone about me?'*",
         "actions": "0",
         "keywords": [ "N/A" ],
@@ -31166,7 +31166,7 @@
     },
     "biting_scapegoat": {
         "name": "Biting Scapegoat",
-        "desc": "Force all enemy intents and arguments to target a specific friendly argument.",
+        "desc": "Force all friendly arguments to target a specific opponent argument.",
         "flavour": "*'What have you been telling everyone about me?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -32222,7 +32222,7 @@
     },
     "standing": {
         "name": "Standing",
-        "desc": "Apply 3 **Composure**.\nRenowned 4: apply 3 bonus **Composure**.",
+        "desc": "Apply 3 **Composure**.\nRenowned 3: apply 3 bonus **Composure**.",
         "flavour": "*'Looking good there Smith.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -32238,7 +32238,7 @@
     },
     "stone_standing": {
         "name": "Stone Standing",
-        "desc": "Apply 3 **Composure**.\nRenowned 4: apply 5 bonus **Composure**.",
+        "desc": "Apply 3 **Composure**.\nRenowned 3: apply 5 bonus **Composure**.",
         "flavour": "*'Looking good there Smith.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -32670,7 +32670,7 @@
     },
     "tempt": {
         "name": "Tempt",
-        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 until played.",
+        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 for the rest of this negotiation.",
         "flavour": "*'It's just so juicy!'*",
         "actions": "6",
         "keywords": [ "N/A" ],
@@ -32686,9 +32686,9 @@
     },
     "pale_tempt": {
         "name": "Pale Tempt",
-        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 until played.",
+        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 for the rest of this negotiation.",
         "flavour": "*'It's just so juicy!'*",
-        "actions": "5",
+        "actions": "4",
         "keywords": [ "N/A" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -32702,7 +32702,7 @@
     },
     "boosted_tempt": {
         "name": "Boosted Tempt",
-        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 until played.",
+        "desc": "Whenever a friendly argument is destroyed, reduce the cost of this card by 1 for the rest of this negotiation.",
         "flavour": "*'It's just so juicy!'*",
         "actions": "6",
         "keywords": [ "N/A" ],
