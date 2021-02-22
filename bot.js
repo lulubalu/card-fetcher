@@ -173,7 +173,7 @@ client.on('message', async msg => {
 
             if (_.get(database, key + '.deck') == "Battle") {
                 battleCards++;
-            } else {
+            } else if (_.get(database, key + '.deck') == "Negotiation") {
                 negotiationCards++;
             }
 
@@ -189,7 +189,7 @@ client.on('message', async msg => {
                 itemCards++;
             } else if (_.get(database, key + '.type') == "Status") {
                 statusCards++;
-            } else {
+            } else if (_.get(database, key + '.type') == "Flourish") {
                 flourishCards++;
             }
 
@@ -201,7 +201,7 @@ client.on('message', async msg => {
                 uncommonCards++;
             } else if (_.get(database, key + '.rarity') == "Rare") {
                 rareCards++;
-            } else {
+            } else if (_.get(database, key + '.rarity') == "Unique") {
                 uniqueCards++;
             }
 
@@ -212,7 +212,7 @@ client.on('message', async msg => {
                 rookCards++
             } else if (characterType == "Smith") {
                 smithCards++
-            } else {
+            } else if(characterType == "General" || characterType == "Daily" || characterType == "Npc") {
                 generalCards++
             }
         });
@@ -241,7 +241,7 @@ client.on('message', async msg => {
                 "\n**Smith Cards:** " + smithCards +
                 "\n**General Cards:** " + generalCards +
                 "\n\n**Latency:** " + ping + "ms.\n**API Latency:** "
-                + Math.round(client.ws.ping) + "ms" +
+                + Math.round(client.ws.ping) + "ms." +
                 "\n**No. of servers I'm in:** " + client.guilds.cache.size);
         msg.channel.send(statsEmbed);
     } else if (command == "fetchicon") {
