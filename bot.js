@@ -136,6 +136,114 @@ client.on('message', async msg => {
     } else command = body;
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
+    } else if (command == "fetchstats") {
+        //console.log(_.keys(database));
+        var total = 0;
+        var namedCards = 0;
+        var icons = 0;
+        var battleCards = 0;
+        var negotiationCards = 0;
+        var attackCards = 0;
+        var maneuverCards = 0;
+        var diplomacyCards = 0;
+        var hostilityCards = 0;
+        var itemCards = 0;
+        var statusCards = 0;
+        var flourishCards = 0;
+        var basicCards = 0;
+        var commonCards = 0;
+        var uncommonCards = 0;
+        var rareCards = 0;
+        var uniqueCards = 0;
+        var salCards = 0;
+        var rookCards = 0;
+        var smithCards = 0;
+        var generalCards = 0;
+        _.forEach(database, function (value, key) {
+            //console.log(key);
+            total++;
+            if (typeof _.get(database, key + '.name') !== 'undefined') {
+                namedCards++;
+            }
+
+            var iconLink = _.get(database, key + '.icon');
+            if (typeof iconLink !== 'undefined' && iconLink != "N/A") {
+                icons++;
+            }
+
+            if (_.get(database, key + '.deck') == "Battle") {
+                battleCards++;
+            } else {
+                negotiationCards++;
+            }
+
+            if (_.get(database, key + '.type') == "Attack") {
+                attackCards++;
+            } else if (_.get(database, key + '.type') == "Maneuver") {
+                maneuverCards++;
+            } else if (_.get(database, key + '.type') == "Diplomacy") {
+                diplomacyCards++;
+            } else if (_.get(database, key + '.type') == "Hostility") {
+                hostilityCards++;
+            } else if (_.get(database, key + '.type') == "Item") {
+                itemCards++;
+            } else if (_.get(database, key + '.type') == "Status") {
+                statusCards++;
+            } else {
+                flourishCards++;
+            }
+
+            if (_.get(database, key + '.rarity') == "Basic") {
+                basicCards++
+            } else if (_.get(database, key + '.rarity') == "Common") {
+                commonCards++;
+            } else if (_.get(database, key + '.rarity') == "Uncommon") {
+                uncommonCards++;
+            } else if (_.get(database, key + '.rarity') == "Rare") {
+                rareCards++;
+            } else {
+                uniqueCards++;
+            }
+
+            var characterType = _.get(database, key + '.character');
+            if (characterType == "Sal") {
+                salCards++;
+            } else if (characterType == "Rook") {
+                rookCards++
+            } else if (characterType == "Smith") {
+                smithCards++
+            } else {
+                generalCards++
+            }
+        });
+        var ping = Date.now() - msg.createdTimestamp;
+        var statsEmbed = new Discord.MessageEmbed()
+            .setTitle("Card Fetcher's Stats")
+            .setDescription("**Total no. of keys in the database:** " + total +
+                "\n**Total Cards:** " + namedCards +
+                "\n**Icons:** " + icons +
+                "\n**Battle Cards:** " + battleCards +
+                "\n**Negotiation Cards:** " + negotiationCards +
+                "\n**Attack Cards:** " + attackCards +
+                "\n**Maneuver Cards:** " + maneuverCards +
+                "\n**Diplomacy Cards:** " + diplomacyCards +
+                "\n**Hostility Cards:** " + hostilityCards +
+                "\n**Item Cards:** " + itemCards +
+                "\n**Status Cards:** " + statusCards +
+                "\n**Flourish Cards:** " + flourishCards +
+                "\n**Basic Cards:** " + basicCards +
+                "\n**Common Cards:** " + commonCards +
+                "\n**Uncommon Cards:** " + uncommonCards +
+                "\n**Rare Cards:** " + rareCards +
+                "\n**Unique Cards:** " + uniqueCards +
+                "\n**Sal Cards:** " + salCards +
+                "\n**Rook Cards:** " + rookCards +
+                "\n**Smith Cards:** " + smithCards +
+                "\n**General Cards:** " + generalCards +
+                "\n\n**Latency:** " + ping + "ms.\n**API Latency:** "
+                + Math.round(client.ws.ping) + "ms" +
+                "\n**No. of servers I'm in:** " + client.guilds.cache.size);
+        msg.channel.send(statsEmbed);
     } else if (command == "fetchicon") {
         if (CardRequest.indexOf(" ") > -1) {
             splitStr = CardRequest.split(' ');
