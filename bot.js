@@ -255,7 +255,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         };
-        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.':!]/g, "");
+        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.'’:!]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined' && ImageLink != "N/A") {
             const attachment = new MessageAttachment(ImageLink);
@@ -304,7 +304,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         };
-        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.':!]/g, "");
+        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.'’:!]/g, "");
 
         console.log("SEARCHING FOR WIKI PAGE: " + PageToOpen);
 
