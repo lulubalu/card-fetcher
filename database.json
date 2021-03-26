@@ -2581,7 +2581,7 @@
     "brain_burn": {
         "name": "Brain Burn",
         "desc": "Apply 1 Burn per Concentration.",
-        "flavour": "*'I picked this one up after operation reed walker, haven't used it since.'*",
+        "flavour": "*'I picked this one up after Operation Reed Walker. Haven't used it since.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -2597,7 +2597,7 @@
     "tall_brain_burn": {
         "name": "Tall Brain Burn",
         "desc": "Apply 1 Burn per Concentration.",
-        "flavour": "*'I picked this one up after operation reed walker, haven't used it since.'*",
+        "flavour": "*'I picked this one up after Operation Reed Walker. Haven't used it since.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -2613,7 +2613,7 @@
     "boosted_brain_burn": {
         "name": "Boosted Brain Burn",
         "desc": "Apply 1 Burn per Concentration +1.",
-        "flavour": "*'I picked this one up after operation reed walker, haven't used it since.'*",
+        "flavour": "*'I picked this one up after Operation Reed Walker. Haven't used it since.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
         "rarity": "Uncommon",
@@ -5662,6 +5662,54 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/43/e1/PxDZgnrD_o.png"
     },
+    "duck": {
+	"name": "Duck!",
+        "desc": "Gain 1 Evasion.\n**Expend**, **Burnout**",
+        "flavour": "*'Where?'*",
+        "actions": "1",
+        "keywords": [ "Expend", "Burnout" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "7",
+        "character": "Smith",
+        "upgrades": [ "Stable Duck!", "Pale Duck!" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/fb/49/a1qYQ8In_o.png"
+    },
+    "stable_duck": {
+	"name": "Stable Duck!",
+        "desc": "Gain 1 Evasion.\n**Expend**",
+        "flavour": "*'Where?'*",
+        "actions": "1",
+        "keywords": [ "Expend" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/fb/49/a1qYQ8In_o.png"
+    },
+    "pale_duck": {
+	"name": "Pale Duck!",
+        "desc": "Gain 1 Evasion.\n**Expend**, **Burnout**",
+        "flavour": "*'Where?'*",
+        "actions": "0",
+        "keywords": [ "Expend", "Burnout" ],
+        "rarity": "Uncommon",
+        "deck": "Battle",
+        "type": "Maneuver",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/fb/49/a1qYQ8In_o.png"
+    },
     "dugout": {
         "name": "Dugout",
         "desc": "Apply 10 **Defense**.\nGain 1 Wide Open at the beginning of your next turn.",
@@ -6496,7 +6544,7 @@
     },
     "overcharging_hammer": {
         "name": "Overcharging Hammer",
-        "desc": "Spend all Charge: Attack once for each Charge and gain 1 Overcharge for each Charge.",
+        "desc": "Spend all Charge: Attack once and gain 1 Overcharge for each Charge.",
         "flavour": "*'Fill them full of holes! We've got plenty of ammo!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -14394,8 +14442,8 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/0f/87/ujpMKRhS_o.png"
     },
-    "roloach_karambit": {
-        "name": "Roloach Karambit",
+    "roaloch_karambit": {
+        "name": "Roaloch Karambit",
         "desc": "Apply 3 **Bleed**.\n**Expend**",
         "flavour": "*'A quick wrist movement and the handle becomes just as dangerous.'*",
         "actions": "1",
@@ -14460,7 +14508,7 @@
     },
     "visionary_rubble": {
         "name": "Visionary Rubble",
-        "desc": "Draw 2 cards, discard up to 2 cards, gain 2 **Defense** per card discarded.",
+        "desc": "Draw 2 cards, discard up to 2 cards, gain 3 **Defense** per card discarded.",
         "flavour": "*’That loser shows up with three briefcases and I have NO idea what he’s going to do next.’*",
         "actions": "1",
         "keywords": [ "Defense" ],
@@ -15276,7 +15324,7 @@
     },
     "serrated_dirk": {
         "name": "Serrated Dirk",
-        "desc": "Apply 3 Wound and insert Roloach Karambit into your hand.\n**Expend**",
+        "desc": "Apply 3 Wound and insert Roaloch Karambit into your hand.\n**Expend**",
         "flavour": "*'That's going to leave a mark.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -21301,7 +21349,7 @@
     },
     "blank": {
         "name": "Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 3 bonus damage.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Gain 3 bonus damage.",
         "flavour": "*'Hey pay attention, this here is important.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -21317,7 +21365,7 @@
     },
     "enhanced_blank": {
         "name": "Enhanced Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 5 bonus damage.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Gain 5 bonus damage.",
         "flavour": "*'Hey pay attention, this here is important.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -21333,7 +21381,7 @@
     },
     "boosted_blank": {
         "name": "Boosted Blank",
-        "desc": "**Gamble**.\n**Heads**: Gain 3 bonus damage.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Gain 3 bonus damage.",
         "flavour": "*'Hey pay attention, this here is important.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -21365,7 +21413,7 @@
     },
     "blockade": {
         "name": "Blockade",
-        "desc": "**Gamble**.\n**Heads**: Apply 3 **Composure** to all friendly arguments.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Apply 3 **Composure** to all friendly arguments.",
         "flavour": "*'He’s a tough nut to crack, I’ll give you that.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -21381,7 +21429,7 @@
     },
     "boosted_blockade": {
         "name": "Boosted Blockade",
-        "desc": "**Gamble**.\n**Heads**: Apply 4 **Composure** to all friendly arguments.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Apply 4 **Composure** to all friendly arguments.",
         "flavour": "*'He’s a tough nut to crack, I’ll give you that.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -21397,7 +21445,7 @@
     },
     "twisted_blockade": {
         "name": "Twisted Blockade",
-        "desc": "**Gamble**.\n**Snails**: Apply 4 **Composure** to all friendly arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Apply 4 **Composure** to all friendly arguments.",
         "flavour": "*'He’s a tough nut to crack, I’ll give you that.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -21413,7 +21461,7 @@
     },
     "bluff": {
         "name": "Bluff",
-        "desc": "**Heads**: This card costs 0.\nDraw 2 cards.",
+        "desc": "<:heads:757659165719134388>: This card costs 0.\nDraw 2 cards.",
         "flavour": "*'I am dead serious.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -21429,7 +21477,7 @@
     },
     "twisted_bluff": {
         "name": "Twisted Bluff",
-        "desc": "**Snails**: This card costs 0.\nDraw 2 cards.\n**Replenish**",
+        "desc": "<:snails:757659165807214778>: This card costs 0.\nDraw 2 cards.\n**Replenish**",
         "flavour": "*'I am dead serious.'*",
         "actions": "1",
         "keywords": [ "Replenish" ],
@@ -21445,7 +21493,7 @@
     },
     "visionary_bluff": {
         "name": "Visionary Bluff",
-        "desc": "**Heads**: This card costs 0.\nDraw 2 cards.\n**Replenish**",
+        "desc": "<:heads:757659165719134388>: This card costs 0.\nDraw 2 cards.\n**Replenish**",
         "flavour": "*'I am dead serious.'*",
         "actions": "1",
         "keywords": [ "Replenish" ],
@@ -21557,7 +21605,7 @@
     },
     "boosted_powder_keg": {
         "name": "Boosted Powder Keg",
-        "desc": "Create: When destroyed, deal 12 damage to a random opponent argument.\n**Expend**",
+        "desc": "Create: When destroyed, deal 12 damage to a random opponent argument and create a new Powder Keg.\n**Expend**",
         "flavour": "*'I thought I told you guys to never come back here.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -22261,7 +22309,7 @@
     },
     "burn": {
         "name": "Burn",
-        "desc": "**Snails**: Hits all opponent arguments.",
+        "desc": "<:snails:757659165807214778>: Hits all opponent arguments.",
         "flavour": "*'Alright already! I said no guns!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -22277,7 +22325,7 @@
     },
     "tall_burn": {
         "name": "Tall Burn",
-        "desc": "**Snails**: Hits all opponent arguments.",
+        "desc": "<:snails:757659165807214778>: Hits all opponent arguments.",
         "flavour": "*'Alright already! I said no guns!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -22293,7 +22341,7 @@
     },
     "boosted_burn": {
         "name": "Boosted Burn",
-        "desc": "**Snails**: Hits all opponent arguments.",
+        "desc": "<:snails:757659165807214778>: Hits all opponent arguments.",
         "flavour": "*'Alright already! I said no guns!'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -22707,6 +22755,54 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/b7/b5/WyhkiKpT_o.png"
     },
+    "center_of_attention": {
+        "name": "Center of Attention",
+        "desc": "Add 2 resolve to all friendly arguments.\n**Expend**",
+        "flavour": "*'Wouldn’t miss it for the world.'*",
+        "actions": "2",
+        "keywords": [ "Expend" ],
+        "rarity": "Rare",
+        "deck": "Negotiation",
+        "type": "Diplomacy",
+        "xp": "5",
+        "character": "Smith",
+        "upgrades": [ "Pale Center of Attention", "Boosted Center of Attention" ],
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/9d/63/u2dWqzXV_o.png"
+    },
+    "pale_center_of_attention": {
+        "name": "Center of Attention",
+        "desc": "Add 2 resolve to all friendly arguments.\n**Expend**",
+        "flavour": "*'Wouldn’t miss it for the world.'*",
+        "actions": "1",
+        "keywords": [ "Expend" ],
+        "rarity": "Rare",
+        "deck": "Negotiation",
+        "type": "Diplomacy",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/9d/63/u2dWqzXV_o.png"
+    },
+    "boosted_center_of_attention": {
+        "name": "Center of Attention",
+        "desc": "Add 3 resolve to all friendly arguments.\n**Expend**",
+        "flavour": "*'Wouldn’t miss it for the world.'*",
+        "actions": "2",
+        "keywords": [ "Expend" ],
+        "rarity": "Rare",
+        "deck": "Negotiation",
+        "type": "Diplomacy",
+        "xp": "N/A",
+        "character": "Smith",
+        "upgrades": "N/A",
+        "image": "N/A",
+        "wikilink": "N/A",
+        "icon": "https://images2.imgbox.com/9d/63/u2dWqzXV_o.png"
+    },
     "chase": {
         "name": "Chase",
         "desc": "If this destroys an argument, play this card a second time.",
@@ -22965,7 +23061,7 @@
     },
     "clear_head": {
         "name": "Clear Head",
-        "desc": "Rig 2 **Heads**, then **Prepare** a card.",
+        "desc": "Rig 2 <:heads:757659165719134388>, then **Prepare** a card.",
         "flavour": "*'I just needed to get some air.'*",
         "actions": "1",
         "keywords": [ "Prepare" ],
@@ -22981,7 +23077,7 @@
     },
     "rigged_clear_head": {
         "name": "Rigged Clear Head",
-        "desc": "Rig 4 **Heads**, then **Prepare** a card.",
+        "desc": "Rig 4 <:heads:757659165719134388>, then **Prepare** a card.",
         "flavour": "*'I just needed to get some air.'*",
         "actions": "1",
         "keywords": [ "Prepare" ],
@@ -22997,7 +23093,7 @@
     },
     "visionary_clear_head": {
         "name": "Visionary Clear Head",
-        "desc": "Rig 2 **Heads**, draw a card then **Prepare** a card.",
+        "desc": "Rig 2 <:heads:757659165719134388>, draw a card then **Prepare** a card.",
         "flavour": "*'I just needed to get some air.'*",
         "actions": "1",
         "keywords": [ "Prepare" ],
@@ -23557,7 +23653,7 @@
     },
     "dead_draw": {
         "name": "Dead Draw",
-        "desc": "Draw 2 cards then **Gamble**.\n**Heads**: Those cards cost 1 less until played.",
+        "desc": "Draw 2 cards then **Gamble**.\n<:heads:757659165719134388>: Those cards cost 1 less until played.",
         "flavour": "*'Looks like you are all out of options friend.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -23573,7 +23669,7 @@
     },
     "pale_dead_draw": {
         "name": "Pale Dead Draw",
-        "desc": "Draw 2 cards then **Gamble**.\n**Heads**: Those cards cost 1 less until played.",
+        "desc": "Draw 2 cards then **Gamble**.\n<:heads:757659165719134388>: Those cards cost 1 less until played.",
         "flavour": "*'Looks like you are all out of options friend.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -23589,7 +23685,7 @@
     },
     "twisted_dead_draw": {
         "name": "Twisted Dead Draw",
-        "desc": "Draw 2 cards then **Gamble**.\n**Snails**: Those cards cost 1 less until played.",
+        "desc": "Draw 2 cards then **Gamble**.\n<:snails:757659165807214778>: Those cards cost 1 less until played.",
         "flavour": "*'Looks like you are all out of options friend.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -23877,7 +23973,7 @@
     },
     "dig": {
         "name": "Dig",
-        "desc": "**Snails**: This card costs 0.",
+        "desc": "<:snails:757659165807214778>: This card costs 0.",
         "flavour": "*'The sweetest prey are always buried deep.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -23893,7 +23989,7 @@
     },
     "boosted_dig": {
         "name": "Boosted Dig",
-        "desc": "**Snails**: This card costs 0.",
+        "desc": "<:snails:757659165807214778>: This card costs 0.",
         "flavour": "*'The sweetest prey are always buried deep.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -23909,7 +24005,7 @@
     },
     "twisted_dig": {
         "name": "Twisted Dig",
-        "desc": "**Heads**: This card costs 0.",
+        "desc": "<:heads:757659165719134388>: This card costs 0.",
         "flavour": "*'The sweetest prey are always buried deep.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -24469,7 +24565,7 @@
     },
     "double_down": {
         "name": "Double Down",
-        "desc": "Choose a card in your hand. Play it twice and then **Expend** it.\n**Expend**",
+        "desc": "Choose a card in your hand. Play it twice with a random target and then **Expend** it.\n**Expend**",
         "flavour": "*'I can't lose.'*",
         "actions": "2",
         "keywords": [ "Expend" ],
@@ -24485,7 +24581,7 @@
     },
     "pale_double_down": {
         "name": "Pale Double Down",
-        "desc": "Choose a card in your hand. Play it twice and then **Expend** it.\n**Expend**",
+        "desc": "Choose a card in your hand. Play it twice with a random target and then **Expend** it.\n**Expend**",
         "flavour": "*'I can't lose.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -24501,7 +24597,7 @@
     },
     "soft_double_down": {
         "name": "Soft Double Down",
-        "desc": "Choose a card in your hand. Play it twice.\n**Expend**",
+        "desc": "Choose a card in your hand. Play it twice with a random target.\n**Expend**",
         "flavour": "*'I can't lose.'*",
         "actions": "2",
         "keywords": [ "Expend" ],
@@ -25781,7 +25877,7 @@
     },
     "foresight": {
         "name": "Foresight",
-        "desc": "Gain: At the end of your turn, Rig 2 **Heads** or 2 **Snails**.\n**Expend**",
+        "desc": "Gain: At the end of your turn, Rig 2 <:heads:757659165719134388> or 2 <:snails:757659165807214778>.\n**Expend**",
         "flavour": "*'Just lucky I guess.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -25797,7 +25893,7 @@
     },
     "initial_foresight": {
         "name": "Initial Foresight",
-        "desc": "Gain: At the end of your turn, Rig 2 **Heads** or 2 **Snails**.\n**Expend**, **Ambush**",
+        "desc": "Gain: At the end of your turn, Rig 2 <:heads:757659165719134388> or 2 <:snails:757659165807214778>.\n**Expend**, **Ambush**",
         "flavour": "*'Just lucky I guess.'*",
         "actions": "1",
         "keywords": [ "Expend", "Ambush" ],
@@ -25813,7 +25909,7 @@
     },
     "pale_foresight": {
         "name": "Pale Foresight",
-        "desc": "Gain: At the end of your turn, Rig 2 **Heads** or 2 **Snails**.\n**Expend**",
+        "desc": "Gain: At the end of your turn, Rig 2 <:heads:757659165719134388> or 2 <:snails:757659165807214778>.\n**Expend**",
         "flavour": "*'Just lucky I guess.'*",
         "actions": "0",
         "keywords": [ "Expend" ],
@@ -26229,7 +26325,7 @@
     },
     "grumble": {
         "name": "Grumble",
-        "desc": "**Snails**: Gain 1 bonus damage.",
+        "desc": "<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26245,7 +26341,7 @@
     },
     "strained_grumble": {
         "name": "Strained Grumble",
-        "desc": "Discard a card.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "Discard a card.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26261,7 +26357,7 @@
     },
     "assertive_grumble": {
         "name": "Assertive Grumble",
-        "desc": "Gain 1 Dominance.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "Gain 1 Dominance.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26277,7 +26373,7 @@
     },
     "rooted_grumble": {
         "name": "Rooted Grumble",
-        "desc": "**Snails**: Gain 1 bonus damage.",
+        "desc": "<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26293,7 +26389,7 @@
     },
     "visionary_grumble": {
         "name": "Visionary Grumble",
-        "desc": "Draw a card.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "Draw a card.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26309,7 +26405,7 @@
     },
     "speculative_grumble": {
         "name": "Speculative Grumble",
-        "desc": "**Gamble**.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -26325,7 +26421,7 @@
     },
     "decisive_grumble": {
         "name": "Decisive Grumble",
-        "desc": "Set the coin.\n**Snails**: Gain 1 bonus damage.\n**Expend**",
+        "desc": "Set the coin.\n<:snails:757659165807214778>: Gain 1 bonus damage.\n**Expend**",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -26341,7 +26437,7 @@
     },
     "lucid_grumble": {
         "name": "Lucid Grumble",
-        "desc": "**Snails**: Gain 1 bonus damage.\n**Destroy**",
+        "desc": "<:snails:757659165807214778>: Gain 1 bonus damage.\n**Destroy**",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "Destroy" ],
@@ -26357,7 +26453,7 @@
     },
     "mirrored_grumble": {
         "name": "Mirrored Grumble",
-        "desc": "Attack with this card twice.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "Attack with this card twice.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26373,7 +26469,7 @@
     },
     "rigged_grumble": {
         "name": "Rigged Grumble",
-        "desc": "Rig 1 **Snails**.\n**Snails**: Gain 1 bonus damage.",
+        "desc": "Rig 1 <:snails:757659165807214778>.\n<:snails:757659165807214778>: Gain 1 bonus damage.",
         "flavour": "*'I don’t want to talk to him when he’s like this.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -26517,7 +26613,7 @@
     },
     "head_shot": {
         "name": "Head Shot",
-        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads** twice.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** <:heads:757659165719134388> twice.",
         "flavour": "*'Slipped, sorry.'*",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
@@ -26533,7 +26629,7 @@
     },
     "boosted_head_shot": {
         "name": "Boosted Head Shot",
-        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads** twice.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** <:heads:757659165719134388> twice.",
         "flavour": "*'Slipped, sorry.'*",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
@@ -26549,7 +26645,7 @@
     },
     "pale_head_shot": {
         "name": "Pale Head Shot",
-        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** **Heads**.",
+        "desc": "Targets a random opponent argument.\n**Evoke**: **Gamble** <:heads:757659165719134388>.",
         "flavour": "*'Slipped, sorry.'*",
         "actions": "1",
         "keywords": [ "Evoke", "Gamble" ],
@@ -26565,7 +26661,7 @@
     },
     "head_split": {
         "name": "Head Split",
-        "desc": "**Gamble**.\n**Heads**: Deal 3 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Deal 3 damage to all opponent arguments.",
         "flavour": "*'You can split the bet after that landing, haven’t you played before?'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -26581,7 +26677,7 @@
     },
     "twisted_head_split": {
         "name": "Twisted Head Split",
-        "desc": "**Gamble**.\n**Snails**: Deal 5 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Deal 5 damage to all opponent arguments.",
         "flavour": "*'You can split the bet after that landing, haven’t you played before?'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -26597,7 +26693,7 @@
     },
     "boosted_head_split": {
         "name": "Boosted Head Split",
-        "desc": "**Gamble**.\n**Heads**: Deal 5 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Deal 5 damage to all opponent arguments.",
         "flavour": "*'You can split the bet after that landing, haven’t you played before?'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -26613,7 +26709,7 @@
     },
     "head_turner": {
         "name": "Head Turner",
-        "desc": "**Heads**: Deal max damage.\n**Prepared**: Gain 1 action.",
+        "desc": "<:heads:757659165719134388>: Deal max damage.\n**Prepared**: Gain 1 action.",
         "flavour": "*'Wait what was that?'*",
         "actions": "1",
         "keywords": [ "Prepared" ],
@@ -26629,7 +26725,7 @@
     },
     "tall_head_turner": {
         "name": "Tall Head Turner",
-        "desc": "**Heads**: Deal max damage.\n**Prepared**: Gain 1 action.",
+        "desc": "<:heads:757659165719134388>: Deal max damage.\n**Prepared**: Gain 1 action.",
         "flavour": "*'Wait what was that?'*",
         "actions": "1",
         "keywords": [ "Prepared" ],
@@ -26645,7 +26741,7 @@
     },
     "visionary_head_turner": {
         "name": "Visionary Head Turner",
-        "desc": "**Heads**: Deal max damage.\n**Prepared**: Gain 1 action and draw a card.",
+        "desc": "<:heads:757659165719134388>: Deal max damage.\n**Prepared**: Gain 1 action and draw a card.",
         "flavour": "*'Wait what was that?'*",
         "actions": "1",
         "keywords": [ "Prepared" ],
@@ -26661,7 +26757,7 @@
     },
     "headbang": {
         "name": "Headbang",
-        "desc": "**Heads**: Double this card's damage and **Gamble**.",
+        "desc": "<:heads:757659165719134388>: Double this card's damage and **Gamble**.",
         "flavour": "*'One second, I love this track.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -26677,7 +26773,7 @@
     },
     "rooted_headbang": {
         "name": "Rooted Headbang",
-        "desc": "**Heads**: Double this card's damage and **Gamble**.",
+        "desc": "<:heads:757659165719134388>: Double this card's damage and **Gamble**.",
         "flavour": "*'One second, I love this track.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -26693,7 +26789,7 @@
     },
     "boosted_headbang": {
         "name": "Boosted Headbang",
-        "desc": "**Heads**: Double this card's damage and **Gamble** twice.",
+        "desc": "<:heads:757659165719134388>: Double this card's damage and **Gamble** twice.",
         "flavour": "*'One second, I love this track.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -27893,7 +27989,7 @@
     },
     "jabber": {
         "name": "Jabber",
-        "desc": "**Heads**: Gain 1 Influence.",
+        "desc": "<:heads:757659165719134388>: Gain 1 Influence.",
         "flavour": "*'I think he just talks fast to make it look like he knows what he’s doing.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27909,7 +28005,7 @@
     },
     "tall_jabber": {
         "name": "Tall Jabber",
-        "desc": "**Heads**: Gain 1 Influence.",
+        "desc": "<:heads:757659165719134388>: Gain 1 Influence.",
         "flavour": "*'I think he just talks fast to make it look like he knows what he’s doing.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -27925,7 +28021,7 @@
     },
     "diplomatic_jabber": {
         "name": "Diplomatic Jabber",
-        "desc": "**Heads**: Gain 2 Influence.",
+        "desc": "<:heads:757659165719134388>: Gain 2 Influence.",
         "flavour": "*'I think he just talks fast to make it look like he knows what he’s doing.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -28101,7 +28197,7 @@
     },
     "kicker": {
         "name": "Kicker",
-        "desc": "Discard this card: Deal 3 damage to a random target.\n**Snails**: Draw a card.\n**Unplayable**",
+        "desc": "Discard this card: Deal 3 damage to a random target.\n<:snails:757659165807214778>: Draw a card.\n**Unplayable**",
         "flavour": "*'This boosts the bet but only if it lands in my favor, understand?'*",
         "actions": "0",
         "keywords": [ "Unplayable" ],
@@ -28117,7 +28213,7 @@
     },
     "boosted_kicker": {
         "name": "Boosted Kicker",
-        "desc": "Discard this card: Deal 5 damage to a random target\n**Snails**: Draw a card.\n**Unplayable**",
+        "desc": "Discard this card: Deal 5 damage to a random target\n<:snails:757659165807214778>: Draw a card.\n**Unplayable**",
         "flavour": "*'This boosts the bet but only if it lands in my favor, understand?'*",
         "actions": "0",
         "keywords": [ "Unplayable" ],
@@ -28133,7 +28229,7 @@
     },
     "twisted_kicker": {
         "name": "Twisted Kicker",
-        "desc": "Discard or play this card: Deal 3 damage to a random target\n**Snails**: Draw a card.",
+        "desc": "Discard or play this card: Deal 3 damage to a random target\n<:snails:757659165807214778>: Draw a card.",
         "flavour": "*'This boosts the bet but only if it lands in my favor, understand?'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -28661,7 +28757,7 @@
     },
     "muck": {
         "name": "Muck",
-        "desc": "**Gamble**.\n**Snails**: Attack with this card twice.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Attack with this card twice.",
         "flavour": "*'Double or nothing, come on you know I’m good for it.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -28677,7 +28773,7 @@
     },
     "focused_muck": {
         "name": "Focused Muck",
-        "desc": "**Gamble**.\n**Snails**: Attack with this card three times.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Attack with this card three times.",
         "flavour": "*'Double or nothing, come on you know I’m good for it.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -28693,7 +28789,7 @@
     },
     "boosted_muck": {
         "name": "Boosted Muck",
-        "desc": "**Gamble**.\n**Snails**: Attack with this card twice.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Attack with this card twice.",
         "flavour": "*'Double or nothing, come on you know I’m good for it.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -29221,25 +29317,25 @@
     },
     "overdrive": {
         "name": "Overdrive",
-        "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**",
+        "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**, **Burnout**",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
-        "actions": "2",
-        "keywords": [ "Expend" ],
+        "actions": "3",
+        "keywords": [ "Expend", "Burnout" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Manipulate",
-        "xp": "5",
+        "xp": "3",
         "character": "Smith",
-        "upgrades": [ "Pale Overdrive", "Enduring Overdrive" ],
+        "upgrades": [ "Pale Overdrive", "Stable Overdrive" ],
         "image": "N/A",
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/25/64/dCHgpHPZ_o.png"
     },
-    "pale_overdrive": {
-        "name": "Pale Overdrive",
+    "stable_overdrive": {
+        "name": "Stable Overdrive",
         "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
-        "actions": "1",
+        "actions": "3",
         "keywords": [ "Expend" ],
         "rarity": "Rare",
         "deck": "Negotiation",
@@ -29251,12 +29347,12 @@
         "wikilink": "N/A",
         "icon": "https://images2.imgbox.com/25/64/dCHgpHPZ_o.png"
     },
-    "enduring_overdrive": {
-        "name": "Enduring Overdrive",
-        "desc": "On your next turn, all your cards are played twice but also **Expend**.",
+    "pale_overdrive": {
+        "name": "Pale Overdrive",
+        "desc": "On your next turn, all your cards are played twice but also **Expend**.\n**Expend**, **Burnout**",
         "flavour": "*'What took you so long!? I'm on my 16th cup!'*",
         "actions": "2",
-        "keywords": [ "Expend" ],
+        "keywords": [ "Expend", "Burnout" ],
         "rarity": "Rare",
         "deck": "Negotiation",
         "type": "Manipulate",
@@ -29614,7 +29710,7 @@
     },
     "pleasantries": {
         "name": "Pleasantries",
-        "desc": "**Heads**: Deal max damage.",
+        "desc": "<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -29630,7 +29726,7 @@
     },
     "sifting_pleasantries": {
         "name": "Sifting Pleasantries",
-        "desc": "**Prepare** a card.\n**Heads**: Deal max damage.",
+        "desc": "**Prepare** a card.\n<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "Prepare" ],
@@ -29646,7 +29742,7 @@
     },
     "cordial_pleasantries": {
         "name": "Cordial Pleasantries",
-        "desc": "Gain 1 Influence.\n**Heads**: Deal max damage.",
+        "desc": "Gain 1 Influence.\n<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -29662,7 +29758,7 @@
     },
     "tall_pleasantries": {
         "name": "Tall Pleasantries",
-        "desc": "**Heads**: Deal max damage.",
+        "desc": "<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -29678,7 +29774,7 @@
     },
     "visionary_pleasantries": {
         "name": "Visionary Pleasantries",
-        "desc": "Draw a card.\n**Heads**: Deal max damage.",
+        "desc": "Draw a card.\n<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -29694,7 +29790,7 @@
     },
     "speculative_pleasantries": {
         "name": "Speculative Pleasantries",
-        "desc": "**Gamble**.\n**Heads**: Deal max damage.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -29710,7 +29806,7 @@
     },
     "decisive_pleasantries": {
         "name": "Decisive Pleasantries",
-        "desc": "Set the coin.\n**Heads**: Deal max damage.\n**Expend**",
+        "desc": "Set the coin.\n<:heads:757659165719134388>: Deal max damage.\n**Expend**",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "Expend" ],
@@ -29726,7 +29822,7 @@
     },
     "lucid_pleasantries": {
         "name": "Lucid Pleasantries",
-        "desc": "**Heads**: Deal max damage.\n**Destroy**",
+        "desc": "<:heads:757659165719134388>: Deal max damage.\n**Destroy**",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "Destroy" ],
@@ -29742,7 +29838,7 @@
     },
     "rigged_pleasantries": {
         "name": "Rigged Pleasantries",
-        "desc": "Rig 1 **Heads**.\n**Heads**: Deal max damage.",
+        "desc": "Rig 1 <:heads:757659165719134388>.\n<:heads:757659165719134388>: Deal max damage.",
         "flavour": "*'Oh, I’ve been well thank you.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -30206,7 +30302,7 @@
     },
     "radula": {
         "name": "Radula",
-        "desc": "Rig 3 **Snails**. Draw a card.",
+        "desc": "Rig 3 <:snails:757659165807214778>. Draw a card.",
         "flavour": "*'See the markings on the shell? This one's a fighter, that’s for sure.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -30222,7 +30318,7 @@
     },
     "rigged_radula": {
         "name": "Rigged Radula",
-        "desc": "Rig 4 **Snails**. Draw a card.",
+        "desc": "Rig 4 <:snails:757659165807214778>. Draw a card.",
         "flavour": "*'See the markings on the shell? This one's a fighter, that’s for sure.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -30238,7 +30334,7 @@
     },
     "visionary_radula": {
         "name": "Visionary Radula",
-        "desc": "Rig 3 **Snails**. Draw 2 cards.",
+        "desc": "Rig 3 <:snails:757659165807214778>. Draw 2 cards.",
         "flavour": "*'See the markings on the shell? This one's a fighter, that’s for sure.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -30478,7 +30574,7 @@
     },
     "crown_rationale": {
         "name": "Crown Rationale",
-        "desc": "**Gamble**.\n**Heads**: Apply 5 **Composure**.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Apply 5 **Composure**.",
         "flavour": "*'Let’s think about this here for a second.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -30494,7 +30590,7 @@
     },
     "sluggish_rationale": {
         "name": "Sluggish Rationale",
-        "desc": "Apply 3 **Composure**.\nRig 1 **Snails**.",
+        "desc": "Apply 3 **Composure**.\nRig 1 <:snails:757659165807214778>.",
         "flavour": "*'Let’s think about this here for a second.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -30510,7 +30606,7 @@
     },
     "headstrong_rationale": {
         "name": "Headstrong Rationale",
-        "desc": "Apply 3 **Composure**.\nRig 1 **Heads**.",
+        "desc": "Apply 3 **Composure**.\nRig 1 <:heads:757659165719134388>.",
         "flavour": "*'Let’s think about this here for a second.'*",
         "actions": "1",
         "keywords": [ "Composure" ],
@@ -30526,7 +30622,7 @@
     },
     "foot_rationale": {
         "name": "Foot Rationale",
-        "desc": "**Gamble**.\n**Snails**: Apply 2 **Composure** to all friendly arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Apply 2 **Composure** to all friendly arguments.",
         "flavour": "*'Let’s think about this here for a second.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31086,7 +31182,7 @@
     },
     "roughneck": {
         "name": "Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Snails**: Steal **Composure**.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Remove **Composure**.\n<:snails:757659165807214778>: Steal **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31102,7 +31198,7 @@
     },
     "twisted_roughneck": {
         "name": "Twisted Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Steal **Composure**.\n**Snails**: Remove **Composure**.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Steal **Composure**.\n<:snails:757659165807214778>: Remove **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31118,7 +31214,7 @@
     },
     "boosted_roughneck": {
         "name": "Boosted Roughneck",
-        "desc": "**Gamble**.\n**Heads**: Remove **Composure**.\n**Heads**: Steal **Composure**.",
+        "desc": "**Gamble**.\n<:heads:757659165719134388>: Remove **Composure**.\n<:heads:757659165719134388>: Steal **Composure**.",
         "flavour": "*'He just walked in here like he owned the place. Put everyone on edge.'*",
         "actions": "1",
         "keywords": [ "Composure", "Gamble" ],
@@ -31758,7 +31854,7 @@
     },
     "slugstorm": {
         "name": "Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Deal 2 damage to all opponent arguments.",
         "flavour": "*'See? You lose the matriarch in the swarm. It’s what they want.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -31774,7 +31870,7 @@
     },
     "boosted_slugstorm": {
         "name": "Boosted Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 4 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Deal 4 damage to all opponent arguments.",
         "flavour": "*'See? You lose the matriarch in the swarm. It’s what they want.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -31790,7 +31886,7 @@
     },
     "wide_slugstorm": {
         "name": "Wide Slugstorm",
-        "desc": "**Gamble**.\n**Snails**: Deal 2 damage to all opponent arguments.\n: Deal 1 damage to all opponent arguments.",
+        "desc": "**Gamble**.\n<:snails:757659165807214778>: Deal 2 damage to all opponent arguments.\n: Deal 1 damage to all opponent arguments.",
         "flavour": "*'See? You lose the matriarch in the swarm. It’s what they want.'*",
         "actions": "1",
         "keywords": [ "Gamble" ],
@@ -31854,7 +31950,7 @@
     },
     "snail_bite": {
         "name": "Snail Bite",
-        "desc": "This card gains 1 damage every time you **Gamble** and get **Snails**.",
+        "desc": "This card gains 1 damage every time you **Gamble** and get <:snails:757659165807214778>.",
         "flavour": "*'You should definitely get that looked at.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -31870,7 +31966,7 @@
     },
     "rooted_snail_bite": {
         "name": "Rooted Snail Bite",
-        "desc": "This card gains 1 damage every time you **Gamble** and get **Snails**.",
+        "desc": "This card gains 1 damage every time you **Gamble** and get <:snails:757659165807214778>.",
         "flavour": "*'You should definitely get that looked at.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -31886,7 +31982,7 @@
     },
     "tall_snail_bite": {
         "name": "Tall Snail Bite",
-        "desc": "This card gains 1 damage every time you **Gamble** and get **Snails**.",
+        "desc": "This card gains 1 damage every time you **Gamble** and get <:snails:757659165807214778>.",
         "flavour": "*'You should definitely get that looked at.'*",
         "actions": "2",
         "keywords": [ "Gamble" ],
@@ -31902,7 +31998,7 @@
     },
     "snail_hunt": {
         "name": "Snail Hunt",
-        "desc": "Rig 2 **Snails**, then **Improvise** a Hostility card from your draw pile.",
+        "desc": "Rig 2 <:snails:757659165807214778>, then **Improvise** a Hostility card from your draw pile.",
         "flavour": "*'I’ve never seen them this aggressive, must be starving.'*",
         "actions": "1",
         "keywords": [ "Improvise" ],
@@ -31918,7 +32014,7 @@
     },
     "rigged_snail_hunt": {
         "name": "Rigged Snail Hunt",
-        "desc": "Rig 3 **Snails**, then **Improvise** a Hostility card from your draw pile.",
+        "desc": "Rig 3 <:snails:757659165807214778>, then **Improvise** a Hostility card from your draw pile.",
         "flavour": "*'I’ve never seen them this aggressive, must be starving.'*",
         "actions": "1",
         "keywords": [ "Improvise" ],
@@ -31934,7 +32030,7 @@
     },
     "enhanced_snail_hunt": {
         "name": "Enhanced Snail Hunt",
-        "desc": "Rig 2 **Snails**, then **Improvise+** a Hostility card from your draw pile.",
+        "desc": "Rig 2 <:snails:757659165807214778>, then **Improvise+** a Hostility card from your draw pile.",
         "flavour": "*'I’ve never seen them this aggressive, must be starving.'*",
         "actions": "1",
         "keywords": [ "Improvise+" ],
@@ -31950,7 +32046,7 @@
     },
     "snail_in_the_pocket": {
         "name": "Snail in the Pocket",
-        "desc": "Set the coin to **Snails** and discard a card.",
+        "desc": "Set the coin to <:snails:757659165807214778> and discard a card.",
         "flavour": "*'For emergencies of course.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -31966,7 +32062,7 @@
     },
     "pale_snail_in_the_pocket": {
         "name": "Pale Snail in the Pocket",
-        "desc": "Set the coin to **Snails** and discard a card.",
+        "desc": "Set the coin to <:snails:757659165807214778> and discard a card.",
         "flavour": "*'For emergencies of course.'*",
         "actions": "0",
         "keywords": [ "N/A" ],
@@ -31982,7 +32078,7 @@
     },
     "visionary_snail_in_the_pocket": {
         "name": "Visionary Snail in the Pocket",
-        "desc": "Set the coin to **Snails** and draw a card, then discard a card.",
+        "desc": "Set the coin to <:snails:757659165807214778> and draw a card, then discard a card.",
         "flavour": "*'For emergencies of course.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -33534,7 +33630,7 @@
     },
     "venture": {
         "name": "Venture",
-        "desc": "Spend up to 2 Influence: Rig 3 **Heads** for each Influence spent.",
+        "desc": "Spend up to 2 Influence: Rig 3 <:heads:757659165719134388> for each Influence spent.",
         "flavour": "*'You can lay in with this bet, but it costs you a little more than a good word.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -33550,7 +33646,7 @@
     },
     "boosted_venture": {
         "name": "Boosted Venture",
-        "desc": "Spend up to 2 Influence: Rig 3 **Heads** for each Influence spent + 1.",
+        "desc": "Spend up to 2 Influence: Rig 3 <:heads:757659165719134388> for each Influence spent + 1.",
         "flavour": "*'You can lay in with this bet, but it costs you a little more than a good word.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
@@ -33566,7 +33662,7 @@
     },
     "enhanced_venture": {
         "name": "Enhanced Venture",
-        "desc": "Spend up to 3 Influence: Rig 3 **Heads** for each Influence spent.",
+        "desc": "Spend up to 3 Influence: Rig 3 <:heads:757659165719134388> for each Influence spent.",
         "flavour": "*'You can lay in with this bet, but it costs you a little more than a good word.'*",
         "actions": "1",
         "keywords": [ "N/A" ],
