@@ -83,7 +83,7 @@ function FinalEmbedMessage(message, wikiLink, wikiImage, pgStatus, description, 
             { name: 'Actions', value: _.get(database, cardEntry + '.actions'), inline: true },
         );
     }
-    if (_.get(database, cardEntry + '.upgrades') != "N/A") {
+    if (_.get(database, cardEntry + '.upgrades') != "N/A" && _.get(database, cardEntry + '.xp') != "N/A") {
         finalEmbed.addFields(
             { name: 'XP. Needed', value: _.get(database, cardEntry + '.xp'), inline: true },
         );
@@ -137,7 +137,6 @@ client.on('message', async msg => {
     if (command == "fetchhelp") {
         msg.channel.send(HelpEmbed)
     } else if (command == "fetchstats") {
-        //console.log(_.keys(database));
         var total = 0;
         var namedCards = 0;
         var icons = 0;
@@ -160,7 +159,6 @@ client.on('message', async msg => {
         var smithCards = 0;
         var generalCards = 0;
         _.forEach(database, function (value, key) {
-            //console.log(key);
             total++;
             if (typeof _.get(database, key + '.name') !== 'undefined') {
                 namedCards++;
@@ -212,10 +210,12 @@ client.on('message', async msg => {
                 rookCards++
             } else if (characterType == "Smith") {
                 smithCards++
-            } else if(characterType == "General" || characterType == "Daily" || characterType == "Npc") {
+            } else if (characterType == "General") {
                 generalCards++
             }
         });
+        var pkgFile = require('./package.json');
+        var versionNumber = _.get(pkgFile, 'version');
         var ping = Date.now() - msg.createdTimestamp;
         var statsEmbed = new Discord.MessageEmbed()
             .setTitle("Card Fetcher's Stats")
@@ -240,9 +240,11 @@ client.on('message', async msg => {
                 "\n**Rook Cards:** " + rookCards +
                 "\n**Smith Cards:** " + smithCards +
                 "\n**General Cards:** " + generalCards +
-                "\n\n**Latency:** " + ping + "ms.\n**API Latency:** "
-                + Math.round(client.ws.ping) + "ms." +
-                "\n**No. of servers I'm in:** " + client.guilds.cache.size);
+                "\n\n**Current Version:** " + versionNumber +
+                "\n**Latency:** " + ping +
+                "ms.\n**API Latency:** " + Math.round(client.ws.ping) +
+                "ms." + "\n**No. of servers I'm in:** " +
+                client.guilds.cache.size);
         msg.channel.send(statsEmbed);
     } else if (command == "fetchicon") {
         if (CardRequest.indexOf(" ") > -1) {
@@ -255,7 +257,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         };
-        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.'’:!]/g, "");
+        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.'’:!]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined' && ImageLink != "N/A") {
             const attachment = new MessageAttachment(ImageLink);
@@ -288,7 +290,7 @@ client.on('message', async msg => {
         }
         if (wikirequest == "Shock-box") { wikirequest = "Shock-Box"; }
         //replacing apostraphies and spaces to make it url friendly
-        wikirequest = wikirequest.replace(/ /g, "_").replace(/'/g, '%27').replace(/:/g, '');
+        wikirequest = wikirequest.replace(/ /g, "_").replace(/['’]/g, '%27').replace(/[:+]/g, '');
         if (wikirequest == "Boosted_Robo-kick") { wikirequest = "Boosted_Robo-Kick"; }
         if (wikirequest == "Enhanced_Robo-kick") { wikirequest = "Enhanced_Robo-Kick"; }
         var PageToOpen = 'https://griftlands.gamepedia.com/' + wikirequest
@@ -304,7 +306,7 @@ client.on('message', async msg => {
             }
             CardRequest = splitStr.join(' ');
         };
-        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/[,.'’:!]/g, "");
+        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.'’:!]/g, "")
 
         console.log("SEARCHING FOR WIKI PAGE: " + PageToOpen);
 
