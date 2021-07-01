@@ -207,7 +207,7 @@ client.on("message", async msg => {
             }
             CardRequest = splitStr.join(" ");
         };
-        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.'’:!]/g, "");
+        IconToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.'’:!?\u2018\u2019\u201C\u201D]/g, "");
         var ImageLink = _.get(database, IconToFetch + '.icon');
         if (typeof ImageLink !== 'undefined' && ImageLink != "N/A") {
             const attachment = new MessageAttachment(ImageLink);
@@ -239,7 +239,7 @@ client.on("message", async msg => {
         }
         if (wikirequest == "Shock-box") { wikirequest = "Shock-Box"; }
         //replacing apostraphies and spaces to make it url friendly
-        wikirequest = wikirequest.replace(/ /g, "_").replace(/['’]/g, '%27').replace(/[:+]/g, "");
+        wikirequest = wikirequest.replace(/ /g, "_").replace(/['\u2018\u2019]/g, '%27').replace(/[:+]/g, "");
         if (wikirequest == "Boosted_Robo-kick") { wikirequest = "Boosted_Robo-Kick"; }
         if (wikirequest == "Enhanced_Robo-kick") { wikirequest = "Enhanced_Robo-Kick"; }
         var PageToOpen = 'https://griftlands.gamepedia.com/' + wikirequest
@@ -255,11 +255,11 @@ client.on("message", async msg => {
             }
             CardRequest = splitStr.join(" ");
         };
-        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.'’:!]/g, "")
+        var CardToFetch = CardRequest.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
 
         console.log("SEARCHING FOR WIKI PAGE: " + PageToOpen);
 
-        var DOMcheck, fetchPageResult, fetchImageResult;
+        var DOMcheck;
 
         function fetchPage(url) {
             return new Promise(function (resolve, reject) {

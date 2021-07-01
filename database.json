@@ -10003,7 +10003,7 @@
   },
   "hammer_swing": {
     "name": "Hammer Swing",
-    "desc": "Apply 2 Trauma.\nChain.",
+    "desc": "Apply 2 Trauma.\nChain",
     "flavour": "*'If you can keep up the momentum there’s no stopping you.'*",
     "actions": "2",
     "keywords": [
@@ -10021,7 +10021,7 @@
   },
   "hammer_swing_ii": {
     "name": "Hammer Swing II",
-    "desc": "Apply 2 Trauma.\nChain.",
+    "desc": "Apply 2 Trauma.\nChain",
     "flavour": "**",
     "actions": "1",
     "keywords": [
@@ -10039,7 +10039,7 @@
   },
   "hammer_swing_iii": {
     "name": "Hammer Swing III",
-    "desc": "Apply 2 Trauma.\nChain.",
+    "desc": "Apply 2 Trauma.\nChain",
     "flavour": "**",
     "actions": "1",
     "keywords": [
@@ -10057,7 +10057,7 @@
   },
   "hammer_swing_iv": {
     "name": "Hammer Swing IV",
-    "desc": "Attack twice.\nChain.",
+    "desc": "Attack twice.\nChain",
     "flavour": "**",
     "actions": "1",
     "keywords": [
@@ -28060,7 +28060,7 @@
   "coward": {
     "name": "Coward",
     "desc": "While this is in your hand, Hostility cards deal no damage.\n**Destroy**",
-    "flavour": "*'Yeah, I’m not buying that tough guy attitude..'*",
+    "flavour": "*'Yeah, I’m not buying that tough guy attitude...'*",
     "actions": "2",
     "keywords": [
       "Destroy"
@@ -30689,7 +30689,7 @@
   },
   "boosted_final_favor": {
     "name": "Boosted Final Favor",
-    "desc": "Spend all Influence: Apply 1 **Composure** per Influence spent +2 to all friendly arguments.",
+    "desc": "Spend all Influence: Apply 2 **Composure** per Influence spent +2 to all friendly arguments.",
     "flavour": "*'This is the last one, I promise.'*",
     "actions": "1",
     "keywords": [
@@ -32216,7 +32216,7 @@
     "xp": "7",
     "character": "Smith",
     "upgrades": [
-      "Pale Hot Air",
+      "Boosted Hot Air",
       "Enduring Hot Air"
     ],
     "image": "N/A",
@@ -32224,10 +32224,10 @@
     "icon": "https://i.ibb.co/r6Lk7Ws/hot-air.png"
   },
   "pale_hot_air": {
-    "name": "Pale Hot Air",
-    "desc": "Create: If this argument is destroyed by you, recreate it and increase its damage by 3.\n**Expend**",
+    "name": "Boosted Hot Air",
+    "desc": "Create: If this argument is destroyed by you, recreate it and increase its damage by 5.\n**Expend**",
     "flavour": "*'Nothing you've been saying has meant much of anything.'*",
-    "actions": "0",
+    "actions": "1",
     "keywords": [
       "Expend"
     ],
@@ -36712,7 +36712,7 @@
   },
   "boosted_reckless_insults": {
     "name": "Boosted Reckless Insults",
-    "desc": "Spend all Dominance. **Gamble** and deal 3 damage to a random enemy opponent for every Dominance spent.",
+    "desc": "Spend all Dominance. **Gamble** and deal 3 damage to a random opponent argument for every Dominance spent.",
     "flavour": "*'Wow, those were some harsh words. Are you going to be alright?'*",
     "actions": "2",
     "keywords": [
