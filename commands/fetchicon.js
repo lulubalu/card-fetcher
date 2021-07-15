@@ -2,6 +2,7 @@ const { MessageEmbed, MessageAttachment } = require("discord.js");
 const _ = require("lodash");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
+const bobaDatabase = require("../databases/boonsBanes.json");
 
 function pleaseEnterAName(message) {
     const enterName = new MessageEmbed()
@@ -41,11 +42,14 @@ module.exports = {
         }
 
         let iconToFetch = request.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
-        let imageLink = _.get(cardDatabase, iconToFetch + '.icon');
+        let imageLink = _.get(cardDatabase, iconToFetch + ".icon");
         if (typeof imageLink === "undefined" || imageLink == "N/A") {
-            imageLink = _.get(graftDatabase, iconToFetch + '.icon');
+            imageLink = _.get(graftDatabase, iconToFetch + ".icon");
         }
-        if (typeof imageLink !== 'undefined' && imageLink != "N/A") {
+        if (typeof imageLink === "undefined" || imageLink == "N/A") {
+            imageLink = _.get(bobaDatabase, iconToFetch + ".icon");
+        }
+        if (typeof imageLink !== "undefined" && imageLink != "N/A") {
             const attachment = new MessageAttachment(imageLink);
             attachment.name = `${iconToFetch}.png`;
             console.log(`SENDING ${imageLink} AS ATTACHMENT`);

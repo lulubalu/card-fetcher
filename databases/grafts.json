@@ -1002,7 +1002,7 @@
   },
   "dermal_cast": {
     "name": "Dermal Cast",
-    "desc": "At the start of your turn, **Heal** 2 **heal**th.",
+    "desc": "At the start of your turn, **Heal** 2 health.",
     "type": "Battle",
     "character": "General",
     "rarity": "Unique",
@@ -1299,7 +1299,7 @@
   },
   "fleximator": {
     "name": "Fleximator",
-    "desc": "At the end of your turn, gain **Defense** equal to half of your Recoverable **Heal**th.",
+    "desc": "At the end of your turn, gain **Defense** equal to half of your Recoverable Health.",
     "type": "Battle",
     "character": "Smith",
     "rarity": "Uncommon",
@@ -1310,7 +1310,7 @@
   },
   "boosted_fleximator": {
     "name": "Boosted Fleximator",
-    "desc": "At the end of your turn, gain **Defense** equal to 75% of your Recoverable **Heal**th.",
+    "desc": "At the end of your turn, gain **Defense** equal to 75% of your Recoverable Health.",
     "type": "Battle",
     "character": "Smith",
     "rarity": "Uncommon",

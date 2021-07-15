@@ -4,6 +4,7 @@ const _ = require("lodash");
 const cheerio = require("cheerio");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
+const bobaDatabase = require("../databases/boonsBanes.json");
 
 function pleaseEnterAName(message) {
     const enterName = new MessageEmbed()
@@ -92,6 +93,33 @@ function finalEmbedMessageGraft(graft, MsgToEdit) {
 
 }
 
+function finalEmbedMessageBoba(boba, MsgToEdit) {
+    let type = _.get(bobaDatabase, boba + ".type");
+    let finalEmbed = new MessageEmbed()
+        .setTitle(_.get(bobaDatabase, boba + ".name"))
+        .setImage(_.get(bobaDatabase, boba + ".icon"))
+        .setColor(0x08e0db)
+        .addFields(
+            { name: "Type", value: type, inline: true },
+        );
+    if (type == "Boon") {
+        finalEmbed
+            .setURL("https://griftlands.fandom.com/wiki/Relationships#List_of_Boons")
+            .setFooter("https://griftlands.fandom.com/wiki/Relationships#List_of_Boons");
+    } else {
+        finalEmbed
+            .setURL("https://griftlands.fandom.com/wiki/Relationships#List_of_Banes")
+            .setFooter("https://griftlands.fandom.com/wiki/Relationships#List_of_Banes");
+    }
+    let desc = _.get(bobaDatabase, boba + ".desc");
+    let givenBy = _.get(bobaDatabase, boba + ".givenby");
+    if (givenBy.length > 0) {
+        desc += `\n\nGiven by:\n${givenBy.join("\n")}`;
+    }
+    finalEmbed.setDescription(desc);
+    MsgToEdit.edit(finalEmbed);
+}
+
 function errorMessage(ErrorMsg, MsgToEdit) {
     console.log(ErrorMsg);
     let errorEmbed = new MessageEmbed()
@@ -116,7 +144,7 @@ module.exports = {
 
         OriginalRequest = args;
         args = args.toLowerCase();
-        let wikirequest, toFetch, splitStr, DOMCheck, wikiPage;
+        let wikirequest, toFetch, splitStr, wikiPage;
         let cardImage = "https://i.ibb.co/wcNk6mW/Image-Missing.png";
         if (args.indexOf(" ") > -1) {
             splitStr = args.split(" ");
@@ -143,7 +171,6 @@ module.exports = {
         if (wikirequest == "Boosted_Robo-kick") { wikirequest = "Boosted_Robo-Kick"; }
         if (wikirequest == "Enhanced_Robo-kick") { wikirequest = "Enhanced_Robo-Kick"; }
         const pageToOpen = `https://griftlands.gamepedia.com/${wikirequest}`;
-        const imageToOpen = `https://griftlands.gamepedia.com/File:${wikirequest}.png`;
 
         //making request database-friendly
         if (args.indexOf(" ") > -1) {
@@ -181,15 +208,13 @@ module.exports = {
             })
         }
 
-        function FinalEdit(pageResult, imageResult) {
+        function FinalEdit(pageResult) {
             return new Promise(function (resolve, reject) {
                 if (pageResult !== 404) {
                     wikiPage = pageToOpen;
-                }
-                if (imageResult !== 404) {
                     //loading page content with cheerio
-                    const $ = cheerio.load(imageResult);
-                    cardImage = $(".mw-filepage-other-resolutions a").first().attr("href");
+                    const $ = cheerio.load(pageResult);
+                    cardImage = $(".infoboxtable .image").attr("href");
                 }
                 let Desc = "";
                 if (_.get(cardDatabase, toFetch + ".flavour") != "**") {
@@ -217,22 +242,27 @@ module.exports = {
         }
 
         let fetchingGraft = false;
+            fetchingBoba = false;
 
         if (!_.has(cardDatabase, toFetch) || typeof _.get(cardDatabase, toFetch + ".name") === "undefined") {
             fetchingGraft = true;
         }
         if (fetchingGraft) {
             if (!_.has(graftDatabase, toFetch) || typeof _.get(graftDatabase, toFetch + ".name") === "undefined") {
-                NotFound(sentMessage, OriginalRequest);
+                fetchingBoba = true;
             } else {
                 finalEmbedMessageGraft(toFetch, sentMessage);
             }
+        }
+        if (fetchingBoba) {
+            if (!_.has(bobaDatabase, toFetch) || typeof _.get(bobaDatabase, toFetch + ".name") === "undefined") {
+                NotFound(sentMessage, OriginalRequest);
+            } else {
+                finalEmbedMessageBoba(toFetch, sentMessage);
+            }
         } else {
-            const pageFetch = fetchPage(pageToOpen);
-            const imageFetch = fetchPage(imageToOpen);
-
-            Promise.all([pageFetch, imageFetch]).then(([page, image]) => {5
-                return FinalEdit(page, image);
+            fetchPage(pageToOpen).then(function(result) {
+                return FinalEdit(result);
             }).catch((error) => {
                 errorMessage(error, sentMessage);
             });

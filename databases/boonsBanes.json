@@ -1,0 +1,1281 @@
+{
+  "accelerator": {
+    "name": "Accelerator",
+    "desc": "The first card played in negotiation or battle gains +2 XP.",
+    "type": "Boon",
+    "givenby": [],
+    "icon": "https://i.ibb.co/hCNHf6f/graft-accelerator.png"
+  },
+  "adhesive": {
+    "name": "Adhesive",
+    "desc": "At the start of each battle, choose a card in your hand and give it **Sticky**.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Oshnu Wrangler"
+    ],
+    "icon": "https://i.ibb.co/2dWDz0Y/graft-adhesive.png"
+  },
+  "admiralty_medals": {
+    "name": "Admiralty Medals",
+    "desc": "All friendly arguments gain 1 **Composure** at the start of your turn.",
+    "type": "Boon",
+    "givenby": [
+      "Oolo"
+    ],
+    "icon": "https://i.ibb.co/Rh927yp/graft-admiralty-medals.png"
+  },
+  "affiliation": {
+    "name": "Affiliation",
+    "desc": "At the start of each negotiation, gain 2 Vulnerability if your opponent is a Heshian.",
+    "type": "Bane",
+    "givenby": [
+      "Cult of Hesh Luminitiate",
+      "Cult of Hesh Promoted Luminitiate"
+    ],
+    "icon": "https://i.ibb.co/Dwcdgg1/graft-affiliation.png"
+  },
+  "anointed": {
+    "name": "Anointed",
+    "desc": "At the start of every negotiation, gain 1 Wrath of Hesh.",
+    "type": "Boon",
+    "givenby": [
+      "Pallitriax"
+    ],
+    "icon": "https://i.ibb.co/ZTN0VS2/graft-anointed.png"
+  },
+  "authority": {
+    "name": "Authority",
+    "desc": "At the start of each negotiation, add a random authority card to your draw pile.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Foreman"
+    ],
+    "icon": "https://i.ibb.co/0J39s3H/graft-authority.png"
+  },
+  "authorization": {
+    "name": "Authorization",
+    "desc": "Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.",
+    "type": "Boon",
+    "givenby": [
+      "Admiralty Clerk"
+    ],
+    "icon": "https://i.ibb.co/WFNgW5g/graft-authorization.png"
+  },
+  "back_of_the_line": {
+    "name": "Back of the Line",
+    "desc": "All items lose 1 use when added to your deck. (minimum of 1 use)",
+    "type": "Bane",
+    "givenby": [
+      "Jakes Lifter"
+    ],
+    "icon": "https://i.ibb.co/j48Kp2h/graft-back-of-the-line.png"
+  },
+  "bad_bookie": {
+    "name": "Bad Bookie",
+    "desc": "Lose 30 shills every morning.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Oshnu Wrangler"
+    ],
+    "icon": "https://i.ibb.co/PN0rJWm/graft-bad-bookie.png"
+  },
+  "bad_credit": {
+    "name": "Bad Credit",
+    "desc": "Buying anything from shopkeepers costs an additional 20 shills.",
+    "type": "Bane",
+    "givenby": [
+      "Shel",
+      "Palamborat",
+      "Foolo",
+      "Civillian Poor Merchant",
+      "Civillian Wealthy Merchant",
+      "Civillian Promoted Wealthy Merchant"
+    ],
+    "icon": "https://i.ibb.co/g6t4ML5/graft-bad-credit.png"
+  },
+  "bad_faith": {
+    "name": "Bad Faith",
+    "desc": "At the start of each fight, add a Gnarled Effigy to your draw pile.",
+    "type": "Bane",
+    "givenby": [
+      "Endo",
+      "Hundruthor",
+      "Cult of Hesh Priest",
+      "Cult of Hesh Promoted Priest",
+      "Vixmalli"
+    ],
+    "icon": "https://i.ibb.co/GWwfKy6/graft-bad-faith.png"
+  },
+  "bad_mouthed": {
+    "name": "Bad Mouthed",
+    "desc": "At the start of every negotiation, insert 2 Fabrication cards into your draw pile.",
+    "type": "Bane",
+    "givenby": [
+      "Denikus"
+    ],
+    "icon": "https://i.ibb.co/S6JWJTx/graft-bad-mouthed.png"
+  },
+  "bargaining": {
+    "name": "Bargaining",
+    "desc": "20 shill discount from shopkeepers.",
+    "type": "Boon",
+    "givenby": [
+      "Plundak",
+      "Krog",
+      "Jakes Dockhand",
+      "Jakes Promoted Dockhand"
+    ],
+    "icon": "https://i.ibb.co/hYGJKXT/graft-bargaining.png"
+  },
+  "bell_of_hesh": {
+    "name": "Bell of Hesh",
+    "desc": "Draw 1 extra card at the start of negotiation.",
+    "type": "Boon",
+    "givenby": [
+      "Cult of Hesh Luminari"
+    ],
+    "icon": "https://i.ibb.co/D7g3wxq/graft-bell-of-hesh.png"
+  },
+  "bio_feedback": {
+    "name": "Bio-Feedback",
+    "desc": "Status Cards cost 1 less action in battle.",
+    "type": "Boon",
+    "givenby": [
+      "Endo",
+      "Hundruthor",
+      "Cult of Hesh Priest",
+      "Cult of Hesh Promoted Priest",
+      "Vixmalli"
+    ],
+    "icon": "https://i.ibb.co/N6ZjfbH/graft-bio-feedback.png"
+  },
+  "blacklisted": {
+    "name": "Blacklisted",
+    "desc": "At the start of each negotiation, discard a random card.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Foreman"
+    ],
+    "icon": "https://i.ibb.co/5cXpLPM/graft-blacklisted.png"
+  },
+  "bog_sensitive": {
+    "name": "Bog Sensitive",
+    "desc": "Whenever you draw a **Parasite** card in negotiation or battle, take 2 damage.",
+    "type": "Bane",
+    "givenby": [
+      "Boggers Cultivator"
+    ],
+    "icon": "https://i.ibb.co/cDKPDW7/graft-bog-sensitive.png"
+  },
+  "bogger_pauldrons": {
+    "name": "Bogger Pauldrons",
+    "desc": "At the end of your turn, gain 1-3 **Defense**.",
+    "type": "Boon",
+    "givenby": [
+      "Boggers Clobber"
+    ],
+    "icon": "https://i.ibb.co/qj8d30r/graft-bogger-pauldrons.png"
+  },
+  "bogling": {
+    "name": "Bogling",
+    "desc": "Whenever you draw a **Parasite** card in negotiation or battle, discard a random card from your hand.",
+    "type": "Bane",
+    "givenby": [
+      "Grimdellia"
+    ],
+    "icon": "https://i.ibb.co/GM6h5jV/graft-bogling.png"
+  },
+  "bolstered_health": {
+    "name": "Bolstered Health",
+    "desc": "+2 Max Health.",
+    "type": "Boon",
+    "givenby": [],
+    "icon": "https://i.ibb.co/2KZSQ9p/graft-bolstered-health.png"
+  },
+  "bolstered_resolve": {
+    "name": "Bolstered Resolve",
+    "desc": "+2 Max Resolve.",
+    "type": "Boon",
+    "givenby": [],
+    "icon": "https://i.ibb.co/z2zLBGf/graft-bolstered-resolve.png"
+  },
+  "boosted_cybernetics": {
+    "name": "Boosted Cybernetics",
+    "desc": "Gain 3 Mending at the start of each battle.",
+    "type": "Boon",
+    "givenby": [
+      "Buleet"
+    ],
+    "icon": "https://i.ibb.co/hFtg0VC/graft-boosted-cybernetics.png"
+  },
+  "brutality": {
+    "name": "Brutality",
+    "desc": "Status cards cost 1 additional action in battle.",
+    "type": "Bane",
+    "givenby": [
+      "Spree Raider",
+      "Phroluk"
+    ],
+    "icon": "https://i.ibb.co/hFP9LGF/graft-brutality.png"
+  },
+  "buried": {
+    "name": "Buried",
+    "desc": "At the start of each battle, gain 2 **Impair**.",
+    "type": "Bane",
+    "givenby": [
+      "Kalandra"
+    ],
+    "icon": "https://i.ibb.co/VN9N0xY/graft-buried.png"
+  },
+  "butt_kicked": {
+    "name": "Butt Kicked",
+    "desc": "Whenever you draw an item card, your core argument takes 2 resolve damage.",
+    "type": "Bane",
+    "givenby": [
+      "Tazz"
+    ],
+    "icon": "https://i.ibb.co/b3fzVCB/graft-butt-kicked.png"
+  },
+  "capitalization": {
+    "name": "Capitalization",
+    "desc": "Your attacks deal 2 additional damage to targets affected by **Impair**.",
+    "type": "Boon",
+    "givenby": [
+      "Fralx"
+    ],
+    "icon": "https://i.ibb.co/Ms9m4K6/graft-capitalization.png"
+  },
+  "celebrity": {
+    "name": "Celebrity",
+    "desc": "At the start of each negotiation, gain 3 Renown and 2 Influence.",
+    "type": "Boon",
+    "givenby": [
+      "Andwanette"
+    ],
+    "icon": "https://i.ibb.co/QjXRhy4/graft-celebrity.png"
+  },
+  "celebrity_gossip": {
+    "name": "Celebrity Gossip",
+    "desc": "At the start of each day, a random person will hate you.",
+    "type": "Bane",
+    "givenby": [
+      "Theroux"
+    ],
+    "icon": "https://i.ibb.co/PgStF9V/graft-celebrity-gossip.png"
+  },
+  "chieftain": {
+    "name": "Chieftain",
+    "desc": "All allied Spree gain 2 **Power** at the start of battle.",
+    "type": "Boon",
+    "givenby": [
+      "Nadan"
+    ],
+    "icon": "https://i.ibb.co/5LX3qJt/graft-chieftain.png"
+  },
+  "civil_unrest": {
+    "name": "Civil Unrest",
+    "desc": "All allies start battle with additional Panic.",
+    "type": "Bane",
+    "givenby": [
+      "Brenna",
+      "Rise Rebel",
+      "Rise Promoted Rebel"
+    ],
+    "icon": "https://i.ibb.co/XXb6cXs/graft-civil-unrest.png"
+  },
+  "commander": {
+    "name": "Commander",
+    "desc": "All allies gain +5 health in battle.",
+    "type": "Boon",
+    "givenby": [
+      "Admiralty Guard"
+    ],
+    "icon": "https://i.ibb.co/Lhf5t1J/graft-commander.png"
+  },
+  "con_man": {
+    "name": "Con Man",
+    "desc": "At the end of every negotiation, recover 3 Resolve.",
+    "type": "Boon",
+    "givenby": [
+      "Denikus"
+    ],
+    "icon": "https://i.ibb.co/FwJ97DG/graft-con-man.png"
+  },
+  "concussed": {
+    "name": "Concussed",
+    "desc": "If you draw more than 4 cards on your turn, your core argument takes 3 damage.",
+    "type": "Bane",
+    "givenby": [
+      "Boggers Clobber"
+    ],
+    "icon": "https://i.ibb.co/5sYjBQc/graft-concussed.png"
+  },
+  "conditioning": {
+    "name": "Conditioning",
+    "desc": "At the start of each battle, gain 3 **Power**. Whenever you take damage from an enemy, lose 1 **Power**. You can only lose 3 total **Power** from this.",
+    "type": "Boon",
+    "givenby": [
+      "Weezil"
+    ],
+    "icon": "https://i.ibb.co/pXwX2KP/graft-conditioning.png"
+  },
+  "confidence": {
+    "name": "Confidence",
+    "desc": "+5 Max Health.",
+    "type": "Boon",
+    "givenby": [],
+    "icon": ""
+  },
+  "contagious": {
+    "name": "Contagious",
+    "desc": "Gain a random **Parasite** card.",
+    "type": "Bane",
+    "givenby": [
+      "Rook"
+    ],
+    "icon": "https://i.ibb.co/ch2YmHY/graft-contagious.png"
+  },
+  "convenience": {
+    "name": "Convenience",
+    "desc": "Fatigued occurs 1 turn later in both battle and negotiation.",
+    "type": "Boon",
+    "givenby": [
+      "Rise Valet"
+    ],
+    "icon": "https://i.ibb.co/LZxDBzn/graft-convenience.png"
+  },
+  "covert_supplier": {
+    "name": "Covert Supplier",
+    "desc": "The first item card you play in each battle costs 1 less.",
+    "type": "Boon",
+    "givenby": [
+      "Seemli"
+    ],
+    "icon": "https://i.ibb.co/hYbYdSX/graft-covert-supplier.png"
+  },
+  "cozy": {
+    "name": "Cozy",
+    "desc": "Gain 2 maximum resolve and 2 maximum health.",
+    "type": "Boon",
+    "givenby": [
+      "Fssh"
+    ],
+    "icon": "https://i.ibb.co/rvfvTRp/graft-cozy.png"
+  },
+  "crisis": {
+    "name": "Crisis",
+    "desc": "All allies gain a small amount of Panic at the start of your turn.",
+    "type": "Bane",
+    "givenby": [
+      "Spark Barons Taskmaster"
+    ],
+    "icon": "https://i.ibb.co/yp8SYW9/graft-crisis.png"
+  },
+  "curse_of_hesh": {
+    "name": "Curse of Hesh",
+    "desc": "Lose 1 action and draw a card on your first turn of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Cult of Hesh Luminari"
+    ],
+    "icon": "https://i.ibb.co/Ryxymh8/graft-curse-of-hesh.png"
+  },
+  "depleted": {
+    "name": "Depleted",
+    "desc": "On your first turn of battle, draw one less card.",
+    "type": "Bane",
+    "givenby": [
+      "Rise Radical"
+    ],
+    "icon": "https://i.ibb.co/wBzTHWX/graft-depleted.png"
+  },
+  "disapproval": {
+    "name": "Disapproval",
+    "desc": "At the start of any negotiation against a Pearlie or Heshian, gain 1 Flustered.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Pearlie"
+    ],
+    "icon": "https://i.ibb.co/dWsVM0R/graft-disapproval.png"
+  },
+  "disorder": {
+    "name": "Disorder",
+    "desc": "At the start of each battle, gain 4 Disrupt.",
+    "type": "Bane",
+    "givenby": [
+      "Seemli"
+    ],
+    "icon": "https://i.ibb.co/XLwgD4q/graft-disorder.png"
+  },
+  "doze_bug": {
+    "name": "Doze Bug",
+    "desc": "Whenever you sleep, increase your max health by 5.",
+    "type": "Boon",
+    "givenby": [
+      "Bilebrokers Sampler",
+      "Bilebrokers Chemist",
+      "Ximmon"
+    ],
+    "icon": "https://i.ibb.co/gD4VvS0/graft-doze-bug.png"
+  },
+  "drone_mastery": {
+    "name": "Drone Mastery",
+    "desc": "Allied mechs have 10 additional max Health.",
+    "type": "Boon",
+    "givenby": [
+      "Jeol"
+    ],
+    "icon": "https://i.ibb.co/HFNW3wf/graft-drone-mastery.png"
+  },
+  "drone_supplier": {
+    "name": "Drone Supplier",
+    "desc": "Combat Drone cards cost 1 additional action.",
+    "type": "Bane",
+    "givenby": [
+      "Jeol"
+    ],
+    "icon": "https://i.ibb.co/5sKbczZ/graft-drone-supplier.png"
+  },
+  "elitist": {
+    "name": "Elitist",
+    "desc": "Feud Citizens that you meet for the first time will dislike you.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Laborer",
+      "Civillian Promoted Laborer"
+    ],
+    "icon": "https://i.ibb.co/XYWC5pP/graft-elitist.png"
+  },
+  "envoy_pendant": {
+    "name": "Envoy Pendant",
+    "desc": "The first Diplomacy card you play each negotiation costs 1 less action.",
+    "type": "Boon",
+    "givenby": [
+      "Bordenkra"
+    ],
+    "icon": "https://i.ibb.co/Fx83VVz/graft-envoy-pendant.png"
+  },
+  "excavator": {
+    "name": "Excavator",
+    "desc": "The first item card you play in battle is played twice.",
+    "type": "Boon",
+    "givenby": [
+      "Kalandra"
+    ],
+    "icon": "https://i.ibb.co/YT6Sx1v/graft-digger.png"
+  },
+  "family_favor": {
+    "name": "Family Favor",
+    "desc": "At the start of each negotiation, gain 3 Renown.",
+    "type": "Boon",
+    "givenby": [
+      "Mullifee"
+    ],
+    "icon": "https://i.ibb.co/s6rRYsP/graft-family-favor.png"
+  },
+  "fan_mail": {
+    "name": "Fan Mail",
+    "desc": "At the start of each day receive 100 shills.",
+    "type": "Boon",
+    "givenby": [
+      "Theroux"
+    ],
+    "icon": "https://i.ibb.co/3Btj2MC/graft-fan-mail.png"
+  },
+  "faulty_armor": {
+    "name": "Faulty Armor",
+    "desc": "Start each battle with 2 Exposed.",
+    "type": "Bane",
+    "givenby": [
+      "Plocka",
+      "Spark Barons Professional"
+    ],
+    "icon": "https://i.ibb.co/BqDVtjZ/graft-faulty-armor.png"
+  },
+  "faulty_connections": {
+    "name": "Faulty Connections",
+    "desc": "All friendly arguments come into play with 1 less resolve.",
+    "type": "Bane",
+    "givenby": [
+      "Arint"
+    ],
+    "icon": "https://i.ibb.co/9NxgKnR/graft-faulty-connections.png"
+  },
+  "first_aid": {
+    "name": "First Aid",
+    "desc": "Whenever you remove a debuff, **Heal** 5 health.",
+    "type": "Boon",
+    "givenby": [
+      "Jakes Smuggler",
+      "Rake"
+    ],
+    "icon": "https://i.ibb.co/Bt3WHzg/graft-first-aid.png"
+  },
+  "fragile_health": {
+    "name": "Fragile Health",
+    "desc": "Whenever you gain a debuff, take 2 damage.",
+    "type": "Bane",
+    "givenby": [
+      "Jakes Smuggler",
+      "Rake"
+    ],
+    "icon": "https://i.ibb.co/nDZSPFT/graft-fragile-health.png"
+  },
+  "fumbling_fingers": {
+    "name": "Fumbling Fingers",
+    "desc": "Every 3rd turn in battle, discard a random card from your hand.",
+    "type": "Bane",
+    "givenby": [
+      "Hanbi"
+    ],
+    "icon": "https://i.ibb.co/MByt0sx/graft-fumbling-fingers.png"
+  },
+  "gear_head": {
+    "name": "Gear Head",
+    "desc": "**Heal** 1 health at the start of your turn if you took no damage last turn.",
+    "type": "Boon",
+    "givenby": [
+      "Flekfis"
+    ],
+    "icon": "https://i.ibb.co/4MzK47L/graft-gear-head.png"
+  },
+  "gluey_acquaintance": {
+    "name": "Gluey Acquaintance",
+    "desc": "At the start of each battle, apply 1 Glued to all enemies.",
+    "type": "Boon",
+    "givenby": [
+      "Monster Racing Oshnu"
+    ],
+    "icon": "https://i.ibb.co/9cYqQ4P/graft-gluey-acquaintance.png"
+  },
+  "grace_of_hesh": {
+    "name": "Grace of Hesh",
+    "desc": "**Heal** 3 health whenever you win a negotiation.",
+    "type": "Boon",
+    "givenby": [
+      "Cult of Hesh Zealot"
+    ],
+    "icon": "https://i.ibb.co/Gptp8Fz/graft-grace-of-hesh.png"
+  },
+  "gremlins": {
+    "name": "Gremlins",
+    "desc": "At the end of your first turn each battle, take 2 damage per **Charge**.",
+    "type": "Bane",
+    "givenby": [
+      "Gorgula"
+    ],
+    "icon": "https://i.ibb.co/JqvbsPr/graft-gremlins.png"
+  },
+  "grumpy_scowl": {
+    "name": "Grumpy Scowl",
+    "desc": "At the start of each negotiation, gain 2 Heated.",
+    "type": "Boon",
+    "givenby": [
+      "Rook"
+    ],
+    "icon": "https://i.ibb.co/Yj17mJt/graft-grumpy-scowl.png"
+  },
+  "haggle_badge": {
+    "name": "Haggle Badge",
+    "desc": "You can negotiate for greater quest rewards.",
+    "type": "Boon",
+    "givenby": [
+      "Shel",
+      "Palamborat",
+      "Foolo",
+      "Civillian Poor Merchant",
+      "Civillian Wealthy Merchant",
+      "Civillian Promoted Wealthy Merchant"
+    ],
+    "icon": "https://i.ibb.co/MGscGVs/graft-haggle-badge.png"
+  },
+  "hard_headed": {
+    "name": "Hard Headed",
+    "desc": "Whenever you play a manipulate card, apply 1 **Composure** to a random friendly argument.",
+    "type": "Boon",
+    "givenby": [
+      "Tazz"
+    ],
+    "icon": "https://i.ibb.co/S6TxNNv/graft-hard-headed.png"
+  },
+  "hard_knocks": {
+    "name": "Hard Knocks",
+    "desc": "After playing 10 cards, your next attack deals 8 bonus damage.",
+    "type": "Boon",
+    "givenby": [
+      "Brut"
+    ],
+    "icon": "https://i.ibb.co/265JP62/graft-hard-knocks.png"
+  },
+  "heathen": {
+    "name": "Heathen",
+    "desc": "At the start of each negotiation, your opponent gains 1 Prayer of Hesh.",
+    "type": "Bane",
+    "givenby": [
+      "Pallitriax"
+    ],
+    "icon": "https://i.ibb.co/z6LD0cj/graft-heathen.png"
+  },
+  "heavy_lifting": {
+    "name": "Heavy Lifting",
+    "desc": "At the start of each battle, gain 4 **Defense** and 2 **Temporary Power**.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Heavy Laborer"
+    ],
+    "icon": "https://i.ibb.co/kSYjbyq/graft-heavy-lifting.png"
+  },
+  "hemophiliac": {
+    "name": "Hemophiliac",
+    "desc": "**Bleed** cards deal 2 bonus damage to you.",
+    "type": "Bane",
+    "givenby": [
+      "Zyn"
+    ],
+    "icon": "https://i.ibb.co/XDwyfDk/graft-hemophiliac.png"
+  },
+  "heshian_armature": {
+    "name": "Heshian Armature",
+    "desc": "Whenever you gain **Fully Charged**, gain 2 **Overcharge**.",
+    "type": "Boon",
+    "givenby": [
+      "Gorgula"
+    ],
+    "icon": "https://i.ibb.co/cktW6KF/graft-heshian-armature.png"
+  },
+  "heshian_obscenity": {
+    "name": "Heshian Obscenity",
+    "desc": "Your maximum hand size in negotiations is reduced by 2.",
+    "type": "Bane",
+    "givenby": [
+      "Cult of Hesh Zealot"
+    ],
+    "icon": "https://i.ibb.co/Mp4XWCG/graft-heshian-obscenity.png"
+  },
+  "hounded": {
+    "name": "Hounded",
+    "desc": "Regain 30% less hp when sleeping.",
+    "type": "Bane",
+    "givenby": [
+      "Weezil"
+    ],
+    "icon": "https://i.ibb.co/QpLTT8Y/graft-hounded.png"
+  },
+  "hunted": {
+    "name": "Hunted",
+    "desc": "All enemy Admiralty gain 1 **Power** at the start of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Admiralty Goon",
+      "Admiralty Promoted Goon"
+    ],
+    "icon": "https://i.ibb.co/CtpgZnJ/graft-hunted.png"
+  },
+  "in_on_it": {
+    "name": "In On It",
+    "desc": "At the start of each negotiation, gain 1 Interrogate.",
+    "type": "Boon",
+    "givenby": [
+      "Eden"
+    ],
+    "icon": "https://i.ibb.co/89V8TmF/graft-in-on-it.png"
+  },
+  "inconvenience": {
+    "name": "Inconvenience",
+    "desc": "Fatigued occurs 1 turn earlier in both battle and negotiation.",
+    "type": "Bane",
+    "givenby": [
+      "Rise Valet"
+    ],
+    "icon": "https://i.ibb.co/zGwn7G3/graft-inconvenience.png"
+  },
+  "informant": {
+    "name": "Informant",
+    "desc": "At the start of every negotiation, incept 5 Planted Evidence for your opponent.",
+    "type": "Boon",
+    "givenby": [
+      "Admiralty Investigator"
+    ],
+    "icon": "https://i.ibb.co/brc4Y5J/graft-informant.png"
+  },
+  "informed_enemies": {
+    "name": "Informed Enemies",
+    "desc": "Take 2 damage every time you play a card on the first turn of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Threekwa"
+    ],
+    "icon": "https://i.ibb.co/q98D3Gb/graft-informed-enemies.png"
+  },
+  "inoculated": {
+    "name": "Inoculated",
+    "desc": "Whenever you draw a **Parasite** card, heal 2 health or restore 2 resolve.",
+    "type": "Boon",
+    "givenby": [
+      "Boggers Cultivator"
+    ],
+    "icon": "https://i.ibb.co/0JGG5Vs/graft-inoculated.png"
+  },
+  "bully": {
+    "name": "Bully",
+    "desc": "Lose 1 **Defense** on all cards that apply **Defense**.",
+    "type": "Bane",
+    "givenby": [
+      "Admiralty Patrol Leader",
+      "Pengemunt"
+    ],
+    "icon": "https://i.ibb.co/wB9pLDq/graft-intimidated.png"
+  },
+  "kill_list": {
+    "name": "Kill List",
+    "desc": "Enemy Spree gain 2 **Power** at the start of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Nadan"
+    ],
+    "icon": "https://i.ibb.co/c39yCCh/graft-kill-list.png"
+  },
+  "local_chatter": {
+    "name": "Local Chatter",
+    "desc": "At the start of any negotiation against a Pearlie or Heshian, gain 3 Renown.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Pearlie"
+    ],
+    "icon": "https://i.ibb.co/HVbTpTw/graft-local-chatter.png"
+  },
+  "lowered_rank": {
+    "name": "Lowered Rank",
+    "desc": "Allies have 10% less max health in battle.",
+    "type": "Bane",
+    "givenby": [
+      "Admiralty Guard"
+    ],
+    "icon": "https://i.ibb.co/wwWKyMy/graft-lowered-rank.png"
+  },
+  "marked": {
+    "name": "Marked",
+    "desc": "Enemy Spree join battle with less Panic.",
+    "type": "Bane",
+    "givenby": [
+      "Spree Thug",
+      "Spree Promoted Thug"
+    ],
+    "icon": "https://i.ibb.co/41fxt51/graft-marked.png"
+  },
+  "misinformation": {
+    "name": "Misinformation",
+    "desc": "Opponent arguments deal 2 bonus damage in negotiation.",
+    "type": "Bane",
+    "givenby": [
+      "Buleet"
+    ],
+    "icon": "https://i.ibb.co/wRYb7qc/graft-misinformation.png"
+  },
+  "mixology": {
+    "name": "Mixology",
+    "desc": "Whenever you drink to restore resolve, also restore 4 health.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Bartender",
+      "Rug"
+    ],
+    "icon": "https://i.ibb.co/RjqqpYD/graft-mixology.png"
+  },
+  "morale_boost": {
+    "name": "Morale Boost",
+    "desc": "At the end of their turn, surrendered allies gain 10% of their maximum health.",
+    "type": "Boon",
+    "givenby": [
+      "Brenna",
+      "Rise Rebel",
+      "Rise Promoted Rebel"
+    ],
+    "icon": "https://i.ibb.co/DYXbtKN/graft-morale-boost.png"
+  },
+  "on_the_list": {
+    "name": "On The List",
+    "desc": "All friendly arguments come into play with 1 additional resolve.",
+    "type": "Boon",
+    "givenby": [
+      "Arint"
+    ],
+    "icon": "https://i.ibb.co/jRtxknT/graft-on-the-list.png"
+  },
+  "ostracized": {
+    "name": "Ostracized",
+    "desc": "At the start of each negotiation, you gain 2 Vulnerability.",
+    "type": "Bane",
+    "givenby": [
+      "Andwanette"
+    ],
+    "icon": "https://i.ibb.co/MsRVnWS/graft-ostracized.png"
+  },
+  "outwitted": {
+    "name": "Outwitted",
+    "desc": "Pin a random card at the start of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Spree Thief"
+    ],
+    "icon": "https://i.ibb.co/K78Z7gn/graft-outwitted.png"
+  },
+  "people_person": {
+    "name": "People Person",
+    "desc": "At the start of each negotiation, gain 2 Influence and 2 Dominance.",
+    "type": "Boon",
+    "givenby": [
+      "Sal"
+    ],
+    "icon": "https://i.ibb.co/LCHbNc6/graft-people-person.png"
+  },
+  "piece_of_the_pie": {
+    "name": "Piece of the Pie",
+    "desc": "Gain 75 shills every morning.",
+    "type": "Boon",
+    "givenby": [
+      "Admiralty Goon",
+      "Admiralty Promoted Goon"
+    ],
+    "icon": "https://i.ibb.co/T8ynPvV/graft-piece-of-the-pie.png"
+  },
+  "propaganda_machine": {
+    "name": "Propaganda Machine",
+    "desc": "Start each negotiation with 1 Influence.",
+    "type": "Boon",
+    "givenby": [
+      "Rise Pamphleteer"
+    ],
+    "icon": "https://i.ibb.co/nksNbNL/graft-propaganda-machine.png"
+  },
+  "punchy": {
+    "name": "Punchy",
+    "desc": "The first Maneuver card you play each fight is **Expended**.",
+    "type": "Bane",
+    "givenby": [
+      "Felek"
+    ],
+    "icon": "https://i.ibb.co/JmQ6kFM/graft-punchy.png"
+  },
+  "puppeteer": {
+    "name": "Puppeteer",
+    "desc": "Giving gifts to Heshians costs half as much.",
+    "type": "Boon",
+    "givenby": [
+      "Tei Utaro"
+    ],
+    "icon": "https://i.ibb.co/mvnKwZx/graft-puppeteer.png"
+  },
+  "quality_materials": {
+    "name": "Quality Materials",
+    "desc": "Whenever you play an Item card, gain 2 **Defense**.",
+    "type": "Boon",
+    "givenby": [
+      "Jakes Lifter"
+    ],
+    "icon": "https://i.ibb.co/qk2hcqD/graft-quality-materials.png"
+  },
+  "rattled": {
+    "name": "Rattled",
+    "desc": "Enemy attacks against you deal 1 bonus damage if you have **Impair**.",
+    "type": "Bane",
+    "givenby": [
+      "Fralx"
+    ],
+    "icon": "https://i.ibb.co/Kq7SP7Q/graft-rattled.png"
+  },
+  "red_tape": {
+    "name": "Red Tape",
+    "desc": "Members of the Admiralty will not help you in battle or negotiation.",
+    "type": "Bane",
+    "givenby": [
+      "Admiralty Clerk"
+    ],
+    "icon": "https://i.ibb.co/bHFRNF3/graft-red-tape.png"
+  },
+  "regimented": {
+    "name": "Regimented",
+    "desc": "All allied Spree have +10 Health in battle.",
+    "type": "Boon",
+    "givenby": [
+      "Spree Raider",
+      "Phroluk"
+    ],
+    "icon": "https://i.ibb.co/Htz5Xr2/graft-regimented.png"
+  },
+  "rentorian_battle_armor": {
+    "name": "Rentorian Battle Armor",
+    "desc": "Gain 3 **Power** at the start of each battle. Lose 3 **Power** the first time you take any damage.",
+    "type": "Boon",
+    "givenby": [
+      "Threekwa"
+    ],
+    "icon": "https://i.ibb.co/4KDryT2/graft-rentorian-battle-armor.png"
+  },
+  "savagery": {
+    "name": "Savagery",
+    "desc": "+1 **Bleed** to all cards that apply **Bleed**.",
+    "type": "Boon",
+    "givenby": [
+      "Spree Captain"
+    ],
+    "icon": "https://i.ibb.co/HNz5gsM/graft-savagery.png"
+  },
+  "scandal": {
+    "name": "Scandal",
+    "desc": "At the beginning of every negotiation, lose 1 maximum resolve permanently.",
+    "type": "Bane",
+    "givenby": [
+      "Fellemo"
+    ],
+    "icon": "https://i.ibb.co/8m9s0Lk/graft-scandal.png"
+  },
+  "scheme": {
+    "name": "Scheme",
+    "desc": "At the start of every negotiation gain either 3 Influence or 3 Dominance. Chosen randomly.",
+    "type": "Boon",
+    "givenby": [
+      "Fellemo"
+    ],
+    "icon": "https://i.ibb.co/wyff5rf/graft-scheme.png"
+  },
+  "scorned": {
+    "name": "Scorned",
+    "desc": "The first Diplomacy card you play each negotiation costs 1 additional action.",
+    "type": "Bane",
+    "givenby": [
+      "Bordenkra"
+    ],
+    "icon": "https://i.ibb.co/hd816gZ/graft-scorned.png"
+  },
+  "shakey": {
+    "name": "Shakey",
+    "desc": "-2 max resolve.",
+    "type": "Bane",
+    "givenby": [],
+    "icon": "https://i.ibb.co/nz7KQY3/graft-shakey.png"
+  },
+  "sharpened_blades": {
+    "name": "Sharpened Blades",
+    "desc": "All your attacks apply 2 **Bleed** on your first turn of battle.",
+    "type": "Boon",
+    "givenby": [
+      "Zyn"
+    ],
+    "icon": "https://i.ibb.co/vzfxKXB/graft-sharpened-blades.png"
+  },
+  "shellshock": {
+    "name": "Shellshock",
+    "desc": "At the end of every turn, lose 2 **Defense**.",
+    "type": "Bane",
+    "givenby": [
+      "Brut"
+    ],
+    "icon": "https://i.ibb.co/Qvq1GbH/graft-shellshock.png"
+  },
+  "short_circuit": {
+    "name": "Short Circuit",
+    "desc": "Take 2 damage whenever you gain **Power**.",
+    "type": "Bane",
+    "givenby": [
+      "Sparky"
+    ],
+    "icon": "https://i.ibb.co/qkZJ0dZ/graft-short-circuit.png"
+  },
+  "shunned": {
+    "name": "Shunned",
+    "desc": "At the end of your first turn in negotiations, lose all Renown and Influence.",
+    "type": "Bane",
+    "givenby": [
+      "Mullifee"
+    ],
+    "icon": "https://i.ibb.co/M9kTyfn/graft-shunned.png"
+  },
+  "sketchy_equipment": {
+    "name": "Sketchy Equipment",
+    "desc": "Take 1 damage whenever you use an item.",
+    "type": "Bane",
+    "givenby": [
+      "Spark Barons Security Guard",
+      "Spark Barons Promoted Security Guard"
+    ],
+    "icon": "https://i.ibb.co/TYK8Bx6/graft-sketchy-equipment.png"
+  },
+  "slander": {
+    "name": "Slander",
+    "desc": "When you murder a member of the Rise, lose 2 max resolve.",
+    "type": "Bane",
+    "givenby": [
+      "Rise Pamphleteer"
+    ],
+    "icon": "https://i.ibb.co/bB8bpw9/graft-slander.png"
+  },
+  "spark_visor": {
+    "name": "Spark Visor",
+    "desc": "At the start of battle, mark an enemy. Attacking that enemy grants you 8 **Defense**.",
+    "type": "Boon",
+    "givenby": [
+      "Plocka",
+      "Spark Barons Professional"
+    ],
+    "icon": "https://i.ibb.co/kJhp08w/graft-spark-visor.png"
+  },
+  "sparring": {
+    "name": "Sparring",
+    "desc": "Gain 1 bonus **Defense** on all cards that apply **Defense**.",
+    "type": "Boon",
+    "givenby": [
+      "Admiralty Patrol Leader",
+      "Pengemunt"
+    ],
+    "icon": "https://i.ibb.co/KbW668t/graft-sparring.png"
+  },
+  "spiked_drink": {
+    "name": "Spiked Drink",
+    "desc": "Gain an Ulcer card whenever you drink.",
+    "type": "Bane",
+    "givenby": [
+      "Bilebrokers Sampler",
+      "Bilebrokers Chemist",
+      "Ximmon"
+    ],
+    "icon": "https://i.ibb.co/WxDKCXL/graft-spiked-drink.png"
+  },
+  "steady_hands": {
+    "name": "Steady Hands",
+    "desc": "Every 3rd turn in battle, draw 3 additional cards.",
+    "type": "Boon",
+    "givenby": [
+      "Hanbi"
+    ],
+    "icon": "https://i.ibb.co/CJh05fk/graft-steady-hands.png"
+  },
+  "king_hit": {
+    "name": "King Hit",
+    "desc": "+4 Damage on the first attack in battle.",
+    "type": "Boon",
+    "givenby": [
+      "Spree Thug",
+      "Spree Promoted Thug"
+    ],
+    "icon": "https://i.ibb.co/0Drq2jB/graft-sucker-punch.png"
+  },
+  "surprise_attack": {
+    "name": "Surprise Attack",
+    "desc": "Gain 1 action at the start of battle.",
+    "type": "Boon",
+    "givenby": [
+      "Spree Thief"
+    ],
+    "icon": "https://i.ibb.co/2Fhxzkp/graft-surprise-attack.png"
+  },
+  "sway": {
+    "name": "Sway",
+    "desc": "At the start of any negotiation against Admiralty or Heshians, your opponent gains 1 Interrogate.",
+    "type": "Bane",
+    "givenby": [
+      "Tei Utaro"
+    ],
+    "icon": "https://i.ibb.co/9nBKBdQ/graft-sway.png"
+  },
+  "system_shock": {
+    "name": "System Shock",
+    "desc": "If you didn't attack last turn, gain 2 **Temporary Power**.",
+    "type": "Boon",
+    "givenby": [
+      "Sparky"
+    ],
+    "icon": "https://i.ibb.co/0hqjjJJ/graft-system-shock.png"
+  },
+  "tainted_supply": {
+    "name": "Tainted Supply",
+    "desc": "Drinking adds an additional drunk card.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Bartender",
+      "Fssh",
+      "Hebbel",
+      "Sweet Moreef",
+      "Rug"
+    ],
+    "icon": "https://i.ibb.co/zmjMFMb/graft-tainted-supply.png"
+  },
+  "talisman": {
+    "name": "Talisman",
+    "desc": "Whenever you draw a **Parasite** card, draw a card.",
+    "type": "Boon",
+    "givenby": [
+      "Grimdellia"
+    ],
+    "icon": "https://i.ibb.co/9c9MzS9/graft-talisman.png"
+  },
+  "terrorized": {
+    "name": "Terrorized",
+    "desc": "When gained, 2 random Spree dislike you.",
+    "type": "Bane",
+    "givenby": [
+      "Spree Captain"
+    ],
+    "icon": "https://i.ibb.co/vjwL5Ys/graft-terrorized.png"
+  },
+  "thin_skin": {
+    "name": "Thin Skin",
+    "desc": "The first time you take damage each fight, gain 2 **Wound**.",
+    "type": "Bane",
+    "givenby": [
+      "Plundak",
+      "Krog",
+      "Jakes Dockhand",
+      "Jakes Promoted Dockhand"
+    ],
+    "icon": "https://i.ibb.co/qr1Cb0d/graft-thin-skin.png"
+  },
+  "throng": {
+    "name": "Throng",
+    "desc": "The first argument you create each negotiation has 2 bonus resolve.",
+    "type": "Boon",
+    "givenby": [
+      "Cult of Hesh Luminitiate",
+      "Cult of Hesh Promoted Luminitiate"
+    ],
+    "icon": "https://i.ibb.co/xj31w6P/graft-throng.png"
+  },
+  "top_shelf": {
+    "name": "Top Shelf",
+    "desc": "Restore an additional 6 resolve when drinking.",
+    "type": "Boon",
+    "givenby": [
+      "Hebbel",
+      "Sweet Moreef"
+    ],
+    "icon": "https://i.ibb.co/6RZZyBC/graft-top-shelf.png"
+  },
+  "torpor_fiend": {
+    "name": "Torpor Fiend",
+    "desc": "When you sleep, gain full experience on a random card.",
+    "type": "Boon",
+    "givenby": [
+      "Spark Barons Taskmaster"
+    ],
+    "icon": "https://i.ibb.co/5MjfHNz/graft-torpor-fiend.png"
+  },
+  "treachery": {
+    "name": "Treachery",
+    "desc": "You can no longer gain any **Defense** on your first turn of battle.",
+    "type": "Bane",
+    "givenby": [
+      "Frizz"
+    ],
+    "icon": "https://i.ibb.co/G0p0TCW/graft-treachery.png"
+  },
+  "troubled_past": {
+    "name": "Troubled Past",
+    "desc": "Lose 2 maximum resolve and 2 maximum health.",
+    "type": "Bane",
+    "givenby": [
+      "Kashio"
+    ],
+    "icon": "https://i.ibb.co/QPKDNzs/graft-troubled-past.png"
+  },
+  "undermined": {
+    "name": "Undermined",
+    "desc": "At the start of each negotiation, gain 5 Planted Evidence.",
+    "type": "Bane",
+    "givenby": [
+      "Eden"
+    ],
+    "icon": "https://i.ibb.co/2WG73M0/graft-undermined.png"
+  },
+  "voice_of_the_people": {
+    "name": "Voice of the People",
+    "desc": "Start all negotiations with a Voice of the People argument.",
+    "type": "Boon",
+    "givenby": [
+      "Civillian Laborer",
+      "Civillian Promoted Laborer"
+    ],
+    "icon": "https://i.ibb.co/hdK4N9Y/graft-voice-of-the-people.png"
+  },
+  "war_machine": {
+    "name": "War Machine",
+    "desc": "Receive a free RPG once a day from a member of the Rise.",
+    "type": "Boon",
+    "givenby": [
+      "Rise Radical"
+    ],
+    "icon": "https://i.ibb.co/mz8DG3j/graft-war-machine.png"
+  },
+  "watched": {
+    "name": "Watched",
+    "desc": "The first time you deploy an argument in each negotiation, it takes 1 damage.",
+    "type": "Bane",
+    "givenby": [
+      "Admiralty Investigator"
+    ],
+    "icon": "https://i.ibb.co/qyN3gPN/graft-watched.png"
+  },
+  "weapons_expert": {
+    "name": "Weapons Expert",
+    "desc": "The first attack card you play each fight costs 0.",
+    "type": "Boon",
+    "givenby": [
+      "Frizz"
+    ],
+    "icon": "https://i.ibb.co/SfBNCVd/graft-weapons-expert.png"
+  },
+  "weapons_supplier": {
+    "name": "Weapons Supplier",
+    "desc": "Receive a random item card every morning.",
+    "type": "Boon",
+    "givenby": [
+      "Spark Barons Security Guard",
+      "Spark Barons Promoted Security Guard"
+    ],
+    "icon": "https://i.ibb.co/2Sbh8y8/graft-weapons-supplier.png"
+  },
+  "whispered_rumors": {
+    "name": "Whispered Rumors",
+    "desc": "Opponents start with an additional argument each negotiation.",
+    "type": "Bane",
+    "givenby": [
+      "Civillian Heavy Laborer"
+    ],
+    "icon": "https://i.ibb.co/sjn5vVC/graft-whispered-rumors.png"
+  },
+  "wrenched": {
+    "name": "Wrenched",
+    "desc": "The first card played every battle costs 1 additional action to play.",
+    "type": "Bane",
+    "givenby": [
+      "Flekfis"
+    ],
+    "icon": "https://i.ibb.co/TK3Zkd6/graft-wrenched.png"
+  },
+  "wrist_rocket": {
+    "name": "Wrist Rocket",
+    "desc": "After your first attack each turn, deal 2 additional damage to your target.",
+    "type": "Boon",
+    "givenby": [
+      "Felek"
+    ],
+    "icon": "https://i.ibb.co/rxW0Mhc/graft-wrist-rocket.png"
+  },
+  "wrong_papers": {
+    "name": "Wrong Papers",
+    "desc": "At the start of every negotiation, gain 2 Flustered.",
+    "type": "Bane",
+    "givenby": [
+      "Oolo"
+    ],
+    "icon": "https://i.ibb.co/XDx5QmV/graft-wrong-papers.png"
+  },
+  "wrong_side": {
+    "name": "Wrong Side",
+    "desc": "At the start of each negotiation, gain 1 Doubt.",
+    "type": "Bane",
+    "givenby": [
+      "Sal"
+    ],
+    "icon": "https://i.ibb.co/3dkj3C2/graft-wrong-side.png"
+  }
+}
