@@ -1,8 +1,8 @@
 const { MessageEmbed } = require("discord.js");
 
 const helpEmbed = new MessageEmbed()
-    .setDescription("Hi there! I'm your friendly neighborhood card fetcher."
-        + " At your command I fetch whatever card/graft you want and all its available info!\n\n"
+    .setDescription("Hi there! I'm a bot designed to fetch cards from Klei Entertainment's *Griftlands*."
+        + " \n\nNot only do I fetch cards, I also fetch grafts, boons, and banes!\n\n"
         + "\"**!fetch [item name]**\" -- This will fetch the item's stats, description, flavor text and card image if available.\n\n"
         + "\"**!fetchicon [item name]**\" -- This will fetch the item's art alone.\n\n"
         + "\"**!fetchstats**\" -- Get database stats, bot ping and other stats.\n\n"
@@ -13,8 +13,8 @@ const helpEmbed = new MessageEmbed()
     .setColor(0x08e0db);
 
 module.exports = {
-	name: "fetchhelp",
-	execute(message) {
-		message.channel.send(helpEmbed);
-	},
+    name: "fetchhelp",
+    execute(message) {
+        message.channel.send(helpEmbed);
+    },
 };

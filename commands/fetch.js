@@ -252,6 +252,7 @@ module.exports = {
                 fetchingBoba = true;
             } else {
                 finalEmbedMessageGraft(toFetch, sentMessage);
+                return;
             }
         }
         if (fetchingBoba) {
@@ -259,6 +260,7 @@ module.exports = {
                 NotFound(sentMessage, OriginalRequest);
             } else {
                 finalEmbedMessageBoba(toFetch, sentMessage);
+                return;
             }
         } else {
             fetchPage(pageToOpen).then(function(result) {
