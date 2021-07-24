@@ -3,6 +3,7 @@ const _ = require("lodash");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
+const specialDatabase = require("../databases/specialCases.json");
 
 function pleaseEnterAName(message) {
     const enterName = new MessageEmbed()
@@ -20,6 +21,15 @@ function IconNotFoundEmbed(message, attemptedFetch) {
     message.channel.send(IconNotFound);
 }
 
+function specialCaseMessage(message, caseEntry) {
+    let desc = _.get(specialDatabase, caseEntry + ".desc").replace(/\!fetch/g, "!fetchicon");
+    const specialEmbed = new MessageEmbed()
+        .setTitle(_.get(specialDatabase, caseEntry + ".title"))
+        .setDescription(desc)
+        .setColor(0x00b71a);
+    message.channel.send(specialEmbed);
+}
+
 module.exports = {
 	name: "fetchicon",
 	execute(message, args) {
@@ -27,7 +37,7 @@ module.exports = {
             pleaseEnterAName(message);
             return;
         }
-        let request, splitStr;
+        let iconToFetch, splitStr;
 		if (args.indexOf(" ") > -1) {
             splitStr = args.split(" ");
             for (i = 0; i < splitStr.length; i++) {
@@ -36,12 +46,18 @@ module.exports = {
                     i--;
                 };
             }
-            request = splitStr.join(" ").toLowerCase();
+            iconToFetch = splitStr.join(" ").toLowerCase();
         } else {
-            request = args.toLowerCase()
+            iconToFetch = args.toLowerCase()
         }
 
-        let iconToFetch = request.replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
+        iconToFetch = iconToFetch.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
+
+        if (_.has(specialDatabase, iconToFetch)) {
+            specialCaseMessage(message, iconToFetch);
+            return;
+        }
+
         let imageLink = _.get(cardDatabase, iconToFetch + ".icon");
         if (typeof imageLink === "undefined" || imageLink == "N/A") {
             imageLink = _.get(graftDatabase, iconToFetch + ".icon");

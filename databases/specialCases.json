@@ -1,0 +1,14 @@
+{
+    "boosted_barrage": {
+        "title": "There are two different cards named \"Boosted Barrage\"!",
+        "desc": "Please specify which one you want by doing one of the following:\n\nFor Battle: `!fetch Boosted Barrage Battle`\nFor Negotiation: `!fetch Boosted Barrage Negotiation`" 
+    },
+    "bully": {
+        "title": "There is both a card and a bane named \"Bully\"!",
+        "desc": "Please specify which one you want by doing one of the following:\n\nFor the card: `!fetch Bully Card`\nFor the bane: `!fetch Bully Bane`"
+    },
+    "burnt_out_graft": {
+        "title": "There are two different grafts named \"Burnt-out Graft\"!",
+        "desc": "Please specify which one you want by doing one of the following:\n\nFor Battle: `!fetch Burnt-out Graft Battle`\nFor Negotiation: `!fetch Burnt-out Graft Negotiation`"
+    }
+}
