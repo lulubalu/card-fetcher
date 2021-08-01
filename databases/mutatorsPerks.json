@@ -1,0 +1,482 @@
+{
+  "alert": {
+    "name": "Alert",
+    "desc": "Draw 2 additional cards at the start of every battle and negotiation.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/Nj0BhX4/perk-alert.png"
+  },
+  "ancient_warrior": {
+    "name": "Ancient Warrior",
+    "desc": "The first 2 cards you draft in each deck come with full xp.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/LYW9wcx/perk-ancient-warrior.png"
+  },
+  "animal_bond": {
+    "name": "Animal Bond",
+    "desc": "Eating food also restores the health of your pet.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/D4nSBdp/perk-animal-bond.png"
+  },
+  "animal_handling": {
+    "name": "Animal Handling",
+    "desc": "You can own 1 additional pet.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/dWnVZyw/perk-animal-handler.png"
+  },
+  "animal_lover": {
+    "name": "Animal Lover",
+    "desc": "Own up to 3 pets.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/5vFZm8V/animal-lover.png"
+  },
+  "barbarous": {
+    "name": "Barbarous",
+    "desc": "There are no repercussions for murder.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/pQNrqjp/barbarous.png"
+  },
+  "bare_mettle": {
+    "name": "Bare Mettle",
+    "desc": "Mettle Upgrades do not apply, and you gain no mettle!",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/FmxccjW/bare-mettle.png"
+  },
+  "basic_training": {
+    "name": "Basic Training",
+    "desc": "The max XP on both your basic decks is halved.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/yWqVKgn/perk-basic-training.png"
+  },
+  "battle_bundle": {
+    "name": "Battle Bundle",
+    "desc": "Draft 3 packs of battle cards to augment your starting deck, then remove 3 cards from your deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/V93wjWb/battle-bundle.png"
+  },
+  "benefits": {
+    "name": "Benefits",
+    "desc": "At the start of the game, 1 random person will like you.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/drVnVfm/perk-benefits-01.png"
+  },
+  "benefits_ii": {
+    "name": "Benefits II",
+    "desc": "At the start of the game, 2 random people will like you.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/k18d5cy/perk-benefits-02.png"
+  },
+  "benefits_iii": {
+    "name": "Benefits III",
+    "desc": "At the start of the game, 3 random people will like you.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/zQBGRwQ/perk-benefits-03.png"
+  },
+  "brilliance": {
+    "name": "Brilliance",
+    "desc": "The max XP of all cards and grafts is reduced by 50%.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/Ph3gLdK/brilliance.png"
+  },
+  "charisma": {
+    "name": "Charisma",
+    "desc": "Draft a starting negotiation deck of 10 cards.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/3Nx1nW9/charisma.png"
+  },
+  "charming": {
+    "name": "Charming",
+    "desc": "At the start of each day, a random person that likes you will love you instead.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/SJP67V3/perk-charming.png"
+  },
+  "contaminated_equipment": {
+    "name": "Contaminated Equipment",
+    "desc": "Whenever you install a graft, gain Exhaustion and Mental Block.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/XXhcThN/contaminated-equipment.png"
+  },
+  "cosmic_interference": {
+    "name": "Cosmic Interference",
+    "desc": "At the start of the game, draft two Cosmic Grafts, one of each type.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/GdKvM4J/cosmic-grafts.png"
+  },
+  "reduced_boss_health": {
+    "name": "Reduced Boss Health",
+    "desc": "All bosses have less maximum health.",
+    "type": "Mutator",
+    "icon": "N/A"
+  },
+  "elimination": {
+    "name": "Elimination",
+    "desc": "Removing cards at shops can be done any number of times.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/dBbyLvQ/elimination.png"
+  },
+  "expanded_assortment": {
+    "name": "Expanded Assortment",
+    "desc": "Graft drafts have 1 additional option.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/4TTQ9bD/perk-expanded-assortment.png"
+  },
+  "fast_learner": {
+    "name": "Fast Learner",
+    "desc": "Lower the max XP of all non-basic cards by 2.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/ZGD9gvt/perk-fast-learner.png"
+  },
+  "first_impressions": {
+    "name": "First Impressions",
+    "desc": "Receive a random relationship each time you meet someone for the first time.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/yf5zNSk/first-impressions.png"
+  },
+  "forgiveness": {
+    "name": "Forgiveness",
+    "desc": "At the start of each day, a random person that hates you will dislike you instead.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/7vXSrmV/perk-forgiveness.png"
+  },
+  "giant_mechs": {
+    "name": "Giant Mechs",
+    "desc": "Mechs are bigger, have more health, and do more damage.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/CP0VwJW/giant-mechs.png"
+  },
+  "good_health": {
+    "name": "Good Health",
+    "desc": "Gain 6 maximum Health.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/1dKCGC5/perk-good-health-01.png"
+  },
+  "good_health_ii": {
+    "name": "Good Health II",
+    "desc": "Gain 9 maximum Health.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/s6LnTn5/perk-good-health-02.png"
+  },
+  "good_health_iii": {
+    "name": "Good Health III",
+    "desc": "Gain 12 maximum Health.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/6WqVwvs/perk-good-health-03.png"
+  },
+  "gourmet": {
+    "name": "Gourmet",
+    "desc": "Eating heals 8 bonus health and drinking restores 6 extra resolve.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/gV5M9Yy/perk-gourmet.png"
+  },
+  "handy": {
+    "name": "Handy",
+    "desc": "All items have 1 additional use.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/v3QKxgn/perk-handy.png"
+  },
+  "havarian_mulligan_(battle)": {
+    "name": "Havarian Mulligan (Battle)",
+    "desc": "Draft two sets of 5 cards each for your starting battle deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/9t6prFW/havarian-mulligan-battle.png"
+  },
+  "havarian_mulligan_(negotiation)": {
+    "name": "Havarian Mulligan (Negotiation)",
+    "desc": "Draft two sets of 5 cards each for your starting negotiation deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/hLgTfG7/havarian-mulligan-negotiation.png"
+  },
+  "innate_connection": {
+    "name": "Innate Connection",
+    "desc": "New pets are immediately trained.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/zH3XNh2/perk-innate-connection.png"
+  },
+  "insomnia": {
+    "name": "Insomnia",
+    "desc": "Sleeping no longer restores health, resolve, or removes cards.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/pzc1cJ5/insomnia.png"
+  },
+  "juggernaut": {
+    "name": "Juggernaut",
+    "desc": "All fighters gain 1 Power at the end of their turn.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/VHSfjXT/juggernaut.png"
+  },
+  "playing_for_keeps": {
+    "name": "Playing for Keeps",
+    "desc": "At the start of the game, gain a random Keepsake card.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/s1wpLyv/keepsake-mutator.png"
+  },
+  "land_of_plenty": {
+    "name": "Land of Plenty",
+    "desc": "After every battle and negotiation, draft both a negotiation card and a battle card.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/CKJFrHC/land-of-plenty.png"
+  },
+  "loyalty": {
+    "name": "Loyalty",
+    "desc": "Hired allies no longer leave your party.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/Dr3xKSF/loyalty.png"
+  },
+  "mental_overload": {
+    "name": "Mental Overload",
+    "desc": "You only discard Unplayable cards at the end of your turn. Affects both combat and negotiations.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/7bYM97t/mental-overload.png"
+  },
+  "multicard": {
+    "name": "Multicard",
+    "desc": "Whenever you draft a card, add two additional copies of it to your deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/kMcqzW8/multicard.png"
+  },
+  "mutator": {
+    "name": "Mutator",
+    "desc": "When you upgrade a card, choose from two random cards instead.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/wK4vvj5/mutator.png"
+  },
+  "negotiation_bundle": {
+    "name": "Negotiation Bundle",
+    "desc": "Draft 3 packs of negotiation cards to augment your starting deck, then remove 3 cards from your deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/xmJLyyM/negotiation-bundle.png"
+  },
+  "nesting_cards": {
+    "name": "Nesting Cards",
+    "desc": "All cards have Hatch 4 and transform into a random card when hatched.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/Bfyp9jH/nesting-cards.png"
+  },
+  "on_your_toes": {
+    "name": "On Your Toes",
+    "desc": "At the end of each battle, remove 3 cards from your deck and draft 3 new ones.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/cy30My8/on-your-toes.png"
+  },
+  "parasitology": {
+    "name": "Parasitology",
+    "desc": "Start the run infected with bog parasites.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/ry8yqny/parasitology.png"
+  },
+  "partner_in_crime": {
+    "name": "Partner In Crime",
+    "desc": "Once per day, you can hire someone who loves you to help you on a quest.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/rp6DKpn/perk-partner-in-crime.png"
+  },
+  "perfect_shape": {
+    "name": "Perfect Shape",
+    "desc": "Gain 1 Power at the start of each battle.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/KFzW3jQ/perk-perfect-shape.png"
+  },
+  "perseverance": {
+    "name": "Perseverance",
+    "desc": "When you would die, instead heal to 20 health. Only works once.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/44HXLrx/perk-perseverance.png"
+  },
+  "pet_owner": {
+    "name": "Pet Owner",
+    "desc": "You start the run with a random pet.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/Dtftdfh/pet-owner.png"
+  },
+  "picky_battler": {
+    "name": "Picky Battler",
+    "desc": "Draft a selection from a large grid of cards to augment your starting battle deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/6J0L28R/picky-draft-battle.png"
+  },
+  "picky_negotiator": {
+    "name": "Picky Negotiator",
+    "desc": "Draft a selection from a large grid of cards to augment your starting negotiation deck.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/tccrzPY/picky-draft-negotiation.png"
+  },
+  "precision": {
+    "name": "Precision",
+    "desc": "Whenever you play a card add a copy of it to your discard pile. At the end of your turn, Expend any cards in your hand.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/ZGgkBf1/precision.png"
+  },
+  "premium_quality": {
+    "name": "Premium Quality",
+    "desc": "The first graft you install is immediately upgraded.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/chjhGcX/perk-premium-quality.png"
+  },
+  "relatable": {
+    "name": "Relatable",
+    "desc": "Everyone you meet for the first time will dislike you.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/sJSw05H/relatable.png"
+  },
+  "researcher": {
+    "name": "Researcher",
+    "desc": "Gain 10 shills every time you use an item card with a charge.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/KXsS8qG/perk-researcher.png"
+  },
+  "resolute": {
+    "name": "Resolute",
+    "desc": "Gain 4 maximum Resolve.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/x13XRRB/perk-resolute-01.png"
+  },
+  "resolute_ii": {
+    "name": "Resolute II",
+    "desc": "Gain 6 maximum Resolve.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/vkwyrdK/perk-resolute-02.png"
+  },
+  "resolute_iii": {
+    "name": "Resolute III",
+    "desc": "Gain 8 maximum Resolve.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/KhDq3rH/perk-resolute-03.png"
+  },
+  "resourceful": {
+    "name": "Resourceful",
+    "desc": "At the start of each battle, choose any number of cards in your hand and permanently replace them with random cards of the same or higher quality.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/yd2xQgV/resourceful.png"
+  },
+  "roll_with_it": {
+    "name": "Roll With It",
+    "desc": "You can no longer skip card drafts.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/54qC6Gg/roll-with-it.png"
+  },
+  "score_cards": {
+    "name": "Score Cards",
+    "desc": "At the start of the game, gain a random Score card.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/myH2Yhj/score-card-mutator.png"
+  },
+  "socializer": {
+    "name": "Socializer",
+    "desc": "Gain 1 maximum resolve whenever a new person loves you.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/q7HSk3j/perk-socializer.png"
+  },
+  "stamina": {
+    "name": "Stamina",
+    "desc": "Fatigued starts 1 turn later than normal.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/Mg2wTbF/perk-stamina-01.png"
+  },
+  "stamina_ii": {
+    "name": "Stamina II",
+    "desc": "Fatigued starts 2 turns later than normal.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/q0tbqdf/perk-stamina-02.png"
+  },
+  "starved": {
+    "name": "Starved",
+    "desc": "Battle and negotiation no longer offer card rewards.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/WpnWgh6/starved.png"
+  },
+  "survivalist": {
+    "name": "Survivalist",
+    "desc": "After each battle, heal 4 health.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/YW1MpjS/perk-survivalist.png"
+  },
+  "swear_jar": {
+    "name": "Swear Jar",
+    "desc": "Start your run with an additional 75 shills.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/fkr0my7/perk-swear-jar.png"
+  },
+  "terror": {
+    "name": "Terror",
+    "desc": "Whenever you kill an enemy, increase the Panic of all their allies.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/3YN1grk/perk-terror.png"
+  },
+  "tool_box": {
+    "name": "Tool Box",
+    "desc": "Draft two item cards at the start of the game. They have 1 additional charge.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/k6brf1K/toolbox.png"
+  },
+  "tough_constitution": {
+    "name": "Tough Constitution",
+    "desc": "Once per day, drink and eat without any repercussions.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/VJnhrFk/perk-tough-constitution.png"
+  },
+  "unencumbered": {
+    "name": "Unencumbered",
+    "desc": "Gain 1 additional graft slot of each type.",
+    "type": "Perk",
+    "icon": "https://i.ibb.co/H7BcjXg/perk-unencumbered.png"
+  },
+  "unnatural_growth": {
+    "name": "Unnatural Growth",
+    "desc": "All cards require a random amount of experience to upgrade.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/R098sBP/unnatural-growth.png"
+  },
+  "veteran": {
+    "name": "Veteran",
+    "desc": "Draft a starting battle deck of 10 cards.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/GpbJ4Hc/veteran.png"
+  },
+  "why_me": {
+    "name": "Why Me",
+    "desc": "Every enemy has Vendetta.",
+    "type": "Mutator",
+    "icon": "https://i.ibb.co/z2PrBN2/why-me.png"
+  },
+  "daily_boss_fight_night_mode": {
+    "icon": "https://i.ibb.co/VtzWKWQ/daily-boss-fight-night-mode.png"
+  },
+  "discharged": {
+    "icon": "https://i.ibb.co/y4rDDpm/discharged.png"
+  },
+  "duplicity": {
+    "icon": "https://i.ibb.co/jG3LZkV/duplicity.png"
+  },
+  "flea_market": {
+    "icon": "https://i.ibb.co/8gjDN5t/flea-market.png"
+  },
+  "graduate": {
+    "icon": "https://i.ibb.co/MpcMJtg/graduate.png"
+  },
+  "hollow": {
+    "icon": "https://i.ibb.co/Q6KMCVN/hollow.png"
+  },
+  "lean": {
+    "icon": "https://i.ibb.co/5B9jMfB/lean.png"
+  },
+  "loyal": {
+    "icon": "https://i.ibb.co/nMTLmxL/loyal.png"
+  },
+  "pack_rat": {
+    "icon": "https://i.ibb.co/3mprRj1/pack-rat.png"
+  },
+  "slimed": {
+    "icon": "https://i.ibb.co/0htG606/slimed.png"
+  },
+  "sprint": {
+    "icon": "https://i.ibb.co/xD8v6yJ/sprint.png"
+  },
+  "wetworks_expert": {
+    "icon": "https://i.ibb.co/F6jVRYK/wetworks-expert.png"
+  },
+  "perk_stamina_03": {
+    "icon": "https://i.ibb.co/xfcT02p/perk-stamina-03.png"
+  },
+  "perk_wildlife_expert": {
+    "icon": "https://i.ibb.co/51qVhQH/perk-wildlife-expert.png"
+  }
+}

@@ -3,6 +3,7 @@ const _ = require("lodash");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
+const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
 const specialDatabase = require("../databases/specialCases.json");
 
 function pleaseEnterAName(message) {
@@ -64,6 +65,9 @@ module.exports = {
         }
         if (typeof imageLink === "undefined" || imageLink == "N/A") {
             imageLink = _.get(bobaDatabase, iconToFetch + ".icon");
+        }
+        if (typeof imageLink === "undefined" || imageLink == "N/A") {
+            imageLink = _.get(mutatorsPerksDatabase, iconToFetch + ".icon");
         }
         if (typeof imageLink !== "undefined" && imageLink != "N/A") {
             const attachment = new MessageAttachment(imageLink);

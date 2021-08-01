@@ -3,11 +3,15 @@ const { MessageAttachment } = require("discord.js");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
+const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const specialDatabase = require("../databases/specialCases.json");
 const pkgFile = require('../package.json');
 const _ = require("lodash");
 
 //total number of everything
-let statsTotal = Object.keys(cardDatabase).length + Object.keys(graftDatabase).length + Object.keys(bobaDatabase).length;
+let statsTotal = Object.keys(cardDatabase).length + Object.keys(graftDatabase).length
+    + Object.keys(bobaDatabase).length + Object.keys(mutatorsPerksDatabase).length
+    + Object.keys(specialDatabase).length;
 
 //icons
 let statsIconsCards = _.map(cardDatabase, "icon");
@@ -26,9 +30,21 @@ let statsIconsBobas = _.map(bobaDatabase, "icon");
 statsIconsBobas = statsIconsBobas.filter(function (x) {
     return x !== undefined;
 });
+statsIconsBobas = statsIconsBobas.filter(function (x) {
+    return x != "N/A";
+});
 statsIconsBobas = _.uniq(statsIconsBobas).length;
 
-let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas;
+let statsIconsMutatorsPerks = _.map(mutatorsPerksDatabase, "icon");
+statsIconsMutatorsPerks = statsIconsMutatorsPerks.filter(function (x) {
+    return x !== undefined;
+});
+statsIconsMutatorsPerks = statsIconsMutatorsPerks.filter(function (x) {
+    return x !== "N/A";
+});
+statsIconsMutatorsPerks = _.uniq(statsIconsMutatorsPerks).length;
+
+let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks;
 
 //defined items with names
 let statsCards = _.map(cardDatabase, "name");
@@ -46,12 +62,21 @@ statsBobas = statsBobas.filter(function (x) {
     return x !== undefined;
 });
 
+let statsMutatorsPerks = _.map(mutatorsPerksDatabase, "name");
+statsMutatorsPerks = statsMutatorsPerks.filter(function (x) {
+    return x !== undefined;
+});
+
 //unused icons
 let unusedCardIcons = _.map(cardDatabase, "name").filter(function (x) {
     return x === undefined;
 }).length;
 
 let unusedGraftIcons = _.map(graftDatabase, "name").filter(function (x) {
+    return x === undefined;
+}).length;
+
+let unusedMutatorPerkIcons = _.map(mutatorsPerksDatabase, "name").filter(function (x) {
     return x === undefined;
 }).length;
 
@@ -66,6 +91,9 @@ const graftRarities = _.countBy(graftDatabase, "rarity");
 const graftCharacters = _.countBy(graftDatabase, "character");
 
 const bobaTypes = _.countBy(bobaDatabase, "type");
+const mutatorPerkTypes = _.countBy(mutatorsPerksDatabase, "type");
+
+const specialCases = Object.keys(specialDatabase).length;
 
 let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\nTotal Icons: " + statsIcons +
@@ -111,7 +139,13 @@ let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\n\nTotal Boons and Banes: " + statsBobas.length +
     "\nBoons and Banes Icons: " + statsIconsBobas +
     "\nBoons: " + bobaTypes.Boon +
-    "\nBanes: " + bobaTypes.Bane;
+    "\nBanes: " + bobaTypes.Bane +
+    "\n\nTotal Mutators and Perks: " + statsMutatorsPerks.length +
+    "\nMutators and Perks Icons: " + statsIconsMutatorsPerks +
+    "\nMutators: " + mutatorPerkTypes.Mutator +
+    "\nPerks: " + mutatorPerkTypes.Perk +
+    "\nUnused Mutators and Perks Icons: " + unusedMutatorPerkIcons +
+    "\n\nSpecial Cases: " + specialCases;
 
 function fetchStats(currentPing, currentLatency, message, client) {
     let descToSend = "**Current Version:** " + pkgFile.version +

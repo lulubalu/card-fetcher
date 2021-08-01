@@ -3,6 +3,7 @@ const _ = require("lodash");
 const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
+const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
 const specialDatabase = require("../databases/specialCases.json");
 
 function pleaseEnterAName(message) {
@@ -132,22 +133,42 @@ function finalEmbedMessageGraft(graft, MsgToEdit) {
 
 function finalEmbedMessageBoba(boba, MsgToEdit) {
     let type = _.get(bobaDatabase, boba + ".type");
-    let urlToUse = `https://griftlands.fandom.com/wiki/Relationships#List_of_${(type == "Boon") ? "Boons" : "Banes"}`
+    let urlToUse = `https://griftlands.fandom.com/wiki/Relationships#List_of_${(type == "Boon") ? "Boons" : "Banes"}`;
     let finalEmbed = new MessageEmbed()
         .setTitle(_.get(bobaDatabase, boba + ".name"))
-        .setImage(_.get(bobaDatabase, boba + ".icon"))
         .setColor(0x08e0db)
         .setURL(urlToUse)
         .setFooter(urlToUse, "https://i.ibb.co/Zh8VshB/Favicon.png")
         .addFields(
             { name: "Type", value: type, inline: true },
         );
+    if (_.get(bobaDatabase, boba + ".icon") != "N/A") {
+        finalEmbed.setImage(_.get(bobaDatabase, boba + ".icon"));
+    }
     let desc = _.get(bobaDatabase, boba + ".desc");
     let givenBy = _.get(bobaDatabase, boba + ".givenby");
     if (givenBy.length > 0) {
         desc += `\n\nGiven by:\n${givenBy.join("\n")}`;
     }
     finalEmbed.setDescription(desc);
+    MsgToEdit.edit(finalEmbed);
+}
+
+function messageMutatorsPerks(mutatorPerk, MsgToEdit) {
+    let type = _.get(mutatorsPerksDatabase, mutatorPerk + ".type");
+    let urlToUse = `https://griftlands.fandom.com/wiki/${(type == "Mutator") ? "Mutators" : "Perks"}`;
+    let finalEmbed = new MessageEmbed()
+        .setTitle(_.get(mutatorsPerksDatabase, mutatorPerk + ".name"))
+        .setDescription(_.get(mutatorsPerksDatabase, mutatorPerk + ".desc"))
+        .setColor(0x08e0db)
+        .setURL(urlToUse)
+        .setFooter(urlToUse, "https://i.ibb.co/Zh8VshB/Favicon.png")
+        .addFields(
+            { name: "Type", value: type, inline: true },
+        );
+    if (_.get(mutatorsPerksDatabase, mutatorPerk + ".icon") != "N/A") {
+        finalEmbed.setImage(_.get(mutatorsPerksDatabase, mutatorPerk + ".icon"));
+    }
     MsgToEdit.edit(finalEmbed);
 }
 
@@ -191,6 +212,7 @@ module.exports = {
 
         let fetchingGraft = false;
             fetchingBoba = false;
+            fetchingMutatorPerk = false;
             specialCase = false;
 
         if (!_.has(cardDatabase, toFetch) || typeof _.get(cardDatabase, toFetch + ".name") === "undefined") {
@@ -206,9 +228,17 @@ module.exports = {
         }
         if (fetchingBoba) {
             if (!_.has(bobaDatabase, toFetch) || typeof _.get(bobaDatabase, toFetch + ".name") === "undefined") {
-                specialCase = true;
+                fetchingMutatorPerk = true;
             } else {
                 finalEmbedMessageBoba(toFetch, sentMessage);
+                return;
+            }
+        }
+        if (fetchingMutatorPerk) {
+            if (!_.has(mutatorsPerksDatabase, toFetch) || typeof _.get(mutatorsPerksDatabase, toFetch + ".name") === "undefined") {
+                specialCase = true;
+            } else {
+                messageMutatorsPerks(toFetch, sentMessage);
                 return;
             }
         }

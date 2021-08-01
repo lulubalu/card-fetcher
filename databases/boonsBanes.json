@@ -324,7 +324,7 @@
     "desc": "+5 Max Health.",
     "type": "Boon",
     "givenby": [],
-    "icon": ""
+    "icon": "N/A"
   },
   "contagious": {
     "name": "Contagious",
