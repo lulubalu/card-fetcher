@@ -5,6 +5,7 @@ const cheerio = require("cheerio");
 
 module.exports = {
 	name: "fetchgithub",
+    description: "Gets Github links and dependency versions.",
 	execute(message) {
         let responseURL;
 		function fetchPage(url) {
@@ -59,7 +60,15 @@ module.exports = {
                 .setURL(pkgFile.homepage)
                 .setFooter(pkgFile.homepage);
             
-            message.channel.send(gitEmbed);
+            
+            switch(message.type) {
+                case "DEFAULT":
+                    message.channel.send({ embeds: [ gitEmbed ] });
+                    return;
+                case "APPLICATION_COMMAND":
+                    message.reply({ embeds: [ gitEmbed ] });
+                    return;
+            }
         });
 	},
 };

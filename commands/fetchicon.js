@@ -6,36 +6,61 @@ const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
 const specialDatabase = require("../databases/specialCases.json");
 
-function pleaseEnterAName(message) {
-    const enterName = new MessageEmbed()
-        .setTitle("Unable to Fetch")
-        .setDescription("Please enter the name of a card/graft after the command! Eg: `!fetchicon Stab`")
-        .setColor(0xa90000)
-    message.channel.send(enterName);
-}
+const enterName = new MessageEmbed()
+    .setTitle("Unable to Fetch")
+    .setDescription("Please enter the name of a valid item after the command! Eg: `!fetchicon Stab`")
+    .setColor(0xa90000)
 
-function IconNotFoundEmbed(message, attemptedFetch) {
+async function IconNotFoundEmbed(message, attemptedFetch) {
     let IconNotFound = new MessageEmbed()
         .setTitle("Unable to Fetch")
         .setDescription(`Icon for \"${attemptedFetch}\" not found!`)
         .setColor(0xa90000)
-    message.channel.send(IconNotFound);
+
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ IconNotFound ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ IconNotFound ] });
+            return;
+    }
 }
 
-function specialCaseMessage(message, caseEntry) {
+async function specialCaseMessage(message, caseEntry) {
     let desc = _.get(specialDatabase, caseEntry + ".desc").replace(/\!fetch/g, "!fetchicon");
     const specialEmbed = new MessageEmbed()
         .setTitle(_.get(specialDatabase, caseEntry + ".title"))
         .setDescription(desc)
         .setColor(0x00b71a);
-    message.channel.send(specialEmbed);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ specialEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ specialEmbed ] });
+            return;
+    }
 }
 
 module.exports = {
 	name: "fetchicon",
-	execute(message, args) {
+    description: "Fetches the requested item's art.",
+    options: [
+		{
+			name: "input",
+			description: "Enter the name of the item you want to fetch. (Required)",
+			type: "STRING",
+            required: true,
+		},
+    ],
+	execute(message, args, fetchingRandom) {
+        if (message.type == "APPLICATION_COMMAND" && fetchingRandom != "Fetching Random") {
+            args = message.options.getString("input");
+        }
         if (typeof args === "undefined") {
-            pleaseEnterAName(message);
+            message.channel.send({ embeds: [ enterName ] });
             return;
         }
         let iconToFetch, splitStr;
@@ -73,7 +98,15 @@ module.exports = {
             const attachment = new MessageAttachment(imageLink);
             attachment.name = `${iconToFetch}.png`;
             console.log(`SENDING ${imageLink} AS ATTACHMENT`);
-            message.channel.send(attachment);
+            
+            switch(message.type) {
+                case "DEFAULT":
+                    message.channel.send({ files: [ attachment ] });
+                    return;
+                case "APPLICATION_COMMAND":
+                    message.reply({ files: [ attachment ] });
+                    return;
+            }
         } else IconNotFoundEmbed(message, args);
 	},
 };

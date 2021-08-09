@@ -8,6 +8,7 @@ const databases = [ cardDatabase, graftDatabase, bobaDatabase, mutatorsPerksData
 
 module.exports = {
 	name: "fetchiconrandom",
+    description: "Fetches a random item's art.",
 	execute(message, args, client) {
 		let dbToUse = databases[Math.floor(Math.random() * databases.length)];
         let keyList = Object.keys(dbToUse);
@@ -19,6 +20,6 @@ module.exports = {
                 chosenicon = _.get(dbToUse, itemToUse + ".icon");
             } while (typeof chosenicon === "undefined" || chosenicon == "N/A");
         }
-        client.commands.get("fetchicon").execute(message, itemToUse);
+        client.commands.get("fetchicon").execute(message, itemToUse, "Fetching Random");
 	},
 };

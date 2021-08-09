@@ -6,23 +6,28 @@ const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
 const specialDatabase = require("../databases/specialCases.json");
 
-function pleaseEnterAName(message) {
-    const enterName = new MessageEmbed()
-        .setTitle("Unable to Fetch")
-        .setDescription("Please enter the name of a card/graft after the command! Eg: `!fetch Stab`")
-        .setColor(0xa90000);
-    message.channel.send(enterName);
-}
+const enterName = new MessageEmbed()
+    .setTitle("Unable to Fetch")
+    .setDescription("Please enter the name of a valid item after the command! Eg: `!fetchicon Stab`")
+    .setColor(0xa90000)
 
-function NotFound(MsgToEdit, Request) {
+async function NotFound(message, Request) {
     const NotFoundEmbed = new MessageEmbed()
         .setTitle("Unable to Fetch")
         .setDescription(`Item "${Request}" not found!`)
         .setColor(0xa90000);
-    MsgToEdit.edit(NotFoundEmbed);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ NotFoundEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ NotFoundEmbed ] });
+            return;
+    }
 }
 
-function finalEmbedMessage(message, cardEntry) {
+async function finalEmbedMessage(message, cardEntry) {
     let footer = "";
     let desc = "";
     let finalEmbed = new MessageEmbed()
@@ -45,7 +50,7 @@ function finalEmbedMessage(message, cardEntry) {
     let type = _.get(cardDatabase, cardEntry + ".type");
     let keywords = _.get(cardDatabase, cardEntry + ".keywords");
 
-    desc += `${rarity} ${type} Card`
+    desc += `${rarity} ${type} Card`;
 
     if (upgrades != "N/A") {
         desc += "\n\n";
@@ -70,7 +75,6 @@ function finalEmbedMessage(message, cardEntry) {
 
     if (_.get(cardDatabase, cardEntry + ".image") != "N/A") {
         finalEmbed.setImage(_.get(cardDatabase, cardEntry + ".image"));
-        footer += " | Images from the wiki may not be up to date with the game";
     } else {
         finalEmbed.setImage("https://i.ibb.co/wcNk6mW/Image-Missing.png");
     }
@@ -92,11 +96,18 @@ function finalEmbedMessage(message, cardEntry) {
     } else {
         finalEmbed.setFooter(footer);
     }
-
-    message.edit(finalEmbed);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ finalEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ finalEmbed ] });
+            return;
+    }
 }
 
-function finalEmbedMessageGraft(graft, MsgToEdit) {
+async function finalEmbedMessageGraft(graft, message) {
     let type = _.get(graftDatabase, graft + ".type");
     let urlToUse = `https://griftlands.fandom.com/wiki/Grafts#${(type == "Battle") ? "Battle_Grafts" : "Negotiation_Grafts"}`;
     let finalEmbed = new MessageEmbed()
@@ -110,28 +121,35 @@ function finalEmbedMessageGraft(graft, MsgToEdit) {
             { name: "Character", value: _.get(graftDatabase, graft + ".character"), inline: true },
             { name: "Rarity", value: _.get(graftDatabase, graft + ".rarity"), inline: true },
         )
-        let desc = "";
-        let flavour = _.get(graftDatabase, graft + ".flavour");
-        if (flavour != "**") {
-            desc = `${flavour}\n\n`;
-        }
-        desc += _.get(graftDatabase, graft + ".desc");
-        let upgrade = _.get(graftDatabase, graft + ".upgrade");
-        if (upgrade != "N/A") {
-            desc += `\n\nUpgrade: ${upgrade}`;
-        }
-        let xp = _.get(graftDatabase, graft + ".xp");
-        if (xp != "N/A") {
-            finalEmbed.addFields(
-                { name: "XP. Needed", value: _.get(graftDatabase, graft + ".xp"), inline: true },
-            );
-        }
-        finalEmbed.setDescription(desc);
-        MsgToEdit.edit(finalEmbed);
-
+    let desc = "";
+    let flavour = _.get(graftDatabase, graft + ".flavour");
+    if (flavour != "**") {
+        desc = `${flavour}\n\n`;
+    }
+    desc += _.get(graftDatabase, graft + ".desc");
+    let upgrade = _.get(graftDatabase, graft + ".upgrade");
+    if (upgrade != "N/A") {
+        desc += `\n\nUpgrade: ${upgrade}`;
+    }
+    let xp = _.get(graftDatabase, graft + ".xp");
+    if (xp != "N/A") {
+        finalEmbed.addFields(
+            { name: "XP. Needed", value: _.get(graftDatabase, graft + ".xp"), inline: true },
+        );
+    }
+    finalEmbed.setDescription(desc);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ finalEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ finalEmbed ] });
+            return;
+    }
 }
 
-function finalEmbedMessageBoba(boba, MsgToEdit) {
+async function finalEmbedMessageBoba(boba, message) {
     let type = _.get(bobaDatabase, boba + ".type");
     let urlToUse = `https://griftlands.fandom.com/wiki/Relationships#List_of_${(type == "Boon") ? "Boons" : "Banes"}`;
     let finalEmbed = new MessageEmbed()
@@ -151,10 +169,17 @@ function finalEmbedMessageBoba(boba, MsgToEdit) {
         desc += `\n\nGiven by:\n${givenBy.join("\n")}`;
     }
     finalEmbed.setDescription(desc);
-    MsgToEdit.edit(finalEmbed);
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ finalEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ finalEmbed ] });
+            return;
+    }
 }
 
-function messageMutatorsPerks(mutatorPerk, MsgToEdit) {
+async function messageMutatorsPerks(mutatorPerk, message) {
     let type = _.get(mutatorsPerksDatabase, mutatorPerk + ".type");
     let urlToUse = `https://griftlands.fandom.com/wiki/${(type == "Mutator") ? "Mutators" : "Perks"}`;
     let finalEmbed = new MessageEmbed()
@@ -169,29 +194,52 @@ function messageMutatorsPerks(mutatorPerk, MsgToEdit) {
     if (_.get(mutatorsPerksDatabase, mutatorPerk + ".icon") != "N/A") {
         finalEmbed.setImage(_.get(mutatorsPerksDatabase, mutatorPerk + ".icon"));
     }
-    MsgToEdit.edit(finalEmbed);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ finalEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ finalEmbed ] });
+            return;
+    }
 }
 
-function specialCaseMessage(MsgToEdit, caseEntry) {
+async function specialCaseMessage(message, caseEntry) {
     const specialEmbed = new MessageEmbed()
         .setTitle(_.get(specialDatabase, caseEntry + ".title"))
         .setDescription(_.get(specialDatabase, caseEntry + ".desc"))
         .setColor(0x00b71a);
-    MsgToEdit.edit(specialEmbed);
+    
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ embeds: [ specialEmbed ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ embeds: [ specialEmbed ] });
+            return;
+    }
 }
-
-const tempEmbed = new MessageEmbed()
-    .setTitle("Fetching item. YAP!")
-    .setColor(0x00b71a);
 
 module.exports = {
 	name: "fetch",
-	async execute(message, args) {
+    description: "Fetches the requested item and all of its available info.",
+    options: [
+		{
+			name: "input",
+			description: "Enter the name of the item you want to fetch. (Required)",
+			type: "STRING",
+            required: true,
+		},
+    ],
+	execute(message, args, fetchingRandom) {
+        if (message.type == "APPLICATION_COMMAND" && fetchingRandom != "Fetching Random") {
+            args = message.options.getString("input");
+        }
         if (typeof args === "undefined") {
-            pleaseEnterAName(message);
+            message.channel.send({ embeds: [ enterName ] });
             return;
         }
-        let sentMessage = await message.channel.send(tempEmbed);
 
         OriginalRequest = args;
         args = args.toLowerCase();
@@ -222,7 +270,7 @@ module.exports = {
             if (!_.has(graftDatabase, toFetch) || typeof _.get(graftDatabase, toFetch + ".name") === "undefined") {
                 fetchingBoba = true;
             } else {
-                finalEmbedMessageGraft(toFetch, sentMessage);
+                finalEmbedMessageGraft(toFetch, message);
                 return;
             }
         }
@@ -230,7 +278,7 @@ module.exports = {
             if (!_.has(bobaDatabase, toFetch) || typeof _.get(bobaDatabase, toFetch + ".name") === "undefined") {
                 fetchingMutatorPerk = true;
             } else {
-                finalEmbedMessageBoba(toFetch, sentMessage);
+                finalEmbedMessageBoba(toFetch, message);
                 return;
             }
         }
@@ -238,19 +286,19 @@ module.exports = {
             if (!_.has(mutatorsPerksDatabase, toFetch) || typeof _.get(mutatorsPerksDatabase, toFetch + ".name") === "undefined") {
                 specialCase = true;
             } else {
-                messageMutatorsPerks(toFetch, sentMessage);
+                messageMutatorsPerks(toFetch, message);
                 return;
             }
         }
         if (specialCase) {
             if (!_.has(specialDatabase, toFetch)) {
-                NotFound(sentMessage, OriginalRequest);
+                NotFound(message, OriginalRequest);
             } else {
-                specialCaseMessage(sentMessage, toFetch);
+                specialCaseMessage(message, toFetch);
                 return;
             }
         } else {
-            finalEmbedMessage(sentMessage, toFetch);
+            finalEmbedMessage(message, toFetch);
         }
 	},
 };

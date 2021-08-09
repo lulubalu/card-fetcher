@@ -8,6 +8,7 @@ const databases = [ cardDatabase, graftDatabase, bobaDatabase, mutatorsPerksData
 
 module.exports = {
 	name: "fetchrandom",
+    description: "Fetches a random item.",
 	execute(message, args, client) {
 		let dbToUse = databases[Math.floor(Math.random() * databases.length)];
         let keyList = Object.keys(dbToUse);
@@ -17,6 +18,6 @@ module.exports = {
                 itemToUse = keyList[Math.floor(Math.random() * keyList.length)];
             } while (typeof _.get(dbToUse, itemToUse + ".name") === "undefined");
         }
-        client.commands.get("fetch").execute(message, itemToUse);
+        client.commands.get("fetch").execute(message, itemToUse, "Fetching Random");
 	},
 };

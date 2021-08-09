@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { MessageEmbed } = require("discord.js");
 
 const helpEmbed = new MessageEmbed()
@@ -10,12 +11,20 @@ const helpEmbed = new MessageEmbed()
         + "\"**!fetchgithub**\" -- Get github links and info, including change notes for my latest version and dependency versions.\n\n"
         + "Remember to use the commands above without the quotes and brackets, and that **the item's name must be spelled correctly.**"
         + "\n\nIf you encounter any errors while using me be sure to ping my creator @Sei Bellissima to let her know about it! You can also report issues or send suggestions to my github repository: https://github.com/Sei-Bellissima/card-fetcher\n\nTo display this message again, type " + '"!fetchhelp"')
-    .setThumbnail("https://i.ibb.co/VmnxVvr/Auto-Dog-Boticon.png")
+    .setThumbnail(process.env.AVATAR)
     .setColor(0x08e0db);
 
 module.exports = {
 	name: "fetchhelp",
-	execute(message) {
-	    message.channel.send(helpEmbed);
+    description: "Get Card Fetcher's list of commands.",
+	async execute(message) {
+        switch(message.type) {
+            case "DEFAULT":
+	            message.channel.send({ embeds: [ helpEmbed ] });
+                return;
+            case "APPLICATION_COMMAND":
+                await message.reply({ embeds: [ helpEmbed ] });
+                return;
+        }
 	},
 };

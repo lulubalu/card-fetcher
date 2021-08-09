@@ -147,7 +147,7 @@ let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\nUnused Mutators and Perks Icons: " + unusedMutatorPerkIcons +
     "\n\nSpecial Cases: " + specialCases;
 
-function fetchStats(currentPing, currentLatency, message, client) {
+async function fetchStats(currentPing, currentLatency, message, client) {
     let descToSend = "**Current Version:** " + pkgFile.version +
         "\n**Ping:** " + currentPing +
         "ms.\n**API Latency:** " + currentLatency +
@@ -155,12 +155,19 @@ function fetchStats(currentPing, currentLatency, message, client) {
         client.guilds.cache.size;
     
     const attachment = new MessageAttachment(Buffer.from(statsDesc), "stats.txt");
-    message.channel.send(descToSend, attachment);
-
+    switch(message.type) {
+        case "DEFAULT":
+            message.channel.send({ content: descToSend, files: [ attachment ] });
+            return;
+        case "APPLICATION_COMMAND":
+            await message.reply({ content: descToSend, files: [ attachment ] });
+            return;
+    }
 }
 
 module.exports = {
 	name: "fetchstats",
+    description: "Gets database stats, ping, and bot stats.",
 	execute(message, args, client) {
 		let ping = Date.now() - message.createdTimestamp;
         let APIPing = Math.round(client.ws.ping);

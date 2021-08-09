@@ -1,10 +1,10 @@
 {
   "name": "card-fetcher",
-  "version": "1.7.4",
-  "description": "Fetches cards and their relevant info from the Griftlands wiki",
+  "version": "1.8.0",
+  "description": "Fetches items and their available info from Klei Entertainment's Griftlands",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node ."
   },
   "keywords": [],
   "author": "Sei Bellissima",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Sei-Bellissima/card-fetcher/issues"
   },
-  "homepage": "https://github.com/Sei-Bellissima/card-fetcher"
+  "homepage": "https://github.com/Sei-Bellissima/card-fetcher",
+  "devDependencies": {
+    "node": "^16.6.1"
+  }
 }
