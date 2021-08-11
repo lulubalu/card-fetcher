@@ -32,7 +32,9 @@ module.exports = {
         fetchPage("https://github.com/Sei-Bellissima/card-fetcher/releases/latest").then(function(result) {
             const $ = cheerio.load(result);
             let notes = $(".markdown-body").html().replace("    ", "").replace("\n  ", "").replace("<p>", "")
-                .replace(/<br>/g, "").replace(/<\/p>/g, "").replace(/<p>/g, "\n");
+                .replace(/<br>/g, "").replace(/<\/p>/g, "").replace(/<p>/g, "\n").replace(/<em>/g, "*")
+                .replace(/<\/em>/g, "*");
+            notes = $(notes).text();
             let image = $("[property='og:image']").attr("content");
             let timeStamp = $("relative-time").attr("datetime");
             let title = `Version ${pkgFile.version}`;
