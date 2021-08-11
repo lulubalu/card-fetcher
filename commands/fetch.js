@@ -8,7 +8,7 @@ const specialDatabase = require("../databases/specialCases.json");
 
 const enterName = new MessageEmbed()
     .setTitle("Unable to Fetch")
-    .setDescription("Please enter the name of a valid item after the command! Eg: `!fetchicon Stab`")
+    .setDescription("Please enter the name of a valid item after the command! Eg: `!fetch Stab`")
     .setColor(0xa90000)
 
 async function NotFound(message, Request) {
@@ -17,18 +17,14 @@ async function NotFound(message, Request) {
         .setDescription(`Item "${Request}" not found!`)
         .setColor(0xa90000);
     
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ NotFoundEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ NotFoundEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ NotFoundEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ NotFoundEmbed ] });
     }
 }
 
 async function finalEmbedMessage(message, cardEntry) {
-    let footer = "";
     let desc = "";
     let finalEmbed = new MessageEmbed()
         .setTitle(_.get(cardDatabase, cardEntry + ".name"))
@@ -68,9 +64,9 @@ async function finalEmbedMessage(message, cardEntry) {
     let wikilink = _.get(cardDatabase, cardEntry + ".wikilink");
     if (wikilink != "N/A") {
         finalEmbed.setURL(wikilink);
-        footer += wikilink;
+        finalEmbed.setFooter(wikilink, "https://i.ibb.co/Zh8VshB/Favicon.png");
     } else {
-        footer += "Wiki page not available";
+        finalEmbed.setFooter("Wiki page not available");
     }
 
     if (_.get(cardDatabase, cardEntry + ".image") != "N/A") {
@@ -90,20 +86,11 @@ async function finalEmbedMessage(message, cardEntry) {
             { name: "XP. Needed", value: _.get(cardDatabase, cardEntry + ".xp"), inline: true },
         );
     }
-
-    if (wikilink != "N/A") {
-        finalEmbed.setFooter(footer, "https://i.ibb.co/Zh8VshB/Favicon.png");
-    } else {
-        finalEmbed.setFooter(footer);
-    }
     
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ finalEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ finalEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ finalEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ finalEmbed ] });
     }
 }
 
@@ -139,13 +126,10 @@ async function finalEmbedMessageGraft(graft, message) {
     }
     finalEmbed.setDescription(desc);
     
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ finalEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ finalEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ finalEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ finalEmbed ] });
     }
 }
 
@@ -169,13 +153,10 @@ async function finalEmbedMessageBoba(boba, message) {
         desc += `\n\nGiven by:\n${givenBy.join("\n")}`;
     }
     finalEmbed.setDescription(desc);
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ finalEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ finalEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ finalEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ finalEmbed ] });
     }
 }
 
@@ -195,13 +176,10 @@ async function messageMutatorsPerks(mutatorPerk, message) {
         finalEmbed.setImage(_.get(mutatorsPerksDatabase, mutatorPerk + ".icon"));
     }
     
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ finalEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ finalEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ finalEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ finalEmbed ] });
     }
 }
 
@@ -211,13 +189,12 @@ async function specialCaseMessage(message, caseEntry) {
         .setDescription(_.get(specialDatabase, caseEntry + ".desc"))
         .setColor(0x00b71a);
     
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ embeds: [ specialEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ embeds: [ specialEmbed ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        specialEmbed
+            .setDescription(_.get(specialDatabase, caseEntry + ".desc").replace(/\!fetch/g, "/fetch"));
+        await message.reply({ embeds: [ specialEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ specialEmbed ] });
     }
 }
 
@@ -243,19 +220,12 @@ module.exports = {
 
         OriginalRequest = args;
         args = args.toLowerCase();
-        let toFetch, splitStr;
+        let toFetch;
 
         //making request database-friendly
-        if (args.indexOf(" ") > -1) {
-            splitStr = args.split(" ");
-            for (i = 0; i < splitStr.length; i++) {
-                if (splitStr[i] == " " || splitStr[i] == "") {
-                    let removed = splitStr.splice(i, 1);
-                    i--;
-                };
-            }
-            args = splitStr.join(" ");
-        };
+        if (args.includes("  ")) {
+            args = args.replace(/ +/g, " ")
+        }
         toFetch = args.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
 
         let fetchingGraft = false;
@@ -265,7 +235,11 @@ module.exports = {
 
         if (!_.has(cardDatabase, toFetch) || typeof _.get(cardDatabase, toFetch + ".name") === "undefined") {
             fetchingGraft = true;
+        } else {
+            finalEmbedMessage(message, toFetch);
+            return;
         }
+
         if (fetchingGraft) {
             if (!_.has(graftDatabase, toFetch) || typeof _.get(graftDatabase, toFetch + ".name") === "undefined") {
                 fetchingBoba = true;
@@ -274,6 +248,7 @@ module.exports = {
                 return;
             }
         }
+
         if (fetchingBoba) {
             if (!_.has(bobaDatabase, toFetch) || typeof _.get(bobaDatabase, toFetch + ".name") === "undefined") {
                 fetchingMutatorPerk = true;
@@ -282,6 +257,7 @@ module.exports = {
                 return;
             }
         }
+
         if (fetchingMutatorPerk) {
             if (!_.has(mutatorsPerksDatabase, toFetch) || typeof _.get(mutatorsPerksDatabase, toFetch + ".name") === "undefined") {
                 specialCase = true;
@@ -290,6 +266,7 @@ module.exports = {
                 return;
             }
         }
+
         if (specialCase) {
             if (!_.has(specialDatabase, toFetch)) {
                 NotFound(message, OriginalRequest);
@@ -297,8 +274,6 @@ module.exports = {
                 specialCaseMessage(message, toFetch);
                 return;
             }
-        } else {
-            finalEmbedMessage(message, toFetch);
         }
 	},
 };

@@ -1,6 +1,6 @@
 {
   "name": "card-fetcher",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Fetches items and their available info from Klei Entertainment's Griftlands",
   "main": "bot.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.0.1",
     "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "follow-redirects": "^1.14.1",

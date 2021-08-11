@@ -155,13 +155,10 @@ async function fetchStats(currentPing, currentLatency, message, client) {
         client.guilds.cache.size;
     
     const attachment = new MessageAttachment(Buffer.from(statsDesc), "stats.txt");
-    switch(message.type) {
-        case "DEFAULT":
-            message.channel.send({ content: descToSend, files: [ attachment ] });
-            return;
-        case "APPLICATION_COMMAND":
-            await message.reply({ content: descToSend, files: [ attachment ] });
-            return;
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ content: descToSend, files: [ attachment ] });
+    } else {
+        message.channel.send({ content: descToSend, files: [ attachment ] });
     }
 }
 

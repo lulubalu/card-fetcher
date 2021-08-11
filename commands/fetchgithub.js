@@ -61,13 +61,10 @@ module.exports = {
                 .setFooter(pkgFile.homepage);
             
             
-            switch(message.type) {
-                case "DEFAULT":
-                    message.channel.send({ embeds: [ gitEmbed ] });
-                    return;
-                case "APPLICATION_COMMAND":
-                    message.reply({ embeds: [ gitEmbed ] });
-                    return;
+            if (message.type == "APPLICATION_COMMAND") {
+                message.reply({ embeds: [ gitEmbed ] });
+            } else {
+                message.channel.send({ embeds: [ gitEmbed ] });
             }
         });
 	},

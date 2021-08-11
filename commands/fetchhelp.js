@@ -18,13 +18,10 @@ module.exports = {
 	name: "fetchhelp",
     description: "Get Card Fetcher's list of commands.",
 	async execute(message) {
-        switch(message.type) {
-            case "DEFAULT":
-	            message.channel.send({ embeds: [ helpEmbed ] });
-                return;
-            case "APPLICATION_COMMAND":
-                await message.reply({ embeds: [ helpEmbed ] });
-                return;
+        if (message.type == "APPLICATION_COMMAND") {
+            await message.reply({ embeds: [ helpEmbed ] });
+        } else {
+	        message.channel.send({ embeds: [ helpEmbed ] });
         }
 	},
 };

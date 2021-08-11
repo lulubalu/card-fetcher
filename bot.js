@@ -39,30 +39,25 @@ function ErrorMessage(ErrorMsg, msg) {
         .setDescription("Looks like I've run into an error:\n\n`" + ErrorMsg + "`\n\nPlease ping my creator @Sei Bellissima to let her know about this!\n\n||If you are the one who summoned me, Sei, shame on you. <:rookgrin:736050803021840474> Now go and fix me!||")
         .setColor(0xa90000)
     
-    switch(msg.type) {
-        case "DEFAULT":
-            msg.channel.send({ embeds: [ ErrorEmbed ] });
-            return;
-        case "APPLICATION_COMMAND":
-            msg.reply({ embeds: [ ErrorEmbed ] });
-            return;
+    if (msg.type == "APPLICATION_COMMAND") {
+        msg.reply({ embeds: [ ErrorEmbed ] });
+    } else {
+        msg.channel.send({ embeds: [ ErrorEmbed ] });
     }
 }
 
-function FetchCommand(message) {
-    let CommandMessage = new MessageEmbed()
-        .setTitle("Not a recognized fetch command")
-        .setDescription("Type **!fetchhelp** to see the available commands")
-        .setColor(0xa90000)
-    message.channel.send({ embeds: [ CommandMessage ] });
-}
+let CommandMessage = new MessageEmbed()
+    .setTitle("Not a recognized fetch command")
+    .setDescription("Type **!fetchhelp** to see the available commands")
+    .setColor(0xa90000)
 
 //LOG ON, then WAIT FOR MESSAGES
-client.on("ready", () => {
+client.on("ready", async () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setActivity("!fetchhelp");
     registerCommands();
-    client.channels.cache.get(process.env.LOG_CHANNEL).send({ content: "Logged in and ready!" });
+    let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
+    sendTo.send({ content: "Logged in and ready!" });
 });
 
 client.on("messageCreate", async msg => {
@@ -76,7 +71,7 @@ client.on("messageCreate", async msg => {
 
     if (!client.commands.has(command)) {
         if (command.startsWith("fetch")) {
-            FetchCommand(msg);
+            msg.channel.send({ embeds: [ CommandMessage ] });
         }
         return;
     }
@@ -84,9 +79,9 @@ client.on("messageCreate", async msg => {
 	try {
 		client.commands.get(command).execute(msg, args, client);
 	} catch (error) {
-		console.error(error);
 		ErrorMessage(error, msg);
-        client.channels.cache.get(process.env.LOG_CHANNEL).send({ content: "ERROR:\n\n` " + reason + "`" });
+        let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
+        sendTo.send({ content: "ERROR:\n\n` " + error + "`" });
 	}
 });
 
@@ -96,15 +91,16 @@ client.on('interactionCreate', async interaction => {
 	try {
 		client.commands.get(interaction.commandName).execute(interaction, undefined, client);
 	} catch (error) {
-		console.error(error);
 		ErrorMessage(error, interaction);
-        client.channels.cache.get(process.env.LOG_CHANNEL).send({ content: "ERROR:\n\n` " + error + "`" });
+        let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
+        sendTo.send({ content: "ERROR:\n\n` " + error + "`" });
 	}
 });
 
-process.on('unhandledRejection', function (reason, p) {
+process.on('unhandledRejection', async function (reason, p) {
     console.log("Possibly Unhandled Rejection at: Promise ", p, " reason: ", reason);
-    client.channels.cache.get(process.env.LOG_CHANNEL).send({ content: "ERROR:\n\n`" + reason + "`" });
+    let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
+    sendTo.send({ content: `Possibly Unhandled Rejection at: Promise ${p}\n\nReason: ${reason}` });
 });
 
 app.get('/', (req, res) => res.send("Hello World!"));
