@@ -34,7 +34,9 @@ module.exports = {
             let notes = $(".markdown-body").html().replace("    ", "").replace("\n  ", "").replace("<p>", "")
                 .replace(/<br>/g, "").replace(/<\/p>/g, "").replace(/<p>/g, "\n").replace(/<em>/g, "*")
                 .replace(/<\/em>/g, "*");
-            notes = $(notes).text();
+            if (notes.includes(">") && notes.includes("<")) {
+                notes = $(notes).text();
+            }
             let image = $("[property='og:image']").attr("content");
             let timeStamp = $("relative-time").attr("datetime");
             let title = `Version ${pkgFile.version}`;
