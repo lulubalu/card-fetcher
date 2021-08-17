@@ -81,7 +81,7 @@ client.on("messageCreate", async msg => {
 	} catch (error) {
 		ErrorMessage(error, msg);
         let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
-        sendTo.send({ content: "ERROR:\n\n` " + error + "`" });
+        sendTo.send({ content: "ERROR:\n\n`" + error + "`" });
 	}
 });
 
@@ -93,7 +93,7 @@ client.on('interactionCreate', async interaction => {
 	} catch (error) {
 		ErrorMessage(error, interaction);
         let sendTo = await client.channels.fetch(process.env.LOG_CHANNEL);
-        sendTo.send({ content: "ERROR:\n\n` " + error + "`" });
+        sendTo.send({ content: "ERROR:\n\n`" + error + "`" });
 	}
 });
 

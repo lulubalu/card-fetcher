@@ -7,4 +7,5 @@ Card Fetcher Bot for the Griftlands fan Discord
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [express](https://expressjs.com/)
 * [follow-redirects](https://www.npmjs.com/package/follow-redirects)
+* [fuzzysort](https://www.npmjs.com/package/fuzzysort)
 * [lodash](https://lodash.com/)

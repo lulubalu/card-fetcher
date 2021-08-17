@@ -226,7 +226,7 @@ module.exports = {
         if (args.includes("  ")) {
             args = args.replace(/ +/g, " ")
         }
-        toFetch = args.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
+        toFetch = args.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?()\u2018\u2019\u201C\u201D]/g, "");
 
         let fetchingGraft = false;
             fetchingBoba = false;
