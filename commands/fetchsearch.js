@@ -33,9 +33,16 @@ mutatorsPerksNames = mutatorsPerksNames.filter(function (x) {
     return x !== undefined;
 });
 
+const validOptions = [ "name", "flavor", "flavour", "description" ]
+
 const enterQuery = new MessageEmbed()
     .setTitle("Unable to Search")
     .setDescription("Please enter your search query after the command! Eg: `!fetchsearch Stab`")
+    .setColor(0xa90000)
+
+const enterQueryOption = new MessageEmbed()
+    .setTitle("Unable to Search")
+    .setDescription("Please enter your search query after the option! Eg: `!fetchsearch -description Drink`")
     .setColor(0xa90000)
 
 const tooShort = new MessageEmbed()
@@ -55,6 +62,19 @@ async function noResults(message, query) {
     }
 }
 
+async function invalidOption(message, optionUsed) {
+    const noResultsEmbed = new MessageEmbed()
+        .setTitle(`"${optionUsed}" is not a valid option`)
+        .setDescription("Valid options are `name`, `flavor`, `flavour`, `description`")
+        .setColor(0xa90000)
+    
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ noResultsEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ noResultsEmbed ] });
+    }
+}
+
 module.exports = {
 	name: "fetchsearch",
 	description: "Search the databases with a query.",
@@ -65,16 +85,36 @@ module.exports = {
 			type: "STRING",
             required: true,
 		},
+        {
+            name: "option",
+            description: "Search the values of the option you enter. (Optional; defaults to name. !fetchelp for valid options)",
+            type: "STRING",
+            required: false,
+        }
     ],
 	execute(message, args) {
+        let optionToUse;
         if (message.type == "APPLICATION_COMMAND") {
             args = message.options.getString("input");
+            optionToUse = message.options.getString("option")
         }
+
         if (typeof args === "undefined") {
             message.channel.send({ embeds: [ enterQuery ] });
             return;
         }
-        if (args.length < 4) {
+
+        if (args.startsWith("-") && message.type != "APPLICATION_COMMAND") {
+            if (args.indexOf(' ') > -1) {
+                optionToUse = args.substr(0, args.indexOf(' ')).slice(1);
+                args = args.substr(args.indexOf(" ") + 1);
+            } else {
+                message.channel.send({ embeds: [ enterQueryOption ] });
+                return;
+            }
+        }
+
+        if (args.length < 4 && args != "bog") {
             if (message.type == "APPLICATION_COMMAND") {
                 message.reply({ embeds: [ tooShort ] });
             } else {
@@ -83,10 +123,204 @@ module.exports = {
             return;
         }
 
+        if (optionToUse != null && !validOptions.includes(optionToUse)) {
+            invalidOption(message, optionToUse);
+            return
+        }
+
         let toSend = "```";
             first = true;
             totalResults = 0
 
+        if (optionToUse == "description" || optionToUse == "flavor" || optionToUse == "flavour") {
+            let cardValuesToSearch;
+            if (optionToUse == "description") {
+                cardValuesToSearch = _.mapValues(cardDatabase, function(o) {
+                    let descToUse = o.desc;
+                    if (descToUse != undefined) {
+                        descToUse = descToUse.replace(/\*/g, "").replace(/\n/g, " ")
+                            .replace(/<:heads:757659165719134388>/g, "Heads")
+                            .replace(/<:snails:757659165807214778>/g, "Snails");
+                    }
+                    return descToUse;
+                });
+            } else {
+                cardValuesToSearch = _.mapValues(cardDatabase, function(o) {
+                    let flavToUse = o.flavour;
+                    if (flavToUse != undefined) {
+                        flavToUse = flavToUse.replace(/\*/g, "");
+                    }
+                    return flavToUse;
+                });
+            }
+            cardValuesToSearch = Object.keys(cardValuesToSearch).map(key => ({ key, value: cardValuesToSearch[key] }));
+            
+            let cardResults;
+            if (optionToUse == "description") {
+                cardResults = fuzzysort.go(args, cardValuesToSearch, { key: "value", threshold: -150 });
+            } else {
+                cardResults = fuzzysort.go(args, cardValuesToSearch, { key: "value", threshold: -160  });
+            }
+            if (cardResults.length > 0) {
+                first = false;
+                toSend += "CARDS:\n\n";
+                totalResults += cardResults.length;
+                for (let i = 0; i < cardResults.length; i += 2) {
+                    let name1 = _.get(cardDatabase, `${cardResults[i].obj.key}.name`);
+                    toSend += name1.padEnd(35);
+                    let name2;
+                    if (i + 1 != cardResults.length) {
+                        name2 = _.get(cardDatabase, `${cardResults[i + 1].obj.key}.name`);
+                        toSend += name2;
+                    }
+                    if (i + 2 < cardResults.length) toSend += "\n"
+                }
+            }
+            if (toSend.endsWith(" ")) {
+                do {
+                    toSend = toSend.substring(0, toSend.length - 1);
+                } while (toSend.endsWith(" "));
+            }
+
+            let graftValuesToSearch;
+            if (optionToUse == "description") {
+                graftValuesToSearch = _.mapValues(graftDatabase, function(o) {
+                    let descToUse = o.desc;
+                    if (descToUse != undefined) {
+                        descToUse = descToUse.replace(/\*/g, "").replace(/\n/g, " ")
+                    }
+                    return descToUse;
+                });
+            } else {
+                graftValuesToSearch = _.mapValues(graftDatabase, function(o) {
+                    let flavToUse = o.flavour;
+                    if (flavToUse != undefined) {
+                        flavToUse = flavToUse.replace(/\*/g, "");
+                    }
+                    return flavToUse;
+                });
+            }
+            graftValuesToSearch = Object.keys(graftValuesToSearch).map(key => ({ key, value: graftValuesToSearch[key] }));
+
+            let graftResults;
+            if (optionToUse == "description") {
+                graftResults = fuzzysort.go(args, graftValuesToSearch, { key: "value", threshold: -150 });
+            } else {
+                graftResults = fuzzysort.go(args, graftValuesToSearch, { key: "value", threshold: -160  });
+            }
+
+            if (graftResults.length > 0) {
+                toSend += `${(first) ? "" : "\n\n"}GRAFTS:\n\n`;
+                if (first) first = false;
+                totalResults += graftResults.length;
+                for (let i = 0; i < graftResults.length; i += 2) {
+                    let name1 = _.get(graftDatabase, `${graftResults[i].obj.key}.name`);
+                    toSend += name1.padEnd(35);
+                    let name2;
+                    if (i + 1 != graftResults.length) {
+                        name2 = _.get(graftDatabase, `${graftResults[i + 1].obj.key}.name`);
+                        toSend += name2;
+                    }
+                    if (i + 2 < graftResults.length) toSend += "\n"
+                }
+            }
+            if (toSend.endsWith(" ")) {
+                do {
+                    toSend = toSend.substring(0, toSend.length - 1);
+                } while (toSend.endsWith(" "));
+            }
+
+            if (optionToUse == "description") {
+                let bobaValuesToSearch = _.mapValues(bobaDatabase, function(o) {
+                    let descToUse = o.desc;
+                    if (descToUse != undefined) {
+                        descToUse = descToUse.replace(/\*/g, "").replace(/\n/g, " ")
+                    }
+                    return descToUse;
+                });
+
+                let bobaResults = fuzzysort.go(args, bobaValuesToSearch, { key: "value", threshold: -150 });
+                if (bobaResults.length > 0) {
+                    toSend += `${(first) ? "" : "\n\n"}BOONS/BANES:\n\n`;
+                    if (first) first = false;
+                    totalResults += bobaResults.length;
+                    for (let i = 0; i < bobaResults.length; i += 2) {
+                        let name1 = _.get(bobaDatabase, `${bobaResults[i].obj.key}.name`);
+                        toSend += name1.padEnd(35);
+                        let name2;
+                        if (i + 1 != bobaResults.length) {
+                            name2 = _.get(bobaDatabase, `${bobaResults[i + 1].obj.key}.name`);
+                            toSend += name2;
+                        }
+                        if (i + 2 < bobaResults.length) toSend += "\n"
+                    }
+                }
+                if (toSend.endsWith(" ")) {
+                    do {
+                        toSend = toSend.substring(0, toSend.length - 1);
+                    } while (toSend.endsWith(" "));
+                }
+
+                let mutatorsPerksValuesToSearch = _.mapValues(mutatorsPerksDatabase, function(o) {
+                    let descToUse = o.desc;
+                    if (descToUse != undefined) {
+                        descToUse = descToUse.replace(/\*/g, "").replace(/\n/g, " ")
+                    }
+                    return descToUse;
+                });
+
+                let mutatorsPerksResults = fuzzysort.go(args, mutatorsPerksValuesToSearch, { key: "value", threshold: -150 });
+                if (mutatorsPerksResults.length > 0) {
+                    toSend += `${(first) ? "" : "\n\n"}MUTATORS/PERKS:\n\n`;
+                    if (first) first = false;
+                    totalResults += mutatorsPerksResults.length;
+                    for (let i = 0; i < mutatorsPerksResults.length; i += 2) {
+                        let name1 = _.get(mutatorsPerksDatabase, `${mutatorsPerksResults[i].obj.key}.name`);
+                        toSend += name1.padEnd(35);
+                        let name2;
+                        if (i + 1 != mutatorsPerksResults.length) {
+                            name2 = _.get(mutatorsPerksDatabase, `${mutatorsPerksResults[i + 1].obj.key}.name`);
+                            toSend += name2;
+                        }
+                        if (i + 2 < mutatorsPerksResults.length) toSend += "\n"
+                    }
+                }
+            }
+            if (toSend.endsWith(" ")) {
+                do {
+                    toSend = toSend.substring(0, toSend.length - 1);
+                } while (toSend.endsWith(" "));
+            }
+
+            if (totalResults > 0) {
+                toSend += "```";
+                let caption = `${totalResults} Result${(totalResults == 1) ? "" : "s"} for **${args}**`
+                    + ` (Searching *${(optionToUse == "description") ? "Descriptions" : "Flavor Texts"}*):\n`;
+                if (caption.length + toSend.length > 2000) {
+                    toSend = toSend.slice(3);
+                    toSend = toSend.substring(0, toSend.length - 3);
+                    const attachment = new MessageAttachment(Buffer.from(toSend), "results.txt");
+                    caption = `${totalResults} Result${(totalResults == 1) ? "" : "s"} for **${args}**`
+                        + ` (Searching *${(optionToUse == "description") ? "Descriptions" : "Flavor Texts"}*;`
+                        + " results put in txt due to message length restrictions):"
+                    if (message.type == "APPLICATION_COMMAND") {
+                        message.reply({ content: caption, files: [ attachment ] })
+                    } else {
+                        message.channel.send({ content: caption, files: [ attachment ] });
+                    }
+                } else {
+                    if (message.type == "APPLICATION_COMMAND") {
+                        message.reply({ content: caption + toSend })
+                    } else {
+                        message.channel.send({ content: caption + toSend });
+                    }
+                }
+            } else {
+                noResults(message, args);
+            }
+            return;
+        }
+        
         const cardResults = fuzzysort.go(args, cardNames, { threshold: -30 });
         if (cardResults.length > 0) {
             totalResults += cardResults.length;
@@ -96,6 +330,11 @@ module.exports = {
                 toSend += `${cardResults[i].target.padEnd(35)}${(i + 1 == cardResults.length) ? "" : cardResults[i + 1].target}`
                     + `${(i + 2 >= cardResults.length) ? "" : "\n"}`;
             }
+        }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
         }
 
         const graftResults = fuzzysort.go(args, graftNames, { threshold: -30 });
@@ -108,6 +347,11 @@ module.exports = {
                 + `${(i + 2 >= graftResults.length) ? "" : "\n"}`;
             }
         }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
+        }
 
         const bobaResults = fuzzysort.go(args, bobaNames, { threshold: -30 });
         if (bobaResults.length > 0) {
@@ -119,6 +363,11 @@ module.exports = {
                 + `${(i + 2 >= bobaResults.length) ? "" : "\n"}`;
             }
         }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
+        }
 
         const mutatorsPerksResults = fuzzysort.go(args, mutatorsPerksNames, { threshold: -30 });
         if (mutatorsPerksResults.length > 0) {
@@ -129,6 +378,11 @@ module.exports = {
                 toSend += `${mutatorsPerksResults[i].target.padEnd(35)}${(i + 1 == mutatorsPerksResults.length) ? "" : mutatorsPerksResults[i + 1].target}`
                 + `${(i + 2 >= mutatorsPerksResults.length) ? "" : "\n"}`;
             }
+        }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
         }
 
         toSend += "```"
