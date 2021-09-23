@@ -4,6 +4,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const coinDatabase = require("../databases/coins.json");
 const specialDatabase = require("../databases/specialCases.json");
 const pkgFile = require('../package.json');
 const _ = require("lodash");
@@ -11,7 +12,7 @@ const _ = require("lodash");
 //total number of everything
 let statsTotal = Object.keys(cardDatabase).length + Object.keys(graftDatabase).length
     + Object.keys(bobaDatabase).length + Object.keys(mutatorsPerksDatabase).length
-    + Object.keys(specialDatabase).length;
+    + Object.keys(coinDatabase).length + Object.keys(specialDatabase).length;
 
 //icons
 let statsIconsCards = _.map(cardDatabase, "icon");
@@ -44,7 +45,10 @@ statsIconsMutatorsPerks = statsIconsMutatorsPerks.filter(function (x) {
 });
 statsIconsMutatorsPerks = _.uniq(statsIconsMutatorsPerks).length;
 
-let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks;
+//coin icons are all valid and unique, no need for filtering
+let statsIconsCoins = Object.keys(coinDatabase).length;
+
+let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks + statsIconsCoins;
 
 //defined items with names
 let statsCards = _.map(cardDatabase, "name");
@@ -67,6 +71,9 @@ statsMutatorsPerks = statsMutatorsPerks.filter(function (x) {
     return x !== undefined;
 });
 
+//coin names are all valid, no need for filtering
+let statsCoins = Object.keys(coinDatabase).length;
+
 //unused icons
 let unusedCardIcons = _.map(cardDatabase, "name").filter(function (x) {
     return x === undefined;
@@ -79,6 +86,10 @@ let unusedGraftIcons = _.map(graftDatabase, "name").filter(function (x) {
 let unusedMutatorPerkIcons = _.map(mutatorsPerksDatabase, "name").filter(function (x) {
     return x === undefined;
 }).length;
+
+let unusedIcons = unusedCardIcons + unusedGraftIcons + unusedMutatorPerkIcons;
+
+let statsUsedIcons = statsIcons - unusedIcons;
 
 //Misc Stats
 const decks = _.countBy(cardDatabase, "deck");
@@ -96,7 +107,9 @@ const mutatorPerkTypes = _.countBy(mutatorsPerksDatabase, "type");
 const specialCases = Object.keys(specialDatabase).length;
 
 let statsDesc = "Total no. of keys in databases: " + statsTotal +
-    "\nTotal Icons: " + statsIcons +
+    "\nTotal Icons (Includes Unused Icons): " + statsIcons +
+    "\nTotal Used Icons: " + statsUsedIcons +
+    "\nTotal Unused Icons: " + unusedIcons +
     "\n\nTotal Cards: " + statsCards.length +
     "\nCard Icons: " + statsIconsCards +
     "\nBattle Cards: " + decks.Battle +
@@ -145,6 +158,8 @@ let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\nMutators: " + mutatorPerkTypes.Mutator +
     "\nPerks: " + mutatorPerkTypes.Perk +
     "\nUnused Mutators and Perks Icons: " + unusedMutatorPerkIcons +
+    "\n\nCoins: " + statsCoins +
+    "\nCoin Icons: " + statsIconsCoins +
     "\n\nSpecial Cases: " + specialCases;
 
 async function fetchStats(currentPing, currentLatency, message, client) {

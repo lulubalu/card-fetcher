@@ -4,6 +4,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const coinDatabase = require("../databases/coins.json");
 const specialDatabase = require("../databases/specialCases.json");
 
 const enterName = new MessageEmbed()
@@ -11,10 +12,16 @@ const enterName = new MessageEmbed()
     .setDescription("Please enter the name of a valid item after the command! Eg: `!fetch Stab`")
     .setColor(0xa90000)
 
-async function NotFound(message, Request) {
+async function NotFound(message, Request, keyFound, attemptedFetch) {
+    let descToAdd = `Item "${Request}" not found!`
+    if (keyFound) {
+        descToAdd += `\n\nA key by the name \`${attemptedFetch}\` exists, which means the item you're searching for has no data, but an unused icon. Card Fetcher can fetch unused icons, so try \`!fetchicon ${Request}\``;
+    }
+    if (message.type == "APPLICATION_COMMAND") descToAdd = descToAdd.replace("!fetchicon", "/fetchicon");
+
     const NotFoundEmbed = new MessageEmbed()
         .setTitle("Unable to Fetch")
-        .setDescription(`Item "${Request}" not found!`)
+        .setDescription(descToAdd)
         .setColor(0xa90000);
     
     if (message.type == "APPLICATION_COMMAND") {
@@ -183,6 +190,22 @@ async function messageMutatorsPerks(mutatorPerk, message) {
     }
 }
 
+async function messageCoin(coinEntry, message) {
+    let finalEmbed = new MessageEmbed()
+        .setTitle(_.get(coinDatabase, coinEntry + ".name"))
+        .setDescription(_.get(coinDatabase, coinEntry + ".desc"))
+        .setColor(0x08e0db)
+        .setImage(_.get(coinDatabase, coinEntry + ".icon"))
+        .setURL("https://griftlands.fandom.com/wiki/Rook#Lucky_Coins")
+        .setFooter("https://griftlands.fandom.com/wiki/Rook#Lucky_Coins", "https://i.ibb.co/Zh8VshB/Favicon.png");
+    
+    if (message.type == "APPLICATION_COMMAND") {
+        await message.reply({ embeds: [ finalEmbed ] });
+    } else {
+        message.channel.send({ embeds: [ finalEmbed ] });
+    }
+}
+
 async function specialCaseMessage(message, caseEntry) {
     const specialEmbed = new MessageEmbed()
         .setTitle(_.get(specialDatabase, caseEntry + ".title"))
@@ -231,10 +254,13 @@ module.exports = {
         let fetchingGraft = false;
             fetchingBoba = false;
             fetchingMutatorPerk = false;
+            fetchingCoin = false;
             specialCase = false;
+            keyExists = false;
 
         if (!_.has(cardDatabase, toFetch) || typeof _.get(cardDatabase, toFetch + ".name") === "undefined") {
             fetchingGraft = true;
+            keyExists = _.has(cardDatabase, toFetch);
         } else {
             finalEmbedMessage(message, toFetch);
             return;
@@ -243,6 +269,7 @@ module.exports = {
         if (fetchingGraft) {
             if (!_.has(graftDatabase, toFetch) || typeof _.get(graftDatabase, toFetch + ".name") === "undefined") {
                 fetchingBoba = true;
+                if (!keyExists) keyExists = _.has(graftDatabase, toFetch);
             } else {
                 finalEmbedMessageGraft(toFetch, message);
                 return;
@@ -252,6 +279,7 @@ module.exports = {
         if (fetchingBoba) {
             if (!_.has(bobaDatabase, toFetch) || typeof _.get(bobaDatabase, toFetch + ".name") === "undefined") {
                 fetchingMutatorPerk = true;
+                if (!keyExists) keyExists = _.has(bobaDatabase, toFetch);
             } else {
                 finalEmbedMessageBoba(toFetch, message);
                 return;
@@ -260,16 +288,26 @@ module.exports = {
 
         if (fetchingMutatorPerk) {
             if (!_.has(mutatorsPerksDatabase, toFetch) || typeof _.get(mutatorsPerksDatabase, toFetch + ".name") === "undefined") {
-                specialCase = true;
+                fetchingCoin = true;
+                if (!keyExists) keyExists = _.has(mutatorsPerksDatabase, toFetch);
             } else {
                 messageMutatorsPerks(toFetch, message);
                 return;
             }
         }
 
+        if (fetchingCoin) {
+            if (!_.has(coinDatabase, toFetch)) {
+                specialCase = true;
+            } else {
+                messageCoin(toFetch, message);
+                return;
+            }
+        }
+
         if (specialCase) {
             if (!_.has(specialDatabase, toFetch)) {
-                NotFound(message, OriginalRequest);
+                NotFound(message, OriginalRequest, keyExists, toFetch);
             } else {
                 specialCaseMessage(message, toFetch);
                 return;

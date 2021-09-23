@@ -6,6 +6,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const coinDatabase = require("../databases/coins.json");
 
 let cardNames = _.map(cardDatabase, "name");
 cardNames = cardNames.filter(function (x) {
@@ -51,8 +52,18 @@ const tooShort = new MessageEmbed()
     .setColor(0xa90000)
 
 async function noResults(message, query) {
+    let descToAdd = `Trouble finding what you're searching for? Try search options:\n\n`;
+    if (message.type == "APPLICATION_COMMAND") {
+        descToAdd += "Type `/fetchsearch`, enter your query into `input`, and then an option into `option`.\n\n The valid options are are `name`, `flavor`, `flavour`, `description`\n\n"
+        + "For example: \"/fetchsearch `input:Influence` `option:description`\" returns all cards with \"Influence\" in their descriptions.";
+    } else {
+        descToAdd += "!fetchsearch [-optional option] [search query]\n\n"
+        + "The valid options are are `name`, `flavor`, `flavour`, `description`\n\n"
+        + "For example: `!fetchsearch -description Influence` returns all cards with \"Influence\" in their descriptions.";
+    }
     const noResultsEmbed = new MessageEmbed()
         .setTitle(`No Results for "${query}"!`)
+        .setDescription(descToAdd)
         .setColor(0xa90000)
     
     if (message.type == "APPLICATION_COMMAND") {
@@ -238,6 +249,7 @@ module.exports = {
                     }
                     return descToUse;
                 });
+                bobaValuesToSearch = Object.keys(bobaValuesToSearch).map(key => ({ key, value: bobaValuesToSearch[key] }));
 
                 let bobaResults = fuzzysort.go(args, bobaValuesToSearch, { key: "value", threshold: -150 });
                 if (bobaResults.length > 0) {
@@ -268,6 +280,7 @@ module.exports = {
                     }
                     return descToUse;
                 });
+                mutatorsPerksValuesToSearch = Object.keys(mutatorsPerksValuesToSearch).map(key => ({ key, value: mutatorsPerksValuesToSearch[key] }));
 
                 let mutatorsPerksResults = fuzzysort.go(args, mutatorsPerksValuesToSearch, { key: "value", threshold: -150 });
                 if (mutatorsPerksResults.length > 0) {
@@ -283,6 +296,39 @@ module.exports = {
                             toSend += name2;
                         }
                         if (i + 2 < mutatorsPerksResults.length) toSend += "\n"
+                    }
+                }
+                if (toSend.endsWith(" ")) {
+                    do {
+                        toSend = toSend.substring(0, toSend.length - 1);
+                    } while (toSend.endsWith(" "));
+                }
+
+                let coinValuesToSearch = _.mapValues(coinDatabase, function(o) {
+                    let descToUse = o.desc;
+                    if (descToUse != undefined) {
+                        descToUse = descToUse.replace(/\n/g, " ")
+                            .replace(/<:heads:757659165719134388>/g, "Heads")
+                            .replace(/<:snails:757659165807214778>/g, "Snails");
+                    }
+                    return descToUse;
+                });
+                coinValuesToSearch = Object.keys(coinValuesToSearch).map(key => ({ key, value: coinValuesToSearch[key] }));
+
+                let coinResults = fuzzysort.go(args, coinValuesToSearch, { key: "value", threshold: -150 });
+                if (coinResults.length > 0) {
+                    toSend += `${(first) ? "" : "\n\n"}COINS:\n\n`;
+                    if (first) first = false;
+                    totalResults += coinResults.length;
+                    for (let i = 0; i < coinResults.length; i += 2) {
+                        let name1 = _.get(coinDatabase, `${coinResults[i].obj.key}.name`);
+                        toSend += name1.padEnd(35);
+                        let name2;
+                        if (i + 1 != coinResults.length) {
+                            name2 = _.get(coinDatabase, `${coinResults[i + 1].obj.key}.name`);
+                            toSend += name2;
+                        }
+                        if (i + 2 < coinResults.length) toSend += "\n"
                     }
                 }
             }

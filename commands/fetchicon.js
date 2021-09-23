@@ -4,6 +4,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const coinDatabase = require("../databases/coins.json");
 const specialDatabase = require("../databases/specialCases.json");
 
 const enterName = new MessageEmbed()
@@ -83,6 +84,10 @@ module.exports = {
         }
         if (typeof imageLink === "undefined" || imageLink == "N/A") {
             databaseToUse = mutatorsPerksDatabase;
+            imageLink = _.get(databaseToUse, iconToFetch + ".icon");
+        }
+        if (typeof imageLink === "undefined" || imageLink == "N/A") {
+            databaseToUse = coinDatabase;
             imageLink = _.get(databaseToUse, iconToFetch + ".icon");
         }
         if (typeof imageLink !== "undefined" && imageLink != "N/A") {

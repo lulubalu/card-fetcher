@@ -3,8 +3,9 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const coinDatabase = require("../databases/coins.json");
 
-const databases = [ cardDatabase, graftDatabase, bobaDatabase, mutatorsPerksDatabase ];
+const databases = [ cardDatabase, graftDatabase, bobaDatabase, mutatorsPerksDatabase, coinDatabase ];
 
 module.exports = {
 	name: "fetchiconrandom",

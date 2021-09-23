@@ -1,0 +1,62 @@
+{
+  "bog_coin": {
+    "name": "Bog Coin",
+    "desc": "<:heads:757659165719134388>: Apply 2 Composure to a random friendly argument.\n<:snails:757659165807214778>: Deal 2 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/4mc2K5g/graft-bog-coin.png"
+  },
+  "chaos_coin": {
+    "name": "Chaos Coin",
+    "desc": "<:heads:757659165719134388>: Apply 2 Composure to a random friendly argument.\n<:snails:757659165807214778>: Draw a card. Discard a card.",
+    "icon": "https://i.ibb.co/68FjT03/graft-chaos-coin.png"
+  },
+  "emissary_coin": {
+    "name": "Emissary Coin",
+    "desc": "<:heads:757659165719134388>: Gain 1 Influence.\n<:snails:757659165807214778>: Deal 2 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/cCPqwtw/graft-emissary-coin.png"
+  },
+  "krogs_weighted_coin": {
+    "name": "Krog's Weighted Coin",
+    "desc": "Comes up <:heads:757659165719134388> 90% of the time.",
+    "icon": "https://i.ibb.co/7V4fcsr/graft-krogs-weighted-coin.png"
+  },
+  "marsh_coin": {
+    "name": "Marsh Coin",
+    "desc": "<:heads:757659165719134388>: Apply 2 Composure to a random friendly argument.\n<:snails:757659165807214778>: Deal 1 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/VvfGrM4/graft-marsh-coin.png"
+  },
+  "mud_coin": {
+    "name": "Mud Coin",
+    "desc": "<:heads:757659165719134388>: Apply 1 Composure to a random friendly argument.\n<:snails:757659165807214778>: Deal 2 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/7Swd0GN/graft-mud-coin.png"
+  },
+  "psychic_coin": {
+    "name": "Psychic Coin",
+    "desc": "<:heads:757659165719134388>: Incept 1 Doubt.\n<:snails:757659165807214778>: Deal 2 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/XDs998v/graft-psychic-coin.png"
+  },
+  "seekers_coin": {
+    "name": "Seeker's Coin",
+    "desc": "<:heads:757659165719134388>: Draw a card.\n<:snails:757659165807214778>: Deal 2 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/L5KHdxT/graft-seekers-coin.png"
+  },
+  "sifting_coin": {
+    "name": "Sifting Coin",
+    "desc": "<:heads:757659165719134388>: Draw a card.\n<:snails:757659165807214778>: Discard a card.",
+    "icon": ""
+  },
+  "spare_coin": {
+    "name": "Spare Coin",
+    "desc": "<:heads:757659165719134388>: Apply 1 Composure to a random friendly argument.\n<:snails:757659165807214778>: Deal 1 damage to a random opponent argument.",
+    "icon": "https://i.ibb.co/z854G0t/graft-spare-coin.png"
+  },
+  "turtle_coin": {
+    "name": "Turtle Coin",
+    "desc": "<:heads:757659165719134388>: Apply 3 Composure to your core argument.\n<:snails:757659165807214778>: Apply 1 Composure to all friendly arguments.",
+    "icon": "https://i.ibb.co/m5LxXgY/graft-turtle-coin.png"
+  },
+  "tyrants_coin": {
+    "name": "Tyrant's Coin",
+    "desc": "<:heads:757659165719134388>: Apply 2 Composure to a random friendly argument.\n<:snails:757659165807214778>: Gain 1 Dominance.",
+    "icon": "https://i.ibb.co/jJnyRwJ/graft-tyrants-coin.png"
+  }
+}
