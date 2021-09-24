@@ -4,8 +4,11 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const peopleDatabase = require("../databases/people.json")
 const coinDatabase = require("../databases/coins.json");
 const specialDatabase = require("../databases/specialCases.json");
+
+const databases = [ cardDatabase, graftDatabase, bobaDatabase, mutatorsPerksDatabase, peopleDatabase, coinDatabase, specialDatabase ];
 
 const enterName = new MessageEmbed()
     .setTitle("Unable to Fetch")
@@ -72,42 +75,36 @@ module.exports = {
             return;
         }
 
-        let databaseToUse = cardDatabase;
-        let imageLink = _.get(databaseToUse, iconToFetch + ".icon");
-        if (typeof imageLink === "undefined" || imageLink == "N/A") {
-            databaseToUse = graftDatabase;
-            imageLink = _.get(databaseToUse, iconToFetch + ".icon");
-        }
-        if (typeof imageLink === "undefined" || imageLink == "N/A") {
-            databaseToUse = bobaDatabase;
-            imageLink = _.get(databaseToUse, iconToFetch + ".icon");
-        }
-        if (typeof imageLink === "undefined" || imageLink == "N/A") {
-            databaseToUse = mutatorsPerksDatabase;
-            imageLink = _.get(databaseToUse, iconToFetch + ".icon");
-        }
-        if (typeof imageLink === "undefined" || imageLink == "N/A") {
-            databaseToUse = coinDatabase;
-            imageLink = _.get(databaseToUse, iconToFetch + ".icon");
-        }
-        if (typeof imageLink !== "undefined" && imageLink != "N/A") {
-            const attachment = new MessageAttachment(imageLink);
-            attachment.name = `${iconToFetch}.png`;
-            console.log(`SENDING ${imageLink} AS ATTACHMENT`);
+        let keyExists = false;
+            wasFound = false;
+        for (let i = 0; i < databases.length; i++) {
+            if (!keyExists) keyExists = _.has(databases[i], iconToFetch);
+            if (keyExists && _.get(databases[i], iconToFetch + ".icon") != "N/A") {
+                const attachment = new MessageAttachment(_.get(databases[i], iconToFetch + ".icon"));
+                attachment.name = `${iconToFetch}.png`;
+                console.log(`SENDING ${_.get(databases[i], iconToFetch + ".icon")} AS ATTACHMENT`);
             
-            if (message.type == "APPLICATION_COMMAND" || fetchingRandom == "Fetching Random") {
-                let nameToUse = _.get(databaseToUse, iconToFetch + ".name");
-                if (typeof nameToUse === "undefined") {
-                    nameToUse = iconToFetch;
+                if (message.type == "APPLICATION_COMMAND" || fetchingRandom == "Fetching Random") {
+                    let nameToUse = _.get(databases[i], iconToFetch + ".name");
+                    if (typeof nameToUse === "undefined") {
+                        nameToUse = iconToFetch;
+                    }
+                    if (message.type == "APPLICATION_COMMAND") {
+                        message.reply({ content: `Icon for **${nameToUse}**`, files: [ attachment ] });
+                    } else {
+                        message.channel.send({ content: `Icon for **${nameToUse}**`, files: [ attachment ] });
+                    }
+                 } else {
+                    message.channel.send({ files: [ attachment ] });
                 }
-                if (message.type == "APPLICATION_COMMAND") {
-                    message.reply({ content: `Icon for **${nameToUse}**`, files: [ attachment ] });
-                } else {
-                    message.channel.send({ content: `Icon for **${nameToUse}**`, files: [ attachment ] });
-                }
-            } else {
-                message.channel.send({ files: [ attachment ] });
+                wasFound = true;
+                break;
+            } else if (keyExists && i == databases.length - 1) {
+                wasFound = true;
+                specialCaseMessage(message, iconToFetch);
             }
-        } else IconNotFoundEmbed(message, args);
+        }
+
+        if (!wasFound) IconNotFoundEmbed(message, args);
 	},
 };

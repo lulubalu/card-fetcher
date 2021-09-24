@@ -6,6 +6,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const peopleDatabase = require("../databases/people.json")
 const coinDatabase = require("../databases/coins.json");
 
 let cardNames = _.map(cardDatabase, "name");
@@ -31,6 +32,16 @@ bobaNames[bobaNames.indexOf("Bully")] = "Bully (Bane)";
 
 let mutatorsPerksNames = _.map(mutatorsPerksDatabase, "name");
 mutatorsPerksNames = mutatorsPerksNames.filter(function (x) {
+    return x !== undefined;
+});
+
+let peopleNames = _.map(peopleDatabase, "name");
+peopleNames = peopleNames.filter(function (x) {
+    return x !== undefined;
+});
+
+let coinNames = _.map(coinDatabase, "name");
+coinNames = coinNames.filter(function (x) {
     return x !== undefined;
 });
 
@@ -371,7 +382,7 @@ module.exports = {
         if (cardResults.length > 0) {
             totalResults += cardResults.length;
             first = false;
-            toSend += "CARDS:\n\n"
+            toSend += "CARDS:\n\n";
             for (let i = 0; i < cardResults.length; i += 2) {
                 toSend += `${cardResults[i].target.padEnd(35)}${(i + 1 == cardResults.length) ? "" : cardResults[i + 1].target}`
                     + `${(i + 2 >= cardResults.length) ? "" : "\n"}`;
@@ -386,7 +397,7 @@ module.exports = {
         const graftResults = fuzzysort.go(args, graftNames, { threshold: -30 });
         if (graftResults.length > 0) {
             totalResults += graftResults.length;
-            toSend += `${(first) ? "" : "\n\n"}GRAFTS:\n\n`
+            toSend += `${(first) ? "" : "\n\n"}GRAFTS:\n\n`;
             if (first) first = false;
             for (let i = 0; i < graftResults.length; i += 2) {
                 toSend += `${graftResults[i].target.padEnd(35)}${(i + 1 == graftResults.length) ? "" : graftResults[i + 1].target}`
@@ -402,7 +413,7 @@ module.exports = {
         const bobaResults = fuzzysort.go(args, bobaNames, { threshold: -30 });
         if (bobaResults.length > 0) {
             totalResults += bobaResults.length;
-            toSend += `${(first) ? "" : "\n\n"}BOONS/BANES:\n\n`
+            toSend += `${(first) ? "" : "\n\n"}BOONS/BANES:\n\n`;
             if (first) first = false;
             for (let i = 0; i < bobaResults.length; i += 2) {
                 toSend += `${bobaResults[i].target.padEnd(35)}${(i + 1 == bobaResults.length) ? "" : bobaResults[i + 1].target}`
@@ -418,11 +429,43 @@ module.exports = {
         const mutatorsPerksResults = fuzzysort.go(args, mutatorsPerksNames, { threshold: -30 });
         if (mutatorsPerksResults.length > 0) {
             totalResults += mutatorsPerksResults.length;
-            toSend += `${(first) ? "" : "\n\n"}MUTATORS/PERKS:\n\n`
+            toSend += `${(first) ? "" : "\n\n"}MUTATORS/PERKS:\n\n`;
             if (first) first = false;
             for (let i = 0; i < mutatorsPerksResults.length; i += 2) {
                 toSend += `${mutatorsPerksResults[i].target.padEnd(35)}${(i + 1 == mutatorsPerksResults.length) ? "" : mutatorsPerksResults[i + 1].target}`
                 + `${(i + 2 >= mutatorsPerksResults.length) ? "" : "\n"}`;
+            }
+        }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
+        }
+
+        const peopleResults = fuzzysort.go(args, peopleNames, { threshold: -30 });
+        if (peopleResults.length > 0) {
+            totalResults += peopleResults.length;
+            toSend += `${(first) ? "" : "\n\n"}PEOPLE:\n\n`;
+            if (first) first = false;
+            for (let i = 0; i < peopleResults.length; i += 2) {
+                toSend += `${peopleResults[i].target.padEnd(35)}${(i + 1 == peopleResults.length) ? "" : peopleResults[i + 1].target}`
+                + `${(i + 2 >= peopleResults.length) ? "" : "\n"}`;
+            }
+        }
+        if (toSend.endsWith(" ")) {
+            do {
+                toSend = toSend.substring(0, toSend.length - 1);
+            } while (toSend.endsWith(" "));
+        }
+
+        const coinResults = fuzzysort.go(args, coinNames, { threshold: -30 });
+        if (coinResults.length > 0) {
+            totalResults += coinResults.length;
+            toSend += `${(first) ? "" : "\n\n"}COINS:\n\n`;
+            if (first) first = false;
+            for (let i = 0; i < coinResults.length; i += 2) {
+                toSend += `${coinResults[i].target.padEnd(35)}${(i + 1 == coinResults.length) ? "" : coinResults[i + 1].target}`
+                + `${(i + 2 >= coinResults.length) ? "" : "\n"}`;
             }
         }
         if (toSend.endsWith(" ")) {

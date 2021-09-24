@@ -2639,7 +2639,7 @@
     "xp": "N/A",
     "icon": "https://i.ibb.co/3WysRmf/graft-reflector-plus.png"
   },
-  "reflexor:_heads": {
+  "reflexor_heads": {
     "name": "Reflexor: Heads",
     "desc": "At the start of each negotiation, Rig 2 .",
     "type": "Negotiation",
@@ -2650,7 +2650,7 @@
     "xp": "12",
     "icon": "https://i.ibb.co/DkMLP0t/graft-reflexor-heads.png"
   },
-  "boosted_reflexor:_heads": {
+  "boosted_reflexor_heads": {
     "name": "Boosted Reflexor: Heads",
     "desc": "At the start of each negotiation, Rig 4 .",
     "type": "Negotiation",
@@ -2661,7 +2661,7 @@
     "xp": "N/A",
     "icon": "https://i.ibb.co/CWNYgFW/graft-reflexor-heads-plus.png"
   },
-  "reflexor:_snails": {
+  "reflexor_snails": {
     "name": "Reflexor: Snails",
     "desc": "At the start of each negotiation, Rig 2 .",
     "type": "Negotiation",
@@ -2672,7 +2672,7 @@
     "xp": "12",
     "icon": "https://i.ibb.co/ncfk67D/graft-reflexor-snails.png"
   },
-  "boosted_reflexor:_snails": {
+  "boosted_reflexor_snails": {
     "name": "Boosted Reflexor: Snails",
     "desc": "At the start of each negotiation, Rig 4 .",
     "type": "Negotiation",

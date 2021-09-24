@@ -42,7 +42,7 @@
   "sifting_coin": {
     "name": "Sifting Coin",
     "desc": "<:heads:757659165719134388>: Draw a card.\n<:snails:757659165807214778>: Discard a card.",
-    "icon": ""
+    "icon": "https://i.ibb.co/xCKzzpX/graft-sifting-coin.png"
   },
   "spare_coin": {
     "name": "Spare Coin",

@@ -4,6 +4,7 @@ const cardDatabase = require("../databases/cards.json");
 const graftDatabase = require("../databases/grafts.json");
 const bobaDatabase = require("../databases/boonsBanes.json");
 const mutatorsPerksDatabase = require("../databases/mutatorsPerks.json");
+const peopleDatabase = require("../databases/people.json")
 const coinDatabase = require("../databases/coins.json");
 const specialDatabase = require("../databases/specialCases.json");
 const pkgFile = require('../package.json');
@@ -12,7 +13,8 @@ const _ = require("lodash");
 //total number of everything
 let statsTotal = Object.keys(cardDatabase).length + Object.keys(graftDatabase).length
     + Object.keys(bobaDatabase).length + Object.keys(mutatorsPerksDatabase).length
-    + Object.keys(coinDatabase).length + Object.keys(specialDatabase).length;
+    + Object.keys(peopleDatabase).length + Object.keys(coinDatabase).length
+    + Object.keys(specialDatabase).length;
 
 //icons
 let statsIconsCards = _.map(cardDatabase, "icon");
@@ -45,10 +47,19 @@ statsIconsMutatorsPerks = statsIconsMutatorsPerks.filter(function (x) {
 });
 statsIconsMutatorsPerks = _.uniq(statsIconsMutatorsPerks).length;
 
+let statsIconsPeople = _.map(peopleDatabase, "icon");
+statsIconsPeople = statsIconsPeople.filter(function (x) {
+    return x !== undefined;
+});
+statsIconsPeople = statsIconsPeople.filter(function (x) {
+    return x !== "N/A";
+});
+statsIconsPeople = _.uniq(statsIconsPeople).length;
+
 //coin icons are all valid and unique, no need for filtering
 let statsIconsCoins = Object.keys(coinDatabase).length;
 
-let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks + statsIconsCoins;
+let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks + statsIconsPeople + statsIconsCoins;
 
 //defined items with names
 let statsCards = _.map(cardDatabase, "name");
@@ -70,6 +81,13 @@ let statsMutatorsPerks = _.map(mutatorsPerksDatabase, "name");
 statsMutatorsPerks = statsMutatorsPerks.filter(function (x) {
     return x !== undefined;
 });
+
+let statsPeople = _.map(peopleDatabase, "name");
+statsPeople = statsPeople.filter(function (x) {
+    return x !== undefined;
+});
+
+
 
 //coin names are all valid, no need for filtering
 let statsCoins = Object.keys(coinDatabase).length;
@@ -158,6 +176,8 @@ let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\nMutators: " + mutatorPerkTypes.Mutator +
     "\nPerks: " + mutatorPerkTypes.Perk +
     "\nUnused Mutators and Perks Icons: " + unusedMutatorPerkIcons +
+    "\n\nPeople: " + statsPeople.length +
+    "\nPeople Icons: " + statsIconsPeople +
     "\n\nCoins: " + statsCoins +
     "\nCoin Icons: " + statsIconsCoins +
     "\n\nSpecial Cases: " + specialCases;
