@@ -2382,7 +2382,7 @@
   "bodyguard_contract": {
     "name": "Bodyguard Contract",
     "desc": "Use special tools to protect your ally.\n**Toolbox**",
-    "flavour": "*’*Sigh* They’re with me.’*",
+    "flavour": "*’%*Sigh%* They’re with me.’*",
     "actions": "0",
     "keywords": [
       "Toolbox"

@@ -2601,7 +2601,7 @@
   },
   "cadwa": {
     "name": "Cadwa",
-    "bio": "*The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat <i>this</i> Cadwa definitely has the upper hand.*",
+    "bio": "*The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat* ***this*** *Cadwa definitely has the upper hand.*",
     "gender": "Female",
     "species": "Kra'deshi",
     "faction": "Admiralty",
@@ -2848,7 +2848,7 @@
   },
   "feldspar": {
     "name": "Feldspar",
-    "bio": "*Feldspar has a reputation for fixing difficult problems, when he's not making problems <i>more</i> difficult, first.*",
+    "bio": "*Feldspar has a reputation for fixing difficult problems, when he's not making problems* ***more*** *difficult, first.*",
     "gender": "Male",
     "species": "Shroke",
     "faction": "Admiralty",
@@ -2939,7 +2939,7 @@
   },
   "pozgo": {
     "name": "Pozgo",
-    "bio": "*Pozgo\" was the legendary ruler of a long-forgotten planet. You wonder if <i>this</i> Pozgo lived up to his parents' expectations.*",
+    "bio": "*\"Pozgo\" was the legendary ruler of a long-forgotten planet. You wonder if* ***this*** *Pozgo lived up to his parents' expectations.*",
     "gender": "Male",
     "species": "Human",
     "faction": "Jakes",

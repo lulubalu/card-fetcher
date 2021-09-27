@@ -43,7 +43,7 @@ module.exports = {
         //starting with description; check for flavor texts first
         let mayHaveFlavor = state == "CARD" || state == "GRAFT";
         if (mayHaveFlavor && _.get(database, entry + ".flavour") != "**") {
-            descToAdd = _.get(database, entry + ".flavour") + "\n\n";
+            descToAdd = _.get(database, entry + ".flavour").replace(/%/g, "\\") + "\n\n";
         }
 
         //check if a person, if not will do desc

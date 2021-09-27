@@ -170,7 +170,7 @@ module.exports = {
                 cardValuesToSearch = _.mapValues(cardDatabase, function(o) {
                     let flavToUse = o.flavour;
                     if (flavToUse != undefined) {
-                        flavToUse = flavToUse.replace(/\*/g, "");
+                        flavToUse = flavToUse.replace(/\*/g, "").replace(/%/g, "");
                     }
                     return flavToUse;
                 });
@@ -314,7 +314,40 @@ module.exports = {
                         toSend = toSend.substring(0, toSend.length - 1);
                     } while (toSend.endsWith(" "));
                 }
+            }
 
+            if (optionToUse == "flavor" || optionToUse == "flavour") {
+                let peopleValuesToSearch = _.mapValues(peopleDatabase, function(o) {
+                    let flavToUse = o.bio;
+                    flavToUse = flavToUse.replace(/\*/g, "");
+                    return flavToUse;
+                });
+                peopleValuesToSearch = Object.keys(peopleValuesToSearch).map(key => ({ key, value: peopleValuesToSearch[key]}));
+                
+                let peopleResults = fuzzysort.go(args, peopleValuesToSearch, { key: "value", threshold: -160 });
+                if (peopleResults.length > 0) {
+                    toSend += `${(first) ? "" : "\n\n"}PEOPLE:\n\n`;
+                    if (first) first = false;
+                    totalResults += peopleResults.length;
+                    for (let i = 0; i < peopleResults.length; i += 2) {
+                        let name1 = _.get(peopleDatabase, `${peopleResults[i].obj.key}.name`);
+                        toSend += name1.padEnd(35);
+                        let name2;
+                        if (i + 1 != peopleResults.length) {
+                            name2 = _.get(peopleDatabase, `${peopleResults[i + 1].obj.key}.name`);
+                            toSend += name2;
+                        }
+                        if (i + 2 < peopleResults.length) toSend += "\n"
+                    }
+                }
+                if (toSend.endsWith(" ")) {
+                    do {
+                        toSend = toSend.substring(0, toSend.length - 1);
+                    } while (toSend.endsWith(" "));
+                }
+            }
+
+            if (optionToUse == "description") {
                 let coinValuesToSearch = _.mapValues(coinDatabase, function(o) {
                     let descToUse = o.desc;
                     if (descToUse != undefined) {

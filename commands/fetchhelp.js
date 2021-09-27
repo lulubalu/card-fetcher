@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 
 const helpEmbed = new MessageEmbed()
     .setDescription("Hi there! I'm a bot designed to fetch cards from Klei Entertainment's *Griftlands*."
-        + " \n\nNot only do I fetch cards, I also fetch grafts, boons, banes, mutators, perks and Rook's Lucky Coins!\n\n"
+        + " \n\nNot only do I fetch cards, I also fetch grafts, boons, banes, mutators, perks, people and Rook's Lucky Coins!\n\n"
         + "\"**!fetch [item name]**\" -- This will fetch the item's stats, description, flavor text and image if available.\n\n"
         + "\"**!fetchicon [item name]**\" -- This will fetch the item's art alone.\n\n"
         + "\"**!fetchsearch [-optional option] [search query]**\" -- Searches across all databases and returns similar results."
