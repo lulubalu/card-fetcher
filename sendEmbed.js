@@ -66,12 +66,13 @@ module.exports = {
         //now we go onto specifics for each type of state
         //Cards first
         if (state == "CARD") {
+            let desc = _.get(database, entry + ".desc");
             let upgrades = _.get(database, entry + ".upgrades");
             let rarity = _.get(database, entry + ".rarity");
             let type = _.get(database, entry + ".type");
             let keywords = _.get(database, entry + ".keywords");
 
-            descToAdd += `\n\n${rarity} ${type} Card`;
+            descToAdd += `${desc != "" ? "\n\n" : ""}${rarity} ${type} Card`;
 
             if (upgrades != "N/A") {
                 descToAdd += "\n\n";

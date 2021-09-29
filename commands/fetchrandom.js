@@ -20,6 +20,6 @@ module.exports = {
                 itemToUse = keyList[Math.floor(Math.random() * keyList.length)];
             } while (typeof _.get(dbToUse, itemToUse + ".name") === "undefined");
         }
-        client.commands.get("fetch").execute(message, itemToUse, "Fetching Random");
+        client.commands.get("fetch").execute(message, itemToUse, "Fetching");
 	},
 };

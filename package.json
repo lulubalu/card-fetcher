@@ -1,6 +1,6 @@
 {
   "name": "card-fetcher",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "Fetches items and their available info from Klei Entertainment's Griftlands",
   "main": "bot.js",
   "scripts": {

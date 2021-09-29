@@ -47,7 +47,7 @@ module.exports = {
 		},
     ],
 	execute(message, args, fetchingRandom) {
-        if (message.type == "APPLICATION_COMMAND" && fetchingRandom != "Fetching Random") {
+        if (message.type == "APPLICATION_COMMAND" && fetchingRandom != "Fetching") {
             args = message.options.getString("input");
         }
         if (typeof args === "undefined") {

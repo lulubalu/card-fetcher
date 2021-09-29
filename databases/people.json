@@ -10,7 +10,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
-    "icon": "https://i.ibb.co/gPC1705/tumus.png"
+    "icon": "https://i.ibb.co/gPC1705/tumus.png",
+    "fullBody": "https://i.ibb.co/19ms7JN/Tumus.png"
   },
   "efi": {
     "name": "Efi",
@@ -23,7 +24,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/mt1NrmV/efi.png"
+    "icon": "https://i.ibb.co/mt1NrmV/efi.png",
+    "fullBody": "https://i.ibb.co/0f5X91M/Efi.png"
   },
   "waandra": {
     "name": "Waandra",
@@ -36,7 +38,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
-    "icon": "https://i.ibb.co/hLcD214/waandra.png"
+    "icon": "https://i.ibb.co/hLcD214/waandra.png",
+    "fullBody": "https://i.ibb.co/znP2wh2/Waandra.png"
   },
   "nekdo": {
     "name": "Nekdo",
@@ -49,7 +52,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/YQSx9DH/nekdo.png"
+    "icon": "https://i.ibb.co/YQSx9DH/nekdo.png",
+    "fullBody": "https://i.ibb.co/C21Xgwc/Nekdo.png"
   },
   "pazlock": {
     "name": "Pazlock",
@@ -62,7 +66,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/17SGM9X/pazlock.png"
+    "icon": "https://i.ibb.co/17SGM9X/pazlock.png",
+    "fullBody": "https://i.ibb.co/x7MJqQD/Pazlock.png"
   },
   "stoque": {
     "name": "Stoque",
@@ -75,7 +80,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
-    "icon": "https://i.ibb.co/Vq8Vpnx/stoque.png"
+    "icon": "https://i.ibb.co/Vq8Vpnx/stoque.png",
+    "fullBody": "https://i.ibb.co/XSDSKGx/Stoque.png"
   },
   "jani": {
     "name": "Jani",
@@ -88,7 +94,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/rGCkWLr/jani.png"
+    "icon": "https://i.ibb.co/rGCkWLr/jani.png",
+    "fullBody": "https://i.ibb.co/wcP5Mtr/Jani.png"
   },
   "oso": {
     "name": "Oso",
@@ -101,7 +108,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/6WwgDdQ/oso.png"
+    "icon": "https://i.ibb.co/6WwgDdQ/oso.png",
+    "fullBody": "https://i.ibb.co/0tfV0cx/Oso.png"
   },
   "bout": {
     "name": "Bout",
@@ -114,7 +122,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/HHDRMQJ/bout.png"
+    "icon": "https://i.ibb.co/HHDRMQJ/bout.png",
+    "fullBody": "https://i.ibb.co/fFtFmTQ/Bout.png"
   },
   "gwale": {
     "name": "Gwale",
@@ -127,7 +136,8 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
-    "icon": "https://i.ibb.co/ZmcVYYs/gwale.png"
+    "icon": "https://i.ibb.co/ZmcVYYs/gwale.png",
+    "fullBody": "https://i.ibb.co/pPft1Wy/Gwale.png"
   },
   "prax": {
     "name": "Prax",
@@ -140,7 +150,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Blessed Heshian Amulet",
-    "icon": "https://i.ibb.co/9ptCjpR/prax.png"
+    "icon": "https://i.ibb.co/9ptCjpR/prax.png",
+    "fullBody": "https://i.ibb.co/Mngv3v1/Prax.png"
   },
   "monid": {
     "name": "Monid",
@@ -153,7 +164,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/6rJ44kN/monid.png"
+    "icon": "https://i.ibb.co/6rJ44kN/monid.png",
+    "fullBody": "https://i.ibb.co/19q8V6S/Monid.png"
   },
   "brut": {
     "name": "Brut",
@@ -166,7 +178,8 @@
     "boon": "Hard Knocks",
     "bane": "Shellshock",
     "deathLoot": "Brut's Bat",
-    "icon": "https://i.ibb.co/Nt0dbmh/brut.png"
+    "icon": "https://i.ibb.co/Nt0dbmh/brut.png",
+    "fullBody": "https://i.ibb.co/37d07nS/Brut.png"
   },
   "galth": {
     "name": "Galth",
@@ -179,7 +192,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
-    "icon": "https://i.ibb.co/SQw9QyY/galth.png"
+    "icon": "https://i.ibb.co/SQw9QyY/galth.png",
+    "fullBody": "https://i.ibb.co/9qWjL9j/Galth.png"
   },
   "grimdellia": {
     "name": "Grimdellia",
@@ -192,7 +206,8 @@
     "boon": "Talisman",
     "bane": "Bogling",
     "deathLoot": "Seedling",
-    "icon": "https://i.ibb.co/Hxfk7Rx/grimdellia.png"
+    "icon": "https://i.ibb.co/Hxfk7Rx/grimdellia.png",
+    "fullBody": "https://i.ibb.co/wJR4H5W/Grimdellia.png"
   },
   "tiq": {
     "name": "Tiq",
@@ -205,7 +220,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/4MvWwhy/tiq.png"
+    "icon": "https://i.ibb.co/4MvWwhy/tiq.png",
+    "fullBody": "https://i.ibb.co/zGkXZSQ/Tiq.png"
   },
   "sal": {
     "name": "Sal",
@@ -218,7 +234,25 @@
     "boon": "People Person",
     "bane": "Wrong Side",
     "deathLoot": "Red Scarf",
-    "icon": "https://i.ibb.co/KF6Gp7c/Sal.png"
+    "icon": "https://i.ibb.co/KF6Gp7c/Sal.png",
+    "fullBody": {
+      "bounty_hunter": {
+        "name": "Bounty Hunter",
+        "fullBody": "https://i.ibb.co/QCVfFHB/Sal.png"
+      },
+      "professional": {
+        "name": "Professional",
+        "fullBody": "https://i.ibb.co/3YvJkty/Sal-Professional.png"
+      },
+      "hunter": {
+        "name": "Hunter",
+        "fullBody": "https://i.ibb.co/8Bz79wM/Sal-Hunter.png"
+      },
+      "infiltrator": {
+        "name": "Infiltrator",
+        "fullBody": "https://i.ibb.co/QPvVLmZ/Sal-Infiltrator.png"
+      }
+    }
   },
   "kof": {
     "name": "Kof",
@@ -231,7 +265,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/2sT5VVc/kof.png"
+    "icon": "https://i.ibb.co/2sT5VVc/kof.png",
+    "fullBody": "https://i.ibb.co/zstPNKB/Kof.png"
   },
   "nand": {
     "name": "Nand",
@@ -244,7 +279,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/mJrz9FD/nand.png"
+    "icon": "https://i.ibb.co/mJrz9FD/nand.png",
+    "fullBody": "https://i.ibb.co/YDp3hp5/Nand.png"
   },
   "phryniwin": {
     "name": "Phryniwin",
@@ -257,7 +293,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/ykcVFyf/phryniwin.png"
+    "icon": "https://i.ibb.co/ykcVFyf/phryniwin.png",
+    "fullBody": "https://i.ibb.co/4ZM7bHf/Phryniwin.png"
   },
   "yibbit": {
     "name": "Yibbit",
@@ -270,7 +307,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/qMLFxTM/yibbit.png"
+    "icon": "https://i.ibb.co/qMLFxTM/yibbit.png",
+    "fullBody": "https://i.ibb.co/sCcCXc0/Yibbit.png"
   },
   "lumika": {
     "name": "Lumika",
@@ -283,7 +321,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/qrX1WJB/lumika.png"
+    "icon": "https://i.ibb.co/qrX1WJB/lumika.png",
+    "fullBody": "https://i.ibb.co/YBwn7H1/Lumika.png"
   },
   "ban": {
     "name": "Ban",
@@ -296,7 +335,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/k65d6rX/ban.png"
+    "icon": "https://i.ibb.co/k65d6rX/ban.png",
+    "fullBody": "https://i.ibb.co/Y2VsPhg/Ban.png"
   },
   "rorok": {
     "name": "Rorok",
@@ -309,7 +349,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/pjhjvK4/rorok.png"
+    "icon": "https://i.ibb.co/pjhjvK4/rorok.png",
+    "fullBody": "https://i.ibb.co/xmKmycM/Rorok.png"
   },
   "cobb": {
     "name": "Cobb",
@@ -322,7 +363,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/TR3xmrP/cobb.png"
+    "icon": "https://i.ibb.co/TR3xmrP/cobb.png",
+    "fullBody": "https://i.ibb.co/RQQR16D/Cobb.png"
   },
   "hamund": {
     "name": "Hamund",
@@ -335,7 +377,8 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
-    "icon": "https://i.ibb.co/3kZrSnV/hamund.png"
+    "icon": "https://i.ibb.co/3kZrSnV/hamund.png",
+    "fullBody": "https://i.ibb.co/DgJY91p/Hamund.png"
   },
   "tellomeer": {
     "name": "Tellomeer",
@@ -348,7 +391,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
-    "icon": "https://i.ibb.co/v4kJ57M/tellomeer.png"
+    "icon": "https://i.ibb.co/v4kJ57M/tellomeer.png",
+    "fullBody": "https://i.ibb.co/7C1F77f/Tellomeer.png"
   },
   "karet": {
     "name": "Karet",
@@ -361,7 +405,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
-    "icon": "https://i.ibb.co/Pxz1p5z/karet.png"
+    "icon": "https://i.ibb.co/Pxz1p5z/karet.png",
+    "fullBody": "https://i.ibb.co/1z2j4j1/Karet.png"
   },
   "fanda": {
     "name": "Fanda",
@@ -374,7 +419,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/xjTFF2Y/fanda.png"
+    "icon": "https://i.ibb.co/xjTFF2Y/fanda.png",
+    "fullBody": "https://i.ibb.co/pQLB1Xm/Fanda.png"
   },
   "kheven": {
     "name": "Kheven",
@@ -387,7 +433,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
-    "icon": "https://i.ibb.co/2dDvV83/kheven.png"
+    "icon": "https://i.ibb.co/2dDvV83/kheven.png",
+    "fullBody": "https://i.ibb.co/yXRHDGB/Kheven.png"
   },
   "treena": {
     "name": "Treena",
@@ -400,7 +447,8 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
-    "icon": "https://i.ibb.co/MkkCDn3/treena.png"
+    "icon": "https://i.ibb.co/MkkCDn3/treena.png",
+    "fullBody": "https://i.ibb.co/rMgGWKz/Treena.png"
   },
   "yunni": {
     "name": "Yunni",
@@ -413,7 +461,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/HqJcSnD/yunni.png"
+    "icon": "https://i.ibb.co/HqJcSnD/yunni.png",
+    "fullBody": "https://i.ibb.co/Jrn4T7z/Yunni.png"
   },
   "hanbi": {
     "name": "Hanbi",
@@ -426,7 +475,8 @@
     "boon": "Steady Hands",
     "bane": "Fumbling Fingers",
     "deathLoot": "Hanbi's Power Supply",
-    "icon": "https://i.ibb.co/5YYgLcD/hanbi.png"
+    "icon": "https://i.ibb.co/5YYgLcD/hanbi.png",
+    "fullBody": "https://i.ibb.co/fnxQYs2/Hanbi.png"
   },
   "ellomen": {
     "name": "Ellomen",
@@ -439,7 +489,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/b6GPcGX/ellomen.png"
+    "icon": "https://i.ibb.co/b6GPcGX/ellomen.png",
+    "fullBody": "https://i.ibb.co/R69sCpm/Ellomen.png"
   },
   "kilka": {
     "name": "Kilka",
@@ -452,7 +503,8 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
-    "icon": "https://i.ibb.co/vQHB0ND/kilka.png"
+    "icon": "https://i.ibb.co/vQHB0ND/kilka.png",
+    "fullBody": "https://i.ibb.co/52X3W0B/Kilka.png"
   },
   "quale": {
     "name": "Quale",
@@ -465,7 +517,8 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
-    "icon": "https://i.ibb.co/0rBmbwg/quale.png"
+    "icon": "https://i.ibb.co/0rBmbwg/quale.png",
+    "fullBody": "https://i.ibb.co/ctsFG0Y/Quale.png"
   },
   "danel": {
     "name": "Danel",
@@ -478,7 +531,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
-    "icon": "https://i.ibb.co/PZXNH1b/danel.png"
+    "icon": "https://i.ibb.co/PZXNH1b/danel.png",
+    "fullBody": "https://i.ibb.co/pxDVY3p/Danel.png"
   },
   "endo": {
     "name": "Endo",
@@ -491,7 +545,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/JqwrF4t/endo.png"
+    "icon": "https://i.ibb.co/JqwrF4t/endo.png",
+    "fullBody": "https://i.ibb.co/QdpxBQc/Endo.png"
   },
   "enit": {
     "name": "Enit",
@@ -504,7 +559,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/J3yQ7F6/enit.png"
+    "icon": "https://i.ibb.co/J3yQ7F6/enit.png",
+    "fullBody": "https://i.ibb.co/d6c0VjZ/Enit.png"
   },
   "alongwy": {
     "name": "Alongwy",
@@ -517,7 +573,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/c14mskb/alongwy.png"
+    "icon": "https://i.ibb.co/c14mskb/alongwy.png",
+    "fullBody": "https://i.ibb.co/JK9YmbF/Alongwy.png"
   },
   "prekt": {
     "name": "Prekt",
@@ -530,7 +587,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/Jd3PTR1/prekt.png"
+    "icon": "https://i.ibb.co/Jd3PTR1/prekt.png",
+    "fullBody": "https://i.ibb.co/zSjN50B/Prekt.png"
   },
   "kel": {
     "name": "Kel",
@@ -543,7 +601,8 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/0Y0m3mc/kel.png"
+    "icon": "https://i.ibb.co/0Y0m3mc/kel.png",
+    "fullBody": "https://i.ibb.co/LRNxH6Q/Kel.png"
   },
   "threekwa": {
     "name": "Threekwa",
@@ -556,7 +615,8 @@
     "boon": "Rentorian Battle Armor",
     "bane": "Informed Enemies",
     "deathLoot": "War Story",
-    "icon": "https://i.ibb.co/BNSbHVZ/threekwa.png"
+    "icon": "https://i.ibb.co/BNSbHVZ/threekwa.png",
+    "fullBody": "https://i.ibb.co/X5257bM/Threekwa.png"
   },
   "pau": {
     "name": "Pau",
@@ -569,7 +629,8 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
-    "icon": "https://i.ibb.co/WNhNvq6/pau.png"
+    "icon": "https://i.ibb.co/WNhNvq6/pau.png",
+    "fullBody": "https://i.ibb.co/GJ19cRp/Pau.png"
   },
   "rasma": {
     "name": "Rasma",
@@ -582,7 +643,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
-    "icon": "https://i.ibb.co/f4NDG32/rasma.png"
+    "icon": "https://i.ibb.co/f4NDG32/rasma.png",
+    "fullBody": "https://i.ibb.co/3s1QRv2/Rasma.png"
   },
   "taug": {
     "name": "Taug",
@@ -595,7 +657,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
-    "icon": "https://i.ibb.co/vwQGM45/taug.png"
+    "icon": "https://i.ibb.co/vwQGM45/taug.png",
+    "fullBody": "https://i.ibb.co/6WWk5KJ/Taug.png"
   },
   "zyn": {
     "name": "Zyn",
@@ -608,7 +671,8 @@
     "boon": "Sharpened Blades",
     "bane": "Hemophiliac",
     "deathLoot": "Zyn's Razor",
-    "icon": "https://i.ibb.co/FgpWtjw/zyn.png"
+    "icon": "https://i.ibb.co/FgpWtjw/zyn.png",
+    "fullBody": "https://i.ibb.co/Hpjh6Lz/Zyn.png"
   },
   "cash": {
     "name": "Cash",
@@ -621,7 +685,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/bP4S7tV/cash.png"
+    "icon": "https://i.ibb.co/bP4S7tV/cash.png",
+    "fullBody": "https://i.ibb.co/NYCB8XX/Cash.png"
   },
   "kyrgian": {
     "name": "Kyrgian",
@@ -634,7 +699,8 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
-    "icon": "https://i.ibb.co/4KrSrXQ/kyrgian.png"
+    "icon": "https://i.ibb.co/4KrSrXQ/kyrgian.png",
+    "fullBody": "https://i.ibb.co/S0pKL82/Kyrgian.png"
   },
   "ximmon": {
     "name": "Ximmon",
@@ -647,7 +713,8 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
-    "icon": "https://i.ibb.co/qJ1HYhv/ximmon.png"
+    "icon": "https://i.ibb.co/qJ1HYhv/ximmon.png",
+    "fullBody": "https://i.ibb.co/SnQYg7k/Ximmon.png"
   },
   "grex": {
     "name": "Grex",
@@ -660,7 +727,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/RYczsf1/grex.png"
+    "icon": "https://i.ibb.co/RYczsf1/grex.png",
+    "fullBody": "https://i.ibb.co/cYyGjG2/Grex.png"
   },
   "coruga": {
     "name": "Coruga",
@@ -673,7 +741,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
-    "icon": "https://i.ibb.co/wSvLqgW/coruga.png"
+    "icon": "https://i.ibb.co/wSvLqgW/coruga.png",
+    "fullBody": "https://i.ibb.co/bRqjCm0/Coruga.png"
   },
   "weezil": {
     "name": "Weezil",
@@ -686,7 +755,8 @@
     "boon": "Conditioning",
     "bane": "Hounded",
     "deathLoot": "Weezil's Scope",
-    "icon": "https://i.ibb.co/hgfvLkQ/weezil.png"
+    "icon": "https://i.ibb.co/hgfvLkQ/weezil.png",
+    "fullBody": "https://i.ibb.co/x5Hq4fn/Weezil.png"
   },
   "yabboi": {
     "name": "Yabboi",
@@ -699,7 +769,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Blessed Heshian Amulet",
-    "icon": "https://i.ibb.co/59c2CZ4/yabboi.png"
+    "icon": "https://i.ibb.co/59c2CZ4/yabboi.png",
+    "fullBody": "https://i.ibb.co/K5QFtwJ/Yabboi.png"
   },
   "idri": {
     "name": "Idri",
@@ -712,7 +783,8 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
-    "icon": "https://i.ibb.co/fHKQKyF/idri.png"
+    "icon": "https://i.ibb.co/fHKQKyF/idri.png",
+    "fullBody": "https://i.ibb.co/YZh4TsZ/Idri.png"
   },
   "iggory": {
     "name": "Iggory",
@@ -725,7 +797,8 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/XLvsYW2/iggory.png"
+    "icon": "https://i.ibb.co/XLvsYW2/iggory.png",
+    "fullBody": "https://i.ibb.co/j4QPysX/Iggory.png"
   },
   "krikith": {
     "name": "Krikith",
@@ -738,7 +811,8 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
-    "icon": "https://i.ibb.co/rFnrmHt/krikith.png"
+    "icon": "https://i.ibb.co/rFnrmHt/krikith.png",
+    "fullBody": "https://i.ibb.co/nkk0VmZ/Krikith.png"
   },
   "tlok": {
     "name": "Tlok",
@@ -751,7 +825,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/V9YYTY3/tlok.png"
+    "icon": "https://i.ibb.co/V9YYTY3/tlok.png",
+    "fullBody": "https://i.ibb.co/bmt29HF/Tlok.png"
   },
   "orug": {
     "name": "Orug",
@@ -764,7 +839,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/nMK8LN8/orug.png"
+    "icon": "https://i.ibb.co/nMK8LN8/orug.png",
+    "fullBody": "https://i.ibb.co/Wzpyvxv/Orug.png"
   },
   "juke": {
     "name": "Juke",
@@ -777,7 +853,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/gwWw5tw/juke.png"
+    "icon": "https://i.ibb.co/gwWw5tw/juke.png",
+    "fullBody": "https://i.ibb.co/x66NQyC/Juke.png"
   },
   "koqy": {
     "name": "Koqy",
@@ -790,7 +867,8 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/0VZM8WL/koqy.png"
+    "icon": "https://i.ibb.co/0VZM8WL/koqy.png",
+    "fullBody": "https://i.ibb.co/f9Kf40J/Koqy.png"
   },
   "pengemunt": {
     "name": "Pengemunt",
@@ -803,7 +881,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/B3kJfQs/pengemunt.png"
+    "icon": "https://i.ibb.co/B3kJfQs/pengemunt.png",
+    "fullBody": "https://i.ibb.co/cxcW7s4/Pengemunt.png"
   },
   "phroluk": {
     "name": "Phroluk",
@@ -816,7 +895,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/7N7Kx7J/phroluk.png"
+    "icon": "https://i.ibb.co/7N7Kx7J/phroluk.png",
+    "fullBody": "https://i.ibb.co/T2bZtHV/Phroluk.png"
   },
   "brash": {
     "name": "Brash",
@@ -829,7 +909,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/8ccp0Nq/brash.png"
+    "icon": "https://i.ibb.co/8ccp0Nq/brash.png",
+    "fullBody": "https://i.ibb.co/Cvy6sHs/Brash.png"
   },
   "topo": {
     "name": "Topo",
@@ -842,7 +923,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/jLSLMJN/topo.png"
+    "icon": "https://i.ibb.co/jLSLMJN/topo.png",
+    "fullBody": "https://i.ibb.co/ZY2G1qY/Topo.png"
   },
   "genner": {
     "name": "Genner",
@@ -855,7 +937,8 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
-    "icon": "https://i.ibb.co/N27FHzN/genner.png"
+    "icon": "https://i.ibb.co/N27FHzN/genner.png",
+    "fullBody": "https://i.ibb.co/vx7CyTp/Genner.png"
   },
   "denikus": {
     "name": "Denikus",
@@ -868,7 +951,8 @@
     "boon": "Con Man",
     "bane": "Bad Mouthed",
     "deathLoot": "Denikus' Blaster",
-    "icon": "https://i.ibb.co/BtbJ2Fg/denikus.png"
+    "icon": "https://i.ibb.co/BtbJ2Fg/denikus.png",
+    "fullBody": "https://i.ibb.co/55MnmPz/Denikus.png"
   },
   "mark_nine_nine": {
     "name": "Mark Nine Nine",
@@ -881,7 +965,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Predictive Blast",
-    "icon": "https://i.ibb.co/Y8w4gJy/mark-nine-nine.png"
+    "icon": "https://i.ibb.co/Y8w4gJy/mark-nine-nine.png",
+    "fullBody": "https://i.ibb.co/446P679/Mark-Nine-Nine.png"
   },
   "speerun": {
     "name": "Speerun",
@@ -894,7 +979,8 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
-    "icon": "https://i.ibb.co/qxScHsv/speerun.png"
+    "icon": "https://i.ibb.co/qxScHsv/speerun.png",
+    "fullBody": "https://i.ibb.co/27MLVBB/Speerun.png"
   },
   "zambul": {
     "name": "Zambul",
@@ -907,7 +993,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/0Jy5XBV/zambul.png"
+    "icon": "https://i.ibb.co/0Jy5XBV/zambul.png",
+    "fullBody": "https://i.ibb.co/XFFdJbG/Zambul.png"
   },
   "jurna": {
     "name": "Jurna",
@@ -920,7 +1007,8 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
-    "icon": "https://i.ibb.co/3dGcKGY/jurna.png"
+    "icon": "https://i.ibb.co/3dGcKGY/jurna.png",
+    "fullBody": "https://i.ibb.co/Vx44XQG/Jurna.png"
   },
   "veerin": {
     "name": "Veerin",
@@ -933,7 +1021,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/1RJ144B/veerin.png"
+    "icon": "https://i.ibb.co/1RJ144B/veerin.png",
+    "fullBody": "https://i.ibb.co/1JPZVNZ/Veerin.png"
   },
   "ashgora": {
     "name": "Ashgora",
@@ -946,7 +1035,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/61wLgGS/ashgora.png"
+    "icon": "https://i.ibb.co/61wLgGS/ashgora.png",
+    "fullBody": "https://i.ibb.co/v1hfhRd/Ashgora.png"
   },
   "ruck": {
     "name": "Ruck",
@@ -959,7 +1049,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/6gG4tZn/ruck.png"
+    "icon": "https://i.ibb.co/6gG4tZn/ruck.png",
+    "fullBody": "https://i.ibb.co/Fz8zkbv/Ruck.png"
   },
   "ash": {
     "name": "Ash",
@@ -972,7 +1063,8 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/cc4nmzP/ash.png"
+    "icon": "https://i.ibb.co/cc4nmzP/ash.png",
+    "fullBody": "https://i.ibb.co/TkGz9w9/Ash.png"
   },
   "kuga": {
     "name": "Kuga",
@@ -985,7 +1077,8 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/LP8txgt/kuga.png"
+    "icon": "https://i.ibb.co/LP8txgt/kuga.png",
+    "fullBody": "https://i.ibb.co/RCvMbV5/Kuga.png"
   },
   "heleet": {
     "name": "Heleet",
@@ -998,7 +1091,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/syyQqbZ/heleet.png"
+    "icon": "https://i.ibb.co/syyQqbZ/heleet.png",
+    "fullBody": "https://i.ibb.co/bWRRBRK/Heleet.png"
   },
   "del": {
     "name": "Del",
@@ -1011,7 +1105,8 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
-    "icon": "https://i.ibb.co/sCQ9vdb/del.png"
+    "icon": "https://i.ibb.co/sCQ9vdb/del.png",
+    "fullBody": "https://i.ibb.co/rfmT24g/Del.png"
   },
   "shlock": {
     "name": "Shlock",
@@ -1024,7 +1119,8 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
-    "icon": "https://i.ibb.co/NZSGrRM/shlock.png"
+    "icon": "https://i.ibb.co/NZSGrRM/shlock.png",
+    "fullBody": "https://i.ibb.co/VH0TqYL/Shlock.png"
   },
   "fizluck": {
     "name": "Fizluck",
@@ -1037,7 +1133,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/ThdpgvG/fizluck.png"
+    "icon": "https://i.ibb.co/ThdpgvG/fizluck.png",
+    "fullBody": "https://i.ibb.co/gZkMn4d/Fizluck.png"
   },
   "okonomi": {
     "name": "Okonomi",
@@ -1050,7 +1147,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/2qMTjh2/okonomi.png"
+    "icon": "https://i.ibb.co/2qMTjh2/okonomi.png",
+    "fullBody": "https://i.ibb.co/tzpnDXb/Okonomi.png"
   },
   "brale": {
     "name": "Brale",
@@ -1063,7 +1161,8 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
-    "icon": "https://i.ibb.co/qrgRmjB/brale.png"
+    "icon": "https://i.ibb.co/qrgRmjB/brale.png",
+    "fullBody": "https://i.ibb.co/CHMWRQJ/Brale.png"
   },
   "blane": {
     "name": "Blane",
@@ -1076,7 +1175,8 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/qkSrNLP/blane.png"
+    "icon": "https://i.ibb.co/qkSrNLP/blane.png",
+    "fullBody": "https://i.ibb.co/2Pc3k8p/Blane.png"
   },
   "jand": {
     "name": "Jand",
@@ -1089,7 +1189,8 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
-    "icon": "https://i.ibb.co/j6hS0MK/jand.png"
+    "icon": "https://i.ibb.co/j6hS0MK/jand.png",
+    "fullBody": "https://i.ibb.co/JkdBBpK/Jand.png"
   },
   "cambury": {
     "name": "Cambury",
@@ -1102,7 +1203,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/QcRKXDK/cambury.png"
+    "icon": "https://i.ibb.co/QcRKXDK/cambury.png",
+    "fullBody": "https://i.ibb.co/L8XZTZn/Cambury.png"
   },
   "cwoki": {
     "name": "Cwoki",
@@ -1115,7 +1217,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/kXCt75n/cwoki.png"
+    "icon": "https://i.ibb.co/kXCt75n/cwoki.png",
+    "fullBody": "https://i.ibb.co/rxbp85w/Cwoki.png"
   },
   "nophri": {
     "name": "Nophri",
@@ -1128,7 +1231,8 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
-    "icon": "https://i.ibb.co/8snj5CZ/nophri.png"
+    "icon": "https://i.ibb.co/8snj5CZ/nophri.png",
+    "fullBody": "https://i.ibb.co/4jHgvM0/Nophri.png"
   },
   "irkrow": {
     "name": "Irkrow",
@@ -1141,7 +1245,8 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/MBz84Yg/irkrow.png"
+    "icon": "https://i.ibb.co/MBz84Yg/irkrow.png",
+    "fullBody": "https://i.ibb.co/3h5KX3H/Irkrow.png"
   },
   "plundak": {
     "name": "Plundak",
@@ -1154,7 +1259,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/wzj0f28/plundak.png"
+    "icon": "https://i.ibb.co/wzj0f28/plundak.png",
+    "fullBody": "https://i.ibb.co/YdnTh08/Plundak.png"
   },
   "ton": {
     "name": "Ton",
@@ -1167,7 +1273,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/BVnkTxd/ton.png"
+    "icon": "https://i.ibb.co/BVnkTxd/ton.png",
+    "fullBody": "https://i.ibb.co/GktRF6z/Ton.png"
   },
   "queek": {
     "name": "Queek",
@@ -1180,7 +1287,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/W5QFYG5/queek.png"
+    "icon": "https://i.ibb.co/W5QFYG5/queek.png",
+    "fullBody": "https://i.ibb.co/0tm4DPg/Queek.png"
   },
   "ebbe": {
     "name": "Ebbe",
@@ -1193,7 +1301,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/gWxXKSW/ebbe.png"
+    "icon": "https://i.ibb.co/gWxXKSW/ebbe.png",
+    "fullBody": "https://i.ibb.co/ypgdtdf/Ebbe.png"
   },
   "gorgula": {
     "name": "Gorgula",
@@ -1206,7 +1315,8 @@
     "boon": "Heshian Armature",
     "bane": "Gremlins",
     "deathLoot": "Lumin Bio-Accelerator",
-    "icon": "https://i.ibb.co/pQp51fJ/gorgula.png"
+    "icon": "https://i.ibb.co/pQp51fJ/gorgula.png",
+    "fullBody": "https://i.ibb.co/K0v561k/Gorgula.png"
   },
   "flekfis": {
     "name": "Flekfis",
@@ -1219,7 +1329,8 @@
     "boon": "Gear Head",
     "bane": "Wrenched",
     "deathLoot": "Force Spanner",
-    "icon": "https://i.ibb.co/vhNW5ND/flekfis.png"
+    "icon": "https://i.ibb.co/vhNW5ND/flekfis.png",
+    "fullBody": "https://i.ibb.co/N2pXKx3/Flekfis.png"
   },
   "jeetee": {
     "name": "Jeetee",
@@ -1232,7 +1343,8 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
-    "icon": "https://i.ibb.co/v4TWfBX/jeetee.png"
+    "icon": "https://i.ibb.co/v4TWfBX/jeetee.png",
+    "fullBody": "https://i.ibb.co/bzSjYGM/Jeetee.png"
   },
   "henders": {
     "name": "Henders",
@@ -1245,7 +1357,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/qJ4S2D9/henders.png"
+    "icon": "https://i.ibb.co/qJ4S2D9/henders.png",
+    "fullBody": "https://i.ibb.co/WFdqGhV/Henders.png"
   },
   "lasquo": {
     "name": "Lasquo",
@@ -1258,7 +1371,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/vP9bnSP/lasquo.png"
+    "icon": "https://i.ibb.co/vP9bnSP/lasquo.png",
+    "fullBody": "https://i.ibb.co/MDpzQ8H/Lasquo.png"
   },
   "alo": {
     "name": "Alo",
@@ -1271,7 +1385,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/3BqFz6D/alo.png"
+    "icon": "https://i.ibb.co/3BqFz6D/alo.png",
+    "fullBody": "https://i.ibb.co/nw5QXbn/Alo.png"
   },
   "pearlman": {
     "name": "Pearlman",
@@ -1284,7 +1399,8 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
-    "icon": "https://i.ibb.co/6y0xYXG/pearlman.png"
+    "icon": "https://i.ibb.co/6y0xYXG/pearlman.png",
+    "fullBody": "https://i.ibb.co/nmVpb9y/Pearlman.png"
   },
   "prent": {
     "name": "Prent",
@@ -1297,7 +1413,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Important Admiralty Intel",
-    "icon": "https://i.ibb.co/MBcNgmB/prent.png"
+    "icon": "https://i.ibb.co/MBcNgmB/prent.png",
+    "fullBody": "https://i.ibb.co/Z8Wf4DZ/Prent.png"
   },
   "rake": {
     "name": "Rake",
@@ -1310,7 +1427,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/bzg2FbH/rake.png"
+    "icon": "https://i.ibb.co/bzg2FbH/rake.png",
+    "fullBody": "https://i.ibb.co/7jH7KZZ/Rake.png"
   },
   "milleeree": {
     "name": "Milleeree",
@@ -1323,7 +1441,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
-    "icon": "https://i.ibb.co/sWpRFCh/milleeree.png"
+    "icon": "https://i.ibb.co/sWpRFCh/milleeree.png",
+    "fullBody": "https://i.ibb.co/ysBkk1c/Milleeree.png"
   },
   "mainewi": {
     "name": "Mainewi",
@@ -1336,7 +1455,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
-    "icon": "https://i.ibb.co/kKHfTNJ/mainewi.png"
+    "icon": "https://i.ibb.co/kKHfTNJ/mainewi.png",
+    "fullBody": "https://i.ibb.co/fQp30ps/Mainewi.png"
   },
   "gnak": {
     "name": "Gnak",
@@ -1349,7 +1469,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/pKzjB0n/gnak.png"
+    "icon": "https://i.ibb.co/pKzjB0n/gnak.png",
+    "fullBody": "https://i.ibb.co/tD8FyMQ/Gnak.png"
   },
   "gree": {
     "name": "Gree",
@@ -1362,7 +1483,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/G5ZFKCb/gree.png"
+    "icon": "https://i.ibb.co/G5ZFKCb/gree.png",
+    "fullBody": "https://i.ibb.co/8B2bp4g/Gree.png"
   },
   "hebbel": {
     "name": "Hebbel",
@@ -1375,7 +1497,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/TBJKDYx/hebbel.png"
+    "icon": "https://i.ibb.co/TBJKDYx/hebbel.png",
+    "fullBody": "https://i.ibb.co/FWMxFLr/Hebbel.png"
   },
   "palamborat": {
     "name": "Palamborat",
@@ -1388,7 +1511,8 @@
     "boon": "N/A",
     "bane": "Bad Credit",
     "deathLoot": "Diplomat's Badge",
-    "icon": "https://i.ibb.co/SxYhjwd/palamborat.png"
+    "icon": "https://i.ibb.co/SxYhjwd/palamborat.png",
+    "fullBody": "https://i.ibb.co/z6vZTsC/Palamborat.png"
   },
   "foolo": {
     "name": "Foolo",
@@ -1401,7 +1525,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/Dt0dLnH/foolo.png"
+    "icon": "https://i.ibb.co/Dt0dLnH/foolo.png",
+    "fullBody": "https://i.ibb.co/FD9btzv/Foolo.png"
   },
   "melba": {
     "name": "Melba",
@@ -1414,7 +1539,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
-    "icon": "https://i.ibb.co/Xtgddp2/melba.png"
+    "icon": "https://i.ibb.co/Xtgddp2/melba.png",
+    "fullBody": "https://i.ibb.co/KLb0Tmr/Melba.png"
   },
   "plocka": {
     "name": "Plocka",
@@ -1427,7 +1553,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/9H3d0Ww/plocka.png"
+    "icon": "https://i.ibb.co/9H3d0Ww/plocka.png",
+    "fullBody": "https://i.ibb.co/PMpVqqJ/Plocka.png"
   },
   "sparky": {
     "name": "Sparky",
@@ -1440,7 +1567,8 @@
     "boon": "System Shock",
     "bane": "Short Circuit",
     "deathLoot": "Sparky's Oppressor Cell",
-    "icon": "https://i.ibb.co/hWYJJJt/sparky.png"
+    "icon": "https://i.ibb.co/hWYJJJt/sparky.png",
+    "fullBody": "https://i.ibb.co/dD8Pm1V/Sparky.png"
   },
   "sweet_moreef": {
     "name": "Sweet Moreef",
@@ -1453,7 +1581,8 @@
     "boon": "Top Shelf",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/BB5MkNF/sweet-moreef.png"
+    "icon": "https://i.ibb.co/BB5MkNF/sweet-moreef.png",
+    "fullBody": "https://i.ibb.co/7NnBZpm/Sweet-Moreef.png"
   },
   "pestafur": {
     "name": "Pestafur",
@@ -1466,7 +1595,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/wLsjHpL/pestafur.png"
+    "icon": "https://i.ibb.co/wLsjHpL/pestafur.png",
+    "fullBody": "https://i.ibb.co/d2fqNVF/Pestafur.png"
   },
   "jeol": {
     "name": "Jeol",
@@ -1479,7 +1609,8 @@
     "boon": "Drone Mastery",
     "bane": "Drone Supplier",
     "deathLoot": "Prototype Drone",
-    "icon": "https://i.ibb.co/cynWzbc/jeol.png"
+    "icon": "https://i.ibb.co/cynWzbc/jeol.png",
+    "fullBody": "https://i.ibb.co/JB8h0R9/Jeol.png"
   },
   "frizz": {
     "name": "Frizz",
@@ -1492,7 +1623,8 @@
     "boon": "Weapons Expert",
     "bane": "Treachery",
     "deathLoot": "Lumin Jolt",
-    "icon": "https://i.ibb.co/y4PcFbH/frizz.png"
+    "icon": "https://i.ibb.co/y4PcFbH/frizz.png",
+    "fullBody": "https://i.ibb.co/3C4mDc7/Frizz.png"
   },
   "alta": {
     "name": "Alta",
@@ -1505,7 +1637,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/mrptDMf/alta.png"
+    "icon": "https://i.ibb.co/mrptDMf/alta.png",
+    "fullBody": "https://i.ibb.co/LgH7x8j/Alta.png"
   },
   "eedlit": {
     "name": "Eedlit",
@@ -1518,7 +1651,8 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
-    "icon": "https://i.ibb.co/f4bgqZv/eedlit.png"
+    "icon": "https://i.ibb.co/f4bgqZv/eedlit.png",
+    "fullBody": "https://i.ibb.co/GcwDqGy/Eedlit.png"
   },
   "grim": {
     "name": "Grim",
@@ -1531,7 +1665,8 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
-    "icon": "https://i.ibb.co/0C3v1zX/grim.png"
+    "icon": "https://i.ibb.co/0C3v1zX/grim.png",
+    "fullBody": "https://i.ibb.co/Gd90Xsx/Grim.png"
   },
   "dauler": {
     "name": "Dauler",
@@ -1544,7 +1679,8 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/SVq0y3y/dauler.png"
+    "icon": "https://i.ibb.co/SVq0y3y/dauler.png",
+    "fullBody": "https://i.ibb.co/MVQZwck/Dauler.png"
   },
   "fralx": {
     "name": "Fralx",
@@ -1557,7 +1693,8 @@
     "boon": "Capitalization",
     "bane": "Rattled",
     "deathLoot": "High Yield Lumin Bomb",
-    "icon": "https://i.ibb.co/kDVX8Kn/fralx.png"
+    "icon": "https://i.ibb.co/kDVX8Kn/fralx.png",
+    "fullBody": "https://i.ibb.co/0CvY4ck/Fralx.png"
   },
   "takt": {
     "name": "Takt",
@@ -1570,7 +1707,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/hVTGRnT/takt.png"
+    "icon": "https://i.ibb.co/hVTGRnT/takt.png",
+    "fullBody": "https://i.ibb.co/TcL5WV7/Takt.png"
   },
   "krog": {
     "name": "Krog",
@@ -1583,7 +1721,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/5TVSs1f/krog.png"
+    "icon": "https://i.ibb.co/5TVSs1f/krog.png",
+    "fullBody": "https://i.ibb.co/cbnbR8W/Krog.png"
   },
   "pallitriax": {
     "name": "Pallitriax",
@@ -1596,7 +1735,8 @@
     "boon": "Anointed",
     "bane": "N/A",
     "deathLoot": "Lumin Canister",
-    "icon": "https://i.ibb.co/ZX6j0wM/pallitriax.png"
+    "icon": "https://i.ibb.co/ZX6j0wM/pallitriax.png",
+    "fullBody": "https://i.ibb.co/3YVvQ89/Pallitriax.png"
   },
   "toeren": {
     "name": "Toeren",
@@ -1609,7 +1749,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/R0DT4j7/toeren.png"
+    "icon": "https://i.ibb.co/R0DT4j7/toeren.png",
+    "fullBody": "https://i.ibb.co/CnFNhJ5/Toeren.png"
   },
   "gode": {
     "name": "Gode",
@@ -1622,7 +1763,8 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
-    "icon": "https://i.ibb.co/SwQ2Tdz/gode.png"
+    "icon": "https://i.ibb.co/SwQ2Tdz/gode.png",
+    "fullBody": "https://i.ibb.co/ss6McRQ/Gode.png"
   },
   "pluk": {
     "name": "Pluk",
@@ -1635,7 +1777,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/rprmTTb/pluk.png"
+    "icon": "https://i.ibb.co/rprmTTb/pluk.png",
+    "fullBody": "https://i.ibb.co/9cp0HhV/Pluk.png"
   },
   "clove": {
     "name": "Clove",
@@ -1648,7 +1791,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/wcqCnxF/clove.png"
+    "icon": "https://i.ibb.co/wcqCnxF/clove.png",
+    "fullBody": "https://i.ibb.co/vDXvNFn/Clove.png"
   },
   "ceni": {
     "name": "Ceni",
@@ -1661,7 +1805,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/QMtmhRb/ceni.png"
+    "icon": "https://i.ibb.co/QMtmhRb/ceni.png",
+    "fullBody": "https://i.ibb.co/tLjpWC8/Ceni.png"
   },
   "xiit": {
     "name": "Xiit",
@@ -1674,7 +1819,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/WPSPK94/xiit.png"
+    "icon": "https://i.ibb.co/WPSPK94/xiit.png",
+    "fullBody": "https://i.ibb.co/z7vgj3R/Xiit.png"
   },
   "aweir": {
     "name": "Aweir",
@@ -1687,7 +1833,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/kSW50Tv/aweir.png"
+    "icon": "https://i.ibb.co/kSW50Tv/aweir.png",
+    "fullBody": "https://i.ibb.co/BBHsmb0/Aweir.png"
   },
   "feporo": {
     "name": "Feporo",
@@ -1700,7 +1847,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/gMnwYHv/feporo.png"
+    "icon": "https://i.ibb.co/gMnwYHv/feporo.png",
+    "fullBody": "https://i.ibb.co/W2hrWyj/Feporo.png"
   },
   "vixmalli": {
     "name": "Vixmalli",
@@ -1713,7 +1861,8 @@
     "boon": "N/A",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/ctxMMxc/vixmalli.png"
+    "icon": "https://i.ibb.co/ctxMMxc/vixmalli.png",
+    "fullBody": "https://i.ibb.co/ct78SNw/Vixmalli.png"
   },
   "brill": {
     "name": "Brill",
@@ -1726,7 +1875,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/sKHtY0Z/brill.png"
+    "icon": "https://i.ibb.co/sKHtY0Z/brill.png",
+    "fullBody": "https://i.ibb.co/M5PHhXp/Brill.png"
   },
   "andwanette": {
     "name": "Andwanette",
@@ -1739,7 +1889,8 @@
     "boon": "Celebrity",
     "bane": "Ostracized",
     "deathLoot": "Brain Pearl",
-    "icon": "https://i.ibb.co/fk3bjwt/andwanette.png"
+    "icon": "https://i.ibb.co/fk3bjwt/andwanette.png",
+    "fullBody": "https://i.ibb.co/k1zGrbB/Andwanette.png"
   },
   "sentru": {
     "name": "Sentru",
@@ -1752,7 +1903,8 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
-    "icon": "https://i.ibb.co/tbnsJw2/sentru.png"
+    "icon": "https://i.ibb.co/tbnsJw2/sentru.png",
+    "fullBody": "https://i.ibb.co/25VfR2q/Sentru.png"
   },
   "rook": {
     "name": "Rook",
@@ -1765,7 +1917,25 @@
     "boon": "Grumpy Scowl",
     "bane": "Contagious",
     "deathLoot": "Rook's Spare Coin",
-    "icon": "https://i.ibb.co/tMNKDyy/Rook.png"
+    "icon": "https://i.ibb.co/tMNKDyy/Rook.png",
+    "fullBody": {
+      "aerostat_uniform": {
+        "name": "Aerostat Uniform",
+        "fullBody": "https://i.ibb.co/1mKtyRs/Rook.png"
+      },
+      "saboteur": {
+        "name": "Saboteur",
+        "fullBody": "https://i.ibb.co/tPWMxzd/Rook-Saboteur.png"
+      },
+      "shadow": {
+        "name": "Shadow",
+        "fullBody": "https://i.ibb.co/Js1wqBr/Rook-Shadow.png"
+      },
+      "bog_trooper": {
+        "name": "Bog Trooper",
+        "fullBody": "https://i.ibb.co/TRCBLDt/Rook-Bog-Trooper.png"
+      }
+    }
   },
   "mallowi": {
     "name": "Mallowi",
@@ -1778,7 +1948,8 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
-    "icon": "https://i.ibb.co/4Zq0wQx/mallowi.png"
+    "icon": "https://i.ibb.co/4Zq0wQx/mallowi.png",
+    "fullBody": "https://i.ibb.co/HXdxSTt/Mallowi.png"
   },
   "zex": {
     "name": "Zex",
@@ -1791,7 +1962,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/nnvJGZD/zex.png"
+    "icon": "https://i.ibb.co/nnvJGZD/zex.png",
+    "fullBody": "https://i.ibb.co/BTfRygH/Zex.png"
   },
   "teema": {
     "name": "Teema",
@@ -1804,7 +1976,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/kK2MQHB/teema.png"
+    "icon": "https://i.ibb.co/kK2MQHB/teema.png",
+    "fullBody": "https://i.ibb.co/qyXMzJr/Teema.png"
   },
   "winnie": {
     "name": "Winnie",
@@ -1817,7 +1990,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/TMLDj4Z/winnie.png"
+    "icon": "https://i.ibb.co/TMLDj4Z/winnie.png",
+    "fullBody": "https://i.ibb.co/h729L8Y/Winnie.png"
   },
   "gheckt": {
     "name": "Gheckt",
@@ -1830,7 +2004,8 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
-    "icon": "https://i.ibb.co/hDTrzks/gheckt.png"
+    "icon": "https://i.ibb.co/hDTrzks/gheckt.png",
+    "fullBody": "https://i.ibb.co/sKC1S3G/Gheckt.png"
   },
   "riito": {
     "name": "Riito",
@@ -1843,7 +2018,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/Wv1syD7/riito.png"
+    "icon": "https://i.ibb.co/Wv1syD7/riito.png",
+    "fullBody": "https://i.ibb.co/HDNkmFH/Riito.png"
   },
   "umriit": {
     "name": "Umriit",
@@ -1856,7 +2032,8 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
-    "icon": "https://i.ibb.co/v4gGbM3/umriit.png"
+    "icon": "https://i.ibb.co/v4gGbM3/umriit.png",
+    "fullBody": "https://i.ibb.co/Mfb47TT/Umriit.png"
   },
   "borba": {
     "name": "Borba",
@@ -1869,7 +2046,8 @@
     "boon": "Convenience",
     "bane": "Inconvenience",
     "deathLoot": "Stolen Jewelry",
-    "icon": "https://i.ibb.co/b6bXjPZ/borba.png"
+    "icon": "https://i.ibb.co/b6bXjPZ/borba.png",
+    "fullBody": "https://i.ibb.co/s5Sd5F6/Borba.png"
   },
   "eden": {
     "name": "Eden",
@@ -1882,7 +2060,8 @@
     "boon": "In On It",
     "bane": "Undermined",
     "deathLoot": "Arachni-blade",
-    "icon": "https://i.ibb.co/2k8f5jK/eden.png"
+    "icon": "https://i.ibb.co/2k8f5jK/eden.png",
+    "fullBody": "https://i.ibb.co/4W289Jh/Eden.png"
   },
   "ronno": {
     "name": "Ronno",
@@ -1895,7 +2074,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/tQ6fd3p/ronno.png"
+    "icon": "https://i.ibb.co/tQ6fd3p/ronno.png",
+    "fullBody": "https://i.ibb.co/7QDC6df/Ronno.png"
   },
   "lux": {
     "name": "Lux",
@@ -1908,7 +2088,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/YtFzPzF/lux.png"
+    "icon": "https://i.ibb.co/YtFzPzF/lux.png",
+    "fullBody": "https://i.ibb.co/rdPpHRH/Lux.png"
   },
   "ionis": {
     "name": "Ionis",
@@ -1921,7 +2102,8 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
-    "icon": "https://i.ibb.co/ZWCkmhy/ionis.png"
+    "icon": "https://i.ibb.co/ZWCkmhy/ionis.png",
+    "fullBody": "https://i.ibb.co/6mrd45B/Ionis.png"
   },
   "grumph": {
     "name": "Grumph",
@@ -1934,7 +2116,8 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
-    "icon": "https://i.ibb.co/LgJ6ty2/grumph.png"
+    "icon": "https://i.ibb.co/LgJ6ty2/grumph.png",
+    "fullBody": "https://i.ibb.co/KW4GCqS/Grumph.png"
   },
   "murk": {
     "name": "Murk",
@@ -1947,7 +2130,8 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/dWCw6Fw/murk.png"
+    "icon": "https://i.ibb.co/dWCw6Fw/murk.png",
+    "fullBody": "https://i.ibb.co/2tX301X/Murk.png"
   },
   "bebus": {
     "name": "Bebus",
@@ -1960,7 +2144,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Important Admiralty Intel",
-    "icon": "https://i.ibb.co/P5nrhWB/bebus.png"
+    "icon": "https://i.ibb.co/P5nrhWB/bebus.png",
+    "fullBody": "https://i.ibb.co/bPsdRDK/Bebus.png"
   },
   "fyrdinan": {
     "name": "Fyrdinan",
@@ -1973,7 +2158,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/p3bFfdv/fyrdinan.png"
+    "icon": "https://i.ibb.co/p3bFfdv/fyrdinan.png",
+    "fullBody": "https://i.ibb.co/ct1HTgT/Fyrdinan.png"
   },
   "theroux": {
     "name": "Theroux",
@@ -1986,7 +2172,8 @@
     "boon": "Fan Mail",
     "bane": "Celebrity Gossip",
     "deathLoot": "Hat Tip",
-    "icon": "https://i.ibb.co/pPRr9SH/theroux.png"
+    "icon": "https://i.ibb.co/pPRr9SH/theroux.png",
+    "fullBody": "https://i.ibb.co/JHWP7hJ/Theroux.png"
   },
   "watsky": {
     "name": "Watsky",
@@ -1999,7 +2186,8 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
-    "icon": "https://i.ibb.co/bWFzpmW/watsky.png"
+    "icon": "https://i.ibb.co/bWFzpmW/watsky.png",
+    "fullBody": "https://i.ibb.co/Wp4BYF6/Watsky.png"
   },
   "tarq": {
     "name": "Tarq",
@@ -2012,7 +2200,8 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
-    "icon": "https://i.ibb.co/85180Zg/tarq.png"
+    "icon": "https://i.ibb.co/85180Zg/tarq.png",
+    "fullBody": "https://i.ibb.co/MfwZWsq/Tarq.png"
   },
   "oolo": {
     "name": "Oolo",
@@ -2025,7 +2214,8 @@
     "boon": "Admiralty Medals",
     "bane": "Wrong Papers",
     "deathLoot": "Charged Disc",
-    "icon": "https://i.ibb.co/BszVy7F/oolo.png"
+    "icon": "https://i.ibb.co/BszVy7F/oolo.png",
+    "fullBody": "https://i.ibb.co/McwrFxL/Oolo.png"
   },
   "hrikit": {
     "name": "Hrikit",
@@ -2038,7 +2228,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/n7PbjW3/hrikit.png"
+    "icon": "https://i.ibb.co/n7PbjW3/hrikit.png",
+    "fullBody": "https://i.ibb.co/ss4H42S/Hrikit.png"
   },
   "dillawno": {
     "name": "Dillawno",
@@ -2051,7 +2242,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/vDNCpfy/dillawno.png"
+    "icon": "https://i.ibb.co/vDNCpfy/dillawno.png",
+    "fullBody": "https://i.ibb.co/0K5FK3v/Dillawno.png"
   },
   "buleet": {
     "name": "Buleet",
@@ -2064,7 +2256,8 @@
     "boon": "Boosted Cybernetics",
     "bane": "Misinformation",
     "deathLoot": "Bolstered Plating",
-    "icon": "https://i.ibb.co/2qGgPtZ/buleet.png"
+    "icon": "https://i.ibb.co/2qGgPtZ/buleet.png",
+    "fullBody": "https://i.ibb.co/pK9W1yP/Buleet.png"
   },
   "zita": {
     "name": "Zita",
@@ -2077,7 +2270,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/nkpwXCq/zita.png"
+    "icon": "https://i.ibb.co/nkpwXCq/zita.png",
+    "fullBody": "https://i.ibb.co/R9CmZCg/Zita.png"
   },
   "allyn": {
     "name": "Allyn",
@@ -2090,7 +2284,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/0X3MWcd/allyn.png"
+    "icon": "https://i.ibb.co/0X3MWcd/allyn.png",
+    "fullBody": "https://i.ibb.co/YygJHFL/Allyn.png"
   },
   "vasti": {
     "name": "Vasti",
@@ -2103,7 +2298,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
-    "icon": "https://i.ibb.co/wSZN3Yy/vasti.png"
+    "icon": "https://i.ibb.co/wSZN3Yy/vasti.png",
+    "fullBody": "https://i.ibb.co/jyfszDD/Vasti.png"
   },
   "dony": {
     "name": "Dony",
@@ -2116,7 +2312,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/1f6zdqD/dony.png"
+    "icon": "https://i.ibb.co/1f6zdqD/dony.png",
+    "fullBody": "https://i.ibb.co/mBNp5n1/Dony.png"
   },
   "rugis": {
     "name": "Rugis",
@@ -2129,7 +2326,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
-    "icon": "https://i.ibb.co/Jys8Rpy/rugis.png"
+    "icon": "https://i.ibb.co/Jys8Rpy/rugis.png",
+    "fullBody": "https://i.ibb.co/BCPwPrS/Rugis.png"
   },
   "erga": {
     "name": "Erga",
@@ -2142,7 +2340,8 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
-    "icon": "https://i.ibb.co/fFG9TcW/erga.png"
+    "icon": "https://i.ibb.co/fFG9TcW/erga.png",
+    "fullBody": "https://i.ibb.co/KKMpscv/Erga.png"
   },
   "selaynia": {
     "name": "Selaynia",
@@ -2155,7 +2354,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
-    "icon": "https://i.ibb.co/bXFSjpM/selaynia.png"
+    "icon": "https://i.ibb.co/bXFSjpM/selaynia.png",
+    "fullBody": "https://i.ibb.co/fXWFDK6/Selaynia.png"
   },
   "nadan": {
     "name": "Nadan",
@@ -2168,7 +2368,8 @@
     "boon": "Chieftain",
     "bane": "Kill List",
     "deathLoot": "Nadan's Blade",
-    "icon": "https://i.ibb.co/1LDzbQ8/nadan.png"
+    "icon": "https://i.ibb.co/1LDzbQ8/nadan.png",
+    "fullBody": "https://i.ibb.co/1dt2LCS/Nadan.png"
   },
   "gao": {
     "name": "Gao",
@@ -2181,7 +2382,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/3dwvdcg/gao.png"
+    "icon": "https://i.ibb.co/3dwvdcg/gao.png",
+    "fullBody": "https://i.ibb.co/vYbXZR1/Gao.png"
   },
   "kallo": {
     "name": "Kallo",
@@ -2194,7 +2396,8 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
-    "icon": "https://i.ibb.co/N3h3VNB/kallo.png"
+    "icon": "https://i.ibb.co/N3h3VNB/kallo.png",
+    "fullBody": "https://i.ibb.co/tsMrcj1/Kallo.png"
   },
   "seemli": {
     "name": "Seemli",
@@ -2207,7 +2410,8 @@
     "boon": "Covert Supplier",
     "bane": "Disorder",
     "deathLoot": "Seemli's Dagger",
-    "icon": "https://i.ibb.co/pfWL6vy/seemli.png"
+    "icon": "https://i.ibb.co/pfWL6vy/seemli.png",
+    "fullBody": "https://i.ibb.co/hcHkG6v/Seemli.png"
   },
   "hiqu": {
     "name": "Hiqu",
@@ -2220,7 +2424,8 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/jZhkDP1/hiqu.png"
+    "icon": "https://i.ibb.co/jZhkDP1/hiqu.png",
+    "fullBody": "https://i.ibb.co/wc88RFJ/Hiqu.png"
   },
   "viss": {
     "name": "Viss",
@@ -2233,7 +2438,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/D1X06S2/viss.png"
+    "icon": "https://i.ibb.co/D1X06S2/viss.png",
+    "fullBody": "https://i.ibb.co/BPcx4X9/Viss.png"
   },
   "dano": {
     "name": "Dano",
@@ -2246,7 +2452,8 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
-    "icon": "https://i.ibb.co/2McMpTL/dano.png"
+    "icon": "https://i.ibb.co/2McMpTL/dano.png",
+    "fullBody": "https://i.ibb.co/vvZWJCK/Dano.png"
   },
   "rudana": {
     "name": "Rudana",
@@ -2259,7 +2466,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/80xMvYB/rudana.png"
+    "icon": "https://i.ibb.co/80xMvYB/rudana.png",
+    "fullBody": "https://i.ibb.co/P1wrRWD/Rudana.png"
   },
   "justice": {
     "name": "Justice",
@@ -2272,7 +2480,8 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
-    "icon": "https://i.ibb.co/1GYqfY4/justice.png"
+    "icon": "https://i.ibb.co/1GYqfY4/justice.png",
+    "fullBody": "https://i.ibb.co/gVbTxBY/Justice.png"
   },
   "leesha": {
     "name": "Leesha",
@@ -2285,7 +2494,8 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
-    "icon": "https://i.ibb.co/JqfBzG2/leesha.png"
+    "icon": "https://i.ibb.co/JqfBzG2/leesha.png",
+    "fullBody": "https://i.ibb.co/2jrLtqD/Leesha.png"
   },
   "voh": {
     "name": "Voh",
@@ -2298,7 +2508,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/QcGBZH0/voh.png"
+    "icon": "https://i.ibb.co/QcGBZH0/voh.png",
+    "fullBody": "https://i.ibb.co/bFXTKK6/Voh.png"
   },
   "tei_utaro": {
     "name": "Tei Utaro",
@@ -2311,7 +2522,8 @@
     "boon": "Puppeteer",
     "bane": "Sway",
     "deathLoot": "Tei Drone Strike",
-    "icon": "https://i.ibb.co/6J5CCd2/tei-utaro.png"
+    "icon": "https://i.ibb.co/6J5CCd2/tei-utaro.png",
+    "fullBody": "https://i.ibb.co/mTwQvZJ/Tei-Utaro.png"
   },
   "veep": {
     "name": "Veep",
@@ -2324,7 +2536,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/jv4yc8M/veep.png"
+    "icon": "https://i.ibb.co/jv4yc8M/veep.png",
+    "fullBody": "https://i.ibb.co/cKWb7q1/Veep.png"
   },
   "tee": {
     "name": "Tee",
@@ -2337,7 +2550,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
-    "icon": "https://i.ibb.co/1zccTTd/tee.png"
+    "icon": "https://i.ibb.co/1zccTTd/tee.png",
+    "fullBody": "https://i.ibb.co/Cz9dBDC/Tee.png"
   },
   "bossbit": {
     "name": "Bossbit",
@@ -2350,7 +2564,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Screamer",
-    "icon": "https://i.ibb.co/pKNcdwk/bossbit.png"
+    "icon": "https://i.ibb.co/pKNcdwk/bossbit.png",
+    "fullBody": "https://i.ibb.co/hdQGgrc/Bossbit.png"
   },
   "bordenkra": {
     "name": "Bordenkra",
@@ -2363,7 +2578,8 @@
     "boon": "Envoy Pendant",
     "bane": "Scorned",
     "deathLoot": "Veil",
-    "icon": "https://i.ibb.co/8zvPVrw/bordenkra.png"
+    "icon": "https://i.ibb.co/8zvPVrw/bordenkra.png",
+    "fullBody": "https://i.ibb.co/3NDMT30/Bordenkra.png"
   },
   "chake": {
     "name": "Chake",
@@ -2376,7 +2592,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/9qzxKdQ/chake.png"
+    "icon": "https://i.ibb.co/9qzxKdQ/chake.png",
+    "fullBody": "https://i.ibb.co/pRpFxFg/Chake.png"
   },
   "bludd": {
     "name": "Bludd",
@@ -2389,7 +2606,8 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
-    "icon": "https://i.ibb.co/7XmHW0x/bludd.png"
+    "icon": "https://i.ibb.co/7XmHW0x/bludd.png",
+    "fullBody": "https://i.ibb.co/PYSzk63/Bludd.png"
   },
   "keebee": {
     "name": "Keebee",
@@ -2402,7 +2620,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/ZL3h5nM/keebee.png"
+    "icon": "https://i.ibb.co/ZL3h5nM/keebee.png",
+    "fullBody": "https://i.ibb.co/q1MVkZB/Keebee.png"
   },
   "fallopallo": {
     "name": "Fallopallo",
@@ -2415,7 +2634,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/VSPQTBF/fallopallo.png"
+    "icon": "https://i.ibb.co/VSPQTBF/fallopallo.png",
+    "fullBody": "https://i.ibb.co/myz57CH/Fallopallo.png"
   },
   "zearl": {
     "name": "Zearl",
@@ -2428,7 +2648,8 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
-    "icon": "https://i.ibb.co/jVK7F71/zearl.png"
+    "icon": "https://i.ibb.co/jVK7F71/zearl.png",
+    "fullBody": "https://i.ibb.co/Kq9FgRB/Zearl.png"
   },
   "frash": {
     "name": "Frash",
@@ -2441,7 +2662,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/r2kDxGj/frash.png"
+    "icon": "https://i.ibb.co/r2kDxGj/frash.png",
+    "fullBody": "https://i.ibb.co/3W2ppKW/Frash.png"
   },
   "rug": {
     "name": "Rug",
@@ -2454,7 +2676,8 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/gvVXKww/rug.png"
+    "icon": "https://i.ibb.co/gvVXKww/rug.png",
+    "fullBody": "https://i.ibb.co/2KM6fF3/Rug.png"
   },
   "ekel": {
     "name": "Ekel",
@@ -2467,7 +2690,8 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
-    "icon": "https://i.ibb.co/0mkQKXM/ekel.png"
+    "icon": "https://i.ibb.co/0mkQKXM/ekel.png",
+    "fullBody": "https://i.ibb.co/NCBfywR/Ekel.png"
   },
   "veerox": {
     "name": "Veerox",
@@ -2480,7 +2704,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Defective Grenade",
-    "icon": "https://i.ibb.co/23YTNb1/veerox.png"
+    "icon": "https://i.ibb.co/23YTNb1/veerox.png",
+    "fullBody": "https://i.ibb.co/6JMBFmM/Veerox.png"
   },
   "kashio": {
     "name": "Kashio",
@@ -2493,7 +2718,8 @@
     "boon": "N/A",
     "bane": "Troubled Past",
     "deathLoot": "N/A",
-    "icon": "https://i.ibb.co/hWzVPk1/kashio.png"
+    "icon": "https://i.ibb.co/hWzVPk1/kashio.png",
+    "fullBody": "https://i.ibb.co/59k6VPv/Kashio.png"
   },
   "arint": {
     "name": "Arint",
@@ -2506,7 +2732,8 @@
     "boon": "On The List",
     "bane": "Faulty Connections",
     "deathLoot": "Level Orange Clearance",
-    "icon": "https://i.ibb.co/FxxJZdM/arint.png"
+    "icon": "https://i.ibb.co/FxxJZdM/arint.png",
+    "fullBody": "https://i.ibb.co/JqV2yjv/Arint.png"
   },
   "mullifee": {
     "name": "Mullifee",
@@ -2519,7 +2746,8 @@
     "boon": "Family Favor",
     "bane": "Shunned",
     "deathLoot": "Banquod Pendant",
-    "icon": "https://i.ibb.co/Rv4CLj0/mullifee.png"
+    "icon": "https://i.ibb.co/Rv4CLj0/mullifee.png",
+    "fullBody": "https://i.ibb.co/99nDrYc/Mullifee.png"
   },
   "onnawor": {
     "name": "Onnawor",
@@ -2532,7 +2760,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/QJH375L/onnawor.png"
+    "icon": "https://i.ibb.co/QJH375L/onnawor.png",
+    "fullBody": "https://i.ibb.co/BVj6rCs/Onnawor.png"
   },
   "felena": {
     "name": "Felena",
@@ -2545,7 +2774,8 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
-    "icon": "https://i.ibb.co/7gd0Rbs/felena.png"
+    "icon": "https://i.ibb.co/7gd0Rbs/felena.png",
+    "fullBody": "https://i.ibb.co/z51zYbK/Felena.png"
   },
   "goni": {
     "name": "Goni",
@@ -2558,7 +2788,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/jk3G7VZ/goni.png"
+    "icon": "https://i.ibb.co/jk3G7VZ/goni.png",
+    "fullBody": "https://i.ibb.co/z6qZyvn/Goni.png"
   },
   "steven": {
     "name": "Steven",
@@ -2571,7 +2802,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "https://i.ibb.co/cyHPTLr/steven.png"
+    "icon": "https://i.ibb.co/cyHPTLr/steven.png",
+    "fullBody": "https://i.ibb.co/Wx9qSmq/Steven.png"
   },
   "myrkot": {
     "name": "Myrkot",
@@ -2584,7 +2816,8 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/rtpzFP7/myrkot.png"
+    "icon": "https://i.ibb.co/rtpzFP7/myrkot.png",
+    "fullBody": "https://i.ibb.co/nmMTcdT/Myrkot.png"
   },
   "durno": {
     "name": "Durno",
@@ -2597,7 +2830,8 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
-    "icon": "https://i.ibb.co/YB162Sd/durno.png"
+    "icon": "https://i.ibb.co/YB162Sd/durno.png",
+    "fullBody": "https://i.ibb.co/k81VGGp/Durno.png"
   },
   "cadwa": {
     "name": "Cadwa",
@@ -2610,7 +2844,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/LrN1JFh/cadwa.png"
+    "icon": "https://i.ibb.co/LrN1JFh/cadwa.png",
+    "fullBody": "https://i.ibb.co/6nsnGFH/Cadwa.png"
   },
   "wreet": {
     "name": "Wreet",
@@ -2623,7 +2858,8 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
-    "icon": "https://i.ibb.co/R00bN3C/wreet.png"
+    "icon": "https://i.ibb.co/R00bN3C/wreet.png",
+    "fullBody": "https://i.ibb.co/nkV8ZX0/Wreet.png"
   },
   "cleme": {
     "name": "Cleme",
@@ -2636,7 +2872,8 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
-    "icon": "https://i.ibb.co/s2JLSww/cleme.png"
+    "icon": "https://i.ibb.co/s2JLSww/cleme.png",
+    "fullBody": "https://i.ibb.co/4YNZY7V/Cleme.png"
   },
   "malo": {
     "name": "Malo",
@@ -2649,7 +2886,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/9V0H8TZ/malo.png"
+    "icon": "https://i.ibb.co/9V0H8TZ/malo.png",
+    "fullBody": "https://i.ibb.co/kcWq7XD/Malo.png"
   },
   "leeqi": {
     "name": "Leeqi",
@@ -2662,7 +2900,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/nbN9ywF/leeqi.png"
+    "icon": "https://i.ibb.co/nbN9ywF/leeqi.png",
+    "fullBody": "https://i.ibb.co/jkHKqwt/Leeqi.png"
   },
   "wrux": {
     "name": "Wrux",
@@ -2675,7 +2914,8 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/12fRVLB/wrux.png"
+    "icon": "https://i.ibb.co/12fRVLB/wrux.png",
+    "fullBody": "https://i.ibb.co/s3qB5G2/Wrux.png"
   },
   "kalandra": {
     "name": "Kalandra",
@@ -2688,7 +2928,17 @@
     "boon": "Excavator",
     "bane": "Buried",
     "deathLoot": "Battle Plan",
-    "icon": "https://i.ibb.co/88hP5Tx/kalandra.png"
+    "icon": "https://i.ibb.co/88hP5Tx/kalandra.png",
+    "fullBody": {
+      "kalandra": {
+        "name": "Kalandra",
+        "fullBody": "https://i.ibb.co/wp8qqZS/Kalandra.png"
+      },
+      "foreman": {
+        "name": "Foreman",
+        "fullBody": "https://i.ibb.co/nbdyzW3/Kalandra-Foreman.png"
+      }
+    }
   },
   "ferg": {
     "name": "Ferg",
@@ -2701,7 +2951,8 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
-    "icon": "https://i.ibb.co/RT4cR09/ferg.png"
+    "icon": "https://i.ibb.co/RT4cR09/ferg.png",
+    "fullBody": "https://i.ibb.co/qDjjxr5/Ferg.png"
   },
   "lopli": {
     "name": "Lopli",
@@ -2714,7 +2965,8 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/pj4cPkH/lopli.png"
+    "icon": "https://i.ibb.co/pj4cPkH/lopli.png",
+    "fullBody": "https://i.ibb.co/sFJKMKk/Lopli.png"
   },
   "glick": {
     "name": "Glick",
@@ -2727,7 +2979,8 @@
     "boon": "Convenience",
     "bane": "Inconvenience",
     "deathLoot": "Stolen Jewelry",
-    "icon": "https://i.ibb.co/2Pv5bYt/glick.png"
+    "icon": "https://i.ibb.co/2Pv5bYt/glick.png",
+    "fullBody": "https://i.ibb.co/HzKw81K/Glick.png"
   },
   "tazz": {
     "name": "Tazz",
@@ -2740,7 +2993,8 @@
     "boon": "Hard Headed",
     "bane": "Butt Kicked",
     "deathLoot": "Underdriver",
-    "icon": "https://i.ibb.co/W3vSz3V/tazz.png"
+    "icon": "https://i.ibb.co/W3vSz3V/tazz.png",
+    "fullBody": "https://i.ibb.co/BTRh5ZY/Tazz.png"
   },
   "imiko": {
     "name": "Imiko",
@@ -2753,7 +3007,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/SVqbDzm/imiko.png"
+    "icon": "https://i.ibb.co/SVqbDzm/imiko.png",
+    "fullBody": "https://i.ibb.co/xXCrz5q/Imiko.png"
   },
   "qita": {
     "name": "Qita",
@@ -2766,7 +3021,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/bFhwrLQ/qita.png"
+    "icon": "https://i.ibb.co/bFhwrLQ/qita.png",
+    "fullBody": "https://i.ibb.co/VxfWPRd/Qita.png"
   },
   "stollo": {
     "name": "Stollo",
@@ -2779,7 +3035,8 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
-    "icon": "https://i.ibb.co/RjZfTKt/stollo.png"
+    "icon": "https://i.ibb.co/RjZfTKt/stollo.png",
+    "fullBody": "https://i.ibb.co/87V1fSW/Stollo.png"
   },
   "uraneer": {
     "name": "Uraneer",
@@ -2792,7 +3049,8 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/zJZbHS2/uraneer.png"
+    "icon": "https://i.ibb.co/zJZbHS2/uraneer.png",
+    "fullBody": "https://i.ibb.co/WPvzjn8/Uraneer.png"
   },
   "peri": {
     "name": "Peri",
@@ -2805,7 +3063,8 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
-    "icon": "https://i.ibb.co/j8tJ0Lx/peri.png"
+    "icon": "https://i.ibb.co/j8tJ0Lx/peri.png",
+    "fullBody": "https://i.ibb.co/MS1KxWx/Peri.png"
   },
   "glofriam": {
     "name": "Glofriam",
@@ -2818,7 +3077,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "https://i.ibb.co/cFCtS18/glofriam.png"
+    "icon": "https://i.ibb.co/cFCtS18/glofriam.png",
+    "fullBody": "https://i.ibb.co/DCQGzRx/Glofriam.png"
   },
   "wikka": {
     "name": "Wikka",
@@ -2831,7 +3091,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
-    "icon": "https://i.ibb.co/dGs429z/wikka.png"
+    "icon": "https://i.ibb.co/dGs429z/wikka.png",
+    "fullBody": "https://i.ibb.co/TLsFM8f/Wikka.png"
   },
   "fellemo": {
     "name": "Fellemo",
@@ -2844,7 +3105,8 @@
     "boon": "Scheme",
     "bane": "Scandal",
     "deathLoot": "Two Faced",
-    "icon": "https://i.ibb.co/ZGTc5m0/fellemo.png"
+    "icon": "https://i.ibb.co/ZGTc5m0/fellemo.png",
+    "fullBody": "https://i.ibb.co/Jzm02qW/Fellemo.png"
   },
   "feldspar": {
     "name": "Feldspar",
@@ -2857,7 +3119,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/bWxKHFN/feldspar.png"
+    "icon": "https://i.ibb.co/bWxKHFN/feldspar.png",
+    "fullBody": "https://i.ibb.co/fvWv0rv/Feldspar.png"
   },
   "fssh": {
     "name": "Fssh",
@@ -2870,7 +3133,8 @@
     "boon": "Cozy",
     "bane": "N/A",
     "deathLoot": "Liquid Courage",
-    "icon": "https://i.ibb.co/W2JVCnb/fssh.png"
+    "icon": "https://i.ibb.co/W2JVCnb/fssh.png",
+    "fullBody": "https://i.ibb.co/6RxBpZx/Fssh.png"
   },
   "bennawem": {
     "name": "Bennawem",
@@ -2883,7 +3147,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/NFLGCbz/bennawem.png"
+    "icon": "https://i.ibb.co/NFLGCbz/bennawem.png",
+    "fullBody": "https://i.ibb.co/L0wcDNm/Bennawem.png"
   },
   "ron": {
     "name": "Ron",
@@ -2896,7 +3161,8 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
-    "icon": "https://i.ibb.co/zHLrdJL/ron.png"
+    "icon": "https://i.ibb.co/zHLrdJL/ron.png",
+    "fullBody": "https://i.ibb.co/68WKxsy/Ron.png"
   },
   "clamentine": {
     "name": "Clamentine",
@@ -2909,7 +3175,8 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
-    "icon": "https://i.ibb.co/YyhnHVL/clamentine.png"
+    "icon": "https://i.ibb.co/YyhnHVL/clamentine.png",
+    "fullBody": "https://i.ibb.co/kXKypfF/Clamentine.png"
   },
   "gura": {
     "name": "Gura",
@@ -2922,7 +3189,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/pxjXJWm/gura.png"
+    "icon": "https://i.ibb.co/pxjXJWm/gura.png",
+    "fullBody": "https://i.ibb.co/2KfrTFY/Gura.png"
   },
   "yacka": {
     "name": "Yacka",
@@ -2935,7 +3203,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
-    "icon": "https://i.ibb.co/mGYgZ7F/yacka.png"
+    "icon": "https://i.ibb.co/mGYgZ7F/yacka.png",
+    "fullBody": "https://i.ibb.co/9pDVwLY/Yacka.png"
   },
   "pozgo": {
     "name": "Pozgo",
@@ -2948,7 +3217,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/Q9X1Jk5/pozgo.png"
+    "icon": "https://i.ibb.co/Q9X1Jk5/pozgo.png",
+    "fullBody": "https://i.ibb.co/5Lw0Cv2/Pozgo.png"
   },
   "asnitho": {
     "name": "Asnitho",
@@ -2961,7 +3231,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/Smgvdjw/asnitho.png"
+    "icon": "https://i.ibb.co/Smgvdjw/asnitho.png",
+    "fullBody": "https://i.ibb.co/vLmByRm/Asnitho.png"
   },
   "quarryn": {
     "name": "Quarryn",
@@ -2974,7 +3245,8 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
-    "icon": "https://i.ibb.co/D4rDmBV/quarryn.png"
+    "icon": "https://i.ibb.co/D4rDmBV/quarryn.png",
+    "fullBody": "https://i.ibb.co/WykbShp/Quarryn.png"
   },
   "spotz": {
     "name": "Spotz",
@@ -2987,7 +3259,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/gjFX7Qj/spotz.png"
+    "icon": "https://i.ibb.co/gjFX7Qj/spotz.png",
+    "fullBody": "https://i.ibb.co/wBLzdd8/Spotz.png"
   },
   "bax": {
     "name": "Bax",
@@ -3000,7 +3273,8 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/X70F5w6/bax.png"
+    "icon": "https://i.ibb.co/X70F5w6/bax.png",
+    "fullBody": "https://i.ibb.co/XkwVG2W/Bax.png"
   },
   "llullably": {
     "name": "Llullably",
@@ -3013,7 +3287,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/BrQGcg0/llullably.png"
+    "icon": "https://i.ibb.co/BrQGcg0/llullably.png",
+    "fullBody": "https://i.ibb.co/3sZBw4w/Llullably.png"
   },
   "sru": {
     "name": "Sru",
@@ -3026,7 +3301,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/4F3yCvX/sru.png"
+    "icon": "https://i.ibb.co/4F3yCvX/sru.png",
+    "fullBody": "https://i.ibb.co/JFygj6d/Sru.png"
   },
   "pock": {
     "name": "Pock",
@@ -3039,7 +3315,8 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
-    "icon": "https://i.ibb.co/wL1DSqy/pock.png"
+    "icon": "https://i.ibb.co/wL1DSqy/pock.png",
+    "fullBody": "https://i.ibb.co/MSNK09R/Pock.png"
   },
   "grunjax": {
     "name": "Grunjax",
@@ -3052,7 +3329,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/w0qVr22/grunjax.png"
+    "icon": "https://i.ibb.co/w0qVr22/grunjax.png",
+    "fullBody": "https://i.ibb.co/T8SXYJx/Grunjax.png"
   },
   "phinoon": {
     "name": "Phinoon",
@@ -3065,7 +3343,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/jGm1RfW/phinoon.png"
+    "icon": "https://i.ibb.co/jGm1RfW/phinoon.png",
+    "fullBody": "https://i.ibb.co/vjzpSwM/Phinoon.png"
   },
   "vectorini": {
     "name": "Vectorini",
@@ -3078,7 +3357,8 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
-    "icon": "https://i.ibb.co/Lv5XFt0/vectorini.png"
+    "icon": "https://i.ibb.co/Lv5XFt0/vectorini.png",
+    "fullBody": "https://i.ibb.co/QfZyFft/Vectorini.png"
   },
   "ptchu": {
     "name": "Ptchu",
@@ -3091,7 +3371,8 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
-    "icon": "https://i.ibb.co/vms5Hdg/ptchu.png"
+    "icon": "https://i.ibb.co/vms5Hdg/ptchu.png",
+    "fullBody": "https://i.ibb.co/dgPdkrq/Ptchu.png"
   },
   "kenga": {
     "name": "Kenga",
@@ -3104,7 +3385,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
-    "icon": "https://i.ibb.co/fShkX7m/kenga.png"
+    "icon": "https://i.ibb.co/fShkX7m/kenga.png",
+    "fullBody": "https://i.ibb.co/cvyCdH3/Kenga.png"
   },
   "gen": {
     "name": "Gen",
@@ -3117,7 +3399,8 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
-    "icon": "https://i.ibb.co/hXrDNJm/gen.png"
+    "icon": "https://i.ibb.co/hXrDNJm/gen.png",
+    "fullBody": "https://i.ibb.co/gjTLLpq/Gen.png"
   },
   "smith": {
     "name": "Smith",
@@ -3130,7 +3413,29 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Smith's Canteen",
-    "icon": "https://i.ibb.co/9ZD12X2/Smith.png"
+    "icon": "https://i.ibb.co/9ZD12X2/Smith.png",
+    "fullBody": {
+      "smiths_jacket": {
+        "name": "Smith's Jacket",
+        "fullBody": "https://i.ibb.co/qpxNpBY/Smith.png"
+      },
+      "gambler": {
+        "name": "The Gambler",
+        "fullBody": "https://i.ibb.co/pPZXKNt/Smith-Gambler.png"
+      },
+      "outdoorsmith": {
+        "name": "The Outdoorsmith",
+        "fullBody": "https://i.ibb.co/CB65mfk/Smith-Outdoorsmith.png"
+      },
+      "sneaksmith": {
+        "name": "The Sneaksmith",
+        "fullBody": "https://i.ibb.co/JmjCzj3/Smith-Sneaksmith.png"
+      },
+      "heshian_disguise": {
+        "name": "Heshian Disguise",
+        "fullBody": "https://i.ibb.co/zGGvnyH/Smith-Heshian-Disguise.png"
+      }
+    }
   },
   "gumthow": {
     "name": "Gumthow",
@@ -3143,7 +3448,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Defective Grenade",
-    "icon": "https://i.ibb.co/QmSnsWx/gumthow.png"
+    "icon": "https://i.ibb.co/QmSnsWx/gumthow.png",
+    "fullBody": "https://i.ibb.co/HD55dw2/Gumthow.png"
   },
   "lili": {
     "name": "Lili",
@@ -3156,7 +3462,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/XLLkMhq/lili.png"
+    "icon": "https://i.ibb.co/XLLkMhq/lili.png",
+    "fullBody": "https://i.ibb.co/qDTJwzn/Lili.png"
   },
   "nodoloolis": {
     "name": "Nodoloolis",
@@ -3169,7 +3476,8 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/ZW2tt1V/nodoloolis.png"
+    "icon": "https://i.ibb.co/ZW2tt1V/nodoloolis.png",
+    "fullBody": "https://i.ibb.co/3mTPbNb/Nodoloolis.png"
   },
   "opple": {
     "name": "Opple",
@@ -3182,7 +3490,8 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
-    "icon": "https://i.ibb.co/9HWrqh7/opple.png"
+    "icon": "https://i.ibb.co/9HWrqh7/opple.png",
+    "fullBody": "https://i.ibb.co/CzHnhQz/Opple.png"
   },
   "sandrano": {
     "name": "Sandrano",
@@ -3195,7 +3504,8 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
-    "icon": "https://i.ibb.co/gg1cxcc/sandrano.png"
+    "icon": "https://i.ibb.co/gg1cxcc/sandrano.png",
+    "fullBody": "https://i.ibb.co/rpZ1vRT/Sandrano.png"
   },
   "minfen": {
     "name": "Minfen",
@@ -3208,7 +3518,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
-    "icon": "https://i.ibb.co/23GjCBq/minfen.png"
+    "icon": "https://i.ibb.co/23GjCBq/minfen.png",
+    "fullBody": "https://i.ibb.co/v121yNH/Minfen.png"
   },
   "brenna": {
     "name": "Brenna",
@@ -3221,7 +3532,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/TgQxW75/brenna.png"
+    "icon": "https://i.ibb.co/TgQxW75/brenna.png",
+    "fullBody": "https://i.ibb.co/7471rk3/Brenna.png"
   },
   "heft": {
     "name": "Heft",
@@ -3234,7 +3546,8 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
-    "icon": "https://i.ibb.co/nwf77sJ/heft.png"
+    "icon": "https://i.ibb.co/nwf77sJ/heft.png",
+    "fullBody": "https://i.ibb.co/51krFpL/Heft.png"
   },
   "erbla": {
     "name": "Erbla",
@@ -3247,7 +3560,8 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
-    "icon": "https://i.ibb.co/SyXZbHZ/erbla.png"
+    "icon": "https://i.ibb.co/SyXZbHZ/erbla.png",
+    "fullBody": "https://i.ibb.co/mSs4Nt2/Erbla.png"
   },
   "wade": {
     "name": "Wade",
@@ -3260,7 +3574,8 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
-    "icon": "https://i.ibb.co/sjt080k/wade.png"
+    "icon": "https://i.ibb.co/sjt080k/wade.png",
+    "fullBody": "https://i.ibb.co/NsdjMjZ/Wade.png"
   },
   "worrik": {
     "name": "Worrik",
@@ -3273,7 +3588,8 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
-    "icon": "https://i.ibb.co/pJTRD0X/worrik.png"
+    "icon": "https://i.ibb.co/pJTRD0X/worrik.png",
+    "fullBody": "https://i.ibb.co/fx1ZvXq/Worrik.png"
   },
   "shel": {
     "name": "Shel",
@@ -3286,7 +3602,8 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
-    "icon": "https://i.ibb.co/8zP4Nr3/shel.png"
+    "icon": "https://i.ibb.co/8zP4Nr3/shel.png",
+    "fullBody": "https://i.ibb.co/BN7KxH4/Shel.png"
   },
   "astal": {
     "name": "Astal",
@@ -3299,7 +3616,8 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
-    "icon": "https://i.ibb.co/RQnXyrt/astal.png"
+    "icon": "https://i.ibb.co/RQnXyrt/astal.png",
+    "fullBody": "https://i.ibb.co/7YRxxM9/Astal.png"
   },
   "hundruthor": {
     "name": "Hundruthor",
@@ -3312,7 +3630,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/G2syZQD/hundruthor.png"
+    "icon": "https://i.ibb.co/G2syZQD/hundruthor.png",
+    "fullBody": "https://i.ibb.co/9WTjYn3/Hundruthor.png"
   },
   "phrylotas": {
     "name": "Phrylotas",
@@ -3325,7 +3644,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/f8zg2GF/phrylotas.png"
+    "icon": "https://i.ibb.co/f8zg2GF/phrylotas.png",
+    "fullBody": "https://i.ibb.co/hfFx2YJ/Phrylotas.png"
   },
   "felek": {
     "name": "Felek",
@@ -3338,7 +3658,8 @@
     "boon": "Wrist Rocket",
     "bane": "Punchy",
     "deathLoot": "Overdriver",
-    "icon": "https://i.ibb.co/0VCNSgG/felek.png"
+    "icon": "https://i.ibb.co/0VCNSgG/felek.png",
+    "fullBody": "https://i.ibb.co/3dMTpkP/Felek.png"
   },
   "drabit": {
     "name": "Drabit",
@@ -3351,7 +3672,8 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
-    "icon": "https://i.ibb.co/CwH1TPT/drabit.png"
+    "icon": "https://i.ibb.co/CwH1TPT/drabit.png",
+    "fullBody": "https://i.ibb.co/N1fQ7c8/Drabit.png"
   },
   "nup": {
     "name": "Nup",
@@ -3364,7 +3686,8 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
-    "icon": "https://i.ibb.co/52ZbYG7/nup.png"
+    "icon": "https://i.ibb.co/52ZbYG7/nup.png",
+    "fullBody": "https://i.ibb.co/px0MDLh/Nup.png"
   },
   "dellena": {
     "name": "Dellena",
@@ -3377,7 +3700,8 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
-    "icon": "https://i.ibb.co/LNTD1rC/dellena.png"
+    "icon": "https://i.ibb.co/LNTD1rC/dellena.png",
+    "fullBody": "https://i.ibb.co/hsQWfgg/Dellena.png"
   },
   "bina": {
     "name": "Bina",
@@ -3390,7 +3714,8 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
-    "icon": "https://i.ibb.co/dWnzRhT/bina.png"
+    "icon": "https://i.ibb.co/dWnzRhT/bina.png",
+    "fullBody": "https://i.ibb.co/L0nS4sN/Bina.png"
   },
   "autodog": {
     "name": "AutoDog",
@@ -3403,7 +3728,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Targeting Core",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "yote": {
     "name": "Yote",
@@ -3416,7 +3742,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Carapace",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "spitting_yote": {
     "name": "Spitting Yote",
@@ -3429,7 +3756,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Razorspine",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "droad": {
     "name": "Droad",
@@ -3442,12 +3770,13 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Droad Tail Spike",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "crimson_drusk": {
     "name": "Crimson Drusk",
     "bio": "N/A",
-    "gender": "Undisclosed",
+    "gender": "Male",
     "species": "Monster",
     "faction": "N/A",
     "title": "Shambling Conglomeration",
@@ -3455,12 +3784,13 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Drusk Core",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "ochre_drusk": {
     "name": "Ochre Drusk",
     "bio": "N/A",
-    "gender": "Undisclosed",
+    "gender": "Female",
     "species": "Monster",
     "faction": "N/A",
     "title": "Shambling Conglomeration",
@@ -3468,7 +3798,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "erchin": {
     "name": "Erchin",
@@ -3481,7 +3812,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Erchin Musk",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "feral_autodog": {
     "name": "Feral AutoDog",
@@ -3494,7 +3826,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Rusty Power Core",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "flead": {
     "name": "Flead",
@@ -3507,7 +3840,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Mandible",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "flead_larva": {
     "name": "Flead Larva",
@@ -3520,7 +3854,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "flead_queen": {
     "name": "Flead Queen",
@@ -3533,7 +3868,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Giant Stinger",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "grawkit": {
     "name": "Grawkit",
@@ -3546,7 +3882,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Carapace Fragment",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "bog_cyst": {
     "name": "Bog Cyst",
@@ -3559,7 +3896,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "grout_eyestalk": {
     "name": "Grout Eyestalk",
@@ -3572,7 +3910,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "grout_knuckle": {
     "name": "Grout Knuckle",
@@ -3585,7 +3924,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "grout_loot_cluster": {
     "name": "Grout Loot Cluster",
@@ -3598,7 +3938,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "spark_mine": {
     "name": "Spark Mine",
@@ -3611,7 +3952,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "heshbladder": {
     "name": "Heshbladder",
@@ -3624,7 +3966,22 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Bladder Gland",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
+  },
+  "murkot": {
+    "name": "Murkot",
+    "bio": "N/A",
+    "gender": "Male",
+    "species": "Luminari",
+    "faction": "Cult of Hesh",
+    "title": "Luminari",
+    "health": 100,
+    "boon": "Bell of Hesh",
+    "bane": "Curse of Hesh",
+    "deathLoot": "Heshian Mask",
+    "icon": "https://i.ibb.co/VNnLQ2q/murkot.png",
+    "fullBody": "https://i.ibb.co/7YRnrBn/Murkot.png"
   },
   "horned_yote": {
     "name": "Horned Yote",
@@ -3637,7 +3994,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Yote Horn",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "lumicyte": {
     "name": "Lumicyte",
@@ -3650,7 +4008,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Lumicyte Dorsal Spines",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "mutated_lumicyte": {
     "name": "Mutated Lumicyte",
@@ -3663,7 +4022,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "krill": {
     "name": "Krill",
@@ -3676,7 +4036,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Krill Ichor",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "pack_oshnu": {
     "name": "Pack Oshnu",
@@ -3689,7 +4050,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "bertha": {
     "name": "Bertha",
@@ -3702,7 +4064,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "cobbledog": {
     "name": "Cobbledog",
@@ -3715,7 +4078,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Targeting Core",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "shredmaw": {
     "name": "Shredmaw",
@@ -3728,7 +4092,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Shredmaw Shell",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "shroog": {
     "name": "Shroog",
@@ -3741,7 +4106,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Shroog Fang",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "shrooglet": {
     "name": "Shrooglet",
@@ -3754,7 +4120,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "vroc": {
     "name": "Vroc",
@@ -3767,7 +4134,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Vroc Plume",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "grout_monster": {
     "name": "Grout Monster",
@@ -3780,7 +4148,8 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   },
   "vix_of_hesh": {
     "name": "Vix of Hesh",
@@ -3793,6 +4162,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
-    "icon": "N/A"
+    "icon": "N/A",
+    "fullBody": "N/A"
   }
 }

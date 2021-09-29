@@ -22,6 +22,6 @@ module.exports = {
                 chosenicon = _.get(dbToUse, itemToUse + ".icon");
             } while (typeof chosenicon === "undefined" || chosenicon == "N/A");
         }
-        client.commands.get("fetchicon").execute(message, itemToUse, "Fetching Random");
+        client.commands.get("fetchicon").execute(message, itemToUse, "Fetching");
 	},
 };

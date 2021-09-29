@@ -6,6 +6,7 @@ const helpEmbed = new MessageEmbed()
         + " \n\nNot only do I fetch cards, I also fetch grafts, boons, banes, mutators, perks, people and Rook's Lucky Coins!\n\n"
         + "\"**!fetch [item name]**\" -- This will fetch the item's stats, description, flavor text and image if available.\n\n"
         + "\"**!fetchicon [item name]**\" -- This will fetch the item's art alone.\n\n"
+        + "\"**!fetchfullbody [name of person]**\" -- Fetches a fullbody portrait of the requested character (Works for people only).\n\n"
         + "\"**!fetchsearch [-optional option] [search query]**\" -- Searches across all databases and returns similar results."
         + " (Valid Options: `name`, `flavor`, `flavour`, `description`. Without a provided option, Card Fetcher defaults to searching by name)\n\n"
         + "\"**!fetchrandom / !fetchrandomicon**\" -- fetches a random item/a random item art.\n\n"

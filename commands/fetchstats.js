@@ -61,6 +61,12 @@ let statsIconsCoins = Object.keys(coinDatabase).length;
 
 let statsIcons = statsIconsCards + statsIconsGrafts + statsIconsBobas + statsIconsMutatorsPerks + statsIconsPeople + statsIconsCoins;
 
+//fullbodies for people
+let statsFullBodies = _.map(peopleDatabase, "fullBody");
+statsFullBodies = statsFullBodies.filter(function (x) {
+    return x !== "N/A";
+}).length + 7; //manually adding extra outfits
+
 //defined items with names
 let statsCards = _.map(cardDatabase, "name");
 statsCards = statsCards.filter(function (x) {
@@ -178,6 +184,7 @@ let statsDesc = "Total no. of keys in databases: " + statsTotal +
     "\nUnused Mutators and Perks Icons: " + unusedMutatorPerkIcons +
     "\n\nPeople: " + statsPeople.length +
     "\nPeople Icons: " + statsIconsPeople +
+    "\nFull Body Portraits: " + statsFullBodies +
     "\n\nCoins: " + statsCoins +
     "\nCoin Icons: " + statsIconsCoins +
     "\n\nSpecial Cases: " + specialCases;
