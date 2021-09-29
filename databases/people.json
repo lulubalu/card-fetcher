@@ -10,6 +10,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tumus",
     "icon": "https://i.ibb.co/gPC1705/tumus.png",
     "fullBody": "https://i.ibb.co/19ms7JN/Tumus.png"
   },
@@ -24,6 +25,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Efi",
     "icon": "https://i.ibb.co/mt1NrmV/efi.png",
     "fullBody": "https://i.ibb.co/0f5X91M/Efi.png"
   },
@@ -38,6 +40,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Waandra",
     "icon": "https://i.ibb.co/hLcD214/waandra.png",
     "fullBody": "https://i.ibb.co/znP2wh2/Waandra.png"
   },
@@ -52,6 +55,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nekdo",
     "icon": "https://i.ibb.co/YQSx9DH/nekdo.png",
     "fullBody": "https://i.ibb.co/C21Xgwc/Nekdo.png"
   },
@@ -66,6 +70,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pazlock",
     "icon": "https://i.ibb.co/17SGM9X/pazlock.png",
     "fullBody": "https://i.ibb.co/x7MJqQD/Pazlock.png"
   },
@@ -80,6 +85,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Stoque",
     "icon": "https://i.ibb.co/Vq8Vpnx/stoque.png",
     "fullBody": "https://i.ibb.co/XSDSKGx/Stoque.png"
   },
@@ -94,6 +100,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Jani",
     "icon": "https://i.ibb.co/rGCkWLr/jani.png",
     "fullBody": "https://i.ibb.co/wcP5Mtr/Jani.png"
   },
@@ -108,6 +115,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Oso",
     "icon": "https://i.ibb.co/6WwgDdQ/oso.png",
     "fullBody": "https://i.ibb.co/0tfV0cx/Oso.png"
   },
@@ -122,6 +130,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bout",
     "icon": "https://i.ibb.co/HHDRMQJ/bout.png",
     "fullBody": "https://i.ibb.co/fFtFmTQ/Bout.png"
   },
@@ -136,6 +145,7 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gwale",
     "icon": "https://i.ibb.co/ZmcVYYs/gwale.png",
     "fullBody": "https://i.ibb.co/pPft1Wy/Gwale.png"
   },
@@ -150,6 +160,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Blessed Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Prax",
     "icon": "https://i.ibb.co/9ptCjpR/prax.png",
     "fullBody": "https://i.ibb.co/Mngv3v1/Prax.png"
   },
@@ -164,6 +175,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Monid",
     "icon": "https://i.ibb.co/6rJ44kN/monid.png",
     "fullBody": "https://i.ibb.co/19q8V6S/Monid.png"
   },
@@ -178,6 +190,7 @@
     "boon": "Hard Knocks",
     "bane": "Shellshock",
     "deathLoot": "Brut's Bat",
+    "wikilink": "https://griftlands.fandom.com/wiki/Brut",
     "icon": "https://i.ibb.co/Nt0dbmh/brut.png",
     "fullBody": "https://i.ibb.co/37d07nS/Brut.png"
   },
@@ -192,6 +205,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Galth",
     "icon": "https://i.ibb.co/SQw9QyY/galth.png",
     "fullBody": "https://i.ibb.co/9qWjL9j/Galth.png"
   },
@@ -206,6 +220,7 @@
     "boon": "Talisman",
     "bane": "Bogling",
     "deathLoot": "Seedling",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grimdellia",
     "icon": "https://i.ibb.co/Hxfk7Rx/grimdellia.png",
     "fullBody": "https://i.ibb.co/wJR4H5W/Grimdellia.png"
   },
@@ -220,6 +235,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tiq",
     "icon": "https://i.ibb.co/4MvWwhy/tiq.png",
     "fullBody": "https://i.ibb.co/zGkXZSQ/Tiq.png"
   },
@@ -265,6 +281,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kof",
     "icon": "https://i.ibb.co/2sT5VVc/kof.png",
     "fullBody": "https://i.ibb.co/zstPNKB/Kof.png"
   },
@@ -279,6 +296,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nand",
     "icon": "https://i.ibb.co/mJrz9FD/nand.png",
     "fullBody": "https://i.ibb.co/YDp3hp5/Nand.png"
   },
@@ -293,6 +311,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Phryniwin",
     "icon": "https://i.ibb.co/ykcVFyf/phryniwin.png",
     "fullBody": "https://i.ibb.co/4ZM7bHf/Phryniwin.png"
   },
@@ -307,6 +326,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Yibbit",
     "icon": "https://i.ibb.co/qMLFxTM/yibbit.png",
     "fullBody": "https://i.ibb.co/sCcCXc0/Yibbit.png"
   },
@@ -321,6 +341,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lumika",
     "icon": "https://i.ibb.co/qrX1WJB/lumika.png",
     "fullBody": "https://i.ibb.co/YBwn7H1/Lumika.png"
   },
@@ -335,6 +356,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ban",
     "icon": "https://i.ibb.co/k65d6rX/ban.png",
     "fullBody": "https://i.ibb.co/Y2VsPhg/Ban.png"
   },
@@ -349,6 +371,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rorok",
     "icon": "https://i.ibb.co/pjhjvK4/rorok.png",
     "fullBody": "https://i.ibb.co/xmKmycM/Rorok.png"
   },
@@ -363,6 +386,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cobb",
     "icon": "https://i.ibb.co/TR3xmrP/cobb.png",
     "fullBody": "https://i.ibb.co/RQQR16D/Cobb.png"
   },
@@ -377,6 +401,7 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hamund",
     "icon": "https://i.ibb.co/3kZrSnV/hamund.png",
     "fullBody": "https://i.ibb.co/DgJY91p/Hamund.png"
   },
@@ -391,6 +416,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tellomeer",
     "icon": "https://i.ibb.co/v4kJ57M/tellomeer.png",
     "fullBody": "https://i.ibb.co/7C1F77f/Tellomeer.png"
   },
@@ -405,6 +431,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Karet",
     "icon": "https://i.ibb.co/Pxz1p5z/karet.png",
     "fullBody": "https://i.ibb.co/1z2j4j1/Karet.png"
   },
@@ -419,6 +446,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fanda",
     "icon": "https://i.ibb.co/xjTFF2Y/fanda.png",
     "fullBody": "https://i.ibb.co/pQLB1Xm/Fanda.png"
   },
@@ -433,6 +461,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kheven",
     "icon": "https://i.ibb.co/2dDvV83/kheven.png",
     "fullBody": "https://i.ibb.co/yXRHDGB/Kheven.png"
   },
@@ -447,6 +476,7 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
+    "wikilink": "https://griftlands.fandom.com/wiki/Treena",
     "icon": "https://i.ibb.co/MkkCDn3/treena.png",
     "fullBody": "https://i.ibb.co/rMgGWKz/Treena.png"
   },
@@ -461,6 +491,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Yunni",
     "icon": "https://i.ibb.co/HqJcSnD/yunni.png",
     "fullBody": "https://i.ibb.co/Jrn4T7z/Yunni.png"
   },
@@ -475,6 +506,7 @@
     "boon": "Steady Hands",
     "bane": "Fumbling Fingers",
     "deathLoot": "Hanbi's Power Supply",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hanbi",
     "icon": "https://i.ibb.co/5YYgLcD/hanbi.png",
     "fullBody": "https://i.ibb.co/fnxQYs2/Hanbi.png"
   },
@@ -489,6 +521,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ellomen",
     "icon": "https://i.ibb.co/b6GPcGX/ellomen.png",
     "fullBody": "https://i.ibb.co/R69sCpm/Ellomen.png"
   },
@@ -503,6 +536,7 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kilka",
     "icon": "https://i.ibb.co/vQHB0ND/kilka.png",
     "fullBody": "https://i.ibb.co/52X3W0B/Kilka.png"
   },
@@ -517,6 +551,7 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
+    "wikilink": "https://griftlands.fandom.com/wiki/Quale",
     "icon": "https://i.ibb.co/0rBmbwg/quale.png",
     "fullBody": "https://i.ibb.co/ctsFG0Y/Quale.png"
   },
@@ -531,6 +566,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Danel",
     "icon": "https://i.ibb.co/PZXNH1b/danel.png",
     "fullBody": "https://i.ibb.co/pxDVY3p/Danel.png"
   },
@@ -545,6 +581,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Endo",
     "icon": "https://i.ibb.co/JqwrF4t/endo.png",
     "fullBody": "https://i.ibb.co/QdpxBQc/Endo.png"
   },
@@ -559,6 +596,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Enit",
     "icon": "https://i.ibb.co/J3yQ7F6/enit.png",
     "fullBody": "https://i.ibb.co/d6c0VjZ/Enit.png"
   },
@@ -573,6 +611,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Alongwy",
     "icon": "https://i.ibb.co/c14mskb/alongwy.png",
     "fullBody": "https://i.ibb.co/JK9YmbF/Alongwy.png"
   },
@@ -587,6 +626,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Prekt",
     "icon": "https://i.ibb.co/Jd3PTR1/prekt.png",
     "fullBody": "https://i.ibb.co/zSjN50B/Prekt.png"
   },
@@ -601,6 +641,7 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kel",
     "icon": "https://i.ibb.co/0Y0m3mc/kel.png",
     "fullBody": "https://i.ibb.co/LRNxH6Q/Kel.png"
   },
@@ -615,6 +656,7 @@
     "boon": "Rentorian Battle Armor",
     "bane": "Informed Enemies",
     "deathLoot": "War Story",
+    "wikilink": "https://griftlands.fandom.com/wiki/Threekwa",
     "icon": "https://i.ibb.co/BNSbHVZ/threekwa.png",
     "fullBody": "https://i.ibb.co/X5257bM/Threekwa.png"
   },
@@ -629,6 +671,7 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pau",
     "icon": "https://i.ibb.co/WNhNvq6/pau.png",
     "fullBody": "https://i.ibb.co/GJ19cRp/Pau.png"
   },
@@ -643,6 +686,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rasma",
     "icon": "https://i.ibb.co/f4NDG32/rasma.png",
     "fullBody": "https://i.ibb.co/3s1QRv2/Rasma.png"
   },
@@ -657,6 +701,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Taug",
     "icon": "https://i.ibb.co/vwQGM45/taug.png",
     "fullBody": "https://i.ibb.co/6WWk5KJ/Taug.png"
   },
@@ -671,6 +716,7 @@
     "boon": "Sharpened Blades",
     "bane": "Hemophiliac",
     "deathLoot": "Zyn's Razor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Zyn",
     "icon": "https://i.ibb.co/FgpWtjw/zyn.png",
     "fullBody": "https://i.ibb.co/Hpjh6Lz/Zyn.png"
   },
@@ -685,6 +731,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cash",
     "icon": "https://i.ibb.co/bP4S7tV/cash.png",
     "fullBody": "https://i.ibb.co/NYCB8XX/Cash.png"
   },
@@ -699,6 +746,7 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kyrgian",
     "icon": "https://i.ibb.co/4KrSrXQ/kyrgian.png",
     "fullBody": "https://i.ibb.co/S0pKL82/Kyrgian.png"
   },
@@ -713,6 +761,7 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ximmon",
     "icon": "https://i.ibb.co/qJ1HYhv/ximmon.png",
     "fullBody": "https://i.ibb.co/SnQYg7k/Ximmon.png"
   },
@@ -727,6 +776,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grex",
     "icon": "https://i.ibb.co/RYczsf1/grex.png",
     "fullBody": "https://i.ibb.co/cYyGjG2/Grex.png"
   },
@@ -741,6 +791,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Coruga",
     "icon": "https://i.ibb.co/wSvLqgW/coruga.png",
     "fullBody": "https://i.ibb.co/bRqjCm0/Coruga.png"
   },
@@ -755,6 +806,7 @@
     "boon": "Conditioning",
     "bane": "Hounded",
     "deathLoot": "Weezil's Scope",
+    "wikilink": "https://griftlands.fandom.com/wiki/Weezil",
     "icon": "https://i.ibb.co/hgfvLkQ/weezil.png",
     "fullBody": "https://i.ibb.co/x5Hq4fn/Weezil.png"
   },
@@ -769,6 +821,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Blessed Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Yabboi",
     "icon": "https://i.ibb.co/59c2CZ4/yabboi.png",
     "fullBody": "https://i.ibb.co/K5QFtwJ/Yabboi.png"
   },
@@ -783,6 +836,7 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
+    "wikilink": "https://griftlands.fandom.com/wiki/Idri",
     "icon": "https://i.ibb.co/fHKQKyF/idri.png",
     "fullBody": "https://i.ibb.co/YZh4TsZ/Idri.png"
   },
@@ -797,6 +851,7 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Iggory",
     "icon": "https://i.ibb.co/XLvsYW2/iggory.png",
     "fullBody": "https://i.ibb.co/j4QPysX/Iggory.png"
   },
@@ -811,6 +866,7 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
+    "wikilink": "https://griftlands.fandom.com/wiki/Krikith",
     "icon": "https://i.ibb.co/rFnrmHt/krikith.png",
     "fullBody": "https://i.ibb.co/nkk0VmZ/Krikith.png"
   },
@@ -825,6 +881,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tlok",
     "icon": "https://i.ibb.co/V9YYTY3/tlok.png",
     "fullBody": "https://i.ibb.co/bmt29HF/Tlok.png"
   },
@@ -839,6 +896,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Orug",
     "icon": "https://i.ibb.co/nMK8LN8/orug.png",
     "fullBody": "https://i.ibb.co/Wzpyvxv/Orug.png"
   },
@@ -853,6 +911,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Juke",
     "icon": "https://i.ibb.co/gwWw5tw/juke.png",
     "fullBody": "https://i.ibb.co/x66NQyC/Juke.png"
   },
@@ -867,6 +926,7 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Koqy",
     "icon": "https://i.ibb.co/0VZM8WL/koqy.png",
     "fullBody": "https://i.ibb.co/f9Kf40J/Koqy.png"
   },
@@ -881,6 +941,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pengemunt",
     "icon": "https://i.ibb.co/B3kJfQs/pengemunt.png",
     "fullBody": "https://i.ibb.co/cxcW7s4/Pengemunt.png"
   },
@@ -895,6 +956,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Phroluk",
     "icon": "https://i.ibb.co/7N7Kx7J/phroluk.png",
     "fullBody": "https://i.ibb.co/T2bZtHV/Phroluk.png"
   },
@@ -909,6 +971,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Brash",
     "icon": "https://i.ibb.co/8ccp0Nq/brash.png",
     "fullBody": "https://i.ibb.co/Cvy6sHs/Brash.png"
   },
@@ -923,6 +986,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Topo",
     "icon": "https://i.ibb.co/jLSLMJN/topo.png",
     "fullBody": "https://i.ibb.co/ZY2G1qY/Topo.png"
   },
@@ -937,6 +1001,7 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
+    "wikilink": "https://griftlands.fandom.com/wiki/Genner",
     "icon": "https://i.ibb.co/N27FHzN/genner.png",
     "fullBody": "https://i.ibb.co/vx7CyTp/Genner.png"
   },
@@ -951,6 +1016,7 @@
     "boon": "Con Man",
     "bane": "Bad Mouthed",
     "deathLoot": "Denikus' Blaster",
+    "wikilink": "https://griftlands.fandom.com/wiki/Denikus",
     "icon": "https://i.ibb.co/BtbJ2Fg/denikus.png",
     "fullBody": "https://i.ibb.co/55MnmPz/Denikus.png"
   },
@@ -965,6 +1031,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Predictive Blast",
+    "wikilink": "https://griftlands.fandom.com/wiki/Mark_Nine_Nine",
     "icon": "https://i.ibb.co/Y8w4gJy/mark-nine-nine.png",
     "fullBody": "https://i.ibb.co/446P679/Mark-Nine-Nine.png"
   },
@@ -979,6 +1046,7 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
+    "wikilink": "https://griftlands.fandom.com/wiki/Speerun",
     "icon": "https://i.ibb.co/qxScHsv/speerun.png",
     "fullBody": "https://i.ibb.co/27MLVBB/Speerun.png"
   },
@@ -993,6 +1061,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Zambul",
     "icon": "https://i.ibb.co/0Jy5XBV/zambul.png",
     "fullBody": "https://i.ibb.co/XFFdJbG/Zambul.png"
   },
@@ -1007,6 +1076,7 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
+    "wikilink": "https://griftlands.fandom.com/wiki/Jurna",
     "icon": "https://i.ibb.co/3dGcKGY/jurna.png",
     "fullBody": "https://i.ibb.co/Vx44XQG/Jurna.png"
   },
@@ -1021,6 +1091,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Veerin",
     "icon": "https://i.ibb.co/1RJ144B/veerin.png",
     "fullBody": "https://i.ibb.co/1JPZVNZ/Veerin.png"
   },
@@ -1035,6 +1106,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ashgora",
     "icon": "https://i.ibb.co/61wLgGS/ashgora.png",
     "fullBody": "https://i.ibb.co/v1hfhRd/Ashgora.png"
   },
@@ -1049,6 +1121,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ruck",
     "icon": "https://i.ibb.co/6gG4tZn/ruck.png",
     "fullBody": "https://i.ibb.co/Fz8zkbv/Ruck.png"
   },
@@ -1063,6 +1136,7 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ash",
     "icon": "https://i.ibb.co/cc4nmzP/ash.png",
     "fullBody": "https://i.ibb.co/TkGz9w9/Ash.png"
   },
@@ -1077,6 +1151,7 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kuga",
     "icon": "https://i.ibb.co/LP8txgt/kuga.png",
     "fullBody": "https://i.ibb.co/RCvMbV5/Kuga.png"
   },
@@ -1091,6 +1166,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Heleet",
     "icon": "https://i.ibb.co/syyQqbZ/heleet.png",
     "fullBody": "https://i.ibb.co/bWRRBRK/Heleet.png"
   },
@@ -1105,6 +1181,7 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
+    "wikilink": "https://griftlands.fandom.com/wiki/Del",
     "icon": "https://i.ibb.co/sCQ9vdb/del.png",
     "fullBody": "https://i.ibb.co/rfmT24g/Del.png"
   },
@@ -1119,6 +1196,7 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
+    "wikilink": "https://griftlands.fandom.com/wiki/Shlock",
     "icon": "https://i.ibb.co/NZSGrRM/shlock.png",
     "fullBody": "https://i.ibb.co/VH0TqYL/Shlock.png"
   },
@@ -1133,6 +1211,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fizluck",
     "icon": "https://i.ibb.co/ThdpgvG/fizluck.png",
     "fullBody": "https://i.ibb.co/gZkMn4d/Fizluck.png"
   },
@@ -1147,6 +1226,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Okonomi",
     "icon": "https://i.ibb.co/2qMTjh2/okonomi.png",
     "fullBody": "https://i.ibb.co/tzpnDXb/Okonomi.png"
   },
@@ -1161,6 +1241,7 @@
     "boon": "Grace of Hesh",
     "bane": "Heshian Obscenity",
     "deathLoot": "Lumin Darts",
+    "wikilink": "https://griftlands.fandom.com/wiki/Brale",
     "icon": "https://i.ibb.co/qrgRmjB/brale.png",
     "fullBody": "https://i.ibb.co/CHMWRQJ/Brale.png"
   },
@@ -1175,6 +1256,7 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Blane",
     "icon": "https://i.ibb.co/qkSrNLP/blane.png",
     "fullBody": "https://i.ibb.co/2Pc3k8p/Blane.png"
   },
@@ -1189,6 +1271,7 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
+    "wikilink": "https://griftlands.fandom.com/wiki/Jand",
     "icon": "https://i.ibb.co/j6hS0MK/jand.png",
     "fullBody": "https://i.ibb.co/JkdBBpK/Jand.png"
   },
@@ -1203,6 +1286,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cambury",
     "icon": "https://i.ibb.co/QcRKXDK/cambury.png",
     "fullBody": "https://i.ibb.co/L8XZTZn/Cambury.png"
   },
@@ -1217,6 +1301,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cwoki",
     "icon": "https://i.ibb.co/kXCt75n/cwoki.png",
     "fullBody": "https://i.ibb.co/rxbp85w/Cwoki.png"
   },
@@ -1231,6 +1316,7 @@
     "boon": "War Machine",
     "bane": "Depleted",
     "deathLoot": "RPG",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nophri",
     "icon": "https://i.ibb.co/8snj5CZ/nophri.png",
     "fullBody": "https://i.ibb.co/4jHgvM0/Nophri.png"
   },
@@ -1245,6 +1331,7 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Irkrow",
     "icon": "https://i.ibb.co/MBz84Yg/irkrow.png",
     "fullBody": "https://i.ibb.co/3h5KX3H/Irkrow.png"
   },
@@ -1259,6 +1346,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Plundak",
     "icon": "https://i.ibb.co/wzj0f28/plundak.png",
     "fullBody": "https://i.ibb.co/YdnTh08/Plundak.png"
   },
@@ -1273,6 +1361,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ton",
     "icon": "https://i.ibb.co/BVnkTxd/ton.png",
     "fullBody": "https://i.ibb.co/GktRF6z/Ton.png"
   },
@@ -1287,6 +1376,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Queek",
     "icon": "https://i.ibb.co/W5QFYG5/queek.png",
     "fullBody": "https://i.ibb.co/0tm4DPg/Queek.png"
   },
@@ -1301,6 +1391,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ebbe",
     "icon": "https://i.ibb.co/gWxXKSW/ebbe.png",
     "fullBody": "https://i.ibb.co/ypgdtdf/Ebbe.png"
   },
@@ -1315,6 +1406,7 @@
     "boon": "Heshian Armature",
     "bane": "Gremlins",
     "deathLoot": "Lumin Bio-Accelerator",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gorgula",
     "icon": "https://i.ibb.co/pQp51fJ/gorgula.png",
     "fullBody": "https://i.ibb.co/K0v561k/Gorgula.png"
   },
@@ -1329,6 +1421,7 @@
     "boon": "Gear Head",
     "bane": "Wrenched",
     "deathLoot": "Force Spanner",
+    "wikilink": "https://griftlands.fandom.com/wiki/Flekfis",
     "icon": "https://i.ibb.co/vhNW5ND/flekfis.png",
     "fullBody": "https://i.ibb.co/N2pXKx3/Flekfis.png"
   },
@@ -1343,6 +1436,7 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
+    "wikilink": "https://griftlands.fandom.com/wiki/Jeetee",
     "icon": "https://i.ibb.co/v4TWfBX/jeetee.png",
     "fullBody": "https://i.ibb.co/bzSjYGM/Jeetee.png"
   },
@@ -1357,6 +1451,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Henders",
     "icon": "https://i.ibb.co/qJ4S2D9/henders.png",
     "fullBody": "https://i.ibb.co/WFdqGhV/Henders.png"
   },
@@ -1371,6 +1466,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lasquo",
     "icon": "https://i.ibb.co/vP9bnSP/lasquo.png",
     "fullBody": "https://i.ibb.co/MDpzQ8H/Lasquo.png"
   },
@@ -1385,6 +1481,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Alo",
     "icon": "https://i.ibb.co/3BqFz6D/alo.png",
     "fullBody": "https://i.ibb.co/nw5QXbn/Alo.png"
   },
@@ -1399,6 +1496,7 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pearlman",
     "icon": "https://i.ibb.co/6y0xYXG/pearlman.png",
     "fullBody": "https://i.ibb.co/nmVpb9y/Pearlman.png"
   },
@@ -1413,6 +1511,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Important Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Prent",
     "icon": "https://i.ibb.co/MBcNgmB/prent.png",
     "fullBody": "https://i.ibb.co/Z8Wf4DZ/Prent.png"
   },
@@ -1427,6 +1526,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rake",
     "icon": "https://i.ibb.co/bzg2FbH/rake.png",
     "fullBody": "https://i.ibb.co/7jH7KZZ/Rake.png"
   },
@@ -1441,6 +1541,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Milleeree",
     "icon": "https://i.ibb.co/sWpRFCh/milleeree.png",
     "fullBody": "https://i.ibb.co/ysBkk1c/Milleeree.png"
   },
@@ -1455,6 +1556,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Mainewi",
     "icon": "https://i.ibb.co/kKHfTNJ/mainewi.png",
     "fullBody": "https://i.ibb.co/fQp30ps/Mainewi.png"
   },
@@ -1469,6 +1571,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gnak",
     "icon": "https://i.ibb.co/pKzjB0n/gnak.png",
     "fullBody": "https://i.ibb.co/tD8FyMQ/Gnak.png"
   },
@@ -1483,6 +1586,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gree",
     "icon": "https://i.ibb.co/G5ZFKCb/gree.png",
     "fullBody": "https://i.ibb.co/8B2bp4g/Gree.png"
   },
@@ -1497,6 +1601,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hebbel",
     "icon": "https://i.ibb.co/TBJKDYx/hebbel.png",
     "fullBody": "https://i.ibb.co/FWMxFLr/Hebbel.png"
   },
@@ -1511,6 +1616,7 @@
     "boon": "N/A",
     "bane": "Bad Credit",
     "deathLoot": "Diplomat's Badge",
+    "wikilink": "https://griftlands.fandom.com/wiki/Palamborat",
     "icon": "https://i.ibb.co/SxYhjwd/palamborat.png",
     "fullBody": "https://i.ibb.co/z6vZTsC/Palamborat.png"
   },
@@ -1525,6 +1631,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Foolo",
     "icon": "https://i.ibb.co/Dt0dLnH/foolo.png",
     "fullBody": "https://i.ibb.co/FD9btzv/Foolo.png"
   },
@@ -1539,6 +1646,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Polished Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Melba",
     "icon": "https://i.ibb.co/Xtgddp2/melba.png",
     "fullBody": "https://i.ibb.co/KLb0Tmr/Melba.png"
   },
@@ -1553,6 +1661,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Plocka",
     "icon": "https://i.ibb.co/9H3d0Ww/plocka.png",
     "fullBody": "https://i.ibb.co/PMpVqqJ/Plocka.png"
   },
@@ -1567,6 +1676,7 @@
     "boon": "System Shock",
     "bane": "Short Circuit",
     "deathLoot": "Sparky's Oppressor Cell",
+    "wikilink": "https://griftlands.fandom.com/wiki/Sparky",
     "icon": "https://i.ibb.co/hWYJJJt/sparky.png",
     "fullBody": "https://i.ibb.co/dD8Pm1V/Sparky.png"
   },
@@ -1581,6 +1691,7 @@
     "boon": "Top Shelf",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Sweet_Moreef",
     "icon": "https://i.ibb.co/BB5MkNF/sweet-moreef.png",
     "fullBody": "https://i.ibb.co/7NnBZpm/Sweet-Moreef.png"
   },
@@ -1595,6 +1706,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pestafur",
     "icon": "https://i.ibb.co/wLsjHpL/pestafur.png",
     "fullBody": "https://i.ibb.co/d2fqNVF/Pestafur.png"
   },
@@ -1609,6 +1721,7 @@
     "boon": "Drone Mastery",
     "bane": "Drone Supplier",
     "deathLoot": "Prototype Drone",
+    "wikilink": "https://griftlands.fandom.com/wiki/Jeol",
     "icon": "https://i.ibb.co/cynWzbc/jeol.png",
     "fullBody": "https://i.ibb.co/JB8h0R9/Jeol.png"
   },
@@ -1623,6 +1736,7 @@
     "boon": "Weapons Expert",
     "bane": "Treachery",
     "deathLoot": "Lumin Jolt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Frizz",
     "icon": "https://i.ibb.co/y4PcFbH/frizz.png",
     "fullBody": "https://i.ibb.co/3C4mDc7/Frizz.png"
   },
@@ -1637,6 +1751,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Alta",
     "icon": "https://i.ibb.co/mrptDMf/alta.png",
     "fullBody": "https://i.ibb.co/LgH7x8j/Alta.png"
   },
@@ -1651,6 +1766,7 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
+    "wikilink": "https://griftlands.fandom.com/wiki/Eedlit",
     "icon": "https://i.ibb.co/f4bgqZv/eedlit.png",
     "fullBody": "https://i.ibb.co/GcwDqGy/Eedlit.png"
   },
@@ -1665,6 +1781,7 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grim",
     "icon": "https://i.ibb.co/0C3v1zX/grim.png",
     "fullBody": "https://i.ibb.co/Gd90Xsx/Grim.png"
   },
@@ -1679,6 +1796,7 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Dauler",
     "icon": "https://i.ibb.co/SVq0y3y/dauler.png",
     "fullBody": "https://i.ibb.co/MVQZwck/Dauler.png"
   },
@@ -1693,6 +1811,7 @@
     "boon": "Capitalization",
     "bane": "Rattled",
     "deathLoot": "High Yield Lumin Bomb",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fralx",
     "icon": "https://i.ibb.co/kDVX8Kn/fralx.png",
     "fullBody": "https://i.ibb.co/0CvY4ck/Fralx.png"
   },
@@ -1707,6 +1826,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Takt",
     "icon": "https://i.ibb.co/hVTGRnT/takt.png",
     "fullBody": "https://i.ibb.co/TcL5WV7/Takt.png"
   },
@@ -1721,6 +1841,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Krog",
     "icon": "https://i.ibb.co/5TVSs1f/krog.png",
     "fullBody": "https://i.ibb.co/cbnbR8W/Krog.png"
   },
@@ -1735,6 +1856,7 @@
     "boon": "Anointed",
     "bane": "N/A",
     "deathLoot": "Lumin Canister",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pallitriax",
     "icon": "https://i.ibb.co/ZX6j0wM/pallitriax.png",
     "fullBody": "https://i.ibb.co/3YVvQ89/Pallitriax.png"
   },
@@ -1749,6 +1871,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Toeren",
     "icon": "https://i.ibb.co/R0DT4j7/toeren.png",
     "fullBody": "https://i.ibb.co/CnFNhJ5/Toeren.png"
   },
@@ -1763,6 +1886,7 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gode",
     "icon": "https://i.ibb.co/SwQ2Tdz/gode.png",
     "fullBody": "https://i.ibb.co/ss6McRQ/Gode.png"
   },
@@ -1777,6 +1901,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pluk",
     "icon": "https://i.ibb.co/rprmTTb/pluk.png",
     "fullBody": "https://i.ibb.co/9cp0HhV/Pluk.png"
   },
@@ -1791,6 +1916,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Clove",
     "icon": "https://i.ibb.co/wcqCnxF/clove.png",
     "fullBody": "https://i.ibb.co/vDXvNFn/Clove.png"
   },
@@ -1805,6 +1931,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ceni",
     "icon": "https://i.ibb.co/QMtmhRb/ceni.png",
     "fullBody": "https://i.ibb.co/tLjpWC8/Ceni.png"
   },
@@ -1819,6 +1946,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Xiit",
     "icon": "https://i.ibb.co/WPSPK94/xiit.png",
     "fullBody": "https://i.ibb.co/z7vgj3R/Xiit.png"
   },
@@ -1833,6 +1961,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Aweir",
     "icon": "https://i.ibb.co/kSW50Tv/aweir.png",
     "fullBody": "https://i.ibb.co/BBHsmb0/Aweir.png"
   },
@@ -1847,6 +1976,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Feporo",
     "icon": "https://i.ibb.co/gMnwYHv/feporo.png",
     "fullBody": "https://i.ibb.co/W2hrWyj/Feporo.png"
   },
@@ -1861,6 +1991,7 @@
     "boon": "N/A",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Vixmalli",
     "icon": "https://i.ibb.co/ctxMMxc/vixmalli.png",
     "fullBody": "https://i.ibb.co/ct78SNw/Vixmalli.png"
   },
@@ -1875,6 +2006,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Brill",
     "icon": "https://i.ibb.co/sKHtY0Z/brill.png",
     "fullBody": "https://i.ibb.co/M5PHhXp/Brill.png"
   },
@@ -1889,6 +2021,7 @@
     "boon": "Celebrity",
     "bane": "Ostracized",
     "deathLoot": "Brain Pearl",
+    "wikilink": "https://griftlands.fandom.com/wiki/Andwanette",
     "icon": "https://i.ibb.co/fk3bjwt/andwanette.png",
     "fullBody": "https://i.ibb.co/k1zGrbB/Andwanette.png"
   },
@@ -1903,6 +2036,7 @@
     "boon": "Authority",
     "bane": "Blacklisted",
     "deathLoot": "Adrenaline Shot",
+    "wikilink": "https://griftlands.fandom.com/wiki/Sentru",
     "icon": "https://i.ibb.co/tbnsJw2/sentru.png",
     "fullBody": "https://i.ibb.co/25VfR2q/Sentru.png"
   },
@@ -1917,6 +2051,7 @@
     "boon": "Grumpy Scowl",
     "bane": "Contagious",
     "deathLoot": "Rook's Spare Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rook",
     "icon": "https://i.ibb.co/tMNKDyy/Rook.png",
     "fullBody": {
       "aerostat_uniform": {
@@ -1948,6 +2083,7 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
+    "wikilink": "https://griftlands.fandom.com/wiki/Mallowi",
     "icon": "https://i.ibb.co/4Zq0wQx/mallowi.png",
     "fullBody": "https://i.ibb.co/HXdxSTt/Mallowi.png"
   },
@@ -1962,6 +2098,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Zex",
     "icon": "https://i.ibb.co/nnvJGZD/zex.png",
     "fullBody": "https://i.ibb.co/BTfRygH/Zex.png"
   },
@@ -1976,6 +2113,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Teema",
     "icon": "https://i.ibb.co/kK2MQHB/teema.png",
     "fullBody": "https://i.ibb.co/qyXMzJr/Teema.png"
   },
@@ -1990,6 +2128,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Winnie",
     "icon": "https://i.ibb.co/TMLDj4Z/winnie.png",
     "fullBody": "https://i.ibb.co/h729L8Y/Winnie.png"
   },
@@ -2004,6 +2143,7 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gheckt",
     "icon": "https://i.ibb.co/hDTrzks/gheckt.png",
     "fullBody": "https://i.ibb.co/sKC1S3G/Gheckt.png"
   },
@@ -2018,6 +2158,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Riito",
     "icon": "https://i.ibb.co/Wv1syD7/riito.png",
     "fullBody": "https://i.ibb.co/HDNkmFH/Riito.png"
   },
@@ -2032,6 +2173,7 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
+    "wikilink": "https://griftlands.fandom.com/wiki/Umriit",
     "icon": "https://i.ibb.co/v4gGbM3/umriit.png",
     "fullBody": "https://i.ibb.co/Mfb47TT/Umriit.png"
   },
@@ -2046,6 +2188,7 @@
     "boon": "Convenience",
     "bane": "Inconvenience",
     "deathLoot": "Stolen Jewelry",
+    "wikilink": "https://griftlands.fandom.com/wiki/Borba",
     "icon": "https://i.ibb.co/b6bXjPZ/borba.png",
     "fullBody": "https://i.ibb.co/s5Sd5F6/Borba.png"
   },
@@ -2060,6 +2203,7 @@
     "boon": "In On It",
     "bane": "Undermined",
     "deathLoot": "Arachni-blade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Eden",
     "icon": "https://i.ibb.co/2k8f5jK/eden.png",
     "fullBody": "https://i.ibb.co/4W289Jh/Eden.png"
   },
@@ -2074,6 +2218,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ronno",
     "icon": "https://i.ibb.co/tQ6fd3p/ronno.png",
     "fullBody": "https://i.ibb.co/7QDC6df/Ronno.png"
   },
@@ -2088,6 +2233,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lux",
     "icon": "https://i.ibb.co/YtFzPzF/lux.png",
     "fullBody": "https://i.ibb.co/rdPpHRH/Lux.png"
   },
@@ -2102,6 +2248,7 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ionis",
     "icon": "https://i.ibb.co/ZWCkmhy/ionis.png",
     "fullBody": "https://i.ibb.co/6mrd45B/Ionis.png"
   },
@@ -2116,6 +2263,7 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grumph",
     "icon": "https://i.ibb.co/LgJ6ty2/grumph.png",
     "fullBody": "https://i.ibb.co/KW4GCqS/Grumph.png"
   },
@@ -2130,6 +2278,7 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Murk",
     "icon": "https://i.ibb.co/dWCw6Fw/murk.png",
     "fullBody": "https://i.ibb.co/2tX301X/Murk.png"
   },
@@ -2144,6 +2293,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Important Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bebus",
     "icon": "https://i.ibb.co/P5nrhWB/bebus.png",
     "fullBody": "https://i.ibb.co/bPsdRDK/Bebus.png"
   },
@@ -2158,6 +2308,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fyrdinan",
     "icon": "https://i.ibb.co/p3bFfdv/fyrdinan.png",
     "fullBody": "https://i.ibb.co/ct1HTgT/Fyrdinan.png"
   },
@@ -2172,6 +2323,7 @@
     "boon": "Fan Mail",
     "bane": "Celebrity Gossip",
     "deathLoot": "Hat Tip",
+    "wikilink": "https://griftlands.fandom.com/wiki/Theroux",
     "icon": "https://i.ibb.co/pPRr9SH/theroux.png",
     "fullBody": "https://i.ibb.co/JHWP7hJ/Theroux.png"
   },
@@ -2186,6 +2338,7 @@
     "boon": "Informant",
     "bane": "Watched",
     "deathLoot": "Classified File",
+    "wikilink": "https://griftlands.fandom.com/wiki/Watsky",
     "icon": "https://i.ibb.co/bWFzpmW/watsky.png",
     "fullBody": "https://i.ibb.co/Wp4BYF6/Watsky.png"
   },
@@ -2200,6 +2353,7 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tarq",
     "icon": "https://i.ibb.co/85180Zg/tarq.png",
     "fullBody": "https://i.ibb.co/MfwZWsq/Tarq.png"
   },
@@ -2214,6 +2368,7 @@
     "boon": "Admiralty Medals",
     "bane": "Wrong Papers",
     "deathLoot": "Charged Disc",
+    "wikilink": "https://griftlands.fandom.com/wiki/Oolo",
     "icon": "https://i.ibb.co/BszVy7F/oolo.png",
     "fullBody": "https://i.ibb.co/McwrFxL/Oolo.png"
   },
@@ -2228,6 +2383,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hrikit",
     "icon": "https://i.ibb.co/n7PbjW3/hrikit.png",
     "fullBody": "https://i.ibb.co/ss4H42S/Hrikit.png"
   },
@@ -2242,6 +2398,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Dillawno",
     "icon": "https://i.ibb.co/vDNCpfy/dillawno.png",
     "fullBody": "https://i.ibb.co/0K5FK3v/Dillawno.png"
   },
@@ -2256,6 +2413,7 @@
     "boon": "Boosted Cybernetics",
     "bane": "Misinformation",
     "deathLoot": "Bolstered Plating",
+    "wikilink": "https://griftlands.fandom.com/wiki/Buleet",
     "icon": "https://i.ibb.co/2qGgPtZ/buleet.png",
     "fullBody": "https://i.ibb.co/pK9W1yP/Buleet.png"
   },
@@ -2270,6 +2428,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Zita",
     "icon": "https://i.ibb.co/nkpwXCq/zita.png",
     "fullBody": "https://i.ibb.co/R9CmZCg/Zita.png"
   },
@@ -2284,6 +2443,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Allyn",
     "icon": "https://i.ibb.co/0X3MWcd/allyn.png",
     "fullBody": "https://i.ibb.co/YygJHFL/Allyn.png"
   },
@@ -2298,6 +2458,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Vasti",
     "icon": "https://i.ibb.co/wSZN3Yy/vasti.png",
     "fullBody": "https://i.ibb.co/jyfszDD/Vasti.png"
   },
@@ -2312,6 +2473,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Dony",
     "icon": "https://i.ibb.co/1f6zdqD/dony.png",
     "fullBody": "https://i.ibb.co/mBNp5n1/Dony.png"
   },
@@ -2326,6 +2488,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Advanced Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rugis",
     "icon": "https://i.ibb.co/Jys8Rpy/rugis.png",
     "fullBody": "https://i.ibb.co/BCPwPrS/Rugis.png"
   },
@@ -2340,6 +2503,7 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
+    "wikilink": "https://griftlands.fandom.com/wiki/Erga",
     "icon": "https://i.ibb.co/fFG9TcW/erga.png",
     "fullBody": "https://i.ibb.co/KKMpscv/Erga.png"
   },
@@ -2354,6 +2518,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Stable Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Selaynia",
     "icon": "https://i.ibb.co/bXFSjpM/selaynia.png",
     "fullBody": "https://i.ibb.co/fXWFDK6/Selaynia.png"
   },
@@ -2368,6 +2533,7 @@
     "boon": "Chieftain",
     "bane": "Kill List",
     "deathLoot": "Nadan's Blade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nadan",
     "icon": "https://i.ibb.co/1LDzbQ8/nadan.png",
     "fullBody": "https://i.ibb.co/1dt2LCS/Nadan.png"
   },
@@ -2382,6 +2548,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gao",
     "icon": "https://i.ibb.co/3dwvdcg/gao.png",
     "fullBody": "https://i.ibb.co/vYbXZR1/Gao.png"
   },
@@ -2396,6 +2563,7 @@
     "boon": "Throng",
     "bane": "Affiliation",
     "deathLoot": "Luminitiate Coin",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kallo",
     "icon": "https://i.ibb.co/N3h3VNB/kallo.png",
     "fullBody": "https://i.ibb.co/tsMrcj1/Kallo.png"
   },
@@ -2410,6 +2578,7 @@
     "boon": "Covert Supplier",
     "bane": "Disorder",
     "deathLoot": "Seemli's Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Seemli",
     "icon": "https://i.ibb.co/pfWL6vy/seemli.png",
     "fullBody": "https://i.ibb.co/hcHkG6v/Seemli.png"
   },
@@ -2424,6 +2593,7 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hiqu",
     "icon": "https://i.ibb.co/jZhkDP1/hiqu.png",
     "fullBody": "https://i.ibb.co/wc88RFJ/Hiqu.png"
   },
@@ -2438,6 +2608,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Viss",
     "icon": "https://i.ibb.co/D1X06S2/viss.png",
     "fullBody": "https://i.ibb.co/BPcx4X9/Viss.png"
   },
@@ -2452,6 +2623,7 @@
     "boon": "Commander",
     "bane": "Lowered Rank",
     "deathLoot": "Admiralty Requisition",
+    "wikilink": "https://griftlands.fandom.com/wiki/Dano",
     "icon": "https://i.ibb.co/2McMpTL/dano.png",
     "fullBody": "https://i.ibb.co/vvZWJCK/Dano.png"
   },
@@ -2466,6 +2638,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rudana",
     "icon": "https://i.ibb.co/80xMvYB/rudana.png",
     "fullBody": "https://i.ibb.co/P1wrRWD/Rudana.png"
   },
@@ -2480,6 +2653,7 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
+    "wikilink": "https://griftlands.fandom.com/wiki/Justice",
     "icon": "https://i.ibb.co/1GYqfY4/justice.png",
     "fullBody": "https://i.ibb.co/gVbTxBY/Justice.png"
   },
@@ -2494,6 +2668,7 @@
     "boon": "Doze Bug",
     "bane": "Spiked Drink",
     "deathLoot": "Vapor Vial",
+    "wikilink": "https://griftlands.fandom.com/wiki/Leesha",
     "icon": "https://i.ibb.co/JqfBzG2/leesha.png",
     "fullBody": "https://i.ibb.co/2jrLtqD/Leesha.png"
   },
@@ -2508,6 +2683,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Voh",
     "icon": "https://i.ibb.co/QcGBZH0/voh.png",
     "fullBody": "https://i.ibb.co/bFXTKK6/Voh.png"
   },
@@ -2522,6 +2698,7 @@
     "boon": "Puppeteer",
     "bane": "Sway",
     "deathLoot": "Tei Drone Strike",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tei_Utaro",
     "icon": "https://i.ibb.co/6J5CCd2/tei-utaro.png",
     "fullBody": "https://i.ibb.co/mTwQvZJ/Tei-Utaro.png"
   },
@@ -2536,6 +2713,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Veep",
     "icon": "https://i.ibb.co/jv4yc8M/veep.png",
     "fullBody": "https://i.ibb.co/cKWb7q1/Veep.png"
   },
@@ -2550,6 +2728,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Sharpened Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tee",
     "icon": "https://i.ibb.co/1zccTTd/tee.png",
     "fullBody": "https://i.ibb.co/Cz9dBDC/Tee.png"
   },
@@ -2564,6 +2743,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Screamer",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bossbit",
     "icon": "https://i.ibb.co/pKNcdwk/bossbit.png",
     "fullBody": "https://i.ibb.co/hdQGgrc/Bossbit.png"
   },
@@ -2578,6 +2758,7 @@
     "boon": "Envoy Pendant",
     "bane": "Scorned",
     "deathLoot": "Veil",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bordenkra",
     "icon": "https://i.ibb.co/8zvPVrw/bordenkra.png",
     "fullBody": "https://i.ibb.co/3NDMT30/Bordenkra.png"
   },
@@ -2592,6 +2773,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Chake",
     "icon": "https://i.ibb.co/9qzxKdQ/chake.png",
     "fullBody": "https://i.ibb.co/pRpFxFg/Chake.png"
   },
@@ -2606,6 +2788,7 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bludd",
     "icon": "https://i.ibb.co/7XmHW0x/bludd.png",
     "fullBody": "https://i.ibb.co/PYSzk63/Bludd.png"
   },
@@ -2620,6 +2803,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Keebee",
     "icon": "https://i.ibb.co/ZL3h5nM/keebee.png",
     "fullBody": "https://i.ibb.co/q1MVkZB/Keebee.png"
   },
@@ -2634,6 +2818,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fallopallo",
     "icon": "https://i.ibb.co/VSPQTBF/fallopallo.png",
     "fullBody": "https://i.ibb.co/myz57CH/Fallopallo.png"
   },
@@ -2648,6 +2833,7 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Zearl",
     "icon": "https://i.ibb.co/jVK7F71/zearl.png",
     "fullBody": "https://i.ibb.co/Kq9FgRB/Zearl.png"
   },
@@ -2662,6 +2848,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Frash",
     "icon": "https://i.ibb.co/r2kDxGj/frash.png",
     "fullBody": "https://i.ibb.co/3W2ppKW/Frash.png"
   },
@@ -2676,6 +2863,7 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Rug",
     "icon": "https://i.ibb.co/gvVXKww/rug.png",
     "fullBody": "https://i.ibb.co/2KM6fF3/Rug.png"
   },
@@ -2690,6 +2878,7 @@
     "boon": "Voice of the People",
     "bane": "Elitist",
     "deathLoot": "Anchor",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ekel",
     "icon": "https://i.ibb.co/0mkQKXM/ekel.png",
     "fullBody": "https://i.ibb.co/NCBfywR/Ekel.png"
   },
@@ -2704,6 +2893,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Defective Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Veerox",
     "icon": "https://i.ibb.co/23YTNb1/veerox.png",
     "fullBody": "https://i.ibb.co/6JMBFmM/Veerox.png"
   },
@@ -2718,6 +2908,7 @@
     "boon": "N/A",
     "bane": "Troubled Past",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kashio",
     "icon": "https://i.ibb.co/hWzVPk1/kashio.png",
     "fullBody": "https://i.ibb.co/59k6VPv/Kashio.png"
   },
@@ -2732,6 +2923,7 @@
     "boon": "On The List",
     "bane": "Faulty Connections",
     "deathLoot": "Level Orange Clearance",
+    "wikilink": "https://griftlands.fandom.com/wiki/Arint",
     "icon": "https://i.ibb.co/FxxJZdM/arint.png",
     "fullBody": "https://i.ibb.co/JqV2yjv/Arint.png"
   },
@@ -2746,6 +2938,7 @@
     "boon": "Family Favor",
     "bane": "Shunned",
     "deathLoot": "Banquod Pendant",
+    "wikilink": "https://griftlands.fandom.com/wiki/Mullifee",
     "icon": "https://i.ibb.co/Rv4CLj0/mullifee.png",
     "fullBody": "https://i.ibb.co/99nDrYc/Mullifee.png"
   },
@@ -2760,6 +2953,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Onnawor",
     "icon": "https://i.ibb.co/QJH375L/onnawor.png",
     "fullBody": "https://i.ibb.co/BVj6rCs/Onnawor.png"
   },
@@ -2774,6 +2968,7 @@
     "boon": "Bogger Pauldrons",
     "bane": "Concussed",
     "deathLoot": "Swamp Smasher",
+    "wikilink": "https://griftlands.fandom.com/wiki/Felena",
     "icon": "https://i.ibb.co/7gd0Rbs/felena.png",
     "fullBody": "https://i.ibb.co/z51zYbK/Felena.png"
   },
@@ -2788,6 +2983,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Goni",
     "icon": "https://i.ibb.co/jk3G7VZ/goni.png",
     "fullBody": "https://i.ibb.co/z6qZyvn/Goni.png"
   },
@@ -2802,6 +2998,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Steven",
     "icon": "https://i.ibb.co/cyHPTLr/steven.png",
     "fullBody": "https://i.ibb.co/Wx9qSmq/Steven.png"
   },
@@ -2816,6 +3013,7 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Myrkot",
     "icon": "https://i.ibb.co/rtpzFP7/myrkot.png",
     "fullBody": "https://i.ibb.co/nmMTcdT/Myrkot.png"
   },
@@ -2830,6 +3028,7 @@
     "boon": "Regimented",
     "bane": "Brutality",
     "deathLoot": "Heavy Cleaver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Durno",
     "icon": "https://i.ibb.co/YB162Sd/durno.png",
     "fullBody": "https://i.ibb.co/k81VGGp/Durno.png"
   },
@@ -2844,6 +3043,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cadwa",
     "icon": "https://i.ibb.co/LrN1JFh/cadwa.png",
     "fullBody": "https://i.ibb.co/6nsnGFH/Cadwa.png"
   },
@@ -2858,6 +3058,7 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
+    "wikilink": "https://griftlands.fandom.com/wiki/Wreet",
     "icon": "https://i.ibb.co/R00bN3C/wreet.png",
     "fullBody": "https://i.ibb.co/nkV8ZX0/Wreet.png"
   },
@@ -2872,6 +3073,7 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
+    "wikilink": "https://griftlands.fandom.com/wiki/Cleme",
     "icon": "https://i.ibb.co/s2JLSww/cleme.png",
     "fullBody": "https://i.ibb.co/4YNZY7V/Cleme.png"
   },
@@ -2886,6 +3088,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Malo",
     "icon": "https://i.ibb.co/9V0H8TZ/malo.png",
     "fullBody": "https://i.ibb.co/kcWq7XD/Malo.png"
   },
@@ -2900,6 +3103,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Leeqi",
     "icon": "https://i.ibb.co/nbN9ywF/leeqi.png",
     "fullBody": "https://i.ibb.co/jkHKqwt/Leeqi.png"
   },
@@ -2914,6 +3118,7 @@
     "boon": "Mixology",
     "bane": "Tainted Supply",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Wrux",
     "icon": "https://i.ibb.co/12fRVLB/wrux.png",
     "fullBody": "https://i.ibb.co/s3qB5G2/Wrux.png"
   },
@@ -2928,14 +3133,15 @@
     "boon": "Excavator",
     "bane": "Buried",
     "deathLoot": "Battle Plan",
+    "wikilink": "https://griftlands.fandom.com/wiki/Prindo_Kalandra",
     "icon": "https://i.ibb.co/88hP5Tx/kalandra.png",
     "fullBody": {
       "kalandra": {
         "name": "Kalandra",
         "fullBody": "https://i.ibb.co/wp8qqZS/Kalandra.png"
       },
-      "foreman": {
-        "name": "Foreman",
+      "kalandra_foreman": {
+        "name": "Kalandra Foreman",
         "fullBody": "https://i.ibb.co/nbdyzW3/Kalandra-Foreman.png"
       }
     }
@@ -2951,6 +3157,7 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ferg",
     "icon": "https://i.ibb.co/RT4cR09/ferg.png",
     "fullBody": "https://i.ibb.co/qDjjxr5/Ferg.png"
   },
@@ -2965,6 +3172,7 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lopli",
     "icon": "https://i.ibb.co/pj4cPkH/lopli.png",
     "fullBody": "https://i.ibb.co/sFJKMKk/Lopli.png"
   },
@@ -2979,6 +3187,7 @@
     "boon": "Convenience",
     "bane": "Inconvenience",
     "deathLoot": "Stolen Jewelry",
+    "wikilink": "https://griftlands.fandom.com/wiki/Glick",
     "icon": "https://i.ibb.co/2Pv5bYt/glick.png",
     "fullBody": "https://i.ibb.co/HzKw81K/Glick.png"
   },
@@ -2993,6 +3202,7 @@
     "boon": "Hard Headed",
     "bane": "Butt Kicked",
     "deathLoot": "Underdriver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Tazz",
     "icon": "https://i.ibb.co/W3vSz3V/tazz.png",
     "fullBody": "https://i.ibb.co/BTRh5ZY/Tazz.png"
   },
@@ -3007,6 +3217,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Imiko",
     "icon": "https://i.ibb.co/SVqbDzm/imiko.png",
     "fullBody": "https://i.ibb.co/xXCrz5q/Imiko.png"
   },
@@ -3021,6 +3232,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Qita",
     "icon": "https://i.ibb.co/bFhwrLQ/qita.png",
     "fullBody": "https://i.ibb.co/VxfWPRd/Qita.png"
   },
@@ -3035,6 +3247,7 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
+    "wikilink": "https://griftlands.fandom.com/wiki/Stollo",
     "icon": "https://i.ibb.co/RjZfTKt/stollo.png",
     "fullBody": "https://i.ibb.co/87V1fSW/Stollo.png"
   },
@@ -3049,6 +3262,7 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Uraneer",
     "icon": "https://i.ibb.co/zJZbHS2/uraneer.png",
     "fullBody": "https://i.ibb.co/WPvzjn8/Uraneer.png"
   },
@@ -3063,6 +3277,7 @@
     "boon": "Piece of the Pie",
     "bane": "Hunted",
     "deathLoot": "Admiralty Intel",
+    "wikilink": "https://griftlands.fandom.com/wiki/Peri",
     "icon": "https://i.ibb.co/j8tJ0Lx/peri.png",
     "fullBody": "https://i.ibb.co/MS1KxWx/Peri.png"
   },
@@ -3077,6 +3292,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Glofriam",
     "icon": "https://i.ibb.co/cFCtS18/glofriam.png",
     "fullBody": "https://i.ibb.co/DCQGzRx/Glofriam.png"
   },
@@ -3091,6 +3307,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Wikka",
     "icon": "https://i.ibb.co/dGs429z/wikka.png",
     "fullBody": "https://i.ibb.co/TLsFM8f/Wikka.png"
   },
@@ -3105,6 +3322,7 @@
     "boon": "Scheme",
     "bane": "Scandal",
     "deathLoot": "Two Faced",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lellyn_Fellemo",
     "icon": "https://i.ibb.co/ZGTc5m0/fellemo.png",
     "fullBody": "https://i.ibb.co/Jzm02qW/Fellemo.png"
   },
@@ -3119,6 +3337,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Feldspar",
     "icon": "https://i.ibb.co/bWxKHFN/feldspar.png",
     "fullBody": "https://i.ibb.co/fvWv0rv/Feldspar.png"
   },
@@ -3133,6 +3352,7 @@
     "boon": "Cozy",
     "bane": "N/A",
     "deathLoot": "Liquid Courage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Fssh",
     "icon": "https://i.ibb.co/W2JVCnb/fssh.png",
     "fullBody": "https://i.ibb.co/6RxBpZx/Fssh.png"
   },
@@ -3147,6 +3367,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bennawem",
     "icon": "https://i.ibb.co/NFLGCbz/bennawem.png",
     "fullBody": "https://i.ibb.co/L0wcDNm/Bennawem.png"
   },
@@ -3161,6 +3382,7 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ron",
     "icon": "https://i.ibb.co/zHLrdJL/ron.png",
     "fullBody": "https://i.ibb.co/68WKxsy/Ron.png"
   },
@@ -3175,6 +3397,7 @@
     "boon": "Local Chatter",
     "bane": "Disapproval",
     "deathLoot": "Pearlie Wallet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Clamentine",
     "icon": "https://i.ibb.co/YyhnHVL/clamentine.png",
     "fullBody": "https://i.ibb.co/kXKypfF/Clamentine.png"
   },
@@ -3189,6 +3412,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gura",
     "icon": "https://i.ibb.co/pxjXJWm/gura.png",
     "fullBody": "https://i.ibb.co/2KfrTFY/Gura.png"
   },
@@ -3203,6 +3427,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Yacka",
     "icon": "https://i.ibb.co/mGYgZ7F/yacka.png",
     "fullBody": "https://i.ibb.co/9pDVwLY/Yacka.png"
   },
@@ -3217,6 +3442,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pozgo",
     "icon": "https://i.ibb.co/Q9X1Jk5/pozgo.png",
     "fullBody": "https://i.ibb.co/5Lw0Cv2/Pozgo.png"
   },
@@ -3231,6 +3457,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Asnitho",
     "icon": "https://i.ibb.co/Smgvdjw/asnitho.png",
     "fullBody": "https://i.ibb.co/vLmByRm/Asnitho.png"
   },
@@ -3245,6 +3472,7 @@
     "boon": "Weapons Supplier",
     "bane": "Sketchy Equipment",
     "deathLoot": "Shock Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Quarryn",
     "icon": "https://i.ibb.co/D4rDmBV/quarryn.png",
     "fullBody": "https://i.ibb.co/WykbShp/Quarryn.png"
   },
@@ -3259,6 +3487,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Spotz",
     "icon": "https://i.ibb.co/gjFX7Qj/spotz.png",
     "fullBody": "https://i.ibb.co/wBLzdd8/Spotz.png"
   },
@@ -3273,6 +3502,7 @@
     "boon": "King Hit",
     "bane": "Marked",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bax",
     "icon": "https://i.ibb.co/X70F5w6/bax.png",
     "fullBody": "https://i.ibb.co/XkwVG2W/Bax.png"
   },
@@ -3287,6 +3517,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Llullably",
     "icon": "https://i.ibb.co/BrQGcg0/llullably.png",
     "fullBody": "https://i.ibb.co/3sZBw4w/Llullably.png"
   },
@@ -3301,6 +3532,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Sru",
     "icon": "https://i.ibb.co/4F3yCvX/sru.png",
     "fullBody": "https://i.ibb.co/JFygj6d/Sru.png"
   },
@@ -3315,6 +3547,7 @@
     "boon": "Inoculated",
     "bane": "Bog Sensitive",
     "deathLoot": "Bog Scimitar",
+    "wikilink": "https://griftlands.fandom.com/wiki/Pock",
     "icon": "https://i.ibb.co/wL1DSqy/pock.png",
     "fullBody": "https://i.ibb.co/MSNK09R/Pock.png"
   },
@@ -3329,6 +3562,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grunjax",
     "icon": "https://i.ibb.co/w0qVr22/grunjax.png",
     "fullBody": "https://i.ibb.co/T8SXYJx/Grunjax.png"
   },
@@ -3343,6 +3577,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Phinoon",
     "icon": "https://i.ibb.co/jGm1RfW/phinoon.png",
     "fullBody": "https://i.ibb.co/vjzpSwM/Phinoon.png"
   },
@@ -3357,6 +3592,7 @@
     "boon": "Torpor Fiend",
     "bane": "Crisis",
     "deathLoot": "Spark Cannon",
+    "wikilink": "https://griftlands.fandom.com/wiki/Vectorini",
     "icon": "https://i.ibb.co/Lv5XFt0/vectorini.png",
     "fullBody": "https://i.ibb.co/QfZyFft/Vectorini.png"
   },
@@ -3371,6 +3607,7 @@
     "boon": "Adhesive",
     "bane": "Bad Bookie",
     "deathLoot": "A Hot Tip",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ptchu",
     "icon": "https://i.ibb.co/vms5Hdg/ptchu.png",
     "fullBody": "https://i.ibb.co/dgPdkrq/Ptchu.png"
   },
@@ -3385,6 +3622,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Lumin Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Kenga",
     "icon": "https://i.ibb.co/fShkX7m/kenga.png",
     "fullBody": "https://i.ibb.co/cvyCdH3/Kenga.png"
   },
@@ -3399,6 +3637,7 @@
     "boon": "Sparring",
     "bane": "Bully",
     "deathLoot": "Spear Head",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gen",
     "icon": "https://i.ibb.co/hXrDNJm/gen.png",
     "fullBody": "https://i.ibb.co/gjTLLpq/Gen.png"
   },
@@ -3413,6 +3652,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Smith's Canteen",
+    "wikilink": "https://griftlands.fandom.com/wiki/Smith",
     "icon": "https://i.ibb.co/9ZD12X2/Smith.png",
     "fullBody": {
       "smiths_jacket": {
@@ -3448,6 +3688,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Defective Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Gumthow",
     "icon": "https://i.ibb.co/QmSnsWx/gumthow.png",
     "fullBody": "https://i.ibb.co/HD55dw2/Gumthow.png"
   },
@@ -3462,6 +3703,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Lili",
     "icon": "https://i.ibb.co/XLLkMhq/lili.png",
     "fullBody": "https://i.ibb.co/qDTJwzn/Lili.png"
   },
@@ -3476,6 +3718,7 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nodoloolis",
     "icon": "https://i.ibb.co/ZW2tt1V/nodoloolis.png",
     "fullBody": "https://i.ibb.co/3mTPbNb/Nodoloolis.png"
   },
@@ -3490,6 +3733,7 @@
     "boon": "Quality Materials",
     "bane": "Back of the Line",
     "deathLoot": "Lifter Claw",
+    "wikilink": "https://griftlands.fandom.com/wiki/Opple",
     "icon": "https://i.ibb.co/9HWrqh7/opple.png",
     "fullBody": "https://i.ibb.co/CzHnhQz/Opple.png"
   },
@@ -3504,6 +3748,7 @@
     "boon": "Authorization",
     "bane": "Red Tape",
     "deathLoot": "Letter Opener",
+    "wikilink": "https://griftlands.fandom.com/wiki/Sandrano",
     "icon": "https://i.ibb.co/gg1cxcc/sandrano.png",
     "fullBody": "https://i.ibb.co/rpZ1vRT/Sandrano.png"
   },
@@ -3518,6 +3763,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Minfen",
     "icon": "https://i.ibb.co/23GjCBq/minfen.png",
     "fullBody": "https://i.ibb.co/v121yNH/Minfen.png"
   },
@@ -3532,6 +3778,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Brenna",
     "icon": "https://i.ibb.co/TgQxW75/brenna.png",
     "fullBody": "https://i.ibb.co/7471rk3/Brenna.png"
   },
@@ -3546,6 +3793,7 @@
     "boon": "Surprise Attack",
     "bane": "Outwitted",
     "deathLoot": "Makeshift Dagger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Heft",
     "icon": "https://i.ibb.co/nwf77sJ/heft.png",
     "fullBody": "https://i.ibb.co/51krFpL/Heft.png"
   },
@@ -3560,6 +3808,7 @@
     "boon": "Heavy Lifting",
     "bane": "Whispered Rumors",
     "deathLoot": "Worker's Gloves",
+    "wikilink": "https://griftlands.fandom.com/wiki/Erbla",
     "icon": "https://i.ibb.co/SyXZbHZ/erbla.png",
     "fullBody": "https://i.ibb.co/mSs4Nt2/Erbla.png"
   },
@@ -3574,6 +3823,7 @@
     "boon": "Morale Boost",
     "bane": "Civil Unrest",
     "deathLoot": "Guerrilla Tactic",
+    "wikilink": "https://griftlands.fandom.com/wiki/Wade",
     "icon": "https://i.ibb.co/sjt080k/wade.png",
     "fullBody": "https://i.ibb.co/NsdjMjZ/Wade.png"
   },
@@ -3588,6 +3838,7 @@
     "boon": "Bargaining",
     "bane": "Thin Skin",
     "deathLoot": "Boosted Gaff",
+    "wikilink": "https://griftlands.fandom.com/wiki/Worrik",
     "icon": "https://i.ibb.co/pJTRD0X/worrik.png",
     "fullBody": "https://i.ibb.co/fx1ZvXq/Worrik.png"
   },
@@ -3602,6 +3853,7 @@
     "boon": "Haggle Badge",
     "bane": "Bad Credit",
     "deathLoot": "Spark Grenade",
+    "wikilink": "https://griftlands.fandom.com/wiki/Shel",
     "icon": "https://i.ibb.co/8zP4Nr3/shel.png",
     "fullBody": "https://i.ibb.co/BN7KxH4/Shel.png"
   },
@@ -3616,6 +3868,7 @@
     "boon": "Spark Visor",
     "bane": "Faulty Armor",
     "deathLoot": "Utility Belt",
+    "wikilink": "https://griftlands.fandom.com/wiki/Astal",
     "icon": "https://i.ibb.co/RQnXyrt/astal.png",
     "fullBody": "https://i.ibb.co/7YRxxM9/Astal.png"
   },
@@ -3630,6 +3883,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Hundruthor",
     "icon": "https://i.ibb.co/G2syZQD/hundruthor.png",
     "fullBody": "https://i.ibb.co/9WTjYn3/Hundruthor.png"
   },
@@ -3644,6 +3898,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Phrylotas",
     "icon": "https://i.ibb.co/f8zg2GF/phrylotas.png",
     "fullBody": "https://i.ibb.co/hfFx2YJ/Phrylotas.png"
   },
@@ -3658,6 +3913,7 @@
     "boon": "Wrist Rocket",
     "bane": "Punchy",
     "deathLoot": "Overdriver",
+    "wikilink": "https://griftlands.fandom.com/wiki/Felek",
     "icon": "https://i.ibb.co/0VCNSgG/felek.png",
     "fullBody": "https://i.ibb.co/3dMTpkP/Felek.png"
   },
@@ -3672,6 +3928,7 @@
     "boon": "Propaganda Machine",
     "bane": "Slander",
     "deathLoot": "Rise Manifesto",
+    "wikilink": "https://griftlands.fandom.com/wiki/Drabit",
     "icon": "https://i.ibb.co/CwH1TPT/drabit.png",
     "fullBody": "https://i.ibb.co/N1fQ7c8/Drabit.png"
   },
@@ -3686,6 +3943,7 @@
     "boon": "Savagery",
     "bane": "Terrorized",
     "deathLoot": "Grisly Trophy",
+    "wikilink": "https://griftlands.fandom.com/wiki/Nup",
     "icon": "https://i.ibb.co/52ZbYG7/nup.png",
     "fullBody": "https://i.ibb.co/px0MDLh/Nup.png"
   },
@@ -3700,6 +3958,7 @@
     "boon": "Bio-Feedback",
     "bane": "Bad Faith",
     "deathLoot": "Heshian Amulet",
+    "wikilink": "https://griftlands.fandom.com/wiki/Dellena",
     "icon": "https://i.ibb.co/LNTD1rC/dellena.png",
     "fullBody": "https://i.ibb.co/hsQWfgg/Dellena.png"
   },
@@ -3714,6 +3973,7 @@
     "boon": "First Aid",
     "bane": "Fragile Health",
     "deathLoot": "Triage",
+    "wikilink": "https://griftlands.fandom.com/wiki/Bina",
     "icon": "https://i.ibb.co/dWnzRhT/bina.png",
     "fullBody": "https://i.ibb.co/L0nS4sN/Bina.png"
   },
@@ -3728,6 +3988,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Targeting Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/AutoDog",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3742,6 +4003,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Carapace",
+    "wikilink": "https://griftlands.fandom.com/wiki/Yote",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3756,6 +4018,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Razorspine",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3770,6 +4033,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Droad Tail Spike",
+    "wikilink": "https://griftlands.fandom.com/wiki/Droad",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3784,6 +4048,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Drusk Core",
+    "wikilink": "https://griftlands.fandom.com/wiki/Crimson_Drusk",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3798,6 +4063,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Ochre_Drusk",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3812,6 +4078,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Erchin Musk",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3826,6 +4093,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Rusty Power Core",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3840,6 +4108,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Mandible",
+    "wikilink": "https://griftlands.fandom.com/wiki/Flead",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3854,6 +4123,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3868,6 +4138,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Giant Stinger",
+    "wikilink": "https://griftlands.fandom.com/wiki/Flead_Queen",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3882,6 +4153,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Carapace Fragment",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3896,6 +4168,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3910,6 +4183,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3924,6 +4198,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3938,6 +4213,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3952,6 +4228,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3966,6 +4243,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Bladder Gland",
+    "wikilink": "https://griftlands.fandom.com/wiki/Heshbladder",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -3980,6 +4258,7 @@
     "boon": "Bell of Hesh",
     "bane": "Curse of Hesh",
     "deathLoot": "Heshian Mask",
+    "wikilink": "https://griftlands.fandom.com/wiki/Murkot",
     "icon": "https://i.ibb.co/VNnLQ2q/murkot.png",
     "fullBody": "https://i.ibb.co/7YRnrBn/Murkot.png"
   },
@@ -3994,6 +4273,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Yote Horn",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4008,6 +4288,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Lumicyte Dorsal Spines",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4022,6 +4303,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4036,6 +4318,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Krill Ichor",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4050,6 +4333,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4064,6 +4348,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4078,6 +4363,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Targeting Core",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4092,6 +4378,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Shredmaw Shell",
+    "wikilink": "https://griftlands.fandom.com/wiki/Shredmaw",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4106,6 +4393,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Shroog Fang",
+    "wikilink": "https://griftlands.fandom.com/wiki/Shroog",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4120,6 +4408,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "N/A",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4134,6 +4423,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "Vroc Plume",
+    "wikilink": "https://griftlands.fandom.com/wiki/Vroc",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4148,6 +4438,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Grout_Monster",
     "icon": "N/A",
     "fullBody": "N/A"
   },
@@ -4162,6 +4453,7 @@
     "boon": "N/A",
     "bane": "N/A",
     "deathLoot": "N/A",
+    "wikilink": "https://griftlands.fandom.com/wiki/Vix_of_Hesh",
     "icon": "N/A",
     "fullBody": "N/A"
   }

@@ -150,7 +150,7 @@ module.exports = {
 
         //People
         if (state == "PEOPLE") {
-            urlToUse = "N/A"; //wikilinks are a TODO
+            urlToUse = _.get(database, entry + ".wikilink");
             faction = _.get(database, entry + ".faction");
             title = _.get(database, entry + ".title");
 
@@ -203,7 +203,7 @@ module.exports = {
         if (urlToUse != "N/A" && state != "SPECIAL") {
             finalEmbed.setURL(urlToUse);
             finalEmbed.setFooter(urlToUse, "https://i.ibb.co/Zh8VshB/Favicon.png");
-        } else if (state != "SPECIAL" && state != "PEOPLE") {
+        } else if (state != "SPECIAL") {
             finalEmbed.setFooter("Wiki page not available");
         }
 
