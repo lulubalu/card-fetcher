@@ -3140,8 +3140,8 @@
         "name": "Kalandra",
         "fullBody": "https://i.ibb.co/wp8qqZS/Kalandra.png"
       },
-      "kalandra_foreman": {
-        "name": "Kalandra Foreman",
+      "foreman": {
+        "name": "Foreman",
         "fullBody": "https://i.ibb.co/nbdyzW3/Kalandra-Foreman.png"
       }
     }
