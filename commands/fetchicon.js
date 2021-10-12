@@ -104,7 +104,13 @@ module.exports = {
             iconToFetch = iconToFetch.replace(/ +/g, " ")
         }
 
-        iconToFetch = iconToFetch.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?\u2018\u2019\u201C\u201D]/g, "");
+        if (iconToFetch.startsWith(" ")) {
+            do {
+                iconToFetch = iconToFetch.slice(1);
+            } while (iconToFetch.startsWith(" "));
+        }
+
+        iconToFetch = iconToFetch.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?()\u2018\u2019\u201C\u201D]/g, "");
 
         if (_.has(specialDatabase, iconToFetch)) {
             specialCaseMessage(message, iconToFetch);

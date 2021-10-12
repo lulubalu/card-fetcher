@@ -5734,7 +5734,7 @@
   "damnation": {
     "name": "Damnation",
     "desc": "Apply 4 Damned and 4 Power to a friendly target.\n**Expend**",
-    "flavour": "*'I'm not worried about eternity! I've got problems right now!'*",
+    "flavour": "*'I'm not worried about **eternity**! I've got problems **right now**!'*",
     "actions": "2",
     "keywords": [
       "Expend"
@@ -5755,7 +5755,7 @@
   "long_damnation": {
     "name": "Long Damnation",
     "desc": "Apply 6 Damned and 6 Power to a friendly target.\n**Expend**",
-    "flavour": "*'I'm not worried about eternity*! I've got problems right now!'*",
+    "flavour": "*'I'm not worried about **eternity**! I've got problems **right now**!'*",
     "actions": "2",
     "keywords": [
       "Expend"
@@ -5773,7 +5773,7 @@
   "enduring_damnation": {
     "name": "Enduring Damnation",
     "desc": "Apply 4 Damned and 4 Power to a friendly target.",
-    "flavour": "*'I'm not worried about eternity! I've got problems right now!'*",
+    "flavour": "*'I'm not worried about **eternity**! I've got problems **right now**!'*",
     "actions": "2",
     "keywords": [
       "N/A"

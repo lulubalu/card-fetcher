@@ -65,17 +65,26 @@ module.exports = {
                 args = args.replace(/ +/g, " ")
             } while (args.includes("  "));
         }
+
+        if (args.startsWith(" ")) {
+            do {
+                args = args.slice(1);
+            } while (args.startsWith(" "));
+        }
+        
         toFetch = args.replace(/\r?\n|\r/g, "").replace(/[- ]/g, "_").replace(/\+/g, "_plus").replace(/[,.':!?()\u2018\u2019\u201C\u201D]/g, "");
 
         let keyExists = false,
+            isSpecialKey = false;
             wasFound = false;
 
         for (let i = 0; i < databases.length; i++) {
+            if (!keyExists && i == databases.length - 1) isSpecialKey = _.has(databases[i], toFetch);
             if (!keyExists) keyExists = _.has(databases[i], toFetch);
+            let valid = typeof _.get(databases[i], toFetch + ".name") !== "undefined";
+            let isValidKey = keyExists && valid;
 
-            let validOrSpecial = typeof _.get(databases[i], toFetch + ".name") !== "undefined" || i === databases.length - 1;
-
-            if (keyExists && validOrSpecial) {
+            if (isValidKey || isSpecialKey) {
                 wasFound = true;
                 sendEmbed(message, toFetch, databases[i], i + 1);
                 break;
