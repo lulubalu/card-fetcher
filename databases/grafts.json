@@ -2914,7 +2914,7 @@
     "xp": "N/A",
     "icon": "https://i.ibb.co/PMYzwM6/graft-scattershot-plus.png"
   },
-  "scholar's_clip": {
+  "scholars_clip": {
     "name": "Scholar's Clip",
     "desc": "Gain 1 action at the start of your turn. At the start of every turn remove 1 Influence and 1 Dominance.",
     "type": "Negotiation",
@@ -2925,7 +2925,7 @@
     "xp": "10",
     "icon": "https://i.ibb.co/JqY0XPY/graft-scholars-clip.png"
   },
-  "visionary_scholar's_clip": {
+  "visionary_scholars_clip": {
     "name": "Visionary Scholar's Clip",
     "desc": "Gain 1 action and draw a card at the start of your turn. At the start of every turn remove 1 Influence and 1 Dominance.",
     "type": "Negotiation",
